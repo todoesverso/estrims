@@ -113,8 +113,9 @@
     const videoGallery = document.getElementById('video-gallery');
 
     const dataUrl = "https://todoesverso.github.io/estrims/data.json";
+    const fetchDataUrl = `${dataUrl}?timestamp=${new Date().getTime()}`;
 
-    fetch(dataUrl)
+    fetch(fetchDataUrl)
       .then(response => response.json())
       .then(r => {
         r.data.forEach(video => {
