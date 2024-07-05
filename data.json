@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-05 21:34:47.652683",
+         "datetime": "2024-07-05 21:43:20.315787",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,17 +19,17 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-05 21:34:48.144355",
+         "datetime": "2024-07-05 21:43:20.826068",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": null,
-         "live_title": null,
-         "live_description": null,
-         "live_thumbnail": null,
+         "live_id": "kIl7C3HrVp4",
+         "live_title": "DINERO Y AMOR EN VIVO con Marcos Aramburu, Tomás Quintín Palma y Evitta Luna | BLENDER",
+         "live_description": "",
+         "live_thumbnail": "",
          "last_video_id": "WF3fNhS1BBk",
          "last_video_title": "NO ERA TAN FÁCIL: DATA GIACO y ANALIZAMOS a ARGENTINA contra ECUADOR | PELOTA DIVIDIDA | BLENDER",
          "last_video_description": "",
@@ -37,7 +37,7 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-05 21:34:48.570804",
+         "datetime": "2024-07-05 21:43:21.222817",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-05 21:34:49.094119",
+         "datetime": "2024-07-05 21:43:21.749603",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-05 21:34:49.660158",
+         "datetime": "2024-07-05 21:43:22.324848",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-05 21:34:50.086338",
+         "datetime": "2024-07-05 21:43:22.753344",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-05 21:34:50.403952",
+         "datetime": "2024-07-05 21:43:23.212905",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-05 21:34:50.868361",
+         "datetime": "2024-07-05 21:43:23.699317",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-05 21:34:51.312763",
+         "datetime": "2024-07-05 21:43:24.199041",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-05 21:34:51.899618",
+         "datetime": "2024-07-05 21:43:24.763807",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
