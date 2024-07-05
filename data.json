@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-05 22:00:46.522579",
+         "datetime": "2024-07-05 22:21:16.365330",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,7 +19,7 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-05 22:00:46.989551",
+         "datetime": "2024-07-05 22:21:16.828683",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -37,7 +37,7 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-05 22:00:47.399521",
+         "datetime": "2024-07-05 22:21:17.216721",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-05 22:00:47.882174",
+         "datetime": "2024-07-05 22:21:17.778216",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-05 22:00:48.464727",
+         "datetime": "2024-07-05 22:21:18.316039",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,17 +91,17 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-05 22:00:48.915638",
+         "datetime": "2024-07-05 22:21:18.782574",
          "stream": {
             "title": "posdata",
             "channel_id": "",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
          },
          "stream_key": "posdata",
-         "live_id": "6woC-HeGWz4",
-         "live_title": "PEOR ES TRABAJAR con Bel Bozzolo, Nico Durruti, Jazmín Pastela y Ema Chomczyk | @Posdata_ar",
-         "live_description": "",
-         "live_thumbnail": "",
+         "live_id": null,
+         "live_title": null,
+         "live_description": null,
+         "live_thumbnail": null,
          "last_video_id": "P9hgrd9A_f0",
          "last_video_title": "Mundo PYME con Pablo Bercovich | S.R.L. | @Posdata_ar",
          "last_video_description": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-05 22:00:49.279325",
+         "datetime": "2024-07-05 22:21:19.214309",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-05 22:00:49.808701",
+         "datetime": "2024-07-05 22:21:19.701604",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-05 22:00:50.482133",
+         "datetime": "2024-07-05 22:21:20.160632",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-05 22:00:51.063162",
+         "datetime": "2024-07-05 22:21:20.716455",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
@@ -171,7 +171,7 @@
          },
          "stream_key": "LUZU TV",
          "live_id": "jqpSdPLqFTc",
-         "live_title": "ENTRE NOSOTROS | EN VIVO",
+         "live_title": "TARDE DE TERTULIA con MARTI BENZA, NICO FERRERO, CAMI JARA Y GIANI | EN VIVO",
          "live_description": "",
          "live_thumbnail": "",
          "last_video_id": "KywFUaA_IyE",
