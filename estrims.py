@@ -4,6 +4,11 @@ from typing import List
 from datetime import datetime
 from pysondb import db
 import googleapiclient.discovery
+from bs4 import BeautifulSoup
+import requests
+import re
+import json
+
 
 import logging
 
@@ -66,6 +71,11 @@ class StreamStatus(BaseDb):
         return db.getDb("data.json")
 
 
+def getHTMLdocument(url):
+    response = requests.get(url)
+    return response.text
+
+
 def save_streams_to_db(streams: Streams):
     for s in streams.streams:
         s.write_to_db_if_not_exists(asdict(s), key={"title": s.title})
@@ -97,6 +107,83 @@ def get_live_stream(channel_id):
     return live_streams
 
 
+def get_live_stream_bs(stream):
+    channel_url = stream.channel_url
+    logger.warning("Parsing LIVE: %s", stream.channel_url)
+
+    live_streams = {
+        "title": None,
+        "videoId": None,
+        "description": None,
+        "thumbnail": None,
+    }
+
+    html = getHTMLdocument(channel_url)
+    pattern = re.compile(r"ytInitialData = (.*);", re.MULTILINE | re.DOTALL)
+    soup = BeautifulSoup(html)
+    script = soup.find("script", text=pattern)
+    if script:
+        match = pattern.search(script.text)
+        data = json.loads(match.group(1))
+
+        base_path = data["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][0][
+            "tabRenderer"
+        ]["content"]["sectionListRenderer"]["contents"][0]["itemSectionRenderer"][
+            "contents"
+        ][
+            0
+        ]
+        try:
+            live = base_path["channelFeaturedContentRenderer"]["items"][0][
+                "videoRenderer"
+            ]
+            live_streams = {
+                "title": live["title"]["runs"][0]["text"],
+                "videoId": live["videoId"],
+                "description": "",
+                "thumbnail": "",
+            }
+
+        except Exception:
+            pass
+
+    return live_streams
+
+
+def get_last_stream_bs(stream):
+    channel_url = stream.channel_url
+    logger.warning("Parsing LAST: %s", stream.channel_url)
+
+    last_video = {
+        "title": "",
+        "videoId": "",
+        "description": "",
+        "thumbnail": "",
+    }
+
+    html = getHTMLdocument(channel_url + "/videos")
+    pattern = re.compile(r"ytInitialData = (.*);", re.MULTILINE | re.DOTALL)
+    soup = BeautifulSoup(html)
+    script = soup.find("script", text=pattern)
+    if script:
+        match = pattern.search(script.text)
+        data = json.loads(match.group(1))
+
+        last = data["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][1][
+            "tabRenderer"
+        ]["content"]["richGridRenderer"]["contents"][0]["richItemRenderer"]["content"][
+            "videoRenderer"
+        ]
+        last_video = {
+                "title": last["title"]["runs"][0]["text"],
+                "videoId": last["videoId"],
+                "description": "",
+                "thumbnail": "",
+            }
+
+    return last_video
+
+
 def get_latest_video(channel_id):
     youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=API_KEY)
 
@@ -124,8 +211,11 @@ def get_latest_video(channel_id):
 
 
 def new_stream_status(stream):
-    last = get_latest_video(stream.channel_id)
-    live = get_live_stream(stream.channel_id)
+    # last = get_latest_video(stream.channel_id)
+    # live = get_live_stream(stream.channel_id)
+
+    last = get_last_stream_bs(stream)
+    live = get_live_stream_bs(stream)
 
     stream_status = StreamStatus(
         datetime=str(datetime.now()),
@@ -168,10 +258,40 @@ if __name__ == "__main__":
             channel_id="UCWSfXECGo1qK_H7SXRaUSMg",
             channel_url="https://www.youtube.com/@SomosGelatina",
         ),
+        Stream(
+            title="Futurock FM",
+            channel_id="",
+            channel_url="https://www.youtube.com/@futurock",
+        ),
+        Stream(
+            title="posdata",
+            channel_id="",
+            channel_url="https://www.youtube.com/@Posdata_ar",
+        ),
+        Stream(
+            title="Cenital",
+            channel_id="",
+            channel_url="https://www.youtube.com/@Cenitalcom",
+        ),
+        Stream(
+            title="Factoria 1251",
+            channel_id="",
+            channel_url="https://www.youtube.com/@factoria1251",
+        ),
+        Stream(
+            title="OLGA",
+            channel_id="",
+            channel_url="https://www.youtube.com/@olgaenvivo_",
+        ),
+        Stream(
+            title="LUZU TV",
+            channel_id="",
+            channel_url="https://www.youtube.com/@luzutv",
+        ),
     ]
 
     streams = Streams(streams=streams_list)
-    #save_streams_to_db(streams)
+    # save_streams_to_db(streams)
 
     for s in streams.streams:
         new_stream_status(s)

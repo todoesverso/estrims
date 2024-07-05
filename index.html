@@ -1,116 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Video Portfolio</title>
-    <script src="https://unpkg.com/htmx.org@2.0.0/dist/htmx.min.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0;
-            padding: 0;
-        }
-        .video-thumbnail {
-            cursor: pointer;
-            margin: 10px;
-            transition: transform 0.3s;
-        }
-        .video-thumbnail:hover {
-            transform: scale(1.05);
-        }
-        #expanded-video-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
-        #expanded-video-container.active {
-            display: flex;
-        }
-        #expanded-video {
-            width: 80%;
-            height: 80%;
-        }
-        .close-button {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: #fff;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" conten="width=device-width, initial-scale=1.0">
+  <title>ESTRIMS</title>
+  <script src="https://unpkg.com/htmx.org@2.0.0/dist/htmx.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      background-color: #a0d2eb;
+    }
+
+    .tab {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-bottom: none;
+    }
+
+    .tab.active {
+      background-color: #d0bdf4;
+    }
+
+    .tab-content {
+      display: none;
+      width: 100%;
+      border: 1px solid #ccc;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .tab-content.active {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+    }
+
+
+    .video-thumbnail {
+      cursor: pointer;
+      border-radius: 25px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      margin: 10px;
+      transition: transform 0.3s;
+    }
+
+    .video-thumbnail:hover {
+      transform: scale(1.05);
+    }
+
+    #expanded-video-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #494d5f; // rgba(0, 0, 0, 0.8);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    #expanded-video-container.active {
+      display: flex;
+    }
+
+    #expanded-video {
+      width: 80%;
+      height: 80%;
+    }
+
+    .close-button {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>YouTube Video Portfolio</h1>
-    <div id="video-gallery"></div>
+  <div id="video-gallery"></div>
 
-    <div id="expanded-video-container" onclick="closeVideo(event)">
-        <iframe id="expanded-video" width="560" height="315" src="" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <script>
-        const videos = {
-            video1: { id: "icylxdURbUo", title: "LuzuTV", description: "LUZU." },
-            video2: { id: "SI__Kb_5es4", title: "OLGA", description: "Olga" },
-            video3: { id: "E2k1lmbh_ew", title: "Gelatina", description: "GElatina" },
-            video4: { id: "tvwUK4iOWCA", title: "Radioconvos", description: "Radioconvos" },
-        };
-
-        const videoGallery = document.getElementById('video-gallery');
-
-        // for (const key in videos) {
-        //     if (videos.hasOwnProperty(key)) {
-        //         const video = videos[key];
-        //         const img = document.createElement('img');
-        //         img.src = `https://img.youtube.com/vi/${video.id}/mqdefault.jpg`;
-        //         img.alt = video.title;
-        //         img.className = 'video-thumbnail';
-        //         img.onclick = () => expandVideo(video.id);
-        //         videoGallery.appendChild(img);
-        //     }
-        // }
+  <div>
+    <div class="tab" onclick="showTab('tab-live')">LIVE</div>
+    <div class="tab" onclick="showTab('tab-latest')">Ultimos</div>
+  </div>
+  <div id="tab-live" class="tab-content"></div>
+  <div id="tab-latest" class="tab-content"></div>
 
 
-                // Replace with your GitHub Pages URL
-        const dataUrl = "https://todoesverso.github.io/estrims/data.json";
+  <div id="expanded-video-container" onclick="closeVideo(event)">
+    <iframe id="expanded-video" width="560" height="315" src="" frameborder="0" allowfullscreen
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
 
-        fetch(dataUrl)
-            .then(response => response.json())
-            .then(r => {
-                r.data.forEach(video => {
-                    const img = document.createElement('img');
-                    img.src = `https://img.youtube.com/vi/${video.live_id}/mqdefault.jpg`;
-                    img.alt = video.title;
-                    img.className = 'video-thumbnail';
-                    img.onclick = () => expandVideo(video.id);
-                    videoGallery.appendChild(img);
-                });
-            });
+  <script>
+    const videoGallery = document.getElementById('video-gallery');
 
-        function expandVideo(videoId) {
-            document.getElementById('expanded-video').src = `https://www.youtube.com/embed/${videoId}`;
-            document.getElementById('expanded-video-container').classList.add('active');
-        }
+    const dataUrl = "https://todoesverso.github.io/estrims/data.json";
 
-        function closeVideo(event) {
-            if (event.target.id === 'expanded-video-container' || event.target.className === 'close-button') {
-                document.getElementById('expanded-video').src = '';
-                document.getElementById('expanded-video-container').classList.remove('active');
+    fetch(dataUrl)
+      .then(response => response.json())
+      .then(r => {
+        r.data.forEach(video => {
+          if (video.live_id !== null) {
+            const img = document.createElement('img');
+            img.src = `https://img.youtube.com/vi/${video.live_id}/mqdefault.jpg`;
+            img.alt = video.title;
+            img.className = 'video-thumbnail';
+            img.onclick = () => expandVideo(video.live_id);
+            const tabContent = document.getElementById("tab-live");
+            if (tabContent) {
+              tabContent.appendChild(img);
             }
-        }
-    </script>
+          }
+          const img = document.createElement('img');
+          img.src = `https://img.youtube.com/vi/${video.last_video_id}/mqdefault.jpg`;
+          img.alt = video.last_video_title;
+          img.className = 'video-thumbnail';
+          img.onclick = () => expandVideo(video.last_video_id);
+          const tabContent = document.getElementById("tab-latest");
+          if (tabContent) {
+            tabContent.appendChild(img);
+          }
+
+        });
+        showTab('tab-live'); // Show the first tab by default
+      });
+    function showTab(tabId) {
+      const tabs = document.querySelectorAll('.tab-content');
+      tabs.forEach(tab => {
+        tab.classList.remove('active');
+      });
+      document.getElementById(tabId).classList.add('active');
+
+      const tabButtons = document.querySelectorAll('.tab');
+      tabButtons.forEach(button => {
+        button.classList.remove('active');
+      });
+      document.querySelector(`.tab[onclick="showTab('${tabId}')"]`).classList.add('active');
+    }
+
+
+    function expandVideo(videoId) {
+      document.getElementById('expanded-video').src = `https://www.youtube.com/embed/${videoId}`;
+      document.getElementById('expanded-video-container').classList.add('active');
+    }
+
+    function closeVideo(event) {
+      if (event.target.id === 'expanded-video-container' || event.target.className === 'close-button') {
+        document.getElementById('expanded-video').src = '';
+        document.getElementById('expanded-video-container').classList.remove('active');
+      }
+    }
+  </script>
 </body>
+
 </html>
