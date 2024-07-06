@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-06 16:58:55.639957",
+         "datetime": "2024-07-06 17:14:57.114462",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,7 +19,7 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-06 16:58:56.232476",
+         "datetime": "2024-07-06 17:14:57.657533",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -30,24 +30,24 @@
          "live_title": null,
          "live_description": null,
          "live_thumbnail": null,
-         "last_video_id": "Lq1zxnee6Jk",
-         "last_video_title": "ESPECIAL BATMAN con GUILLE AQUINO, TE LO RESUMO, LÉRTORA, SCHULTZ y MIKKI | HAY ALGO AHÍ | BLENDER",
+         "last_video_id": "F-p6mkPjXAg",
+         "last_video_title": "LA HISTORIA de BATMAN | ESTO ES CINE con Guille Aquino y Navaja Crimen | BLENDER",
          "last_video_description": "",
          "last_video_thumbnail": "",
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-06 16:58:56.667610",
+         "datetime": "2024-07-06 17:14:58.060553",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": "gwj1UjxCizU",
-         "live_title": "EN EL PODIO con Gabriel Lincks | Radio Con Vos 89.9",
-         "live_description": "",
-         "live_thumbnail": "",
+         "live_id": null,
+         "live_title": null,
+         "live_description": null,
+         "live_thumbnail": null,
          "last_video_id": "XC-u2XK72ME",
          "last_video_title": "Ignacio \"Nacho\" Torres - Gobernador del Chubut | Futuro Imperfecto",
          "last_video_description": "",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-06 16:58:57.238667",
+         "datetime": "2024-07-06 17:14:58.589286",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -66,14 +66,14 @@
          "live_title": null,
          "live_description": null,
          "live_thumbnail": null,
-         "last_video_id": "4AQ6yza8g58",
-         "last_video_title": "EL HUMOR DE LUIS MAJUL | CON ADRIÁN LAKERMAN Y PEDRO ROSEMBLAT",
+         "last_video_id": "7QrWmJazqV8",
+         "last_video_title": "ESTAMOS EN UN LOOP: VOLVIO STURZENEGGER Y LA BAJA DE LA EDAD DE PUNIBILIDAD | APU STREAM",
          "last_video_description": "",
          "last_video_thumbnail": "",
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-06 16:58:57.831989",
+         "datetime": "2024-07-06 17:14:59.223937",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-06 16:58:58.323670",
+         "datetime": "2024-07-06 17:14:59.741134",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-06 16:58:58.689243",
+         "datetime": "2024-07-06 17:15:00.126948",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-06 16:58:59.237051",
+         "datetime": "2024-07-06 17:15:00.631741",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-06 16:58:59.736901",
+         "datetime": "2024-07-06 17:15:01.053296",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-06 16:59:00.331513",
+         "datetime": "2024-07-06 17:15:01.689786",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
