@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-06 16:50:05.833182",
+         "datetime": "2024-07-06 16:58:55.639957",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,7 +19,7 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-06 16:50:06.352315",
+         "datetime": "2024-07-06 16:58:56.232476",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -37,7 +37,7 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-06 16:50:06.933575",
+         "datetime": "2024-07-06 16:58:56.667610",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -55,17 +55,17 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-06 16:50:07.548558",
+         "datetime": "2024-07-06 16:58:57.238667",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
-         "live_id": "-kRlyBV_jYg",
-         "live_title": "APU STREAM EN VIVO CON AGUSTÍN MINA, MANUELA BARES Y DIEGO MONETA",
-         "live_description": "",
-         "live_thumbnail": "",
+         "live_id": null,
+         "live_title": null,
+         "live_description": null,
+         "live_thumbnail": null,
          "last_video_id": "4AQ6yza8g58",
          "last_video_title": "EL HUMOR DE LUIS MAJUL | CON ADRIÁN LAKERMAN Y PEDRO ROSEMBLAT",
          "last_video_description": "",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-06 16:50:08.146894",
+         "datetime": "2024-07-06 16:58:57.831989",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-06 16:50:08.619154",
+         "datetime": "2024-07-06 16:58:58.323670",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-06 16:50:08.990364",
+         "datetime": "2024-07-06 16:58:58.689243",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-06 16:50:09.521615",
+         "datetime": "2024-07-06 16:58:59.237051",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-06 16:50:10.021273",
+         "datetime": "2024-07-06 16:58:59.736901",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-06 16:50:10.665340",
+         "datetime": "2024-07-06 16:59:00.331513",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
