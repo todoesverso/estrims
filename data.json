@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-06 03:57:36.062457",
+         "datetime": "2024-07-06 04:19:20.415244",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,25 +19,25 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-06 03:57:36.630015",
+         "datetime": "2024-07-06 04:19:20.901503",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "kIl7C3HrVp4",
-         "live_title": "ESTO ES CINE ESPECIAL BATMAN con GUILLE AQUINO y NAVAJA CRIMEN | BLENDER",
-         "live_description": "",
-         "live_thumbnail": "",
-         "last_video_id": "aDFaQjFfsZs",
-         "last_video_title": "NAHUEL PENNISI nos CONQUISTÓ, BONDIS TUNEADOS Y CURIOSIDADES de la NASA | DINERO Y AMOR | BLENDER",
+         "live_id": null,
+         "live_title": null,
+         "live_description": null,
+         "live_thumbnail": null,
+         "last_video_id": "Lq1zxnee6Jk",
+         "last_video_title": "ESPECIAL BATMAN con GUILLE AQUINO, TE LO RESUMO, LÉRTORA, SCHULTZ y MIKKI | HAY ALGO AHÍ | BLENDER",
          "last_video_description": "",
          "last_video_thumbnail": "",
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-06 03:57:37.071106",
+         "datetime": "2024-07-06 04:19:21.273948",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-06 03:57:37.567667",
+         "datetime": "2024-07-06 04:19:21.762066",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-06 03:57:38.095505",
+         "datetime": "2024-07-06 04:19:22.294331",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-06 03:57:38.494729",
+         "datetime": "2024-07-06 04:19:22.745048",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-06 03:57:38.849401",
+         "datetime": "2024-07-06 04:19:23.138771",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-06 03:57:39.314112",
+         "datetime": "2024-07-06 04:19:23.660563",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-06 03:57:39.779996",
+         "datetime": "2024-07-06 04:19:24.126518",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-06 03:57:40.323376",
+         "datetime": "2024-07-06 04:19:24.682546",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
