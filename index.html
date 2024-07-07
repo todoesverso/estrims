@@ -3,54 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" conten="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ESTRIMS</title>
-  <script src="https://unpkg.com/htmx.org@2.0.0/dist/htmx.min.js"></script>
+  <script src="https://unpkg.com/htmx.org@3.0.0/dist/htmx.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0;
-      padding: 0;
-      background-color: #a0d2eb;
-    }
-
-    .tab {
-      display: inline-block;
-      margin: 0 10px;
-      padding: 10px;
-      cursor: pointer;
-      border-bottom: none;
-    }
-
-    .tab.active {
-      background-color: #d0bdf4;
-    }
-
-    .tab-content {
-      display: none;
-      width: 100%;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-
-    .tab-content.active {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-
-    }
-
     .video-thumbnail {
-      cursor: pointer;
-      border-radius: 25px;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-      margin: 10px;
       transition: transform 0.3s;
-      width: 100%;
-      height: 100%;
     }
 
     .video-thumbnail:hover {
@@ -79,34 +39,34 @@
       height: 80%;
     }
 
-    .close-button {
+    #expanded-video-container .close-button {
       position: absolute;
       top: 20px;
       right: 20px;
-      background: #fff;
-      border: none;
-      padding: 10px;
+      font-size: 30px;
+      color: white;
       cursor: pointer;
-      font-size: 16px;
     }
   </style>
 </head>
 
 <body>
-  <div id="video-gallery"></div>
+  <div class="container">
+    <div class="tabs is-centered is-large  is-toggle">
+      <ul>
+        <li class="is-active" data-tab="tab-live"><a>LIVE</a></li>
+        <li data-tab="tab-latest"><a>Ultimos</a></li>
+      </ul>
+    </div>
 
-  <div>
-    <div class="tab" onclick="showTab('tab-live')">LIVE</div>
-    <div class="tab" onclick="showTab('tab-latest')">Ultimos</div>
+    <div id="tab-live" class="tab-content columns is-multiline is-active"></div>
+    <div id="tab-latest" class="tab-content columns is-multiline"></div>
   </div>
-  <div id="tab-live" class="tab-content"></div>
-  <div id="tab-latest" class="tab-content"></div>
-
 
   <div id="expanded-video-container" onclick="closeVideo(event)">
+    <span class="close-button" onclick="closeVideo(event)">×</span>
     <iframe id="expanded-video" width="560" height="315" src="" frameborder="0" allowfullscreen
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
   </div>
 
   <script>
@@ -117,45 +77,76 @@
 
     fetch(fetchDataUrl)
       .then(response => response.json())
-      .then(r => {
-        r.data.forEach(video => {
-          if (video.live_id !== null) {
-            const img = document.createElement('img');
-            img.src = `https://img.youtube.com/vi/${video.live_id}/mqdefault.jpg`;
-            img.alt = video.title;
-            img.className = 'video-thumbnail';
-            img.onclick = () => expandVideo(video.live_id);
-            const tabContent = document.getElementById("tab-live");
-            if (tabContent) {
-              tabContent.appendChild(img);
-            }
-          }
-          const img = document.createElement('img');
-          img.src = `https://img.youtube.com/vi/${video.last_video_id}/mqdefault.jpg`;
-          img.alt = video.last_video_title;
-          img.className = 'video-thumbnail';
-          img.onclick = () => expandVideo(video.last_video_id);
-          const tabContent = document.getElementById("tab-latest");
-          if (tabContent) {
-            tabContent.appendChild(img);
-          }
-
+      .then(data => {
+        data.data.forEach(video => {
+          addCard('tab-live', video.live_id, video.live_title, true);
+          addCard('tab-latest', video.last_video_id, video.last_video_title, false);
         });
+
         showTab('tab-live'); // Show the first tab by default
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
       });
+
+    function addCard(tabId, videoId, title, is_live) {
+      const tabContent = document.getElementById(tabId);
+      if (tabContent && videoId !== null) {
+        const column = document.createElement('div');
+        column.className = 'column is-one-quarter';
+        column.appendChild(createVideoCard(videoId, title, is_live));
+        tabContent.appendChild(column);
+      }
+    }
+
+    function createVideoCard(videoId, title, is_live) {
+      const show_live_tag = (is_live === true) ? "" : "is-hidden";
+      const card = document.createElement('div');
+      card.className = 'card video-thumbnail';
+      card.innerHTML = `
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://img.youtube.com/vi/${videoId}/mqdefault.jpg" alt="${title}" onclick="expandVideo('${videoId}')">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-4">${title}</p>
+              <span class="tag is-danger ${show_live_tag}">live</span>
+            </div>
+          </div>
+        </div>
+      `;
+      return card;
+    }
+
+
     function showTab(tabId) {
       const tabs = document.querySelectorAll('.tab-content');
       tabs.forEach(tab => {
-        tab.classList.remove('active');
+        if (tab.id === tabId) {
+          tab.classList.add('is-active');
+          tab.classList.remove('is-hidden');
+        } else {
+          tab.classList.remove('is-active');
+          tab.classList.add('is-hidden');
+        }
       });
-      document.getElementById(tabId).classList.add('active');
 
-      const tabButtons = document.querySelectorAll('.tab');
+      const tabButtons = document.querySelectorAll('.tabs li');
       tabButtons.forEach(button => {
-        button.classList.remove('active');
+        button.classList.remove('is-active');
       });
-      document.querySelector(`.tab[onclick="showTab('${tabId}')"]`).classList.add('active');
+      document.querySelector(`.tabs li[data-tab="${tabId}"]`).classList.add('is-active');
     }
+
+    document.querySelectorAll('.tabs li').forEach(tabButton => {
+      tabButton.addEventListener('click', function () {
+        const tabId = this.getAttribute('data-tab');
+        showTab(tabId);
+      });
+    });
 
 
     function expandVideo(videoId) {
@@ -164,7 +155,7 @@
     }
 
     function closeVideo(event) {
-      if (event.target.id === 'expanded-video-container' || event.target.className === 'close-button') {
+      if (event.target.id === 'expanded-video-container') {
         document.getElementById('expanded-video').src = '';
         document.getElementById('expanded-video-container').classList.remove('active');
       }
