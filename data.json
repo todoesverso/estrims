@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-07 10:54:35.472936",
+         "datetime": "2024-07-07 11:09:57.925853",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,7 +19,7 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-07 10:54:36.031675",
+         "datetime": "2024-07-07 11:09:58.420761",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -37,17 +37,17 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-07 10:54:36.373680",
+         "datetime": "2024-07-07 11:09:58.869849",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": null,
-         "live_title": null,
-         "live_description": null,
-         "live_thumbnail": null,
+         "live_id": "t1cdB8baF8g",
+         "live_title": "Transmisión en vivo de Radio Con Vos 89.9",
+         "live_description": "",
+         "live_thumbnail": "",
          "last_video_id": "XC-u2XK72ME",
          "last_video_title": "Ignacio \"Nacho\" Torres - Gobernador del Chubut | Futuro Imperfecto",
          "last_video_description": "",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-07 10:54:36.923836",
+         "datetime": "2024-07-07 11:09:59.399137",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-07 10:54:37.534904",
+         "datetime": "2024-07-07 11:09:59.963345",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-07 10:54:37.948369",
+         "datetime": "2024-07-07 11:10:00.368595",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-07 10:54:38.418301",
+         "datetime": "2024-07-07 11:10:00.728396",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-07 10:54:38.906649",
+         "datetime": "2024-07-07 11:10:01.173031",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-07 10:54:39.365669",
+         "datetime": "2024-07-07 11:10:01.663598",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-07 10:54:40.006751",
+         "datetime": "2024-07-07 11:10:02.325963",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
