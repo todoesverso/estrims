@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-07 16:56:50.917947",
+         "datetime": "2024-07-07 17:14:04.748773",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,7 +19,7 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-07 16:56:51.430942",
+         "datetime": "2024-07-07 17:14:05.237048",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -37,17 +37,17 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-07 16:56:51.881249",
+         "datetime": "2024-07-07 17:14:05.627831",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": "t1cdB8baF8g",
-         "live_title": "Transmisión en vivo de Radio Con Vos 89.9",
-         "live_description": "",
-         "live_thumbnail": "",
+         "live_id": null,
+         "live_title": null,
+         "live_description": null,
+         "live_thumbnail": null,
          "last_video_id": "lXNCA2FDA6Y",
          "last_video_title": "Eliana Esnaola - Jefa de prensa de Caminos y Sabores | Yo No Fui",
          "last_video_description": "",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-07 16:56:52.476521",
+         "datetime": "2024-07-07 17:14:06.140210",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-07 16:56:53.059790",
+         "datetime": "2024-07-07 17:14:06.824869",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-07 16:56:53.511254",
+         "datetime": "2024-07-07 17:14:07.322464",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-07 16:56:53.930808",
+         "datetime": "2024-07-07 17:14:07.721247",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-07 16:56:54.418266",
+         "datetime": "2024-07-07 17:14:08.240939",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-07 16:56:54.897425",
+         "datetime": "2024-07-07 17:14:08.711847",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-07 16:56:55.502641",
+         "datetime": "2024-07-07 17:14:09.333577",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
