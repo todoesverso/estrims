@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ESTRIMS</title>
-  <script src="https://unpkg.com/htmx.org@3.0.0/dist/htmx.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
   <style>
     .video-thumbnail {
@@ -61,33 +60,51 @@
 
     <div id="tab-live" class="tab-content columns is-multiline is-active"></div>
     <div id="tab-latest" class="tab-content columns is-multiline"></div>
+    <div id="error-message" class="notification is-danger is-hidden">Error fetching data. Please try again later.</div>
+
   </div>
 
   <div id="expanded-video-container" onclick="closeVideo(event)">
     <span class="close-button" onclick="closeVideo(event)">×</span>
-    <iframe id="expanded-video" width="560" height="315" src="" frameborder="0" allowfullscreen
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    <iframe id="expanded-video" width="80%" height="30%" src="" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <script>
-    const videoGallery = document.getElementById('video-gallery');
 
-    const dataUrl = "https://todoesverso.github.io/estrims/data.json";
-    const fetchDataUrl = `${dataUrl}?timestamp=${new Date().getTime()}`;
+    document.addEventListener('DOMContentLoaded', () => {
+      const dataUrl = "https://todoesverso.github.io/estrims/data.json";
+      const fetchDataUrl = `${dataUrl}?timestamp=${new Date().getTime()}`;
 
-    fetch(fetchDataUrl)
-      .then(response => response.json())
-      .then(data => {
+      fetchData(fetchDataUrl);
+
+      document.querySelectorAll('.tabs li').forEach(tabButton => {
+        tabButton.addEventListener('click', function () {
+          const tabId = this.getAttribute('data-tab');
+          showTab(tabId);
+        });
+      });
+    });
+
+
+    async function fetchData(url) {
+      try {
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
         data.data.forEach(video => {
           addCard('tab-live', video.live_id, video.live_title, true);
           addCard('tab-latest', video.last_video_id, video.last_video_title, false);
         });
 
-        showTab('tab-live'); // Show the first tab by default
-      })
-      .catch(error => {
+        showTab('tab-live');
+      } catch (error) {
         console.error('Error fetching data:', error);
-      });
+        document.getElementById('error-message').classList.remove('is-hidden');
+      }
+    }
+
 
     function addCard(tabId, videoId, title, is_live) {
       const tabContent = document.getElementById(tabId);
@@ -109,7 +126,7 @@
             <img src="https://img.youtube.com/vi/${videoId}/mqdefault.jpg" alt="${title}" onclick="expandVideo('${videoId}')">
           </figure>
         </div>
-        <div class="card-content">
+        <div class="card-content" onclick="expandVideo('${videoId}')">
           <div class="media">
             <div class="media-content">
               <p class="title is-4">${title}</p>

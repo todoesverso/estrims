@@ -1,9 +1,7 @@
-import os
 from dataclasses import dataclass, asdict
 from typing import List
 from datetime import datetime
 from pysondb import db
-import googleapiclient.discovery
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -13,7 +11,6 @@ import json
 import logging
 
 logger = logging.getLogger(__name__)
-API_KEY = os.environ.get("API_KEY")
 
 
 class BaseDb:
@@ -59,12 +56,8 @@ class StreamStatus(BaseDb):
     stream_key: str  # use stream.title
     live_id: str | None
     live_title: str | None
-    live_description: str | None
-    live_thumbnail: str | None
     last_video_id: str
     last_video_title: str
-    last_video_description: str
-    last_video_thumbnail: str
 
     @property
     def db(self):
@@ -81,159 +74,142 @@ def save_streams_to_db(streams: Streams):
         s.write_to_db_if_not_exists(asdict(s), key={"title": s.title})
 
 
-def get_live_stream(channel_id):
-    youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=API_KEY)
-
-    request = youtube.search().list(
-        part="snippet", channelId=channel_id, eventType="live", type="video"
-    )
-    response = request.execute()
-
-    live_streams = {
-        "title": None,
-        "videoId": None,
-        "description": None,
-        "thumbnail": None,
-    }
-    if response.get("items"):
-        item = response["items"][0]
-        live_streams = {
-            "title": item["snippet"]["title"],
-            "videoId": item["id"]["videoId"],
-            "description": item["snippet"]["description"],
-            "thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
-        }
-
-    return live_streams
-
-
-def get_live_stream_bs(stream):
+def get_stream_bs_script(stream):
     channel_url = stream.channel_url
-    logger.warning("Parsing LIVE: %s", stream.channel_url)
-
-    live_streams = {
-        "title": None,
-        "videoId": None,
-        "description": None,
-        "thumbnail": None,
-    }
-
+    logger.warning(stream.channel_url)
     html = getHTMLdocument(channel_url)
     pattern = re.compile(r"ytInitialData = (.*);", re.MULTILINE | re.DOTALL)
-    soup = BeautifulSoup(html)
-    script = soup.find("script", text=pattern)
+    soup = BeautifulSoup(html, features="lxml")
+    script = soup.find("script", string=pattern)
+    data = None
     if script:
         match = pattern.search(script.text)
         data = json.loads(match.group(1))
 
-        base_path = data["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][0][
-            "tabRenderer"
-        ]["content"]["sectionListRenderer"]["contents"][0]["itemSectionRenderer"][
+    return data
+
+
+def parse_live_stream(script_dict):
+    logger.warning("LIVE")
+    try:
+        base_path = script_dict["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][
+            0
+        ]["tabRenderer"]["content"]["sectionListRenderer"]["contents"][0][
+            "itemSectionRenderer"
+        ][
             "contents"
         ][
             0
-        ]
-        try:
-            live = base_path["channelFeaturedContentRenderer"]["items"][0][
-                "videoRenderer"
-            ]
-            live_streams = {
-                "title": live["title"]["runs"][0]["text"],
-                "videoId": live["videoId"],
-                "description": "",
-                "thumbnail": "",
-            }
-
-        except Exception:
-            pass
-
-    return live_streams
-
-
-def get_last_stream_bs(stream):
-    channel_url = stream.channel_url
-    logger.warning("Parsing LAST: %s", stream.channel_url)
-
-    last_video = {
-        "title": "",
-        "videoId": "",
-        "description": "",
-        "thumbnail": "",
-    }
-
-    html = getHTMLdocument(channel_url + "/videos")
-    pattern = re.compile(r"ytInitialData = (.*);", re.MULTILINE | re.DOTALL)
-    soup = BeautifulSoup(html)
-    script = soup.find("script", text=pattern)
-    if script:
-        match = pattern.search(script.text)
-        data = json.loads(match.group(1))
-
-        last = data["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][1][
-            "tabRenderer"
-        ]["content"]["richGridRenderer"]["contents"][0]["richItemRenderer"]["content"][
+        ][
+            "channelFeaturedContentRenderer"
+        ][
+            "items"
+        ][
+            0
+        ][
             "videoRenderer"
         ]
-        last_video = {
-                "title": last["title"]["runs"][0]["text"],
-                "videoId": last["videoId"],
-                "description": "",
-                "thumbnail": "",
-            }
 
-    return last_video
-
-
-def get_latest_video(channel_id):
-    youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=API_KEY)
-
-    request = youtube.search().list(
-        part="snippet",
-        channelId=channel_id,
-        order="date",
-        maxResults=1,
-        type="video",
-    )
-    response = request.execute()
-
-    latest_video = None
-    if response.get("items"):
-        item = response["items"][0]
-        latest_video = {
-            "title": item["snippet"]["title"],
-            "videoId": item["id"]["videoId"],
-            "description": item["snippet"]["description"],
-            "publishedAt": item["snippet"]["publishedAt"],
-            "thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
+        return {
+            "live_title": base_path["title"]["runs"][0]["text"],
+            "live_id": base_path["videoId"],
         }
+    except KeyError:
+        return {"live_title": None, "live_id": None}
 
-    return latest_video
+
+def get_nested_value(data, keys):
+    """Recursively try to get a nested value in a JSON-like dictionary.
+
+    Args:
+        data (dict): The JSON data as a dictionary.
+        keys (list): A list of lists, where each inner list is a possible path of keys to the target value.
+
+    Returns:
+        The value if found, otherwise None.
+    """
+    if not keys:
+        return None
+
+    for path in keys:
+        try:
+            return access_path(data, path)
+        except KeyError:
+            continue
+    return None
+
+
+def access_path(data, path):
+    """Access a value in a nested dictionary following a specific path.
+
+    Args:
+        data (dict): The JSON data as a dictionary.
+        path (list): A list of keys representing the path to the target value.
+
+    Returns:
+        The value found at the end of the path.
+
+    Raises:
+        KeyError: If the path is not found in the data.
+    """
+    for key in path:
+        data = data[key]
+    return data
+
+
+def parse_latest_stream(script_dict):
+    logger.warning("LAST")
+    title = ""
+    id = ""
+    base_path = script_dict["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][0][
+        "tabRenderer"
+    ]["content"]["sectionListRenderer"]["contents"]
+    __paths = [["content", "twoColumnBrowseResultsRenderer"]]
+    try:
+        ret = base_path[4]["itemSectionRenderer"]["contents"][0]["shelfRenderer"][
+            "content"
+        ]["horizontalListRenderer"]["items"][0]["gridVideoRenderer"]
+        title = ret["title"]["runs"][0]["text"]
+        id = ret["videoId"]
+    except (KeyError, IndexError):
+        pass
+
+    try:
+        ret = base_path[0]["itemSectionRenderer"]["contents"][0][
+            "channelVideoPlayerRenderer"
+        ]
+        title = ret["title"]["runs"][0]["text"]
+        id = ret["videoId"]
+    except KeyError:
+        ret = base_path[1]["itemSectionRenderer"]["contents"][0]["shelfRenderer"][
+            "content"
+        ]["horizontalListRenderer"]["items"][0]["gridVideoRenderer"]
+
+        title = ret["title"]["simpleText"]
+        id = ret["videoId"]
+    return {
+        "last_video_title": title,
+        "last_video_id": id,
+    }
 
 
 def new_stream_status(stream):
-    # last = get_latest_video(stream.channel_id)
-    # live = get_live_stream(stream.channel_id)
+    script_dict = get_stream_bs_script(stream)
+    if script_dict:
+        last = parse_latest_stream(script_dict)
+        live = parse_live_stream(script_dict)
 
-    last = get_last_stream_bs(stream)
-    live = get_live_stream_bs(stream)
+        stream_status = StreamStatus(
+            datetime=str(datetime.now()),
+            stream=stream,
+            stream_key=stream.title,
+            **last,
+            **live
+        )
 
-    stream_status = StreamStatus(
-        datetime=str(datetime.now()),
-        stream=stream,
-        stream_key=stream.title,
-        live_id=live["videoId"],
-        live_description=live["description"],
-        live_title=live["title"],
-        live_thumbnail=live["thumbnail"],
-        last_video_id=last["videoId"],
-        last_video_title=last["title"],
-        last_video_thumbnail=last["thumbnail"],
-        last_video_description=last["description"],
-    )
-
-    stream_status.create_or_update_to_db(
-        asdict(stream_status), key={"stream_key": stream_status.stream.title}
-    )
+        stream_status.create_or_update_to_db(
+            asdict(stream_status), key={"stream_key": stream_status.stream.title}
+        )
 
 
 if __name__ == "__main__":
