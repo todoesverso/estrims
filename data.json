@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-08 10:31:43.879543",
+         "datetime": "2024-07-08 10:41:07.968085",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,17 +19,17 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-08 10:31:44.385878",
+         "datetime": "2024-07-08 10:41:08.508741",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": null,
-         "live_title": null,
-         "live_description": null,
-         "live_thumbnail": null,
+         "live_id": "C7irA70IIZc",
+         "live_title": "DESAYUNO INTERMITENTE EN VIVO con Simonetti, Eli Sánchez, Mauro Szeta, Vale y Manu Jove | BLENDER",
+         "live_description": "",
+         "live_thumbnail": "",
          "last_video_id": "F-p6mkPjXAg",
          "last_video_title": "LA HISTORIA de BATMAN | ESTO ES CINE con Guille Aquino y Navaja Crimen | BLENDER",
          "last_video_description": "",
@@ -37,7 +37,7 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-08 10:31:44.799880",
+         "datetime": "2024-07-08 10:41:08.902814",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-08 10:31:45.351027",
+         "datetime": "2024-07-08 10:41:09.451614",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-08 10:31:45.945053",
+         "datetime": "2024-07-08 10:41:10.086059",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-08 10:31:46.362281",
+         "datetime": "2024-07-08 10:41:10.509898",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-08 10:31:46.761498",
+         "datetime": "2024-07-08 10:41:10.872046",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-08 10:31:47.241783",
+         "datetime": "2024-07-08 10:41:11.317145",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-08 10:31:47.757602",
+         "datetime": "2024-07-08 10:41:11.776095",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,17 +163,17 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-08 10:31:48.462682",
+         "datetime": "2024-07-08 10:41:12.369922",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
-         "live_id": null,
-         "live_title": null,
-         "live_description": null,
-         "live_thumbnail": null,
+         "live_id": "pX1J3XhekOQ",
+         "live_title": "🔴 ANTES QUE NADIE | EN VIVO",
+         "live_description": "",
+         "live_thumbnail": "",
          "last_video_id": "sm_j2l4G4h8",
          "last_video_title": "#PASIONPORLAREDONDA l CON VERIFICACIÓN DEL VAR: ¿QUIEN GANO? Y FULL ANSIOSOS POR LA SEMIFINAL",
          "last_video_description": "",
