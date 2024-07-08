@@ -1,17 +1,17 @@
 {
    "data": [
       {
-         "datetime": "2024-07-08 12:45:53.274432",
+         "datetime": "2024-07-08 13:01:23.873896",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
          },
          "stream_key": "Nico Guthmann",
-         "live_id": null,
-         "live_title": null,
-         "live_description": null,
-         "live_thumbnail": null,
+         "live_id": "aBF8xtVDT6w",
+         "live_title": "ASUME STURZENEGGER: ¿QUÉ CAMBIA? | TUGO EN VIVO con Nico Guthmann",
+         "live_description": "",
+         "live_thumbnail": "",
          "last_video_id": "a6leaUYtqZE",
          "last_video_title": "CÓMO SERÁ el GOBIERNO DE JAVIER MILEI en ARGENTINA",
          "last_video_description": "",
@@ -19,7 +19,7 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-08 12:45:53.774457",
+         "datetime": "2024-07-08 13:01:24.391831",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -37,7 +37,7 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-08 12:45:54.178790",
+         "datetime": "2024-07-08 13:01:24.933211",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-08 12:45:54.723888",
+         "datetime": "2024-07-08 13:01:25.529115",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-08 12:45:55.296826",
+         "datetime": "2024-07-08 13:01:26.070698",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-08 12:45:55.745539",
+         "datetime": "2024-07-08 13:01:26.736496",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-08 12:45:56.132984",
+         "datetime": "2024-07-08 13:01:27.303235",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-08 12:45:56.621952",
+         "datetime": "2024-07-08 13:01:27.878292",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-08 12:45:57.074003",
+         "datetime": "2024-07-08 13:01:28.337246",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-08 12:45:57.764663",
+         "datetime": "2024-07-08 13:01:29.209758",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
