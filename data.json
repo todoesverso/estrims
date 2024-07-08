@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-08 17:56:54.274947",
+         "datetime": "2024-07-08 18:19:55.533285",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,17 +19,17 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-08 17:56:54.814031",
+         "datetime": "2024-07-08 18:19:56.072352",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "C7irA70IIZc",
-         "live_title": "PELOTA DIVIDIDA EN VIVO con Mikki Lusardi, el Ruso Verea, Cata Sarra y @Giaco  | BLENDER",
-         "live_description": "",
-         "live_thumbnail": "",
+         "live_id": null,
+         "live_title": null,
+         "live_description": null,
+         "live_thumbnail": null,
          "last_video_id": "UD0iNgwIlV4",
          "last_video_title": "EL ZAR EXPLICÓ el PROGRAMA ECONÓMICO de MILEI y se DECLARÓ RADIADOR | ESCUCHO OFERTAS | BLENDER",
          "last_video_description": "",
@@ -37,7 +37,7 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-08 17:56:55.195993",
+         "datetime": "2024-07-08 18:19:56.576109",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-08 17:56:55.836966",
+         "datetime": "2024-07-08 18:19:57.138848",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-08 17:56:56.468868",
+         "datetime": "2024-07-08 18:19:57.751285",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-08 17:56:56.874836",
+         "datetime": "2024-07-08 18:19:58.220826",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-08 17:56:57.251052",
+         "datetime": "2024-07-08 18:19:58.627801",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-08 17:56:57.787960",
+         "datetime": "2024-07-08 18:19:59.160826",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-08 17:56:58.199377",
+         "datetime": "2024-07-08 18:19:59.736101",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -156,14 +156,14 @@
          "live_title": "CUANDO ERIC CONOCIÓ A MILTON en OLGA con Homero Pettinato, Eial Moldavsky y Gime Accardi | EN VIVO",
          "live_description": "",
          "live_thumbnail": "",
-         "last_video_id": "D3AxYbLruks",
-         "last_video_title": "El DESCAJETE del FINDE: ¿HOMERO es BUITRE? | Sería Increíble | COMPLETO 8/7",
+         "last_video_id": "NcDbTUPhx4o",
+         "last_video_title": "REGRESÓ sin la NUESTRA con una VESPA | Soñé que Volaba | COMPLETO 8/7",
          "last_video_description": "",
          "last_video_thumbnail": "",
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-08 17:56:58.807455",
+         "datetime": "2024-07-08 18:20:00.387627",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
@@ -171,11 +171,11 @@
          },
          "stream_key": "LUZU TV",
          "live_id": "pX1J3XhekOQ",
-         "live_title": "🔴 NADA QUE NO SEPAMOS con CHINO LEUNIS, BELU NEGRI, LAILA ROTH Y SOFI CALVO | EN VIVO",
+         "live_title": "🔴PATRIA Y FAMILIA: CAMI MAYAN, LUCAS SPADAFORA, ANITA ESPÓSITO y DOMI FAENA | EN VIVO",
          "live_description": "",
          "live_thumbnail": "",
-         "last_video_id": "mQLbCzQ0Eg4",
-         "last_video_title": "#ANTESQUENADIE | LA GRIETA DE LA ROPA TÉRMICA Y LA MORALIDAD NO EXISTE: ¿A QUIÉN SALVAS DEL EQUIPO?",
+         "last_video_id": "h79jKV9kFcM",
+         "last_video_title": "#NADIEDICENADA | ¿SER RELAJADO VS SER AUTOEXIGENTE? Y MOMI CUENTA TODO SOBRE SU VIAJE A EZEIZA",
          "last_video_description": "",
          "last_video_thumbnail": "",
          "id": 302031547625244008
