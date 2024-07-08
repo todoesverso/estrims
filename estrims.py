@@ -264,6 +264,11 @@ if __name__ == "__main__":
             channel_id="",
             channel_url="https://www.youtube.com/@luzutv",
         ),
+        Stream(
+            title="Picnoc Extraterrestre",
+            channel_id="",
+            channel_url="https://www.youtube.com/@Picnic.Extraterrestre",
+        ),
     ]
 
     streams = Streams(streams=streams_list)
