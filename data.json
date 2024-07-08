@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-08 08:26:21.763381",
+         "datetime": "2024-07-08 08:38:36.524055",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,7 +19,7 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-08 08:26:22.258954",
+         "datetime": "2024-07-08 08:38:37.078730",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -37,7 +37,7 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-08 08:26:22.652162",
+         "datetime": "2024-07-08 08:38:37.554261",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-08 08:26:23.178554",
+         "datetime": "2024-07-08 08:38:38.115396",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-08 08:26:23.704803",
+         "datetime": "2024-07-08 08:38:38.729956",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-08 08:26:24.163989",
+         "datetime": "2024-07-08 08:38:39.235408",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-08 08:26:24.541359",
+         "datetime": "2024-07-08 08:38:39.687340",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-08 08:26:25.025479",
+         "datetime": "2024-07-08 08:38:40.206308",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,17 +145,17 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-08 08:26:25.477988",
+         "datetime": "2024-07-08 08:38:40.742461",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
          },
          "stream_key": "OLGA",
-         "live_id": null,
-         "live_title": null,
-         "live_description": null,
-         "live_thumbnail": null,
+         "live_id": "_WExQRc1eWc",
+         "live_title": "PARAÍSO FISCAL en OLGA con Fer Dente, Noe Custodio, Lu Geuna y Tania Wed | EN VIVO",
+         "live_description": "",
+         "live_thumbnail": "",
          "last_video_id": "oKwm3DDp9VI",
          "last_video_title": "LAS PRECIOSAS de RADIOLGA y la DESPEDIDA de BENJITA | Soñé que Volaba | COMPLETO 5/7",
          "last_video_description": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-08 08:26:26.063165",
+         "datetime": "2024-07-08 08:38:41.518915",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
