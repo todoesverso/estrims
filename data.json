@@ -1,17 +1,17 @@
 {
    "data": [
       {
-         "datetime": "2024-07-08 14:56:11.399810",
+         "datetime": "2024-07-08 15:14:43.518809",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
          },
          "stream_key": "Nico Guthmann",
-         "live_id": "aBF8xtVDT6w",
-         "live_title": "LA PREGUNTA MÁS INCÓMODA A GUILLERMO MORENO | TUGO EN VIVO con Nico Guthmann",
-         "live_description": "",
-         "live_thumbnail": "",
+         "live_id": null,
+         "live_title": null,
+         "live_description": null,
+         "live_thumbnail": null,
          "last_video_id": "a6leaUYtqZE",
          "last_video_title": "CÓMO SERÁ el GOBIERNO DE JAVIER MILEI en ARGENTINA",
          "last_video_description": "",
@@ -19,7 +19,7 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-08 14:56:11.869280",
+         "datetime": "2024-07-08 15:14:44.182405",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -27,17 +27,17 @@
          },
          "stream_key": "BLENDER",
          "live_id": "C7irA70IIZc",
-         "live_title": "ESCUCHO OFERTAS EN VIVO con Guille Aquino, Galia Moldavsky, Juan Ruocco y Juanita Groisman | BLENDER",
+         "live_title": "EL ZAR en ESCUCHO OFERTAS EN VIVO con Guille Aquino, Galia Moldavsky, Ruocco y Juanita | BLENDER",
          "live_description": "",
          "live_thumbnail": "",
-         "last_video_id": "F-p6mkPjXAg",
-         "last_video_title": "LA HISTORIA de BATMAN | ESTO ES CINE con Guille Aquino y Navaja Crimen | BLENDER",
+         "last_video_id": "Xi_ARQTu5Lc",
+         "last_video_title": "EL CUMPLE de FEDE, CÓMO CONTROLAMOS la TENTACIÓN y PACTO de ¿MAYO? | DESAYUNO INTERMITENTE | BLENDER",
          "last_video_description": "",
          "last_video_thumbnail": "",
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-08 14:56:12.265793",
+         "datetime": "2024-07-08 15:14:44.618368",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-08 14:56:12.855873",
+         "datetime": "2024-07-08 15:14:45.198236",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -63,7 +63,7 @@
          },
          "stream_key": "Gelatina",
          "live_id": "Bp4B8x__VNc",
-         "live_title": "HERMOSA MAÑANA VERDAD CON CLEMENTE CANCELA, JESICALL Y DIEGO DELLA SALA | GELATINA",
+         "live_title": "ELIJO CREER EN VIVO CON FLOR HALFON | GELATINA",
          "live_description": "",
          "live_thumbnail": "",
          "last_video_id": "nrP8ydC9mGI",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-08 14:56:13.437493",
+         "datetime": "2024-07-08 15:14:45.923378",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-08 14:56:13.892941",
+         "datetime": "2024-07-08 15:14:46.469024",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-08 14:56:14.286702",
+         "datetime": "2024-07-08 15:14:46.925173",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-08 14:56:14.749771",
+         "datetime": "2024-07-08 15:14:47.457359",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-08 14:56:15.249351",
+         "datetime": "2024-07-08 15:14:47.962322",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-08 14:56:15.876864",
+         "datetime": "2024-07-08 15:14:48.571740",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
