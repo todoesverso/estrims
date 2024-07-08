@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-08 11:24:40.472480",
+         "datetime": "2024-07-08 11:35:04.226417",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,7 +19,7 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-08 11:24:41.003869",
+         "datetime": "2024-07-08 11:35:04.708334",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -37,7 +37,7 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-08 11:24:41.426392",
+         "datetime": "2024-07-08 11:35:05.098304",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -45,7 +45,7 @@
          },
          "stream_key": "Radio con vos",
          "live_id": "ZSnig9imIdc",
-         "live_title": "BUENAS TARDES CHINA con Jairo y Yami | RADIO CON VOS",
+         "live_title": "YAQPA con Ernesto Tenembaum | RADIO CON VOS",
          "live_description": "",
          "live_thumbnail": "",
          "last_video_id": "AIsA7DrsFRk",
@@ -55,17 +55,17 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-08 11:24:42.012466",
+         "datetime": "2024-07-08 11:35:05.642046",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
-         "live_id": null,
-         "live_title": null,
-         "live_description": null,
-         "live_thumbnail": null,
+         "live_id": "Bp4B8x__VNc",
+         "live_title": "NUEVOS TRAPOS EN VIVO CON JOSE AMORE Y OCTAVIO GENCARELLI | GELATINA",
+         "live_description": "",
+         "live_thumbnail": "",
          "last_video_id": "OryqQWBXBVU",
          "last_video_title": "CRISTINA ELIGE sus TRES VERDADES PERONISTAS | Pedro Rosemblat en Gelatina",
          "last_video_description": "",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-08 11:24:42.711494",
+         "datetime": "2024-07-08 11:35:06.266127",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-08 11:24:43.163058",
+         "datetime": "2024-07-08 11:35:06.706167",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-08 11:24:43.572235",
+         "datetime": "2024-07-08 11:35:07.105279",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-08 11:24:44.067006",
+         "datetime": "2024-07-08 11:35:07.598885",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-08 11:24:44.560076",
+         "datetime": "2024-07-08 11:35:08.128768",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-08 11:24:45.158920",
+         "datetime": "2024-07-08 11:35:08.740589",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
