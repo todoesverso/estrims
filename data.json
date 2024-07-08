@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-08 20:25:46.916530",
+         "datetime": "2024-07-08 20:35:00.156429",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -19,17 +19,17 @@
          "id": 305524271895218121
       },
       {
-         "datetime": "2024-07-08 20:25:47.431761",
+         "datetime": "2024-07-08 20:35:00.697767",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": null,
-         "live_title": null,
-         "live_description": null,
-         "live_thumbnail": null,
+         "live_id": "IJd3JMMv3R8",
+         "live_title": "LAS INFERIORES DE BLENDER EN VIVO con Anacleta Chicle, Facu Díaz y Jere Juárez | BLENDER",
+         "live_description": "",
+         "live_thumbnail": "",
          "last_video_id": "QoRqb66Gank",
          "last_video_title": "¿QUÉ PASÓ CON BRASIL? con DATA GIACO y POSIBLE EQUIPO de ARGENTINA |  PELOTA DIVIVIDA | BLENDER",
          "last_video_description": "",
@@ -37,7 +37,7 @@
          "id": 698489486834126592
       },
       {
-         "datetime": "2024-07-08 20:25:47.814341",
+         "datetime": "2024-07-08 20:35:01.125047",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -55,7 +55,7 @@
          "id": 302235062297822454
       },
       {
-         "datetime": "2024-07-08 20:25:48.381354",
+         "datetime": "2024-07-08 20:35:01.660545",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -73,7 +73,7 @@
          "id": 759619203447229861
       },
       {
-         "datetime": "2024-07-08 20:25:48.942145",
+         "datetime": "2024-07-08 20:35:02.236529",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -91,7 +91,7 @@
          "id": 329921367778981072
       },
       {
-         "datetime": "2024-07-08 20:25:49.407628",
+         "datetime": "2024-07-08 20:35:02.725115",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -109,7 +109,7 @@
          "id": 315665224067168660
       },
       {
-         "datetime": "2024-07-08 20:25:49.777944",
+         "datetime": "2024-07-08 20:35:03.181358",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 250973629441273598
       },
       {
-         "datetime": "2024-07-08 20:25:50.268057",
+         "datetime": "2024-07-08 20:35:03.872008",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -145,7 +145,7 @@
          "id": 241147611892170359
       },
       {
-         "datetime": "2024-07-08 20:25:50.705955",
+         "datetime": "2024-07-08 20:35:04.317311",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -163,7 +163,7 @@
          "id": 222964558634961116
       },
       {
-         "datetime": "2024-07-08 20:25:51.249909",
+         "datetime": "2024-07-08 20:35:04.935035",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
