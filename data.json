@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-08 19:53:05.907616",
+         "datetime": "2024-07-09 13:20:18.464832",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -15,35 +15,35 @@
          "id": 273815979821897066
       },
       {
-         "datetime": "2024-07-08 19:53:06.283061",
+         "datetime": "2024-07-09 13:20:18.799537",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "IJd3JMMv3R8",
-         "live_title": "DINERO Y AMOR EN VIVO con MARCOS ARAMBURU, EVITTA LUNA Y TOMÁS QUINTÍN PALMA | BLENDER",
-         "last_video_id": "kCINtqheEfE",
-         "last_video_title": "NORA DALMASSO | CONFESIONES de BAR con MAURO SZETA | BLENDER",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "F1bZqFcCLYg",
+         "last_video_title": "BATMAN REBORD: LA PELÍCULA | HAY ALGO AHÍ | BLENDER",
          "id": 262785856452547524
       },
       {
-         "datetime": "2024-07-08 19:53:06.541235",
+         "datetime": "2024-07-09 13:20:19.019237",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": "ZSnig9imIdc",
-         "live_title": "No Dejes Para Mañana con Romina Manguel | RADIO CON VOS",
-         "last_video_id": "mrOq--eAmZk",
-         "last_video_title": "Fernando Stanich, editor de política de La Gaceta | No Dejes Para Mañana",
+         "live_id": "9vWF7ZQRVSE",
+         "live_title": "PASE LO QUE PASE con Ernesto y Reynaldo | RADIO CON VOS",
+         "last_video_id": "RDaRVeyZlqc",
+         "last_video_title": "Informe especial de Mariana Romero sobre el acto del Pacto de Mayo de Milei",
          "id": 335090491239997765
       },
       {
-         "datetime": "2024-07-08 19:53:06.962598",
+         "datetime": "2024-07-09 13:20:19.349267",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -57,7 +57,7 @@
          "id": 271237183276152025
       },
       {
-         "datetime": "2024-07-08 19:53:07.408599",
+         "datetime": "2024-07-09 13:20:19.714492",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -71,7 +71,7 @@
          "id": 266733447849641180
       },
       {
-         "datetime": "2024-07-08 19:53:07.727472",
+         "datetime": "2024-07-09 13:20:19.989276",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -85,7 +85,7 @@
          "id": 254875707207736082
       },
       {
-         "datetime": "2024-07-08 19:53:07.981684",
+         "datetime": "2024-07-09 13:20:20.181174",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -99,7 +99,7 @@
          "id": 234097170325840633
       },
       {
-         "datetime": "2024-07-08 19:53:08.405698",
+         "datetime": "2024-07-09 13:20:20.509250",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -113,7 +113,7 @@
          "id": 362908000186027917
       },
       {
-         "datetime": "2024-07-08 19:53:08.731997",
+         "datetime": "2024-07-09 13:20:20.800480",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -127,21 +127,21 @@
          "id": 172382415050547652
       },
       {
-         "datetime": "2024-07-08 19:53:09.210690",
+         "datetime": "2024-07-09 13:20:21.165837",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
-         "live_id": "pX1J3XhekOQ",
-         "live_title": "🔴 TARDE DE TERTULIA con MARTI BENZA, NICO FERRERO, CAMI JARA Y GIANI | EN VIVO",
-         "last_video_id": "h79jKV9kFcM",
-         "last_video_title": "#NADIEDICENADA | ¿SER RELAJADO VS SER AUTOEXIGENTE? Y MOMI CUENTA TODO SOBRE SU VIAJE A EZEIZA",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "k7nXHkqv-Vs",
+         "last_video_title": "#LUZUFC l MESSI MIRA LUZU, BATMAN DESPIERTA A MARTI Y ¿QUIÉN GANA EL TUTTI FRUTTI?",
          "id": 282073350165959778
       },
       {
-         "datetime": "2024-07-08 19:53:09.481163",
+         "datetime": "2024-07-09 13:20:21.359952",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_id": "",
@@ -150,8 +150,8 @@
          "stream_key": "Picnoc Extraterrestre",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "VZD_CbCpmx4",
-         "last_video_title": "LALI ESPÓSITO Y MORIA CASÁN EN NAVE NODRIZA 8.7 | PICNIC EXTRATERRESTRE | EN VIVO",
+         "last_video_id": "vs9vbWNuDOU",
+         "last_video_title": "LALI ESPÓSITO Y MORIA CASÁN EN PICNIC EXTRATERRESTRE | NAVE NODRIZA 8.7 | PROGRAMA COMPLETO",
          "id": 107918566631763981
       }
    ]
