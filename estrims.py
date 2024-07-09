@@ -269,6 +269,21 @@ if __name__ == "__main__":
             channel_id="",
             channel_url="https://www.youtube.com/@Picnic.Extraterrestre",
         ),
+        Stream(
+            title="Pais de Boludos",
+            channel_id="",
+            channel_url="https://www.youtube.com/@PaisDeBoludos",
+        ),
+        Stream(
+            title="Peroncho Delivery",
+            channel_id="",
+            channel_url="https://www.youtube.com/@PeronchoStandUp",
+        ),
+        Stream(
+            title="Mate",
+            channel_id="",
+            channel_url="https://www.youtube.com/@somosmatear",
+        ),
     ]
 
     streams = Streams(streams=streams_list)
