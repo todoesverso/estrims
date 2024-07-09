@@ -79,7 +79,7 @@ def get_stream_bs_script(stream):
     logger.warning(stream.channel_url)
     html = getHTMLdocument(channel_url)
     pattern = re.compile(r"ytInitialData = (.*);", re.MULTILINE | re.DOTALL)
-    soup = BeautifulSoup(html, features="lxml")
+    soup = BeautifulSoup(html, features="html.parser")
     script = soup.find("script", string=pattern)
     data = None
     if script:
