@@ -46,16 +46,42 @@
       color: white;
       cursor: pointer;
     }
+
+    #search-container {
+      position: relative;
+      margin-bottom: 1rem;
+    }
+
+    #search-input {
+      width: 100%;
+      padding-right: 2rem;
+    }
+
+    #clear-search {
+      position: absolute;
+      right: 0.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <div class="tabs is-centered is-large  is-toggle">
+    <div class="tabs is-centered is-large is-toggle">
       <ul>
         <li class="is-active" data-tab="tab-live"><a>LIVE</a></li>
         <li data-tab="tab-latest"><a>Ultimos</a></li>
       </ul>
+    </div>
+
+    <div id="search-container">
+      <input id="search-input" class="input" type="text" placeholder="Search...">
+      <button id="clear-search" onclick="clearSearch()">×</button>
     </div>
 
     <div id="tab-live" class="tab-content columns is-multiline is-active"></div>
@@ -70,21 +96,22 @@
   </div>
 
   <script>
-
     document.addEventListener('DOMContentLoaded', () => {
       const dataUrl = "https://todoesverso.github.io/estrims/data.json";
       const fetchDataUrl = `${dataUrl}?timestamp=${new Date().getTime()}`;
 
       fetchData(fetchDataUrl);
 
-      document.querySelectorAll('.tabs li').forEach(tabButton => {
-        tabButton.addEventListener('click', function () {
-          const tabId = this.getAttribute('data-tab');
+      document.querySelector('.tabs').addEventListener('click', (event) => {
+        const tabButton = event.target.closest('li');
+        if (tabButton) {
+          const tabId = tabButton.getAttribute('data-tab');
           showTab(tabId);
-        });
+        }
       });
-    });
 
+      document.getElementById('search-input').addEventListener('input', filterCards);
+    });
 
     async function fetchData(url) {
       try {
@@ -105,12 +132,12 @@
       }
     }
 
-
     function addCard(tabId, videoId, title, is_live) {
       const tabContent = document.getElementById(tabId);
       if (tabContent && videoId !== null) {
         const column = document.createElement('div');
         column.className = 'column is-one-quarter';
+        column.setAttribute('data-title', title.toLowerCase());
         column.appendChild(createVideoCard(videoId, title, is_live));
         tabContent.appendChild(column);
       }
@@ -138,33 +165,18 @@
       return card;
     }
 
-
     function showTab(tabId) {
-      const tabs = document.querySelectorAll('.tab-content');
-      tabs.forEach(tab => {
-        if (tab.id === tabId) {
-          tab.classList.add('is-active');
-          tab.classList.remove('is-hidden');
-        } else {
-          tab.classList.remove('is-active');
-          tab.classList.add('is-hidden');
-        }
+      document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.toggle('is-active', tab.id === tabId);
+        tab.classList.toggle('is-hidden', tab.id !== tabId);
       });
 
-      const tabButtons = document.querySelectorAll('.tabs li');
-      tabButtons.forEach(button => {
-        button.classList.remove('is-active');
+      document.querySelectorAll('.tabs li').forEach(button => {
+        button.classList.toggle('is-active', button.getAttribute('data-tab') === tabId);
       });
-      document.querySelector(`.tabs li[data-tab="${tabId}"]`).classList.add('is-active');
+
+      filterCards(); // Reapply filter on tab change
     }
-
-    document.querySelectorAll('.tabs li').forEach(tabButton => {
-      tabButton.addEventListener('click', function () {
-        const tabId = this.getAttribute('data-tab');
-        showTab(tabId);
-      });
-    });
-
 
     function expandVideo(videoId) {
       document.getElementById('expanded-video').src = `https://www.youtube.com/embed/${videoId}`;
@@ -172,10 +184,30 @@
     }
 
     function closeVideo(event) {
-      if (event.target.id === 'expanded-video-container') {
+      if (event.target.id === 'expanded-video-container' || event.target.classList.contains('close-button')) {
         document.getElementById('expanded-video').src = '';
         document.getElementById('expanded-video-container').classList.remove('active');
       }
+    }
+
+    function filterCards() {
+      const searchInput = document.getElementById('search-input').value.toLowerCase();
+      const activeTab = document.querySelector('.tab-content.is-active');
+      const cards = activeTab.querySelectorAll('.column');
+
+      cards.forEach(card => {
+        const title = card.getAttribute('data-title');
+        if (title.includes(searchInput)) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    function clearSearch() {
+      document.getElementById('search-input').value = '';
+      filterCards();
     }
   </script>
 </body>
