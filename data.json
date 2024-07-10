@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-10 10:33:14.165438",
+         "datetime": "2024-07-10 10:42:01.415976",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -15,21 +15,21 @@
          "id": 273815979821897066
       },
       {
-         "datetime": "2024-07-10 10:33:14.605265",
+         "datetime": "2024-07-10 10:42:01.791551",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": null,
-         "live_title": null,
-         "last_video_id": "F1bZqFcCLYg",
-         "last_video_title": "BATMAN REBORD: LA PELÍCULA | HAY ALGO AHÍ | BLENDER",
+         "live_id": "G7_R1fxQdBg",
+         "live_title": "DESAYUNO INTERMITENTE EN VIVO con Fede Simonetti, Elisa Sánchez, Vale Sarra y Manu Jove | BLENDER",
+         "last_video_id": "Asepn46gDUY",
+         "last_video_title": "EL CASO ÁNGELES RAWSON | CONFESIONES de BAR con MAURO SZETA | BLENDER",
          "id": 262785856452547524
       },
       {
-         "datetime": "2024-07-10 10:33:14.989122",
+         "datetime": "2024-07-10 10:42:02.014921",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -43,7 +43,7 @@
          "id": 335090491239997765
       },
       {
-         "datetime": "2024-07-10 10:33:15.396622",
+         "datetime": "2024-07-10 10:42:02.378666",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -57,7 +57,7 @@
          "id": 271237183276152025
       },
       {
-         "datetime": "2024-07-10 10:33:15.862031",
+         "datetime": "2024-07-10 10:42:02.751765",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -71,7 +71,7 @@
          "id": 266733447849641180
       },
       {
-         "datetime": "2024-07-10 10:33:16.182288",
+         "datetime": "2024-07-10 10:42:03.058196",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -85,7 +85,7 @@
          "id": 254875707207736082
       },
       {
-         "datetime": "2024-07-10 10:33:16.428978",
+         "datetime": "2024-07-10 10:42:03.273028",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -99,7 +99,7 @@
          "id": 234097170325840633
       },
       {
-         "datetime": "2024-07-10 10:33:16.773833",
+         "datetime": "2024-07-10 10:42:03.591758",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -113,7 +113,7 @@
          "id": 362908000186027917
       },
       {
-         "datetime": "2024-07-10 10:33:17.084386",
+         "datetime": "2024-07-10 10:42:03.888701",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -127,21 +127,21 @@
          "id": 172382415050547652
       },
       {
-         "datetime": "2024-07-10 10:33:17.550965",
+         "datetime": "2024-07-10 10:42:04.317944",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
-         "live_id": null,
-         "live_title": null,
-         "last_video_id": "k7nXHkqv-Vs",
-         "last_video_title": "#LUZUFC l MESSI MIRA LUZU, BATMAN DESPIERTA A MARTI Y ¿QUIÉN GANA EL TUTTI FRUTTI?",
+         "live_id": "TrrEj7frH4k",
+         "live_title": "🔴ANTES QUE NADIE | EN VIVO",
+         "last_video_id": "h79jKV9kFcM",
+         "last_video_title": "#NADIEDICENADA | ¿SER RELAJADO VS SER AUTOEXIGENTE? Y MOMI CUENTA TODO SOBRE SU VIAJE A EZEIZA",
          "id": 282073350165959778
       },
       {
-         "datetime": "2024-07-10 10:33:17.803053",
+         "datetime": "2024-07-10 10:42:04.559395",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_id": "",
@@ -155,7 +155,7 @@
          "id": 107918566631763981
       },
       {
-         "datetime": "2024-07-10 10:33:18.077850",
+         "datetime": "2024-07-10 10:42:04.824119",
          "stream": {
             "title": "Pais de Boludos",
             "channel_id": "",
@@ -169,7 +169,7 @@
          "id": 673810517087273219
       },
       {
-         "datetime": "2024-07-10 10:33:18.480261",
+         "datetime": "2024-07-10 10:42:05.096766",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_id": "",
@@ -183,7 +183,7 @@
          "id": 146452758278300682
       },
       {
-         "datetime": "2024-07-10 10:33:18.912627",
+         "datetime": "2024-07-10 10:42:05.456945",
          "stream": {
             "title": "Mate",
             "channel_id": "",
