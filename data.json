@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-10 18:54:37.353996",
+         "datetime": "2024-07-10 19:10:44.892750",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -15,7 +15,7 @@
          "id": 273815979821897066
       },
       {
-         "datetime": "2024-07-10 18:54:37.680982",
+         "datetime": "2024-07-10 19:10:45.248307",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -29,7 +29,7 @@
          "id": 262785856452547524
       },
       {
-         "datetime": "2024-07-10 18:54:37.895868",
+         "datetime": "2024-07-10 19:10:45.484044",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -37,27 +37,27 @@
          },
          "stream_key": "Radio con vos",
          "live_id": "VR-3nAQcG0c",
-         "live_title": "Pasaron Cosas con Alejandro Bercovich | RADIO CON VOS",
-         "last_video_id": "cK4uejnfqTw",
-         "last_video_title": "\"Trump, Bolsonaro y Milei necesitan mostrarse como supermachos\", Nahuel Puyaps",
+         "live_title": "Mejor País del Mundo con Diego Iglesias | RADIO CON VOS",
+         "last_video_id": "DhNqa_f4rCI",
+         "last_video_title": "Columna Gastronómica: sopa de calabaza | Pasaron Cosas",
          "id": 335090491239997765
       },
       {
-         "datetime": "2024-07-10 18:54:38.227949",
+         "datetime": "2024-07-10 19:10:45.801525",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
-         "live_id": "RlVkfcHjYEk",
-         "live_title": "INDUSTRIA NACIONAL CON PEDRO ROSEMBLAT, MARCOS ARAMBURU, LA COPE Y MATI MOWSZET | GELATINA",
-         "last_video_id": "DR8SU0ZDqj8",
-         "last_video_title": "PERÓN x CRISTINA | 50 años después | Pedro Rosemblat en Gelatina",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "B8t0lsWyoAQ",
+         "last_video_title": "SUBIÓ EL DÓLAR BLUE | LA FÁBRICA DE JINGLES CON PEDRO ROSEMBLAT",
          "id": 271237183276152025
       },
       {
-         "datetime": "2024-07-10 18:54:38.614010",
+         "datetime": "2024-07-10 19:10:46.257150",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -71,7 +71,7 @@
          "id": 266733447849641180
       },
       {
-         "datetime": "2024-07-10 18:54:38.856044",
+         "datetime": "2024-07-10 19:10:46.554885",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -85,7 +85,7 @@
          "id": 254875707207736082
       },
       {
-         "datetime": "2024-07-10 18:54:39.054944",
+         "datetime": "2024-07-10 19:10:46.770862",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -99,7 +99,7 @@
          "id": 234097170325840633
       },
       {
-         "datetime": "2024-07-10 18:54:39.334679",
+         "datetime": "2024-07-10 19:10:47.043726",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -113,21 +113,21 @@
          "id": 362908000186027917
       },
       {
-         "datetime": "2024-07-10 18:54:39.622717",
+         "datetime": "2024-07-10 19:10:47.306134",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
          },
          "stream_key": "OLGA",
-         "live_id": "MCLU-v4WFW8",
-         "live_title": "SE EXTRAÑA A LA NONA en OLGA con Yayo, Caro Pardíaco, Fran Gomez, Grego Rossello y Pelao | EN VIVO",
-         "last_video_id": "hngbB11CLlo",
-         "last_video_title": "TALENTO MATA GALAN, CONSULTORIO LEGAL y la TEORÍA del CEREAL | Cuando Eric conoció a Milton | 8/7",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "SmOLjSoKRNs",
+         "last_video_title": "La SELECCIÓN de NUESTRAS VIDAS | Soñé que Volaba | COMPLETO 10/7",
          "id": 172382415050547652
       },
       {
-         "datetime": "2024-07-10 18:54:39.960896",
+         "datetime": "2024-07-10 19:10:47.722469",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
@@ -141,7 +141,7 @@
          "id": 282073350165959778
       },
       {
-         "datetime": "2024-07-10 18:54:40.165299",
+         "datetime": "2024-07-10 19:10:47.951275",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_id": "",
@@ -155,7 +155,7 @@
          "id": 107918566631763981
       },
       {
-         "datetime": "2024-07-10 18:54:40.430232",
+         "datetime": "2024-07-10 19:10:48.212620",
          "stream": {
             "title": "Pais de Boludos",
             "channel_id": "",
@@ -169,7 +169,7 @@
          "id": 673810517087273219
       },
       {
-         "datetime": "2024-07-10 18:54:40.684268",
+         "datetime": "2024-07-10 19:10:48.465716",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_id": "",
@@ -183,7 +183,7 @@
          "id": 146452758278300682
       },
       {
-         "datetime": "2024-07-10 18:54:41.047433",
+         "datetime": "2024-07-10 19:10:48.817887",
          "stream": {
             "title": "Mate",
             "channel_id": "",
