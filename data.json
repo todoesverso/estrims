@@ -1,21 +1,21 @@
 {
    "data": [
       {
-         "datetime": "2024-07-10 14:56:22.167490",
+         "datetime": "2024-07-10 15:15:45.898850",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
          },
          "stream_key": "Nico Guthmann",
-         "live_id": "u4FdOJYN3m0",
-         "live_title": "KICILLOF intenta LIDERAR  pero LE ESTÁ COSTANDO | TUGO con Nico Guthmann",
-         "last_video_id": "zzQqbIEk3cU",
-         "last_video_title": "ASUMIÓ STURZENEGGER: Recordamos sus GREATEST HITS",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "9N6pbahtd5M",
+         "last_video_title": "Los MERCADOS en PÁNICO presionan a MILEI  | TUGO con Nico Guthmann",
          "id": 273815979821897066
       },
       {
-         "datetime": "2024-07-10 14:56:22.499621",
+         "datetime": "2024-07-10 15:15:46.303604",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -29,7 +29,7 @@
          "id": 262785856452547524
       },
       {
-         "datetime": "2024-07-10 14:56:22.703613",
+         "datetime": "2024-07-10 15:15:46.606116",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -38,12 +38,12 @@
          "stream_key": "Radio con vos",
          "live_id": "VR-3nAQcG0c",
          "live_title": "LIM con Reynaldo Sietecase | RADIO CON VOS",
-         "last_video_id": "RfGHxeJrhHo",
-         "last_video_title": "Jairo Straccia opinó sobre el desfile militar por el 9 de Julio",
+         "last_video_id": "nnrHO8Y9SF8",
+         "last_video_title": "Hugo Alconada Mon en #PaseLoQuePase: \"Milei me llamó sorete ensobrado y me bloqueó\"",
          "id": 335090491239997765
       },
       {
-         "datetime": "2024-07-10 14:56:23.060183",
+         "datetime": "2024-07-10 15:15:46.997101",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -51,13 +51,13 @@
          },
          "stream_key": "Gelatina",
          "live_id": "RlVkfcHjYEk",
-         "live_title": "HERMOSA MAÑANA VERDAD CON CLEMENTE CANCELA, JESICALL Y DIEGO DELLA SALA | GELATINA",
+         "live_title": "ELIJO CREER EN VIVO CON FLOR HALFON | GELATINA",
          "last_video_id": "DR8SU0ZDqj8",
          "last_video_title": "PERÓN x CRISTINA | 50 años después | Pedro Rosemblat en Gelatina",
          "id": 271237183276152025
       },
       {
-         "datetime": "2024-07-10 14:56:23.455770",
+         "datetime": "2024-07-10 15:15:47.488408",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -71,7 +71,7 @@
          "id": 266733447849641180
       },
       {
-         "datetime": "2024-07-10 14:56:23.734023",
+         "datetime": "2024-07-10 15:15:47.785530",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -85,7 +85,7 @@
          "id": 254875707207736082
       },
       {
-         "datetime": "2024-07-10 14:56:23.938298",
+         "datetime": "2024-07-10 15:15:48.027676",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -99,7 +99,7 @@
          "id": 234097170325840633
       },
       {
-         "datetime": "2024-07-10 14:56:24.292736",
+         "datetime": "2024-07-10 15:15:48.388563",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -113,7 +113,7 @@
          "id": 362908000186027917
       },
       {
-         "datetime": "2024-07-10 14:56:24.572327",
+         "datetime": "2024-07-10 15:15:48.775498",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 172382415050547652
       },
       {
-         "datetime": "2024-07-10 14:56:25.010921",
+         "datetime": "2024-07-10 15:15:49.234982",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
@@ -141,7 +141,7 @@
          "id": 282073350165959778
       },
       {
-         "datetime": "2024-07-10 14:56:25.224226",
+         "datetime": "2024-07-10 15:15:49.517056",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_id": "",
@@ -155,7 +155,7 @@
          "id": 107918566631763981
       },
       {
-         "datetime": "2024-07-10 14:56:25.467235",
+         "datetime": "2024-07-10 15:15:49.789949",
          "stream": {
             "title": "Pais de Boludos",
             "channel_id": "",
@@ -169,7 +169,7 @@
          "id": 673810517087273219
       },
       {
-         "datetime": "2024-07-10 14:56:25.745491",
+         "datetime": "2024-07-10 15:15:50.141320",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_id": "",
@@ -183,7 +183,7 @@
          "id": 146452758278300682
       },
       {
-         "datetime": "2024-07-10 14:56:26.078737",
+         "datetime": "2024-07-10 15:15:50.554026",
          "stream": {
             "title": "Mate",
             "channel_id": "",
