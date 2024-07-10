@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-10 17:56:28.616877",
+         "datetime": "2024-07-10 18:20:29.705676",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -15,21 +15,21 @@
          "id": 273815979821897066
       },
       {
-         "datetime": "2024-07-10 17:56:28.981902",
+         "datetime": "2024-07-10 18:20:30.040670",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "G7_R1fxQdBg",
-         "live_title": "PELOTA DIVIDIDA EN VIVO con Mikki Lusardi, el Ruso Verea, Cata Sarra y Juli Giaco | BLENDER",
-         "last_video_id": "Asepn46gDUY",
-         "last_video_title": "EL CASO ÁNGELES RAWSON | CONFESIONES de BAR con MAURO SZETA | BLENDER",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "F1bZqFcCLYg",
+         "last_video_title": "BATMAN REBORD: LA PELÍCULA | HAY ALGO AHÍ | BLENDER",
          "id": 262785856452547524
       },
       {
-         "datetime": "2024-07-10 17:56:29.549044",
+         "datetime": "2024-07-10 18:20:30.222562",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -38,12 +38,12 @@
          "stream_key": "Radio con vos",
          "live_id": "VR-3nAQcG0c",
          "live_title": "Pasaron Cosas con Alejandro Bercovich | RADIO CON VOS",
-         "last_video_id": "yH5SOSNLCgg",
-         "last_video_title": "\"Es indignante ver el payasesco acto del presidente subiéndose a un tanque\", Estela de Carlotto",
+         "last_video_id": "cK4uejnfqTw",
+         "last_video_title": "\"Trump, Bolsonaro y Milei necesitan mostrarse como supermachos\", Nahuel Puyaps",
          "id": 335090491239997765
       },
       {
-         "datetime": "2024-07-10 17:56:29.886624",
+         "datetime": "2024-07-10 18:20:30.549649",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -51,13 +51,13 @@
          },
          "stream_key": "Gelatina",
          "live_id": "RlVkfcHjYEk",
-         "live_title": "JUAN GRABOIS CON PEDRO ROSEMBLAT EN INDUSTRIA NACIONAL | GELATINA",
+         "live_title": "INDUSTRIA NACIONAL CON PEDRO ROSEMBLAT, MARCOS ARAMBURU, LA COPE Y MATI MOWSZET | GELATINA",
          "last_video_id": "DR8SU0ZDqj8",
          "last_video_title": "PERÓN x CRISTINA | 50 años después | Pedro Rosemblat en Gelatina",
          "id": 271237183276152025
       },
       {
-         "datetime": "2024-07-10 17:56:30.286403",
+         "datetime": "2024-07-10 18:20:30.952599",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -71,7 +71,7 @@
          "id": 266733447849641180
       },
       {
-         "datetime": "2024-07-10 17:56:30.572056",
+         "datetime": "2024-07-10 18:20:31.208160",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -85,7 +85,7 @@
          "id": 254875707207736082
       },
       {
-         "datetime": "2024-07-10 17:56:30.765000",
+         "datetime": "2024-07-10 18:20:31.395391",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -99,7 +99,7 @@
          "id": 234097170325840633
       },
       {
-         "datetime": "2024-07-10 17:56:31.100158",
+         "datetime": "2024-07-10 18:20:31.673087",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -113,7 +113,7 @@
          "id": 362908000186027917
       },
       {
-         "datetime": "2024-07-10 17:56:31.348230",
+         "datetime": "2024-07-10 18:20:31.991630",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 172382415050547652
       },
       {
-         "datetime": "2024-07-10 17:56:31.741117",
+         "datetime": "2024-07-10 18:20:32.430852",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
@@ -135,13 +135,13 @@
          },
          "stream_key": "LUZU TV",
          "live_id": "TrrEj7frH4k",
-         "live_title": "NADA QUE NO SEPAMOS con CHINO LEUNIS, BELU NEGRI, LAILA ROTH Y SOFICALVO | EN VIVO",
+         "live_title": "PATRIA Y FAMILIA: CAMI MAYAN, LUCAS SPADAFORA, ANITA ESPÓSITO y KEVSHO | EN VIVO",
          "last_video_id": "h79jKV9kFcM",
          "last_video_title": "#NADIEDICENADA | ¿SER RELAJADO VS SER AUTOEXIGENTE? Y MOMI CUENTA TODO SOBRE SU VIAJE A EZEIZA",
          "id": 282073350165959778
       },
       {
-         "datetime": "2024-07-10 17:56:31.950916",
+         "datetime": "2024-07-10 18:20:32.662604",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_id": "",
@@ -155,7 +155,7 @@
          "id": 107918566631763981
       },
       {
-         "datetime": "2024-07-10 17:56:32.202026",
+         "datetime": "2024-07-10 18:20:32.887940",
          "stream": {
             "title": "Pais de Boludos",
             "channel_id": "",
@@ -169,7 +169,7 @@
          "id": 673810517087273219
       },
       {
-         "datetime": "2024-07-10 17:56:32.445381",
+         "datetime": "2024-07-10 18:20:33.148256",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_id": "",
@@ -183,7 +183,7 @@
          "id": 146452758278300682
       },
       {
-         "datetime": "2024-07-10 17:56:32.803687",
+         "datetime": "2024-07-10 18:20:33.483778",
          "stream": {
             "title": "Mate",
             "channel_id": "",
