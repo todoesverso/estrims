@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-11 17:56:28.016066",
+         "datetime": "2024-07-11 18:18:41.654781",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -15,21 +15,21 @@
          "id": 550881336697420066
       },
       {
-         "datetime": "2024-07-11 17:56:28.339329",
+         "datetime": "2024-07-11 18:18:41.974474",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "H6_UIlUYCg0",
-         "live_title": "PELOTA DIVIDIDA EN VIVO con Mikki Lusardi, el Ruso Verea, Cata Sarra y Juli Giaco | BLENDER",
-         "last_video_id": "Asepn46gDUY",
-         "last_video_title": "EL CASO ÁNGELES RAWSON | CONFESIONES de BAR con MAURO SZETA | BLENDER",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "tTFM6qcFYgk",
+         "last_video_title": "LILITA - REBORD | HAY ALGO AHÍ #1",
          "id": 308817330986766121
       },
       {
-         "datetime": "2024-07-11 17:56:28.573592",
+         "datetime": "2024-07-11 18:18:42.231562",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -43,7 +43,7 @@
          "id": 300927867030388627
       },
       {
-         "datetime": "2024-07-11 17:56:28.891190",
+         "datetime": "2024-07-11 18:18:42.573614",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
@@ -57,7 +57,7 @@
          "id": 236253392857460522
       },
       {
-         "datetime": "2024-07-11 17:56:29.268270",
+         "datetime": "2024-07-11 18:18:42.994217",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -71,7 +71,7 @@
          "id": 177372875481777062
       },
       {
-         "datetime": "2024-07-11 17:56:29.563470",
+         "datetime": "2024-07-11 18:18:43.264471",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -85,7 +85,7 @@
          "id": 337375492913955439
       },
       {
-         "datetime": "2024-07-11 17:56:29.772650",
+         "datetime": "2024-07-11 18:18:43.511678",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -99,7 +99,7 @@
          "id": 219298685417466047
       },
       {
-         "datetime": "2024-07-11 17:56:30.030908",
+         "datetime": "2024-07-11 18:18:43.845758",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -113,7 +113,7 @@
          "id": 587188283233965753
       },
       {
-         "datetime": "2024-07-11 17:56:30.293198",
+         "datetime": "2024-07-11 18:18:44.201290",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 261155838175082709
       },
       {
-         "datetime": "2024-07-11 17:56:30.690697",
+         "datetime": "2024-07-11 18:18:44.626963",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
@@ -135,13 +135,13 @@
          },
          "stream_key": "LUZU TV",
          "live_id": "Z3JkJIquwX8",
-         "live_title": "NADA QUE NO SEPAMOS con CHINO LEUNIS, BELU NEGRI, LAILA ROTH Y SOFICALVO | EN VIVO",
+         "live_title": "🔴 PATRIA Y FAMILIA con FEDE POPGOLD, CAMI MAYAN, LUCAS SPADAFORA Y ANITA ESPÓSITO | EN VIVO",
          "last_video_id": "n56JuhUs81w",
          "last_video_title": "#NADIEDICENADA | VIRGINIA CUENTA TODO SOBRE GH, NOS DA CONSEJOS HOTS Y ¿NICO ABRAZÓ ÁRBOLES?",
          "id": 100168532396960157
       },
       {
-         "datetime": "2024-07-11 17:56:30.897296",
+         "datetime": "2024-07-11 18:18:44.856568",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_id": "",
@@ -155,7 +155,7 @@
          "id": 259510250934887656
       },
       {
-         "datetime": "2024-07-11 17:56:31.166623",
+         "datetime": "2024-07-11 18:18:45.133915",
          "stream": {
             "title": "Pais de Boludos",
             "channel_id": "",
@@ -169,7 +169,7 @@
          "id": 264518049338861267
       },
       {
-         "datetime": "2024-07-11 17:56:31.398642",
+         "datetime": "2024-07-11 18:18:45.452077",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_id": "",
@@ -183,7 +183,7 @@
          "id": 255868746337505773
       },
       {
-         "datetime": "2024-07-11 17:56:31.792256",
+         "datetime": "2024-07-11 18:18:45.816096",
          "stream": {
             "title": "Mate",
             "channel_id": "",
@@ -197,7 +197,7 @@
          "id": 171335717626484790
       },
       {
-         "datetime": "2024-07-11 17:56:32.208552",
+         "datetime": "2024-07-11 18:18:46.211013",
          "stream": {
             "title": "El Destape",
             "channel_id": "",
