@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-11 11:40:49.568335",
+         "datetime": "2024-07-11 11:49:33.288017",
          "stream": {
             "title": "Nico Guthmann",
             "channel_id": "UCpvYnSZNyBxF2MSWvju06jg",
@@ -15,7 +15,7 @@
          "id": 273815979821897066
       },
       {
-         "datetime": "2024-07-11 11:40:49.918092",
+         "datetime": "2024-07-11 11:49:33.573155",
          "stream": {
             "title": "BLENDER",
             "channel_id": "UC6pJGaMdx5Ter_8zYbLoRgA",
@@ -29,7 +29,7 @@
          "id": 262785856452547524
       },
       {
-         "datetime": "2024-07-11 11:40:50.124744",
+         "datetime": "2024-07-11 11:49:33.779896",
          "stream": {
             "title": "Radio con vos",
             "channel_id": "UCxDteokWBemJvLI_I0VUGdA",
@@ -38,26 +38,26 @@
          "stream_key": "Radio con vos",
          "live_id": "DToUnd0tIt4",
          "live_title": "YAQPA con Ernesto Tenembaum | RADIO CON VOS",
-         "last_video_id": "Iu8z-lyJSTA",
-         "last_video_title": "Vidas prestadas con Jorge Consiglio",
+         "last_video_id": "4ode71jN70E",
+         "last_video_title": "Deliveries en crisis: más horas por menos plata | #MagaDeCastro en #BTChina",
          "id": 335090491239997765
       },
       {
-         "datetime": "2024-07-11 11:40:50.431451",
+         "datetime": "2024-07-11 11:49:34.095885",
          "stream": {
             "title": "Gelatina",
             "channel_id": "UCWSfXECGo1qK_H7SXRaUSMg",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
-         "live_id": "S_6-43b-qGg",
-         "live_title": "NUEVOS TRAPOS EN VIVO CON JOSE AMORE Y OCTAVIO GENCARELLI | GELATINA",
-         "last_video_id": "DR8SU0ZDqj8",
-         "last_video_title": "PERÓN x CRISTINA | 50 años después | Pedro Rosemblat en Gelatina",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "B8t0lsWyoAQ",
+         "last_video_title": "SUBIÓ EL DÓLAR BLUE | LA FÁBRICA DE JINGLES CON PEDRO ROSEMBLAT",
          "id": 271237183276152025
       },
       {
-         "datetime": "2024-07-11 11:40:50.858851",
+         "datetime": "2024-07-11 11:49:34.454173",
          "stream": {
             "title": "Futurock FM",
             "channel_id": "",
@@ -71,7 +71,7 @@
          "id": 266733447849641180
       },
       {
-         "datetime": "2024-07-11 11:40:51.118519",
+         "datetime": "2024-07-11 11:49:34.660551",
          "stream": {
             "title": "posdata",
             "channel_id": "",
@@ -85,7 +85,7 @@
          "id": 254875707207736082
       },
       {
-         "datetime": "2024-07-11 11:40:51.308149",
+         "datetime": "2024-07-11 11:49:34.837593",
          "stream": {
             "title": "Cenital",
             "channel_id": "",
@@ -99,7 +99,7 @@
          "id": 234097170325840633
       },
       {
-         "datetime": "2024-07-11 11:40:51.619942",
+         "datetime": "2024-07-11 11:49:35.079711",
          "stream": {
             "title": "Factoria 1251",
             "channel_id": "",
@@ -113,7 +113,7 @@
          "id": 362908000186027917
       },
       {
-         "datetime": "2024-07-11 11:40:51.889190",
+         "datetime": "2024-07-11 11:49:35.303857",
          "stream": {
             "title": "OLGA",
             "channel_id": "",
@@ -127,7 +127,7 @@
          "id": 172382415050547652
       },
       {
-         "datetime": "2024-07-11 11:40:52.265722",
+         "datetime": "2024-07-11 11:49:35.651245",
          "stream": {
             "title": "LUZU TV",
             "channel_id": "",
@@ -141,7 +141,7 @@
          "id": 282073350165959778
       },
       {
-         "datetime": "2024-07-11 11:40:52.489541",
+         "datetime": "2024-07-11 11:49:35.811380",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_id": "",
@@ -155,7 +155,7 @@
          "id": 107918566631763981
       },
       {
-         "datetime": "2024-07-11 11:40:52.724347",
+         "datetime": "2024-07-11 11:49:36.045254",
          "stream": {
             "title": "Pais de Boludos",
             "channel_id": "",
@@ -169,7 +169,7 @@
          "id": 673810517087273219
       },
       {
-         "datetime": "2024-07-11 11:40:52.982008",
+         "datetime": "2024-07-11 11:49:36.266693",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_id": "",
@@ -183,7 +183,7 @@
          "id": 146452758278300682
       },
       {
-         "datetime": "2024-07-11 11:40:53.302091",
+         "datetime": "2024-07-11 11:49:36.594495",
          "stream": {
             "title": "Mate",
             "channel_id": "",
