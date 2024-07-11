@@ -79,14 +79,20 @@
       </ul>
     </div>
 
-    <div id="search-container">
-      <input id="search-input" class="input" type="text" placeholder="Search...">
-      <button id="clear-search" onclick="clearSearch()">×</button>
+    <div id="search-container" class="box">
+      <p id="date"></p>
+      <div class="control has-icons-right">
+        <input id="search-input" class="input is-hovered" placeholder="Search..." />
+        <span class="icon is-medium is-right">
+          <i class="delete is-medium" onclick="clearSearch()"></i>
+        </span>
+      </div>
     </div>
 
     <div id="tab-live" class="tab-content columns is-multiline is-active"></div>
     <div id="tab-latest" class="tab-content columns is-multiline"></div>
-    <div id="error-message" class="notification is-danger is-hidden">Error fetching data. Please try again later.</div>
+    <div id="error-message" class="notification is-danger is-hidden">Error fetching data. Please try again later.
+    </div>
 
   </div>
 
@@ -121,10 +127,14 @@
         }
         const data = await response.json();
         data.data.forEach(video => {
-          addCard('tab-live', video.live_id, video.live_title, true);
-          addCard('tab-latest', video.last_video_id, video.last_video_title, false);
+          addCard('tab-live', video.live_id, video.live_title, video.datetime, true);
+          addCard('tab-latest', video.last_video_id, video.last_video_title, video.datetime, false);
         });
 
+        const dateNode = document.getElementById("date");
+
+        const date = formatDateTime(data.data[0].datetime);
+        dateNode.textContent = date;
         showTab('tab-live');
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -132,18 +142,18 @@
       }
     }
 
-    function addCard(tabId, videoId, title, is_live) {
+    function addCard(tabId, videoId, title, datetime, is_live) {
       const tabContent = document.getElementById(tabId);
       if (tabContent && videoId !== null) {
         const column = document.createElement('div');
         column.className = 'column is-one-quarter';
         column.setAttribute('data-title', title.toLowerCase());
-        column.appendChild(createVideoCard(videoId, title, is_live));
+        column.appendChild(createVideoCard(videoId, title, datetime, is_live));
         tabContent.appendChild(column);
       }
     }
 
-    function createVideoCard(videoId, title, is_live) {
+    function createVideoCard(videoId, title, datetime, is_live) {
       const show_live_tag = (is_live === true) ? "" : "is-hidden";
       const card = document.createElement('div');
       card.className = 'card video-thumbnail';
@@ -163,6 +173,12 @@
         </div>
       `;
       return card;
+    }
+
+    function formatDateTime(datetime) {
+      const options = {year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit'};
+      const date = new Date(datetime);
+      return date.toLocaleDateString(undefined, options);
     }
 
     function showTab(tabId) {
