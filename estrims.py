@@ -6,9 +6,8 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import json
-
-
 import logging
+
 
 logger = logging.getLogger(__name__)
 
@@ -40,7 +39,6 @@ class BaseDb:
 @dataclass
 class Stream(BaseDb):
     title: str
-    channel_id: str
     channel_url: str
 
 
@@ -119,42 +117,31 @@ def parse_live_stream(script_dict):
 
 
 def get_nested_value(data, keys):
-    """Recursively try to get a nested value in a JSON-like dictionary.
-
-    Args:
-        data (dict): The JSON data as a dictionary.
-        keys (list): A list of lists, where each inner list is a possible path of keys to the target value.
-
-    Returns:
-        The value if found, otherwise None.
-    """
     if not keys:
         return None
 
     for path in keys:
         try:
             return access_path(data, path)
-        except KeyError:
+        except (KeyError, IndexError, TypeError):
             continue
     return None
 
 
 def access_path(data, path):
-    """Access a value in a nested dictionary following a specific path.
-
-    Args:
-        data (dict): The JSON data as a dictionary.
-        path (list): A list of keys representing the path to the target value.
-
-    Returns:
-        The value found at the end of the path.
-
-    Raises:
-        KeyError: If the path is not found in the data.
-    """
     for key in path:
-        data = data[key]
+        if isinstance(data, dict):
+            data = data[key]
+        elif isinstance(data, list):
+            data = data[key]
+        else:
+            raise TypeError(f"Expected dict or list, got {type(data).__name__}")
     return data
+
+
+def get_title(base_path):
+    paths = [["title", "runs", 0, "text"], ["title", "simpleText"]]
+    return get_nested_value(base_path, paths)
 
 
 def parse_latest_stream(script_dict):
@@ -164,29 +151,75 @@ def parse_latest_stream(script_dict):
     base_path = script_dict["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][0][
         "tabRenderer"
     ]["content"]["sectionListRenderer"]["contents"]
-    __paths = [["content", "twoColumnBrowseResultsRenderer"]]
-    try:
-        ret = base_path[4]["itemSectionRenderer"]["contents"][0]["shelfRenderer"][
-            "content"
-        ]["horizontalListRenderer"]["items"][0]["gridVideoRenderer"]
-        title = ret["title"]["runs"][0]["text"]
-        id = ret["videoId"]
-    except (KeyError, IndexError):
-        pass
+    base_path_array = [
+        "contents",
+        "twoColumnBrowseResultsRenderer",
+        "tabs",
+        0,
+        "tabRenderer",
+        "content",
+        "sectionListRenderer",
+        "contents",
+    ]
+    paths = [
+        [
+            *base_path_array,
+            4,
+            "itemSectionRenderer",
+            "contents",
+            0,
+            "shelfRenderer",
+            "content",
+            "horizontalListRenderer",
+            "items",
+            0,
+            "gridVideoRenderer",
+        ],
+        [
+            *base_path_array,
+            0,
+            "itemSectionRenderer",
+            "contents",
+            0,
+            "channelVideoPlayerRenderer",
+        ],
+        [
+            *base_path_array,
+            0,
+            "itemSectionRenderer",
+            "contents",
+            0,
+            "shelfRenderer",
+            "content",
+            "horizontalListRenderer",
+            "items",
+            0,
+            "gridVideoRenderer",
+        ],
+        [
+            *base_path_array,
+            1,
+            "itemSectionRenderer",
+            "contents",
+            0,
+            "shelfRenderer",
+            "content",
+            "horizontalListRenderer",
+            "items",
+            0,
+            "gridVideoRenderer",
+        ],
+    ]
 
-    try:
-        ret = base_path[0]["itemSectionRenderer"]["contents"][0][
-            "channelVideoPlayerRenderer"
-        ]
-        title = ret["title"]["runs"][0]["text"]
-        id = ret["videoId"]
-    except KeyError:
-        ret = base_path[1]["itemSectionRenderer"]["contents"][0]["shelfRenderer"][
-            "content"
-        ]["horizontalListRenderer"]["items"][0]["gridVideoRenderer"]
+    ret = get_nested_value(script_dict, paths)
+    title = get_title(ret)
+    id = ret["videoId"]
 
-        title = ret["title"]["simpleText"]
-        id = ret["videoId"]
+    return {
+        "last_video_title": title,
+        "last_video_id": id,
+    }
+
     return {
         "last_video_title": title,
         "last_video_id": id,
@@ -204,7 +237,7 @@ def new_stream_status(stream):
             stream=stream,
             stream_key=stream.title,
             **last,
-            **live
+            **live,
         )
 
         stream_status.create_or_update_to_db(
@@ -216,83 +249,75 @@ if __name__ == "__main__":
     streams_list = [
         Stream(
             title="Nico Guthmann",
-            channel_id="UCpvYnSZNyBxF2MSWvju06jg",
             channel_url="https://www.youtube.com/@NicoGuthmann",
         ),
         Stream(
             title="BLENDER",
-            channel_id="UC6pJGaMdx5Ter_8zYbLoRgA",
             channel_url="https://www.youtube.com/@estoesblender",
         ),
         Stream(
             title="Radio con vos",
-            channel_id="UCxDteokWBemJvLI_I0VUGdA",
             channel_url="https://www.youtube.com/@RadioConVos89.9",
         ),
         Stream(
             title="Gelatina",
-            channel_id="UCWSfXECGo1qK_H7SXRaUSMg",
             channel_url="https://www.youtube.com/@SomosGelatina",
         ),
         Stream(
             title="Futurock FM",
-            channel_id="",
             channel_url="https://www.youtube.com/@futurock",
         ),
         Stream(
             title="posdata",
-            channel_id="",
             channel_url="https://www.youtube.com/@Posdata_ar",
         ),
         Stream(
             title="Cenital",
-            channel_id="",
             channel_url="https://www.youtube.com/@Cenitalcom",
         ),
         Stream(
             title="Factoria 1251",
-            channel_id="",
             channel_url="https://www.youtube.com/@factoria1251",
         ),
         Stream(
             title="OLGA",
-            channel_id="",
             channel_url="https://www.youtube.com/@olgaenvivo_",
         ),
         Stream(
             title="LUZU TV",
-            channel_id="",
             channel_url="https://www.youtube.com/@luzutv",
         ),
         Stream(
             title="Picnoc Extraterrestre",
-            channel_id="",
             channel_url="https://www.youtube.com/@Picnic.Extraterrestre",
         ),
         Stream(
             title="Pais de Boludos",
-            channel_id="",
             channel_url="https://www.youtube.com/@PaisDeBoludos",
         ),
         Stream(
             title="Peroncho Delivery",
-            channel_id="",
             channel_url="https://www.youtube.com/@PeronchoStandUp",
         ),
         Stream(
             title="Mate",
-            channel_id="",
             channel_url="https://www.youtube.com/@somosmatear",
         ),
         Stream(
             title="El Destape",
-            channel_id="",
             channel_url="https://www.youtube.com/@ElDestapeTV",
+        ),
+        Stream(
+            title="Mano a Mano",
+            channel_url="https://www.youtube.com/@ManoaMano-jz7up",
+        ),
+        Stream(
+            title="220 Podcast",
+            channel_url="https://www.youtube.com/@220Podcast",
         ),
     ]
 
     streams = Streams(streams=streams_list)
-    # save_streams_to_db(streams)
 
     for s in streams.streams:
         new_stream_status(s)
