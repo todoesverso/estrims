@@ -284,6 +284,11 @@ if __name__ == "__main__":
             channel_id="",
             channel_url="https://www.youtube.com/@somosmatear",
         ),
+        Stream(
+            title="El Destape",
+            channel_id="",
+            channel_url="https://www.youtube.com/@ElDestapeTV",
+        ),
     ]
 
     streams = Streams(streams=streams_list)
