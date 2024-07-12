@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-12 15:44:48.998256",
+         "datetime": "2024-07-12 15:53:33.817898",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-12 15:44:49.308071",
+         "datetime": "2024-07-12 15:53:34.149280",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,7 +27,7 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-12 15:44:49.521768",
+         "datetime": "2024-07-12 15:53:34.409825",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -35,12 +35,12 @@
          "stream_key": "Radio con vos",
          "live_id": "RmKpz2lrv_s",
          "live_title": "LIM con Reynaldo Sietecase | RADIO CON VOS",
-         "last_video_id": "xl1p1koUPM4",
-         "last_video_title": "Constanza Moragues: \"Es mediocre que Villarruel plantee que abandonemos la banca\"",
+         "last_video_id": "nM-WS_7ISiQ",
+         "last_video_title": "Orlando Ferreres: \"Los economistas estamos acostumbrados a ser insultados por Milei\"",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-12 15:44:49.839802",
+         "datetime": "2024-07-12 15:53:34.773411",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-12 15:44:50.265453",
+         "datetime": "2024-07-12 15:53:35.187491",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-12 15:44:50.543954",
+         "datetime": "2024-07-12 15:53:35.478884",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-12 15:44:50.754454",
+         "datetime": "2024-07-12 15:53:35.708615",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-12 15:44:51.063993",
+         "datetime": "2024-07-12 15:53:36.028004",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,20 +105,20 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-12 15:44:51.369833",
+         "datetime": "2024-07-12 15:53:36.321612",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
          },
          "stream_key": "OLGA",
-         "live_id": "jGDe5fdkXs0",
-         "live_title": "SOÑÉ QUE VOLABA en OLGA con Migue Granados, Benja Amadeo, Sofi Morandi y Lucas Fridman | EN VIVO",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "PNTilyj9w7Q",
          "last_video_title": "NOMBRES RAROS de GRUPOS en WHATSAPP y el ADIÓS a FÚTBOL LIBRE | Paraíso Fiscal | COMPLETO 12/7",
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-12 15:44:51.765523",
+         "datetime": "2024-07-12 15:53:36.820466",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-12 15:44:51.998643",
+         "datetime": "2024-07-12 15:53:37.070700",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-12 15:44:52.252162",
+         "datetime": "2024-07-12 15:53:37.424371",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-12 15:44:52.481990",
+         "datetime": "2024-07-12 15:53:37.773480",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-12 15:44:52.850360",
+         "datetime": "2024-07-12 15:53:38.102404",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-12 15:44:53.188537",
+         "datetime": "2024-07-12 15:53:38.429860",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-12 15:44:53.364183",
+         "datetime": "2024-07-12 15:53:38.601924",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-12 15:44:53.579472",
+         "datetime": "2024-07-12 15:53:38.787406",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
