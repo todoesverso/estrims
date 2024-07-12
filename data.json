@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-12 10:38:52.219995",
+         "datetime": "2024-07-12 10:47:28.801338",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,33 +14,33 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-12 10:38:52.542808",
+         "datetime": "2024-07-12 10:47:29.076317",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "VBqqtpbQlTc",
-         "live_title": "DESAYUNO INTERMITENTE con Fede Simonetti, Eli Sánchez, Mauro Szeta, Vale Sarra y Manu Jove | BLENDER",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "2C_ojT0mLD4",
          "last_video_title": "SZETA con INFORMACIÓN del CASO LOAN y JOVE contra FÚTBOL LIBRE | DESAYUNO INTERMITENTE | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-12 10:38:52.773157",
+         "datetime": "2024-07-12 10:47:29.316501",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
          "live_id": "RmKpz2lrv_s",
-         "live_title": "Transmisión en vivo de Radio Con Vos 89.9",
+         "live_title": "YAQPA con Ernesto Tenembaum | RADIO CON VOS",
          "last_video_id": "xgVX3fj7WcY",
          "last_video_title": "Jairo Straccia: \"En el medio de una turbulencia financiera, la respuesta de Milei es sacarse\"",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-12 10:38:53.065962",
+         "datetime": "2024-07-12 10:47:29.656075",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-12 10:38:53.658858",
+         "datetime": "2024-07-12 10:47:30.084133",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-12 10:38:53.883156",
+         "datetime": "2024-07-12 10:47:30.400923",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-12 10:38:54.081984",
+         "datetime": "2024-07-12 10:47:30.600503",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-12 10:38:54.356787",
+         "datetime": "2024-07-12 10:47:30.904535",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-12 10:38:54.588448",
+         "datetime": "2024-07-12 10:47:31.140481",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-12 10:38:54.997565",
+         "datetime": "2024-07-12 10:47:31.581477",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-12 10:38:55.187530",
+         "datetime": "2024-07-12 10:47:31.811124",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-12 10:38:55.446205",
+         "datetime": "2024-07-12 10:47:32.062591",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-12 10:38:55.685767",
+         "datetime": "2024-07-12 10:47:32.303253",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-12 10:38:56.094379",
+         "datetime": "2024-07-12 10:47:32.665967",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-12 10:38:56.381334",
+         "datetime": "2024-07-12 10:47:32.977395",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-12 10:38:56.523410",
+         "datetime": "2024-07-12 10:47:33.139493",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-12 10:38:56.677689",
+         "datetime": "2024-07-12 10:47:33.314263",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
