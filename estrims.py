@@ -215,15 +215,13 @@ def parse_latest_stream(script_dict):
     title = get_title(ret)
     id = ret["videoId"]
 
-    return {
+    ret_dict = {
         "last_video_title": title,
         "last_video_id": id,
     }
+    logger.warning(ret_dict)
 
-    return {
-        "last_video_title": title,
-        "last_video_id": id,
-    }
+    return ret_dict
 
 
 def new_stream_status(stream):
@@ -314,6 +312,10 @@ if __name__ == "__main__":
         Stream(
             title="220 Podcast",
             channel_url="https://www.youtube.com/@220Podcast",
+        ),
+        Stream(
+            title="Eva TV",
+            channel_url="https://www.youtube.com/@evaenvivo",
         ),
     ]
 
