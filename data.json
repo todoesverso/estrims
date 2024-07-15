@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-15 17:53:17.209481",
+         "datetime": "2024-07-15 18:11:28.326213",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-15 17:53:17.588631",
+         "datetime": "2024-07-15 18:11:28.628747",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "-7teOzHuteM",
-         "live_title": "PELOTA DIVIDIDA EN VIVO con Mikki Lusardi, el Ruso Verea, Cata Sarra y Juli Giaco | BLENDER",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "Asepn46gDUY",
          "last_video_title": "EL CASO ÁNGELES RAWSON | CONFESIONES de BAR con MAURO SZETA | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-15 17:53:17.790041",
+         "datetime": "2024-07-15 18:11:28.845137",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -35,12 +35,12 @@
          "stream_key": "Radio con vos",
          "live_id": "qs0FygA623U",
          "live_title": "Pasaron Cosas con Alejandro Bercovich | RADIO CON VOS",
-         "last_video_id": "RTFmLeqoAGA",
-         "last_video_title": "\"Otro manotazo\"  por Alejandro Bercovich | Editorial en Pasaron Cosas",
+         "last_video_id": "U1yeSTDTu4g",
+         "last_video_title": "Canticuénticos en Pasaron Cosas",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-15 17:53:18.203081",
+         "datetime": "2024-07-15 18:11:29.290198",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-15 17:53:18.594892",
+         "datetime": "2024-07-15 18:11:29.726299",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-15 17:53:18.880323",
+         "datetime": "2024-07-15 18:11:30.064584",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-15 17:53:19.116404",
+         "datetime": "2024-07-15 18:11:30.305113",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-15 17:53:19.415300",
+         "datetime": "2024-07-15 18:11:30.638735",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-15 17:53:19.716329",
+         "datetime": "2024-07-15 18:11:30.999961",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-15 17:53:20.180718",
+         "datetime": "2024-07-15 18:11:31.492052",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
          "live_id": "zr7mOaPFTK8",
-         "live_title": "🔴 NADA QUE NO SEPAMOS con CHINO LEUNIS, BELU NEGRI, LAILA ROTH Y SOFI CALVO | EN VIVO",
+         "live_title": "🔴 PATRIA Y FAMILIA con CAMI MAYAN, LUCAS SPADAFORA, ANITA ESPÓSITO y DOMI FAENA | EN VIVO",
          "last_video_id": "IZRPDS2eG6s",
          "last_video_title": "#NADAQUENOSEPAMOS l EL EXTRAÑO SUEÑO DE BELU, MUCHO CHISME Y LO APRENDÍ CON LA EXPERIENCIA",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-15 17:53:20.413583",
+         "datetime": "2024-07-15 18:11:31.739521",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-15 17:53:20.631431",
+         "datetime": "2024-07-15 18:11:32.008470",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-15 17:53:20.909074",
+         "datetime": "2024-07-15 18:11:32.375015",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-15 17:53:21.306637",
+         "datetime": "2024-07-15 18:11:32.725513",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-15 17:53:21.646620",
+         "datetime": "2024-07-15 18:11:33.102287",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-15 17:53:21.801294",
+         "datetime": "2024-07-15 18:11:33.317214",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-15 17:53:21.978086",
+         "datetime": "2024-07-15 18:11:33.519748",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
