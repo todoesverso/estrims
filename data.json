@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-15 08:30:19.656432",
+         "datetime": "2024-07-15 08:42:50.160077",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-15 08:30:19.908972",
+         "datetime": "2024-07-15 08:42:50.380833",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,20 +27,20 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-15 08:30:20.119286",
+         "datetime": "2024-07-15 08:42:50.595380",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "qs0FygA623U",
+         "live_title": "Transmisión en vivo de Radio Con Vos 89.9",
          "last_video_id": "rp96Ng5oFl8",
          "last_video_title": "Leonardo López Aguilar - Chef y dueño de Estación Colombia | Yo No Fui",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-15 08:30:20.432763",
+         "datetime": "2024-07-15 08:42:50.893586",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-15 08:30:20.802611",
+         "datetime": "2024-07-15 08:42:51.295438",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-15 08:30:21.059013",
+         "datetime": "2024-07-15 08:42:51.548204",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-15 08:30:21.240124",
+         "datetime": "2024-07-15 08:42:51.734954",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-15 08:30:21.488367",
+         "datetime": "2024-07-15 08:42:52.030331",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,20 +105,20 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-15 08:30:21.718700",
+         "datetime": "2024-07-15 08:42:52.295823",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
          },
          "stream_key": "OLGA",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "TF7EoS-mMNQ",
+         "live_title": "PF, SI, Y SOÑÉ QUE VOLABA | PROGRAMAS COMPLETOS | VIERNES 12 DE JULIO DE 2024",
          "last_video_id": "PNTilyj9w7Q",
          "last_video_title": "NOMBRES RAROS de GRUPOS en WHATSAPP y el ADIÓS a FÚTBOL LIBRE | Paraíso Fiscal | COMPLETO 12/7",
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-15 08:30:22.122890",
+         "datetime": "2024-07-15 08:42:52.655224",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-15 08:30:22.335154",
+         "datetime": "2024-07-15 08:42:52.861738",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-15 08:30:22.556713",
+         "datetime": "2024-07-15 08:42:53.156754",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-15 08:30:22.770267",
+         "datetime": "2024-07-15 08:42:53.412696",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-15 08:30:23.097493",
+         "datetime": "2024-07-15 08:42:53.798647",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-15 08:30:23.428964",
+         "datetime": "2024-07-15 08:42:54.125684",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-15 08:30:23.594736",
+         "datetime": "2024-07-15 08:42:54.308016",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-15 08:30:23.755497",
+         "datetime": "2024-07-15 08:42:54.487486",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
