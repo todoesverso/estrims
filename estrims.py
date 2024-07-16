@@ -72,8 +72,10 @@ def save_streams_to_db(streams: Streams):
         s.write_to_db_if_not_exists(asdict(s), key={"title": s.title})
 
 
-def get_stream_bs_script(stream):
-    channel_url = stream.channel_url
+def get_stream_bs_script(stream, is_video=False):
+    channel_url = stream.channel_url 
+    if is_video:
+        channel_url = stream.channel_url + "/videos" 
     logger.warning(stream.channel_url)
     html = getHTMLdocument(channel_url)
     pattern = re.compile(r"ytInitialData = (.*);", re.MULTILINE | re.DOTALL)
@@ -144,6 +146,44 @@ def get_title(base_path):
     return get_nested_value(base_path, paths)
 
 
+def parse_latest_video(script_dict):
+    logger.warning("LAST VIDEO")
+    title = ""
+    id = ""
+    base_path_array = [
+        "contents",
+        "twoColumnBrowseResultsRenderer",
+        "tabs",
+        1,
+        "tabRenderer",
+        "content",
+        "richGridRenderer",
+        "contents",
+        0,
+        "richItemRenderer",
+        "content",
+        "videoRenderer",
+    ]
+    paths = [
+        [
+            *base_path_array,
+        ],
+    ]
+
+    ret = get_nested_value(script_dict, paths)
+    title = get_title(ret)
+    logger.error(ret)
+    id = ret["videoId"]
+
+    ret_dict = {
+        "last_video_title": title,
+        "last_video_id": id,
+    }
+    logger.warning(ret_dict)
+
+    return ret_dict
+
+
 def parse_latest_stream(script_dict):
     logger.warning("LAST")
     title = ""
@@ -162,6 +202,19 @@ def parse_latest_stream(script_dict):
         "contents",
     ]
     paths = [
+        [
+            *base_path_array,
+            3,
+            "itemSectionRenderer",
+            "contents",
+            0,
+            "shelfRenderer",
+            "content",
+            "horizontalListRenderer",
+            "items",
+            0,
+            "gridVideoRenderer",
+        ],
         [
             *base_path_array,
             4,
@@ -213,6 +266,7 @@ def parse_latest_stream(script_dict):
 
     ret = get_nested_value(script_dict, paths)
     title = get_title(ret)
+    logger.error(ret)
     id = ret["videoId"]
 
     ret_dict = {
@@ -226,8 +280,10 @@ def parse_latest_stream(script_dict):
 
 def new_stream_status(stream):
     script_dict = get_stream_bs_script(stream)
+    script_dict_video = get_stream_bs_script(stream, is_video=True)
     if script_dict:
-        last = parse_latest_stream(script_dict)
+        #last = parse_latest_stream(script_dict)
+        last = parse_latest_video(script_dict_video)
         live = parse_live_stream(script_dict)
 
         stream_status = StreamStatus(
