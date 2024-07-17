@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-17 11:26:27.011409",
+         "datetime": "2024-07-17 11:35:52.722611",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-17 11:26:27.457866",
+         "datetime": "2024-07-17 11:35:53.176733",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,7 +27,7 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-17 11:26:27.869968",
+         "datetime": "2024-07-17 11:35:53.617257",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,20 +40,20 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-17 11:26:28.419264",
+         "datetime": "2024-07-17 11:35:54.183268",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "oNkGMq0gVDo",
+         "live_title": "NUEVOS TRAPOS EN VIVO CON JOSE AMORE Y OCTAVIO GENCARELLI | GELATINA",
          "last_video_id": "O-AqqX6AM_A",
          "last_video_title": "MARTÍN AYERBE: “MILEI JURÓ LEALTAD A OTRAS BANDERAS” | INDUSTRIA NACIONAL CON PEDRO ROSEMBLAT",
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-17 11:26:29.047184",
+         "datetime": "2024-07-17 11:35:54.805465",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-17 11:26:29.520293",
+         "datetime": "2024-07-17 11:35:55.284438",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-17 11:26:29.939503",
+         "datetime": "2024-07-17 11:35:55.696613",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-17 11:26:30.423169",
+         "datetime": "2024-07-17 11:35:56.219780",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-17 11:26:30.875651",
+         "datetime": "2024-07-17 11:35:56.714980",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-17 11:26:31.518112",
+         "datetime": "2024-07-17 11:35:57.351604",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-17 11:26:31.964274",
+         "datetime": "2024-07-17 11:35:57.816804",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-17 11:26:32.468514",
+         "datetime": "2024-07-17 11:35:58.296033",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-17 11:26:32.907055",
+         "datetime": "2024-07-17 11:35:58.757403",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-17 11:26:33.546044",
+         "datetime": "2024-07-17 11:35:59.274890",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-17 11:26:34.086993",
+         "datetime": "2024-07-17 11:35:59.835674",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -191,12 +191,12 @@
          "stream_key": "El Destape",
          "live_id": "sDcV7_fhvKA",
          "live_title": "Es Muy Temprano EN VIVO con Nico Esquibel y Lucía Rodríguez Bosch | El Destape",
-         "last_video_id": "6qcFh5z5_08",
-         "last_video_title": "🔥 MÁS DEUDA 🔥 Creció u$s 71.000 MILLONES en 7 meses | Argentina Política con Carla, Jon y el Profe",
+         "last_video_id": "vdSPayGX0SU",
+         "last_video_title": "MACRI USA LEY BASES EN EL CASO CORREO | Editorial de Ari Lijalad",
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-17 11:26:34.441115",
+         "datetime": "2024-07-17 11:36:00.244886",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-17 11:26:34.806926",
+         "datetime": "2024-07-17 11:36:00.659779",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-17 11:26:35.293633",
+         "datetime": "2024-07-17 11:36:01.088664",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
