@@ -1,33 +1,33 @@
 {
    "data": [
       {
-         "datetime": "2024-07-18 15:09:18.586016",
+         "datetime": "2024-07-18 15:27:17.064378",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
          },
          "stream_key": "Nico Guthmann",
-         "live_id": "pXPiUJtSH5A",
-         "live_title": "ECHAN A TEDDY KARAGOZIAN por sus dichos con EDU FEINMANN | TUGO EN VIVO con Nico Guthmann",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "a6leaUYtqZE",
          "last_video_title": "CÓMO SERÁ el GOBIERNO DE JAVIER MILEI en ARGENTINA",
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-18 15:09:19.097774",
+         "datetime": "2024-07-18 15:27:17.543859",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
          "live_id": "VSPet_0MgFQ",
-         "live_title": "HARRY POTTER por NAVAJA CRIMEN en ESCUCHO OFERTAS EN VIVO con Guille y Galia Moldavsky | BLENDER",
+         "live_title": "ESTEFANÍA POZZO en ESCUCHO OFERTAS EN VIVO con Guille Aquino y Galia Moldavsky | BLENDER",
          "last_video_id": "GcBssAStn74",
          "last_video_title": "NUEVO ESPIONAJE y BAJAS del GOBIERNO | LA HORA AFRICANA | HAY ALGO AHÍ | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-18 15:09:19.689991",
+         "datetime": "2024-07-18 15:27:18.002813",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -35,12 +35,12 @@
          "stream_key": "Radio con vos",
          "live_id": "J4rhagmAKZ4",
          "live_title": "LIM con Reynaldo Sietecase | RADIO CON VOS",
-         "last_video_id": "IKWVweLHo1g",
-         "last_video_title": "\"Son ignorantes y estúpidos\". Las razones del enojo de Sietecase con el Gobierno",
+         "last_video_id": "QERmUGwESF4",
+         "last_video_title": "Victoria Donda: \"La gestión de Alberto no garantizó todos los derechos, por esto hoy está Milei\"",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-18 15:09:20.341838",
+         "datetime": "2024-07-18 15:27:18.539030",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -48,12 +48,12 @@
          "stream_key": "Gelatina",
          "live_id": "W5Df08In7dc",
          "live_title": "ELIJO CREER EN VIVO CON FLOR HALFON | GELATINA",
-         "last_video_id": "8k930hJMvbI",
-         "last_video_title": "AMIA, 30 AÑOS SIN JUSTICIA | NUEVOS TRAPOS CON JOSE AMORE Y OCTA GENCARELLI",
+         "last_video_id": "m5TNnipFDAQ",
+         "last_video_title": "UNA BOMBA DE HUMOR: RONDA DE CHISTES Y LOS CALVOS MÁS SEXIS | HERMOSA MAÑANA VERDAD",
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-18 15:09:20.917223",
+         "datetime": "2024-07-18 15:27:19.274916",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-18 15:09:21.435303",
+         "datetime": "2024-07-18 15:27:19.766681",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-18 15:09:21.902097",
+         "datetime": "2024-07-18 15:27:20.201142",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-18 15:09:22.483715",
+         "datetime": "2024-07-18 15:27:20.729544",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-18 15:09:23.006563",
+         "datetime": "2024-07-18 15:27:21.197248",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-18 15:09:23.671136",
+         "datetime": "2024-07-18 15:27:21.900800",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-18 15:09:24.191995",
+         "datetime": "2024-07-18 15:27:22.363162",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-18 15:09:24.728972",
+         "datetime": "2024-07-18 15:27:22.858136",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-18 15:09:25.222933",
+         "datetime": "2024-07-18 15:27:23.369091",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-18 15:09:25.823534",
+         "datetime": "2024-07-18 15:27:23.972383",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-18 15:09:26.359252",
+         "datetime": "2024-07-18 15:27:24.536623",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-18 15:09:26.783083",
+         "datetime": "2024-07-18 15:27:24.962026",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-18 15:09:27.289606",
+         "datetime": "2024-07-18 15:27:25.366668",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-18 15:09:27.770791",
+         "datetime": "2024-07-18 15:27:25.858249",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
