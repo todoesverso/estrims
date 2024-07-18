@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-18 19:19:23.817851",
+         "datetime": "2024-07-18 19:27:44.148881",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-18 19:19:24.338233",
+         "datetime": "2024-07-18 19:27:44.606279",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,7 +27,7 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-18 19:19:24.739933",
+         "datetime": "2024-07-18 19:27:45.075444",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,20 +40,20 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-18 19:19:25.295671",
+         "datetime": "2024-07-18 19:27:45.601910",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
-         "live_id": "W5Df08In7dc",
-         "live_title": "INDUSTRIA NACIONAL EN VIVO CON PEDRO ROSEMBLAT| GELATINA",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "x90T9A1ipq8",
          "last_video_title": "ESTOY ENAMORADA DE TODOS | LA FÁBRICA DE JINGLES CON PEDRO ROSEMBLAT",
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-18 19:19:25.861292",
+         "datetime": "2024-07-18 19:27:46.276465",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -61,25 +61,25 @@
          "stream_key": "Futurock FM",
          "live_id": "WqoUgB5o-RY",
          "live_title": "FURIA BEBÉ con MALENA PICHOT, VANESA STRAUCH y DANILA SAIEGH | EN VIVO",
-         "last_video_id": "GyR7tH7Wy_g",
-         "last_video_title": "¿AUGE DE NACIONALISMOS o SUBPRODUCTOS NEOLIBERALES?, FEDE VÁZQUEZ con JULIA MENGOLINI en SEGUROLA",
+         "last_video_id": "rE6zaUWHZRg",
+         "last_video_title": "MILEI: LA CULPA ES DEL KIRCHNERISMO | ALFREDO ZAIAT con JULIA MENGOLINI en SEGUROLA",
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-18 19:19:26.309067",
+         "datetime": "2024-07-18 19:27:46.768731",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
          },
          "stream_key": "posdata",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "vlzjTfXQrrM",
+         "live_title": "NOTICIAS DE AYER con Agostina Mileo, Danila Suárez Tomé y Natalí Incaminato | @Posdata_ar",
          "last_video_id": "yl6sAp6BCwc",
          "last_video_title": "Spoiler Alert con @Teloresumoasinomas | Noticias de Ayer | @Posdata_ar",
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-18 19:19:26.710107",
+         "datetime": "2024-07-18 19:27:47.137865",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-18 19:19:27.237764",
+         "datetime": "2024-07-18 19:27:47.614980",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-18 19:19:27.702799",
+         "datetime": "2024-07-18 19:27:48.053351",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-18 19:19:28.382064",
+         "datetime": "2024-07-18 19:27:48.597708",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-18 19:19:28.812067",
+         "datetime": "2024-07-18 19:27:48.968527",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-18 19:19:29.232597",
+         "datetime": "2024-07-18 19:27:49.430856",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-18 19:19:29.684938",
+         "datetime": "2024-07-18 19:27:49.869577",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-18 19:19:30.242648",
+         "datetime": "2024-07-18 19:27:50.429887",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-18 19:19:30.892488",
+         "datetime": "2024-07-18 19:27:50.964968",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-18 19:19:31.283436",
+         "datetime": "2024-07-18 19:27:51.348227",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-18 19:19:31.644841",
+         "datetime": "2024-07-18 19:27:51.711059",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-18 19:19:32.134444",
+         "datetime": "2024-07-18 19:27:52.184427",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
