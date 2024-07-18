@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-18 08:37:14.276726",
+         "datetime": "2024-07-18 08:45:50.364345",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-18 08:37:14.722153",
+         "datetime": "2024-07-18 08:45:50.835569",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,20 +27,20 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-18 08:37:15.189947",
+         "datetime": "2024-07-18 08:45:51.282884",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "J4rhagmAKZ4",
+         "live_title": "Transmisión en vivo de Radio Con Vos 89.9",
          "last_video_id": "E0IE0VGb5Oc",
          "last_video_title": "2 estudiantes argentinos entre los 50 mejores del mundo: Ian Gottlieb y Martina Basgall | Algo Queda",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-18 08:37:15.721708",
+         "datetime": "2024-07-18 08:45:51.769557",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-18 08:37:16.378308",
+         "datetime": "2024-07-18 08:45:52.392205",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-18 08:37:16.850868",
+         "datetime": "2024-07-18 08:45:52.838479",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-18 08:37:17.217467",
+         "datetime": "2024-07-18 08:45:53.261928",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-18 08:37:17.686901",
+         "datetime": "2024-07-18 08:45:53.801698",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,20 +105,20 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-18 08:37:18.157985",
+         "datetime": "2024-07-18 08:45:54.254900",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
          },
          "stream_key": "OLGA",
-         "live_id": "CEMHX-zIDcA",
-         "live_title": "PARAÍSO FISCAL, SERÍA INCREÍBLE, SOÑÉ QUE VOLABA y MI PRIMO ES ASÍ en OLGA | EN VIVO",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "FDkLHkDQrtA",
          "last_video_title": "La NUEVA CANCIÓN de CARO PARDÍACO, MAMARAZZI y HABLEMOS SIN SABER | Se Extraña a la Nona | 17/7",
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-18 08:37:18.820064",
+         "datetime": "2024-07-18 08:45:54.838991",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-18 08:37:19.303661",
+         "datetime": "2024-07-18 08:45:55.245060",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-18 08:37:19.732373",
+         "datetime": "2024-07-18 08:45:55.703757",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-18 08:37:20.201079",
+         "datetime": "2024-07-18 08:45:56.161549",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-18 08:37:20.777460",
+         "datetime": "2024-07-18 08:45:56.681067",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-18 08:37:21.324567",
+         "datetime": "2024-07-18 08:45:57.175824",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-18 08:37:21.696573",
+         "datetime": "2024-07-18 08:45:57.537748",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-18 08:37:22.057312",
+         "datetime": "2024-07-18 08:45:57.919667",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-18 08:37:22.505260",
+         "datetime": "2024-07-18 08:45:58.345478",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
