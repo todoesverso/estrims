@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-18 17:55:42.649381",
+         "datetime": "2024-07-18 18:17:55.195778",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-18 17:55:43.111812",
+         "datetime": "2024-07-18 18:17:55.699082",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "fX46PcDb4QQ",
-         "live_title": "PELOTA DIVIDIDA EN VIVO con Mikki Lusardi, el Ruso Verea, Cata Sarra, Juli Giaco | BLENDER",
-         "last_video_id": "XoNT0J8iIlI",
-         "last_video_title": "NAVAJA CRIMEN y el FINAL de HARRY POTTER y las FILMINAS DEL TIEMPO | ESCUCHO OFERTAS | BLENDER",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "0Bc4AK0auoY",
+         "last_video_title": "ESTEFANÍA POZZO explicó LA FALTA de DÓLARES y la VUELTA AL FMI | ESCUCHO OFERTAS | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-18 17:55:43.476215",
+         "datetime": "2024-07-18 18:17:56.121675",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-18 17:55:43.981577",
+         "datetime": "2024-07-18 18:17:56.718390",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-18 17:55:44.613514",
+         "datetime": "2024-07-18 18:17:57.356203",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-18 17:55:45.074212",
+         "datetime": "2024-07-18 18:17:57.861060",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-18 17:55:45.463862",
+         "datetime": "2024-07-18 18:17:58.265370",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-18 17:55:45.919600",
+         "datetime": "2024-07-18 18:17:58.854168",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-18 17:55:46.392240",
+         "datetime": "2024-07-18 18:17:59.307421",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-18 17:55:46.958305",
+         "datetime": "2024-07-18 18:17:59.874113",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -126,12 +126,12 @@
          "stream_key": "LUZU TV",
          "live_id": "8uIR65K467g",
          "live_title": "🔴 NADA QUE NO SEPAMOS con CHINO LEUNIS, BELU NEGRI, LAILA ROTH Y SOFI CALVO | EN VIVO",
-         "last_video_id": "4OFEru0lkeo",
-         "last_video_title": "#ANTESQUENADIE | ¿VICKY Y DIEGO MEJORES AMIGOS?: EL ARTE DE CAMUFLAR LA KK Y 30 AÑOS DE LA AMIA",
+         "last_video_id": "KDGHF0Q-jDk",
+         "last_video_title": "#NADIEDICENADA | EL DILEMA DE LOS VEINTIS: ¿ME INDEPENDIZO? E INTENTAMOS COMPRAR UN OVNI",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-18 17:55:47.312134",
+         "datetime": "2024-07-18 18:18:00.338903",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-18 17:55:47.747207",
+         "datetime": "2024-07-18 18:18:00.811283",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-18 17:55:48.159587",
+         "datetime": "2024-07-18 18:18:01.312643",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-18 17:55:48.740447",
+         "datetime": "2024-07-18 18:18:01.863375",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,20 +183,20 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-18 17:55:49.258734",
+         "datetime": "2024-07-18 18:18:02.434995",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
          },
          "stream_key": "El Destape",
          "live_id": "nWjWmeb9_xs",
-         "live_title": "PASE LO QUE PASE EN VIVO | El Destape",
+         "live_title": "AMIA - 30 AÑOS DE DOLOR - PASE LO QUE PASE EN VIVO | El Destape",
          "last_video_id": "xGbqdNVOhyw",
          "last_video_title": "30 AÑOS DE DOLOR | Editorial de Darío Villarruel",
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-18 17:55:49.615340",
+         "datetime": "2024-07-18 18:18:02.819385",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-18 17:55:49.985962",
+         "datetime": "2024-07-18 18:18:03.315648",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-18 17:55:50.382987",
+         "datetime": "2024-07-18 18:18:03.729464",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
