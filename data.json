@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-19 10:09:35.129981",
+         "datetime": "2024-07-19 10:29:06.882461",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-19 10:09:35.555117",
+         "datetime": "2024-07-19 10:29:07.362518",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,7 +27,7 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-19 10:09:35.945755",
+         "datetime": "2024-07-19 10:29:07.776093",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-19 10:09:36.494166",
+         "datetime": "2024-07-19 10:29:08.321398",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-19 10:09:37.015295",
+         "datetime": "2024-07-19 10:29:08.935067",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-19 10:09:37.461825",
+         "datetime": "2024-07-19 10:29:09.428340",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-19 10:09:37.833988",
+         "datetime": "2024-07-19 10:29:09.789987",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-19 10:09:38.288993",
+         "datetime": "2024-07-19 10:29:10.312082",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-19 10:09:38.759675",
+         "datetime": "2024-07-19 10:29:10.945591",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-19 10:09:39.359783",
+         "datetime": "2024-07-19 10:29:11.479672",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "2KTUS1NLD28",
+         "live_title": "🔴 ESTE VIERNES 8 AM ANTES QUE NADIE CON MORENA BELTRAN INVITADA",
          "last_video_id": "U0nWpeL9ChA",
          "last_video_title": "#EDICIONESPECIAL | CANCIONES QUE CANTAMOS MAL CON MARTÍN DOLINA",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-19 10:09:39.771423",
+         "datetime": "2024-07-19 10:29:11.867686",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-19 10:09:40.164567",
+         "datetime": "2024-07-19 10:29:12.323310",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-19 10:09:40.701002",
+         "datetime": "2024-07-19 10:29:12.739013",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-19 10:09:41.260018",
+         "datetime": "2024-07-19 10:29:13.286479",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-19 10:09:41.777747",
+         "datetime": "2024-07-19 10:29:13.839465",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-19 10:09:42.093517",
+         "datetime": "2024-07-19 10:29:14.213821",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-19 10:09:42.439905",
+         "datetime": "2024-07-19 10:29:14.568009",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-19 10:09:42.821352",
+         "datetime": "2024-07-19 10:29:14.987334",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
