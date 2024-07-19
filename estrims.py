@@ -73,9 +73,9 @@ def save_streams_to_db(streams: Streams):
 
 
 def get_stream_bs_script(stream, is_video=False):
-    channel_url = stream.channel_url 
+    channel_url = stream.channel_url
     if is_video:
-        channel_url = stream.channel_url + "/videos" 
+        channel_url = stream.channel_url + "/videos"
     logger.warning(stream.channel_url)
     html = getHTMLdocument(channel_url)
     pattern = re.compile(r"ytInitialData = (.*);", re.MULTILINE | re.DOTALL)
@@ -172,7 +172,6 @@ def parse_latest_video(script_dict):
 
     ret = get_nested_value(script_dict, paths)
     title = get_title(ret)
-    logger.error(ret)
     id = ret["videoId"]
 
     ret_dict = {
@@ -282,7 +281,7 @@ def new_stream_status(stream):
     script_dict = get_stream_bs_script(stream)
     script_dict_video = get_stream_bs_script(stream, is_video=True)
     if script_dict:
-        #last = parse_latest_stream(script_dict)
+        # last = parse_latest_stream(script_dict)
         last = parse_latest_video(script_dict_video)
         live = parse_live_stream(script_dict)
 
@@ -372,6 +371,10 @@ if __name__ == "__main__":
         Stream(
             title="Eva TV",
             channel_url="https://www.youtube.com/@evaenvivo",
+        ),
+        Stream(
+            title="Urbana Play",
+            channel_url="https://www.youtube.com/@UrbanaPlayFM",
         ),
     ]
 
