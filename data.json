@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-20 16:58:32.193988",
+         "datetime": "2024-07-20 17:15:12.127026",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-20 16:58:32.652216",
+         "datetime": "2024-07-20 17:15:12.598884",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,33 +27,33 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-20 16:58:33.188376",
+         "datetime": "2024-07-20 17:15:13.125159",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": "pjeSyJ86ADQ",
-         "live_title": "EN EL PODIO con Gabriel Lincks | RADIO CON VOS",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "-vsVWdlQYbQ",
          "last_video_title": "Lola del Carril - Relatora | En El Podio",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-20 16:58:33.729108",
+         "datetime": "2024-07-20 17:15:13.824995",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
-         "live_id": "HBSq0MuXjZY",
-         "live_title": "APU STREAM EN VIVO CON AGUSTÍN MINA, MANUELA BARES Y DIEGO MONETA",
-         "last_video_id": "xsA5XeCJfcU",
-         "last_video_title": "LOS INFLUENCERS DE MILEI: EL NEGOCIO DEL ODIO | ARGENTINOS DE BIEN #10",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "QhWpEX6qq48",
+         "last_video_title": "LA ECONOMÍA DE MILEI, CAPUTO Y EL ORO | APU STREAM",
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-20 16:58:34.312926",
+         "datetime": "2024-07-20 17:15:14.442280",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-20 16:58:34.786848",
+         "datetime": "2024-07-20 17:15:15.040263",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-20 16:58:35.165376",
+         "datetime": "2024-07-20 17:15:15.516359",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-20 16:58:35.649003",
+         "datetime": "2024-07-20 17:15:16.066154",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-20 16:58:36.107592",
+         "datetime": "2024-07-20 17:15:16.544413",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-20 16:58:36.717744",
+         "datetime": "2024-07-20 17:15:17.108760",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-20 16:58:37.140312",
+         "datetime": "2024-07-20 17:15:17.499858",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-20 16:58:37.600750",
+         "datetime": "2024-07-20 17:15:17.978625",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-20 16:58:38.035778",
+         "datetime": "2024-07-20 17:15:18.508752",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-20 16:58:38.577319",
+         "datetime": "2024-07-20 17:15:19.027553",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-20 16:58:39.155332",
+         "datetime": "2024-07-20 17:15:19.590171",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-20 16:58:39.593534",
+         "datetime": "2024-07-20 17:15:19.979014",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-20 16:58:39.965273",
+         "datetime": "2024-07-20 17:15:20.364697",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-20 16:58:40.445057",
+         "datetime": "2024-07-20 17:15:20.876756",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-20 16:58:40.992803",
+         "datetime": "2024-07-20 17:15:21.423625",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
