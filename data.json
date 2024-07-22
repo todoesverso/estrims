@@ -1,20 +1,20 @@
 {
    "data": [
       {
-         "datetime": "2024-07-22 12:17:46.396735",
+         "datetime": "2024-07-22 12:49:04.203208",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
          },
          "stream_key": "Nico Guthmann",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "zHZDbus-JpE",
+         "live_title": "CAPUTO hipoteca el oro ordena \"VENDER DÓLARES PARA PAGAR IMPUESTOS\"  | TUGO EN VIVO",
          "last_video_id": "a6leaUYtqZE",
          "last_video_title": "CÓMO SERÁ el GOBIERNO DE JAVIER MILEI en ARGENTINA",
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-22 12:17:46.895025",
+         "datetime": "2024-07-22 12:49:04.639648",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,7 +27,7 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-22 12:17:47.325986",
+         "datetime": "2024-07-22 12:49:05.017119",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-22 12:17:47.900468",
+         "datetime": "2024-07-22 12:49:05.605101",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-22 12:17:48.487239",
+         "datetime": "2024-07-22 12:49:06.276260",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-22 12:17:48.953456",
+         "datetime": "2024-07-22 12:49:06.747493",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-22 12:17:49.383030",
+         "datetime": "2024-07-22 12:49:07.156950",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-22 12:17:49.864246",
+         "datetime": "2024-07-22 12:49:07.632700",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-22 12:17:50.358081",
+         "datetime": "2024-07-22 12:49:08.020727",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -113,12 +113,12 @@
          "stream_key": "OLGA",
          "live_id": "2YWHsV3d0fQ",
          "live_title": "SERÍA INCREÍBLE en OLGA con Nati Jota, Betular, Eial, Flor Torrente y Homero Pettinato | EN VIVO",
-         "last_video_id": "8lB1vnecUHg",
-         "last_video_title": "ESCONDIDAS, EQUITACIÓN VEGANA Y ESTE es MI AMIGO | Soñé que Volaba | COMPLETO 19/7",
+         "last_video_id": "FC18hPqyr1E",
+         "last_video_title": "TEORÍAS FALOPA sobre TATUAJES y el CONFLICTO MILEI-VILLARRUEL | Paraíso FIscal | COMPLETO 22/7",
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-22 12:17:50.962430",
+         "datetime": "2024-07-22 12:49:08.582106",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-22 12:17:51.432343",
+         "datetime": "2024-07-22 12:49:08.977652",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-22 12:17:51.869737",
+         "datetime": "2024-07-22 12:49:09.433178",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-22 12:17:52.348860",
+         "datetime": "2024-07-22 12:49:09.837605",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-22 12:17:52.928093",
+         "datetime": "2024-07-22 12:49:10.416607",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-22 12:17:53.505002",
+         "datetime": "2024-07-22 12:49:10.899285",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-22 12:17:53.891665",
+         "datetime": "2024-07-22 12:49:11.277626",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-22 12:17:54.304163",
+         "datetime": "2024-07-22 12:49:11.644926",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-22 12:17:54.784450",
+         "datetime": "2024-07-22 12:49:12.082441",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-22 12:17:55.406365",
+         "datetime": "2024-07-22 12:49:12.758613",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -243,8 +243,8 @@
          "stream_key": "Urbana Play",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "v7ym342rDCM",
-         "last_video_title": "Interna entre influencers libertarios en redes: ¿Karina Milei o Victoria Villarruel? #DeAcáEnMás",
+         "last_video_id": "_xGqfJ1ylpQ",
+         "last_video_title": "El Banco Central realizó giros de oro al exterior, Biden bajó su candidatura y más #DeAcáEnMás",
          "id": 109570434836997627
       }
    ]
