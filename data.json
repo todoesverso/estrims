@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-23 18:49:32.026351",
+         "datetime": "2024-07-23 18:58:13.182494",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-23 18:49:32.608649",
+         "datetime": "2024-07-23 18:58:13.790099",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,7 +27,7 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-23 18:49:33.074318",
+         "datetime": "2024-07-23 18:58:14.241441",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -35,25 +35,25 @@
          "stream_key": "Radio con vos",
          "live_id": "1aIiGmRwZAI",
          "live_title": "Pasaron Cosas con Alejandro Bercovich | RADIO CON VOS",
-         "last_video_id": "n5qQwNCLrFE",
-         "last_video_title": "\"Aproveché un bug de Direct TV para ver los partidos y lo compartí con amigos\", Ezequiel Ponce",
+         "last_video_id": "yATauedWCB4",
+         "last_video_title": "Columna de Animación: consejos para las vacaciones de invierno",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-23 18:49:33.769347",
+         "datetime": "2024-07-23 18:58:14.934211",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
-         "live_id": "CkVOint6GL0",
-         "live_title": "INDUSTRIA NACIONAL CON PEDRO ROSEMBLAT, MARCOS ARAMBURU, LA COPE Y MATI MOWSZET | GELATINA",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "pJS65sjGqmo",
          "last_video_title": "EL MONO DE KAPANGA: “ÉXITO ES QUE UNA PIBA SEPA QUIENES FUERON LOS GENOCIDAS” | CON PEDRO ROSEMBLAT",
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-23 18:49:34.400289",
+         "datetime": "2024-07-23 18:58:15.488393",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-23 18:49:34.994876",
+         "datetime": "2024-07-23 18:58:15.944534",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-23 18:49:35.438400",
+         "datetime": "2024-07-23 18:58:16.375756",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-23 18:49:36.054290",
+         "datetime": "2024-07-23 18:58:16.874381",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-23 18:49:36.624872",
+         "datetime": "2024-07-23 18:58:17.351544",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-23 18:49:37.285637",
+         "datetime": "2024-07-23 18:58:18.002160",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
          "live_id": "T6YgWV0WKyg",
-         "live_title": "🔴 PATRIA Y FAMILIA con FEDE POPGOLD, CAMI MAYAN, LUCAS SPADAFORA Y ANITAESPÓSITO | EN VIVO",
+         "live_title": "🔴 PATRIA Y FAMILIA con FEDE POPGOLD, CAMI MAYAN, LUCAS SPADAFORA Y ANITA ESPÓSITO | EN VIVO",
          "last_video_id": "O0vFNY_bKUs",
          "last_video_title": "#NADIEDICENADA | FLOR PEÑA: “ME TATUÉ EL NOMBRE DE MI EX”: CANCELACIONES, PIFIES Y CRÍTICAS",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-23 18:49:37.759701",
+         "datetime": "2024-07-23 18:58:18.462469",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-23 18:49:38.280454",
+         "datetime": "2024-07-23 18:58:18.906369",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-23 18:49:38.827108",
+         "datetime": "2024-07-23 18:58:19.350027",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-23 18:49:39.403740",
+         "datetime": "2024-07-23 18:58:19.927187",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-23 18:49:39.946738",
+         "datetime": "2024-07-23 18:58:20.544931",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-23 18:49:40.360069",
+         "datetime": "2024-07-23 18:58:20.908097",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-23 18:49:40.783680",
+         "datetime": "2024-07-23 18:58:21.296173",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,20 +222,20 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-23 18:49:41.293893",
+         "datetime": "2024-07-23 18:58:21.745728",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
          },
          "stream_key": "Eva TV",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "EBuSrKzr5gY",
+         "live_title": "SECUENCIA INICIAL en EVA TV con Martina Garbarz, Matías Mowszet y Valentina Castro | EN VIVO",
          "last_video_id": "bf2clezyxOw",
          "last_video_title": "COMPARTIR LA CIENCIA con DIEGO GOLOMBEK | Ciencia en todos lados en EVA TV",
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-23 18:49:42.108506",
+         "datetime": "2024-07-23 18:58:22.348857",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
