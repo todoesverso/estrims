@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-22 23:59:33.120914",
+         "datetime": "2024-07-23 01:34:26.769013",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,33 +14,33 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-22 23:59:33.573593",
+         "datetime": "2024-07-23 01:34:27.370538",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
          "live_id": "Ungr7XXatx0",
-         "live_title": "HAY ALGO AHÍ EN VIVO con Tomás Rebord, Juan Ruffo y Fio Sargenti | BLENDER",
+         "live_title": "HAY ALGO AHÍ EN VIVO con TOMÁS REBORD y JUAN RUFFO | BLENDER",
          "last_video_id": "nCaRGTRHlvs",
          "last_video_title": "La teoría CONSPIRATIVA de los CHEMTRAILS | LOS EXPEDIENTES DE RUOCCO | ESCUCHO OFERTAS | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-22 23:59:33.985785",
+         "datetime": "2024-07-23 01:34:27.757350",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": "DWwNmBugNJk",
-         "live_title": "Argentinos de Bien con Nuria Am | RADIO CON VOS",
-         "last_video_id": "8HkpYLM0JD0",
-         "last_video_title": "Francisco Quintana - Secretario de la Fundación Pensar | No Dejes Para Mañana",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "buc44_cui-M",
+         "last_video_title": "Zoom político de Brenda Struminger | Muy Lunes",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-22 23:59:34.619238",
+         "datetime": "2024-07-23 01:34:28.341034",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-22 23:59:35.190349",
+         "datetime": "2024-07-23 01:34:29.014177",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-22 23:59:35.661195",
+         "datetime": "2024-07-23 01:34:29.501003",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-22 23:59:36.165607",
+         "datetime": "2024-07-23 01:34:29.963934",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-22 23:59:36.700952",
+         "datetime": "2024-07-23 01:34:30.906094",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-22 23:59:37.161570",
+         "datetime": "2024-07-23 01:34:31.389928",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-22 23:59:37.976571",
+         "datetime": "2024-07-23 01:34:32.029141",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
          "live_id": "JP_nxbs9gNg",
-         "live_title": "TARDE DE TERTULIA con MARTI BENZA, NICO FERRERO, CAMI JARA Y GIANI | EN VIVO",
-         "last_video_id": "GhsPziJgtyQ",
-         "last_video_title": "#PATRIAYFAMILIA l LUNES DE EMOCIONES Y ¿LUCAS LE TIENE MIEDO AL AMOR?",
+         "live_title": "STREAM MASTER con PACHU PEÑA, PICHU, NAZARENO, WALTERIO y JAVI FERNANDEZ | EN VIVO",
+         "last_video_id": "IUAH7UkvFY4",
+         "last_video_title": "#TARDEDETERTULIA l TDTWITTER CON LA ESTRELLA E ¿INTERRUMPIÓ TDTERMO? Y LA INFANCIA DEL TERNERITO",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-22 23:59:38.529453",
+         "datetime": "2024-07-23 01:34:32.534453",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-22 23:59:39.012500",
+         "datetime": "2024-07-23 01:34:33.021739",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-22 23:59:39.488237",
+         "datetime": "2024-07-23 01:34:33.466930",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-22 23:59:40.103275",
+         "datetime": "2024-07-23 01:34:34.093961",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,20 +183,20 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-22 23:59:40.767487",
+         "datetime": "2024-07-23 01:34:34.785484",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
          },
          "stream_key": "El Destape",
-         "live_id": "5Fnjs_NPWFQ",
-         "live_title": "Argentina Política EN VIVO | El Destape",
-         "last_video_id": "RKKYVXJO2QU",
-         "last_video_title": "TOTO CAPUTO SE LLEVÓ EL ORO Y AGREDIÓ A ARI LIJALAD",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "5IPGwEd-BAQ",
+         "last_video_title": "LN+ se mete en la INTERNA entre los HERMANOS MILEI y VILLARRUEL |  🚨 El Quirófano del Dr Cimminelli",
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-22 23:59:41.197716",
+         "datetime": "2024-07-23 01:34:35.185226",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-22 23:59:41.588989",
+         "datetime": "2024-07-23 01:34:35.610473",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-22 23:59:42.250535",
+         "datetime": "2024-07-23 01:34:36.235906",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -230,12 +230,12 @@
          "stream_key": "Eva TV",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "oyKSx4U6sh8",
-         "last_video_title": "SAD: MILEI Y KUN AGÜERO vs LOS CLUBES DE LOS SOCIOS con LEANDRO LURATI | Secuencia inicial en EVA TV",
+         "last_video_id": "v-6d08ut08E",
+         "last_video_title": "ESTADO, SOCIEDAD Y ESCUELA | Cuadernos peronistas en EVA TV",
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-22 23:59:42.824785",
+         "datetime": "2024-07-23 01:34:36.840988",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -243,8 +243,8 @@
          "stream_key": "Urbana Play",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "1INwX8FO5dQ",
-         "last_video_title": "Última entrevista de Maradona, fútbol o muerte y más #VueltaYMedia",
+         "last_video_id": "4ihc1AIPQ0M",
+         "last_video_title": "Volver con los ex, soy muy competitivo/a, cómo bajar la ansiedad y más #OlvidateDeTodo",
          "id": 109570434836997627
       }
    ]
