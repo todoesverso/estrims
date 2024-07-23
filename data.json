@@ -1,20 +1,20 @@
 {
    "data": [
       {
-         "datetime": "2024-07-23 14:56:14.297865",
+         "datetime": "2024-07-23 15:14:04.959867",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
          },
          "stream_key": "Nico Guthmann",
-         "live_id": "4fdafMXY-dA",
-         "live_title": "Mano a mano con MARIA O'DONNELL | TUGO EN VIVO con Nico Guthmann",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "a6leaUYtqZE",
          "last_video_title": "CÓMO SERÁ el GOBIERNO DE JAVIER MILEI en ARGENTINA",
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-23 14:56:14.792447",
+         "datetime": "2024-07-23 15:14:05.443574",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,7 +27,7 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-23 14:56:15.270266",
+         "datetime": "2024-07-23 15:14:05.931538",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,20 +40,20 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-23 14:56:15.864360",
+         "datetime": "2024-07-23 15:14:06.573567",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
          "live_id": "CkVOint6GL0",
-         "live_title": "HERMOSA MAÑANA VERDAD CON CLEMENTE CANCELA, JESICALL Y ALAN LONGY | GELATINA",
-         "last_video_id": "qLutcvw_rBQ",
-         "last_video_title": "CAMINO A LA DOLARIZACIÓN EN NUEVOS TRAPOS CON JOSE AMORE, OCTA GENCARELLI Y MATI WASSERMAN",
+         "live_title": "ELIJO CREER EN VIVO CON FLOR HALFON | GELATINA",
+         "last_video_id": "txXDeoGixEY",
+         "last_video_title": "¿DE QUIÉN HARÍAS UN DOCUMENTAL? | HERMOSA MAÑANA VERDAD CON CLEMENTE CANCELA, JESICALL Y ALAN LONGY",
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-23 14:56:16.467043",
+         "datetime": "2024-07-23 15:14:07.240784",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-23 14:56:16.952137",
+         "datetime": "2024-07-23 15:14:07.894491",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-23 14:56:17.379631",
+         "datetime": "2024-07-23 15:14:08.455341",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-23 14:56:17.907928",
+         "datetime": "2024-07-23 15:14:09.010046",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-23 14:56:18.430002",
+         "datetime": "2024-07-23 15:14:09.513174",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-23 14:56:19.085252",
+         "datetime": "2024-07-23 15:14:10.163838",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-23 14:56:19.515246",
+         "datetime": "2024-07-23 15:14:10.642470",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-23 14:56:19.979676",
+         "datetime": "2024-07-23 15:14:11.120716",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-23 14:56:20.490143",
+         "datetime": "2024-07-23 15:14:11.666136",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-23 14:56:21.074561",
+         "datetime": "2024-07-23 15:14:12.214931",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-23 14:56:21.780330",
+         "datetime": "2024-07-23 15:14:12.831217",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-23 14:56:22.141712",
+         "datetime": "2024-07-23 15:14:13.258369",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-23 14:56:22.560315",
+         "datetime": "2024-07-23 15:14:13.729799",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-23 14:56:23.050878",
+         "datetime": "2024-07-23 15:14:14.341193",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-23 14:56:23.567071",
+         "datetime": "2024-07-23 15:14:15.076173",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
