@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-23 17:53:31.357886",
+         "datetime": "2024-07-23 18:12:10.180953",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-23 17:53:31.940924",
+         "datetime": "2024-07-23 18:12:10.908533",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "Lu9MPr2VrmM",
-         "live_title": "PELOTA DIVIDIDA EN VIVO con Mikki Lusardi, el Ruso Verea, Cata Sarra y Juli Giaco | BLENDER",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "vngsREc8ukk",
          "last_video_title": "SIDE SUPERPODEROSA y los TWITTEROS de MILEI | NOE LA VE | ESCUCHO OFERTAS | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-23 17:53:32.424274",
+         "datetime": "2024-07-23 18:12:11.388355",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-23 17:53:33.073908",
+         "datetime": "2024-07-23 18:12:12.021637",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-23 17:53:33.770059",
+         "datetime": "2024-07-23 18:12:12.603339",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-23 17:53:34.362858",
+         "datetime": "2024-07-23 18:12:13.146878",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-23 17:53:34.951610",
+         "datetime": "2024-07-23 18:12:13.767819",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-23 17:53:35.541746",
+         "datetime": "2024-07-23 18:12:14.318663",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-23 17:53:36.034729",
+         "datetime": "2024-07-23 18:12:15.001218",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-23 17:53:36.640506",
+         "datetime": "2024-07-23 18:12:15.708472",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
          "live_id": "T6YgWV0WKyg",
-         "live_title": "🔴 NADA QUE NO SEPAMOS con CHINO LEUNIS, BELU NEGRI, LAILA ROTH Y SOFI CALVO | EN VIVO",
+         "live_title": "🔴 PATRIA Y FAMILIA con FEDE POPGOLD, CAMI MAYAN, LUCAS SPADAFORA Y ANITAESPÓSITO | EN VIVO",
          "last_video_id": "JcMW482aAyY",
          "last_video_title": "#ANTESQUENADIE | ¿MICA PERDIÓ EL PASAPORTE? Y CANTAMOS A LOS GRITOS CON NUESTRO ROMANCE",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-23 17:53:37.197138",
+         "datetime": "2024-07-23 18:12:16.167658",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-23 17:53:37.671574",
+         "datetime": "2024-07-23 18:12:16.649525",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-23 17:53:38.203769",
+         "datetime": "2024-07-23 18:12:17.315895",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-23 17:53:38.822803",
+         "datetime": "2024-07-23 18:12:17.889377",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-23 17:53:39.380661",
+         "datetime": "2024-07-23 18:12:18.429515",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-23 17:53:39.827864",
+         "datetime": "2024-07-23 18:12:18.846178",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-23 17:53:40.308030",
+         "datetime": "2024-07-23 18:12:19.269423",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-23 17:53:40.825885",
+         "datetime": "2024-07-23 18:12:19.835884",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-23 17:53:41.415513",
+         "datetime": "2024-07-23 18:12:20.568919",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
