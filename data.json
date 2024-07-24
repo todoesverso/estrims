@@ -1,33 +1,33 @@
 {
    "data": [
       {
-         "datetime": "2024-07-24 14:57:46.411031",
+         "datetime": "2024-07-24 15:18:26.004159",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
          },
          "stream_key": "Nico Guthmann",
-         "live_id": "lJAFn_4JzP0",
-         "live_title": "¿Cómo viene la IMAGEN DE MILEI en la Provincia? | TUGO EN VIVO con Nico Guthmann",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "a6leaUYtqZE",
          "last_video_title": "CÓMO SERÁ el GOBIERNO DE JAVIER MILEI en ARGENTINA",
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-24 14:57:46.907008",
+         "datetime": "2024-07-24 15:18:26.521452",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
          "live_id": "hv7Arli0ffM",
-         "live_title": "ESCUCHO OFERTAS EN VIVO con Guille Aquino, Galia Moldavsky, Juan Ruocco, Juanita Groisman | BLENDER",
+         "live_title": "CARLOS MASLATÓN en ESCUCHO OFERTAS EN VIVO con Guille Aquino, Galia, Ruocco y Juanita | BLENDER",
          "last_video_id": "DhtqSnnRkKY",
          "last_video_title": "CACHETAZOS con ARNALDO ANDRÉ y el DOCTOR LAMOTHE | GALANES EN TEMPORADA BAJA | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-24 14:57:47.356158",
+         "datetime": "2024-07-24 15:18:26.993560",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -35,25 +35,25 @@
          "stream_key": "Radio con vos",
          "live_id": "xZmtmeCv6VE",
          "live_title": "LIM con Reynaldo Sietecase | RADIO CON VOS",
-         "last_video_id": "fKNu_nm7vck",
-         "last_video_title": "Lucas Llach en #PaseLoQuePase: \"Si la Argentina no sale del CEPO, va a ser muy difícil que crezca\"",
+         "last_video_id": "kTgnI3g1mnI",
+         "last_video_title": "Tenembaum: \"No me cabe duda de que Milei espía a Villarruel en cada movimiento que hace\"",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-24 14:57:48.011577",
+         "datetime": "2024-07-24 15:18:27.593580",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
          "live_id": "rA-pi_MAFBw",
-         "live_title": "HERMOSA MAÑANA VERDAD CON CLEMENTE CANCELA, JESICALL Y ALAN LONGY | GELATINA",
+         "live_title": "ELIJO CREER EN VIVO CON FLOR HALFON | GELATINA",
          "last_video_id": "J5jtRxf9AsA",
          "last_video_title": "VILLARRUEL, CAPUTO, LA SIDE Y EL MAPA DEL ESTADO | MARTÍN RODRÍGUEZ EN HERMOSA MAÑANA VERDAD",
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-24 14:57:48.642100",
+         "datetime": "2024-07-24 15:18:28.269218",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-24 14:57:49.195921",
+         "datetime": "2024-07-24 15:18:28.817099",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-24 14:57:49.593012",
+         "datetime": "2024-07-24 15:18:29.356990",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-24 14:57:50.029478",
+         "datetime": "2024-07-24 15:18:29.909371",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-24 14:57:50.481046",
+         "datetime": "2024-07-24 15:18:30.362822",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-24 14:57:51.071088",
+         "datetime": "2024-07-24 15:18:31.013052",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -126,12 +126,12 @@
          "stream_key": "LUZU TV",
          "live_id": "BaiQzdZ4i_I",
          "live_title": "🔴 NADIE DICE NADA con NICO OCCHIATO, MOMI GIARDINA, FLOR JAZMIN Y NACHO ELIZALDE | EN VIVO",
-         "last_video_id": "3oRf4ru_Dw8",
-         "last_video_title": "#EDICIONESPECIAL | EL PROGRAMA MENOS GRACIOSO CON MARCO ANTONIO CAPONI",
+         "last_video_id": "54OGCK5m3d4",
+         "last_video_title": "#ANTESQUENADIE | TIPS PARA SER GALÁN CON FACUNDO ARANA Y ¿HIPÓTESIS DE UNA ESCENA DE CRIMEN?",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-24 14:57:51.514261",
+         "datetime": "2024-07-24 15:18:31.488525",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-24 14:57:51.923993",
+         "datetime": "2024-07-24 15:18:32.011302",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-24 14:57:52.465901",
+         "datetime": "2024-07-24 15:18:32.534483",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-24 14:57:53.023871",
+         "datetime": "2024-07-24 15:18:33.170630",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-24 14:57:53.620831",
+         "datetime": "2024-07-24 15:18:33.746483",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-24 14:57:53.971750",
+         "datetime": "2024-07-24 15:18:34.181781",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-24 14:57:54.343119",
+         "datetime": "2024-07-24 15:18:34.585372",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-24 14:57:54.801045",
+         "datetime": "2024-07-24 15:18:35.111943",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-24 14:57:55.382535",
+         "datetime": "2024-07-24 15:18:35.703046",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -243,8 +243,8 @@
          "stream_key": "Urbana Play",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "iPpZRKEAdOw",
-         "last_video_title": "\"ES MEJOR IRSE QUE ESCAPARSE\", GABRIEL ROLÓN. #Perros2024",
+         "last_video_id": "e2VAhxXEO3g",
+         "last_video_title": "El gobierno le da mas fondos y poder a la SIDE. #Perros2024",
          "id": 109570434836997627
       }
    ]
