@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-24 01:55:29.475979",
+         "datetime": "2024-07-24 02:31:17.556055",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-24 01:55:30.069272",
+         "datetime": "2024-07-24 02:31:18.017122",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
          "live_id": "ckilF-LRjlY",
-         "live_title": "LA HORA AFRICANA EN VIVO en HAY ALGO AHÍ  con TOMÁS REBORD, JUAN RUFFO e IVÁN SCHARGRODSKY | BLENDER",
+         "live_title": "GALANES en TEMPORADA BAJA EN VIVO con Galia Moldavsky, Esteban Lamothe y Gonzalo Heredia | BLENDER",
          "last_video_id": "FyEEt-5pPvE",
          "last_video_title": "Los 15 de EVITTA LUNA con LUIS MIGUEL, ENTREGA de VELAS y MAGIA | DINERO Y AMOR | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-24 01:55:30.563787",
+         "datetime": "2024-07-24 02:31:18.550187",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-24 01:55:31.221237",
+         "datetime": "2024-07-24 02:31:19.052438",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-24 01:55:31.848106",
+         "datetime": "2024-07-24 02:31:19.715084",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-24 01:55:32.394671",
+         "datetime": "2024-07-24 02:31:20.183757",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-24 01:55:32.818360",
+         "datetime": "2024-07-24 02:31:20.601984",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-24 01:55:33.377232",
+         "datetime": "2024-07-24 02:31:21.154846",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-24 01:55:33.885689",
+         "datetime": "2024-07-24 02:31:21.643110",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-24 01:55:34.596431",
+         "datetime": "2024-07-24 02:31:22.331595",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
-         "live_id": "T6YgWV0WKyg",
-         "live_title": "🔴 EDICIÓN ESPECIAL con MARTIN GARABAL, ALEXIS MOYANO, VICKY GARABAL Y JULIANA GATTAS | EN VIVO",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "WWBib25qKvI",
          "last_video_title": "#ALGODEMUSICA | BACKSTAGE MILO J + LAS CANCIONES MÁS RUTERAS",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-24 01:55:35.051232",
+         "datetime": "2024-07-24 02:31:22.811426",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-24 01:55:35.562361",
+         "datetime": "2024-07-24 02:31:23.338577",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-24 01:55:36.014519",
+         "datetime": "2024-07-24 02:31:23.829256",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-24 01:55:36.602934",
+         "datetime": "2024-07-24 02:31:24.388345",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-24 01:55:37.139552",
+         "datetime": "2024-07-24 02:31:25.174077",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-24 01:55:37.509233",
+         "datetime": "2024-07-24 02:31:25.610679",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-24 01:55:37.893557",
+         "datetime": "2024-07-24 02:31:25.972291",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-24 01:55:38.315664",
+         "datetime": "2024-07-24 02:31:26.469359",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -230,12 +230,12 @@
          "stream_key": "Eva TV",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "1NoR9SBiBxY",
-         "last_video_title": "¿QUÉ PASA CON LOS INCENDIOS? GIULIANA PÉCORA en SUELO ARGENTINO | Secuencia inicial en EVA TV",
+         "last_video_id": "L0KgD21rW4A",
+         "last_video_title": "¿QUÉ SIGNIFICA TRASVASAMIENTO GENERACIONAL? LAUREANO BIELSA | Re-Actualización doctrinaria en EVA TV",
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-24 01:55:39.043653",
+         "datetime": "2024-07-24 02:31:27.086742",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
