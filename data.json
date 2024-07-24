@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-24 20:34:23.702499",
+         "datetime": "2024-07-24 20:43:14.365430",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-24 20:34:24.161214",
+         "datetime": "2024-07-24 20:43:14.845253",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,7 +27,7 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-24 20:34:24.625659",
+         "datetime": "2024-07-24 20:43:15.205871",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-24 20:34:25.167436",
+         "datetime": "2024-07-24 20:43:15.738140",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-24 20:34:25.835533",
+         "datetime": "2024-07-24 20:43:16.294378",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-24 20:34:26.333314",
+         "datetime": "2024-07-24 20:43:16.721521",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-24 20:34:26.759288",
+         "datetime": "2024-07-24 20:43:17.064343",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-24 20:34:27.318685",
+         "datetime": "2024-07-24 20:43:17.542521",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-24 20:34:27.750609",
+         "datetime": "2024-07-24 20:43:18.087706",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-24 20:34:28.332278",
+         "datetime": "2024-07-24 20:43:18.620346",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,20 +131,20 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-24 20:34:28.770694",
+         "datetime": "2024-07-24 20:43:19.018749",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
          },
          "stream_key": "Picnoc Extraterrestre",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "kXePD3s0Wnc",
+         "live_title": "PAULA DURÓ, LUCIANO LAMBERTI Y MARINA FAGES | ARTE EN MARTE 24.7 | EN VIVO",
          "last_video_id": "ANLyrbxRFLo",
          "last_video_title": "SOFÍA GALA, SERGIO ROTMAN Y JIME GONIK | PRODUCTORES EN LA MÚSICA | VIAJE AL SONIDO 23.7 | COMPLETO",
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-24 20:34:29.183891",
+         "datetime": "2024-07-24 20:43:19.439683",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-24 20:34:29.662422",
+         "datetime": "2024-07-24 20:43:19.851216",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-24 20:34:30.219445",
+         "datetime": "2024-07-24 20:43:20.365635",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-24 20:34:30.756593",
+         "datetime": "2024-07-24 20:43:20.958785",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-24 20:34:31.134510",
+         "datetime": "2024-07-24 20:43:21.339194",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-24 20:34:31.489560",
+         "datetime": "2024-07-24 20:43:21.678687",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-24 20:34:31.922953",
+         "datetime": "2024-07-24 20:43:22.126754",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-24 20:34:32.486078",
+         "datetime": "2024-07-24 20:43:22.722110",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
