@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-24 03:58:08.735215",
+         "datetime": "2024-07-24 04:19:44.599870",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-24 03:58:09.255224",
+         "datetime": "2024-07-24 04:19:45.062349",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "ckilF-LRjlY",
-         "live_title": "GALANES en TEMPORADA BAJA EN VIVO con Galia Moldavsky, Esteban Lamothe y Gonzalo Heredia | BLENDER",
-         "last_video_id": "-LCAaqEprC8",
-         "last_video_title": "CORREN a VILLARRUEL y LAS CUENTAS de CAPUTO | LA HORA AFRICANA | HAY ALGO AHÍ | BLENDER",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "FyEEt-5pPvE",
+         "last_video_title": "Los 15 de EVITTA LUNA con LUIS MIGUEL, ENTREGA de VELAS y MAGIA | DINERO Y AMOR | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-24 03:58:09.702313",
+         "datetime": "2024-07-24 04:19:45.529436",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-24 03:58:10.334984",
+         "datetime": "2024-07-24 04:19:46.083521",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-24 03:58:11.104202",
+         "datetime": "2024-07-24 04:19:46.772850",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-24 03:58:11.661749",
+         "datetime": "2024-07-24 04:19:47.288286",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-24 03:58:12.171060",
+         "datetime": "2024-07-24 04:19:47.730219",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-24 03:58:12.748953",
+         "datetime": "2024-07-24 04:19:48.254848",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-24 03:58:13.232669",
+         "datetime": "2024-07-24 04:19:48.688156",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-24 03:58:13.876882",
+         "datetime": "2024-07-24 04:19:49.230816",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-24 03:58:14.381713",
+         "datetime": "2024-07-24 04:19:49.646510",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-24 03:58:14.800963",
+         "datetime": "2024-07-24 04:19:50.158910",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-24 03:58:15.267578",
+         "datetime": "2024-07-24 04:19:50.683190",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-24 03:58:15.891809",
+         "datetime": "2024-07-24 04:19:51.239124",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-24 03:58:16.407418",
+         "datetime": "2024-07-24 04:19:51.741158",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -191,12 +191,12 @@
          "stream_key": "El Destape",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "Jo6GFoOOLPY",
-         "last_video_title": "LA SÁTIRA LIBERTARIA | Diego Genoud en Argentina Política",
+         "last_video_id": "hBGYnQvAFJA",
+         "last_video_title": "EL 93% DE LOS HOGARES ESTÁ ENDEUDADO | Argentina Política con Carla y el Profe",
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-24 03:58:16.788350",
+         "datetime": "2024-07-24 04:19:52.231471",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-24 03:58:17.184462",
+         "datetime": "2024-07-24 04:19:52.567661",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-24 03:58:17.641837",
+         "datetime": "2024-07-24 04:19:53.059100",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-24 03:58:18.291922",
+         "datetime": "2024-07-24 04:19:53.793748",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
