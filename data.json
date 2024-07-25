@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-24 23:52:20.043469",
+         "datetime": "2024-07-25 00:32:42.053600",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-24 23:52:20.574833",
+         "datetime": "2024-07-25 00:32:42.587625",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "naXp14T9L6c",
-         "live_title": "DINERO Y AMOR con Marcos Aramburu, Tomás Quintín Palma, Evitta Luna, Andy Chango | BLENDER",
+         "live_id": "uoopl9uPQvo",
+         "live_title": "HAY ALGO AHÍ EN VIVO con Tomás Rebord y Juan Ruffo | BLENDER",
          "last_video_id": "tpeCURnD8uU",
          "last_video_title": "FINAL FELIZ TEASER TRAILER | Jueves 23hs en vivo | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-24 23:52:21.116428",
+         "datetime": "2024-07-25 00:32:43.012297",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -35,12 +35,12 @@
          "stream_key": "Radio con vos",
          "live_id": "xZmtmeCv6VE",
          "live_title": "Argentinos de Bien con Nuria Am | RADIO CON VOS",
-         "last_video_id": "nu71fvaXO0c",
-         "last_video_title": "Julio Piumato - Sec. general de la Unión de Empleados Judiciales  | No Dejes Para Mañana",
+         "last_video_id": "NTaLzPD5FWw",
+         "last_video_title": "Damián Di Pace - Director de la consultora Focus Market | Argentinos de Bien",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-24 23:52:21.651087",
+         "datetime": "2024-07-25 00:32:43.551746",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-24 23:52:22.391595",
+         "datetime": "2024-07-25 00:32:44.170199",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-24 23:52:22.941594",
+         "datetime": "2024-07-25 00:32:44.647334",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,33 +79,33 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-24 23:52:23.392026",
+         "datetime": "2024-07-25 00:32:45.048348",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
          },
          "stream_key": "Cenital",
-         "live_id": "eE2sZyrPaqY",
-         "live_title": "HOY 20HS | ¿Por qué MILEI NO PUEDE SALIR del CEPO? Con Jairo Straccia en #FallaDeMercado",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "P8zVt8q_h5M",
          "last_video_title": "Pedro Rosemblat con Iván Schargrodsky en #OnTheRecord",
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-24 23:52:23.930225",
+         "datetime": "2024-07-25 00:32:45.523678",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
          },
          "stream_key": "Factoria 1251",
          "live_id": "W34p8tv-r6k",
-         "live_title": "TRAUMA PARTY en FACTORÍA con Marte Lupardo, La Negrita y Ema Villamayor | EN VIVO",
+         "live_title": "CLIMA DE ÉPOCA en FACTORÍA con Jóvenes por el clima | EN VIVO",
          "last_video_id": "EY7F4clVq0k",
          "last_video_title": "COLUMNA ROTATIVA: JUEGO PARA DEMENTES con MeriMux / #Nacienlos90",
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-24 23:52:24.436832",
+         "datetime": "2024-07-25 00:32:45.984012",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-24 23:52:25.219222",
+         "datetime": "2024-07-25 00:32:46.557816",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
          "live_id": "BaiQzdZ4i_I",
-         "live_title": "🔴TARDE DE TERTULIA con MARTI BENZA, NICO FERRERO, CAMI JARA Y GIANI | EN VIVO",
+         "live_title": "🔴STREAM MASTER con PACHU PEÑA, PICHU, NAZARENO, WALTERIO y JAVI FERNANDEZ | EN VIVO",
          "last_video_id": "oLprUwBrhFc",
          "last_video_title": "#ENTRENOSOTROS l VOLVIÓ MANU CON TODO SOBRE TOMORROWLAND ¿EL SUEÑO DE TODXS? Y AMIGOS CON DERECHOS",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-24 23:52:25.780375",
+         "datetime": "2024-07-25 00:32:47.003475",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-24 23:52:26.295957",
+         "datetime": "2024-07-25 00:32:47.419418",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-24 23:52:26.779127",
+         "datetime": "2024-07-25 00:32:47.880690",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-24 23:52:27.361939",
+         "datetime": "2024-07-25 00:32:48.425766",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-24 23:52:27.960287",
+         "datetime": "2024-07-25 00:32:48.962422",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -191,12 +191,12 @@
          "stream_key": "El Destape",
          "live_id": "7rmQnbuPtxQ",
          "live_title": "ARGENTINA POLÍTICA EN VIVO | El Destape",
-         "last_video_id": "89YKvJBvOKQ",
-         "last_video_title": "LA INTERNA DE LARRETA CON LOS MACRI",
+         "last_video_id": "8agF2TEPDoA",
+         "last_video_title": "El cepo al dólar y el yugo del Ticket Canasta",
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-24 23:52:28.359433",
+         "datetime": "2024-07-25 00:32:49.329264",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-24 23:52:28.829530",
+         "datetime": "2024-07-25 00:32:49.738419",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -217,12 +217,12 @@
          "stream_key": "220 Podcast",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "24B5Qb1wX14",
-         "last_video_title": "¿El PLAN MILEI ESTÁ FRACASANDO?",
+         "last_video_id": "h4_eDhrpQr4",
+         "last_video_title": "La INTERNA Milei-Villarruel ¿PERJUDICÓ a la Selección en FRANCIA?",
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-24 23:52:29.322205",
+         "datetime": "2024-07-25 00:32:50.180273",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -230,12 +230,12 @@
          "stream_key": "Eva TV",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "kdxcNT9-GH0",
-         "last_video_title": "ENTREVISTA A LEO NARDINI, INTENDENTE DE MALVINAS ARGENTINAS | Secuencia inicial en EVA TV",
+         "last_video_id": "VGj-8FKJ-Zo",
+         "last_video_title": "CAPUTO, LOS DÓLARES Y UN MODELO PARA POCOS con ROBERTO FELETTI | Programa económico en EVA TV",
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-24 23:52:29.953639",
+         "datetime": "2024-07-25 00:32:50.861941",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
