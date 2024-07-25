@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-25 10:13:35.094802",
+         "datetime": "2024-07-25 10:40:50.919557",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-25 10:13:35.566341",
+         "datetime": "2024-07-25 10:40:51.381111",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "FCLZMS2jKso",
+         "live_title": "DESAYUNO INTERMITENTE EN VIVO con Fede Simonetti, Eli Sánchez, Mauro Szeta, Vale y Jove | BLENDER",
          "last_video_id": "U4nvcMYbrxw",
          "last_video_title": "ORÁCULOS, SUPERSTICIONES y ORBITAMOS con TIBALDI | DINERO Y AMOR | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-25 10:13:36.045805",
+         "datetime": "2024-07-25 10:40:51.812921",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-25 10:13:36.580128",
+         "datetime": "2024-07-25 10:40:52.343478",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-25 10:13:37.227206",
+         "datetime": "2024-07-25 10:40:52.928991",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-25 10:13:37.695733",
+         "datetime": "2024-07-25 10:40:53.353376",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-25 10:13:38.115397",
+         "datetime": "2024-07-25 10:40:53.797353",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-25 10:13:38.658812",
+         "datetime": "2024-07-25 10:40:54.292251",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-25 10:13:39.115741",
+         "datetime": "2024-07-25 10:40:54.739069",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-25 10:13:39.668259",
+         "datetime": "2024-07-25 10:40:55.427009",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "W49S7IasG0Q",
+         "live_title": "ANTES QUE NADIE con DIEGO LEUCO, MICA VÁZQUEZ, YOYI FRANCELLA Y ELTRINCHE | EN VIVO",
          "last_video_id": "Blp9Bdpzd_8",
          "last_video_title": "#STREAMMASTER | PAPELÓN OLIMPICO",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-25 10:13:40.091903",
+         "datetime": "2024-07-25 10:40:55.822478",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-25 10:13:40.583006",
+         "datetime": "2024-07-25 10:40:56.292218",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-25 10:13:41.068053",
+         "datetime": "2024-07-25 10:40:56.713519",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-25 10:13:41.634566",
+         "datetime": "2024-07-25 10:40:57.247133",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-25 10:13:42.183845",
+         "datetime": "2024-07-25 10:40:57.770832",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-25 10:13:42.564701",
+         "datetime": "2024-07-25 10:40:58.157766",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-25 10:13:42.967536",
+         "datetime": "2024-07-25 10:40:58.498669",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-25 10:13:43.470396",
+         "datetime": "2024-07-25 10:40:58.946631",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-25 10:13:44.096897",
+         "datetime": "2024-07-25 10:40:59.546561",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -243,8 +243,8 @@
          "stream_key": "Urbana Play",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "nsWUap7ozzA",
-         "last_video_title": "\"Más del 25% del sistema de guardias se cubre con horas extras\" Marcelo Struminger #DeAcáEnMás",
+         "last_video_id": "xg8K5BeuqEw",
+         "last_video_title": "\"Estamos trabajando para mejorar las condiciones macroeconómicas\" Victoria Villaruel #DeAcáEnMás",
          "id": 109570434836997627
       }
    ]
