@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-26 10:41:00.305146",
+         "datetime": "2024-07-26 10:49:45.743830",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-26 10:41:00.828530",
+         "datetime": "2024-07-26 10:49:46.329372",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "Y9Qx43J94So",
-         "live_title": "DESAYUNO INTERMITENTE EN VIVO con Fede Simonetti, Eli Sánchez, Mauro Szeta, Vale y Jove | BLENDER",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "oXQ08krFqrE",
          "last_video_title": "ELON MUSK con MARIO PERGOLINI | LAS PROMESAS | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-26 10:41:01.259992",
+         "datetime": "2024-07-26 10:49:46.765811",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-26 10:41:01.848986",
+         "datetime": "2024-07-26 10:49:47.295073",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-26 10:41:02.446106",
+         "datetime": "2024-07-26 10:49:47.919705",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-26 10:41:02.938834",
+         "datetime": "2024-07-26 10:49:48.423713",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-26 10:41:03.375135",
+         "datetime": "2024-07-26 10:49:48.880497",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-26 10:41:03.898298",
+         "datetime": "2024-07-26 10:49:49.388975",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-26 10:41:04.359203",
+         "datetime": "2024-07-26 10:49:49.919359",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-26 10:41:05.039077",
+         "datetime": "2024-07-26 10:49:50.522648",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "6B3s2WLBfeE",
+         "live_title": "ANTES QUE NADIE con DIEGO LEUCO, MICA VÁZQUEZ, YOYI FRANCELLA Y ELTRINCHE | EN VIVO",
          "last_video_id": "FfdcLdOkosI",
          "last_video_title": "#EDICIONESPECIAL | JULIAN LUCERO SE SUMA A LUZU",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-26 10:41:05.523094",
+         "datetime": "2024-07-26 10:49:50.989105",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-26 10:41:05.998051",
+         "datetime": "2024-07-26 10:49:51.413040",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-26 10:41:06.495069",
+         "datetime": "2024-07-26 10:49:51.842791",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-26 10:41:07.076231",
+         "datetime": "2024-07-26 10:49:52.476263",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-26 10:41:07.880557",
+         "datetime": "2024-07-26 10:49:53.021532",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-26 10:41:08.274334",
+         "datetime": "2024-07-26 10:49:53.427772",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-26 10:41:08.642708",
+         "datetime": "2024-07-26 10:49:53.837669",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-26 10:41:09.138531",
+         "datetime": "2024-07-26 10:49:54.305457",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-26 10:41:09.814397",
+         "datetime": "2024-07-26 10:49:54.882370",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
