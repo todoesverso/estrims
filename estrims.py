@@ -1,5 +1,5 @@
 from dataclasses import dataclass, asdict
-from typing import List
+from typing import ChainMap, List
 from datetime import datetime
 from pysondb import db
 from bs4 import BeautifulSoup
@@ -388,6 +388,25 @@ if __name__ == "__main__":
         Stream(title="Ahora Play", channel_url="https://www.youtube.com/@tesla1923"),
         Stream(title="Mix On", channel_url="https://www.youtube.com/@mixontv_"),
         Stream(title="Clank!", channel_url="https://www.youtube.com/@clank_media"),
+        Stream(title="YEITE", channel_url="https://www.youtube.com/@somosyeite"),
+        Stream(title="Chingon", channel_url="https://www.youtube.com/@chingonenvivo"),
+        Stream(title="CEIBO", channel_url="https://www.youtube.com/@CEIBOARGENTINA"),
+        Stream(title="Brindis TV", channel_url="https://www.youtube.com/@brindistv"),
+        Stream(title="Laca Stream", channel_url="https://www.youtube.com/@lacastream"),
+        Stream(
+            title="Norita Stream",
+            channel_url="https://www.youtube.com/@NoritaStreaming",
+        ),
+        Stream(title="Ziesta TV", channel_url="https://www.youtube.com/@ZiestaTV"),
+        Stream(title="MOSTRI TV", channel_url="https://www.youtube.com/@mostritv_"),
+        Stream(
+            title="A la Estratosfera",
+            channel_url="https://www.youtube.com/@estratosferaok",
+        ),
+        Stream(
+            title="Polenta para revolver",
+            channel_url="https://www.youtube.com/@polentapararevolver",
+        ),
     ]
 
     streams = Streams(streams=streams_list)
