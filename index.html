@@ -74,31 +74,31 @@
   <div class="container">
     <div class="tabs is-centered is-large is-toggle">
       <ul>
-        <li class="is-active" data-tab="tab-live"><a>LIVE</a></li>
-        <li data-tab="tab-latest"><a>Ultimos</a></li>
+        <li class="is-active" data-tab="tab-live"><a href="#live">LIVE</a></li>
+        <li data-tab="tab-latest"><a href="#latest">Últimos</a></li>
       </ul>
     </div>
 
     <div id="search-container" class="box">
       <p id="date"></p>
       <div class="control has-icons-right">
-        <input id="search-input" class="input is-hovered" placeholder="Search..." />
+        <input id="search-input" class="input is-hovered" type="search" placeholder="Search..." aria-label="Search">
         <span class="icon is-medium is-right">
-          <i class="delete is-medium" onclick="clearSearch()"></i>
+          <i class="delete is-medium" id="clear-search" aria-label="Clear search"></i>
         </span>
       </div>
     </div>
 
-    <div id="tab-live" class="tab-content columns is-multiline is-active"></div>
-    <div id="tab-latest" class="tab-content columns is-multiline"></div>
-    <div id="error-message" class="notification is-danger is-hidden">Error fetching data. Please try again later.
-    </div>
+    <div id="tab-live" class="tab-content columns is-multiline is-active" aria-live="polite"></div>
+    <div id="tab-latest" class="tab-content columns is-multiline" aria-live="polite"></div>
+    <div id="error-message" class="notification is-danger is-hidden" role="alert">Error fetching data. Please try again
+      later.</div>
 
   </div>
 
   <div id="expanded-video-container" onclick="closeVideo(event)">
-    <span class="close-button" onclick="closeVideo(event)">×</span>
-    <iframe id="expanded-video" width="80%" height="30%" src="" frameborder="0" allowfullscreen></iframe>
+    <span class="close-button" role="button" aria-label="Close video" onclick="closeVideo(event)">×</span>
+    <iframe id="expanded-video" src="" frameborder="0" allowfullscreen title="Expanded video"></iframe>
   </div>
 
   <script>
@@ -117,6 +117,7 @@
       });
 
       document.getElementById('search-input').addEventListener('input', filterCards);
+      document.getElementById('clear-search').addEventListener('click', clearSearch);
     });
 
     async function fetchData(url) {
@@ -132,7 +133,6 @@
         });
 
         const dateNode = document.getElementById("date");
-
         const date = formatDateTime(data.data[0].datetime);
         dateNode.textContent = date;
         showTab('tab-live');
@@ -142,19 +142,19 @@
       }
     }
 
-    function addCard(tabId, videoId, title, datetime, is_live) {
+    function addCard(tabId, videoId, title, datetime, isLive) {
       const tabContent = document.getElementById(tabId);
       if (tabContent && videoId !== null) {
         const column = document.createElement('div');
         column.className = 'column is-one-quarter';
         column.setAttribute('data-title', title.toLowerCase());
-        column.appendChild(createVideoCard(videoId, title, datetime, is_live));
+        column.appendChild(createVideoCard(videoId, title, datetime, isLive));
         tabContent.appendChild(column);
       }
     }
 
-    function createVideoCard(videoId, title, datetime, is_live) {
-      const show_live_tag = (is_live === true) ? "" : "is-hidden";
+    function createVideoCard(videoId, title, datetime, isLive) {
+      const showLiveTag = isLive ? "" : "is-hidden";
       const card = document.createElement('div');
       card.className = 'card video-thumbnail';
       card.innerHTML = `
@@ -167,7 +167,7 @@
           <div class="media">
             <div class="media-content">
               <p class="title is-4">${title}</p>
-              <span class="tag is-danger ${show_live_tag}">live</span>
+              <span class="tag is-danger ${showLiveTag}">live</span>
             </div>
           </div>
         </div>
@@ -213,11 +213,7 @@
 
       cards.forEach(card => {
         const title = card.getAttribute('data-title');
-        if (title.includes(searchInput)) {
-          card.style.display = '';
-        } else {
-          card.style.display = 'none';
-        }
+        card.style.display = title.includes(searchInput) ? '' : 'none';
       });
     }
 
