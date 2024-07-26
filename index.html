@@ -10,6 +10,7 @@
     .video-thumbnail {
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
       transition: transform 0.3s;
+      cursor: pointer;
     }
 
     .video-thumbnail:hover {
@@ -67,19 +68,37 @@
       font-size: 1.5rem;
       cursor: pointer;
     }
+
+    .image img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .columns {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .hidden {
+      display: none !important;
+    }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <div class="tabs is-centered is-large is-toggle">
+
+    <nav class="tabs is-centered is-large is-toggle">
       <ul>
         <li class="is-active" data-tab="tab-live"><a href="#live">LIVE</a></li>
         <li data-tab="tab-latest"><a href="#latest">Últimos</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <div id="search-container" class="box">
+    <section id="search-container" class="box">
       <p id="date"></p>
       <div class="control has-icons-right">
         <input id="search-input" class="input is-hovered" type="search" placeholder="Search..." aria-label="Search">
@@ -87,17 +106,21 @@
           <i class="delete is-medium" id="clear-search" aria-label="Clear search"></i>
         </span>
       </div>
-    </div>
+    </section>
 
-    <div id="tab-live" class="tab-content columns is-multiline is-active" aria-live="polite"></div>
-    <div id="tab-latest" class="tab-content columns is-multiline" aria-live="polite"></div>
-    <div id="error-message" class="notification is-danger is-hidden" role="alert">Error fetching data. Please try again
-      later.</div>
+    <div id="loading-indicator" class="loading hidden"></div>
+
+    <section id="tab-live" class="tab-content columns is-multiline is-active" aria-live="polite"></section>
+    <section id="tab-latest" class="tab-content columns is-multiline hidden" aria-live="polite"></section>
+
+    <div id="error-message" class="notification is-danger hidden" role="alert">
+      <button class="delete"></button> Error fetching data. Please try again later.
+    </div>
 
   </div>
 
   <div id="expanded-video-container" onclick="closeVideo(event)">
-    <span class="close-button" role="button" aria-label="Close video" onclick="closeVideo(event)">×</span>
+    <button class="close-button" aria-label="Close video" onclick="closeVideo(event)">×</button>
     <iframe id="expanded-video" src="" frameborder="0" allowfullscreen title="Expanded video"></iframe>
   </div>
 
@@ -122,6 +145,8 @@
 
     async function fetchData(url) {
       try {
+        document.getElementById('loading-indicator').classList.remove('hidden'); // Show loading indicator
+
         const response = await fetch(url);
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -138,7 +163,9 @@
         showTab('tab-live');
       } catch (error) {
         console.error('Error fetching data:', error);
-        document.getElementById('error-message').classList.remove('is-hidden');
+        document.getElementById('error-message').classList.remove('hidden');
+      } finally {
+        document.getElementById('loading-indicator').classList.add('hidden'); // Hide loading indicator
       }
     }
 
@@ -154,13 +181,13 @@
     }
 
     function createVideoCard(videoId, title, datetime, isLive) {
-      const showLiveTag = isLive ? "" : "is-hidden";
+      const showLiveTag = isLive ? "" : "hidden";
       const card = document.createElement('div');
       card.className = 'card video-thumbnail';
       card.innerHTML = `
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://img.youtube.com/vi/${videoId}/mqdefault.jpg" alt="${title}" onclick="expandVideo('${videoId}')">
+            <img src="https://img.youtube.com/vi/${videoId}/mqdefault.jpg" alt="${title}" onclick="expandVideo('${videoId}')" loading="lazy">
           </figure>
         </div>
         <div class="card-content" onclick="expandVideo('${videoId}')">
@@ -184,7 +211,7 @@
     function showTab(tabId) {
       document.querySelectorAll('.tab-content').forEach(tab => {
         tab.classList.toggle('is-active', tab.id === tabId);
-        tab.classList.toggle('is-hidden', tab.id !== tabId);
+        tab.classList.toggle('hidden', tab.id !== tabId);
       });
 
       document.querySelectorAll('.tabs li').forEach(button => {
