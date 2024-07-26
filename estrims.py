@@ -376,6 +376,18 @@ if __name__ == "__main__":
             title="Urbana Play",
             channel_url="https://www.youtube.com/@UrbanaPlayFM",
         ),
+        Stream(title="Bondi Live", channel_url="https://www.youtube.com/@Bondi_liveok"),
+        Stream(
+            title="Vorterix", channel_url="https://www.youtube.com/@VorterixOficial"
+        ),
+        Stream(title="Neura Media", channel_url="https://www.youtube.com/@NeuraMedia"),
+        Stream(title="RepublicaZ", channel_url="https://www.youtube.com/@republicaz"),
+        Stream(
+            title="La Casa Stream", channel_url="https://www.youtube.com/@somoslacasa"
+        ),
+        Stream(title="Ahora Play", channel_url="https://www.youtube.com/@tesla1923"),
+        Stream(title="Mix On", channel_url="https://www.youtube.com/@mixontv_"),
+        Stream(title="Clank!", channel_url="https://www.youtube.com/@clank_media"),
     ]
 
     streams = Streams(streams=streams_list)
