@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-26 00:51:45.969355",
+         "datetime": "2024-07-26 01:55:38.914340",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-26 00:51:46.427410",
+         "datetime": "2024-07-26 01:55:39.397587",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,20 +27,20 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-26 00:51:46.858189",
+         "datetime": "2024-07-26 01:55:39.884737",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": "jyhtdW6KbdE",
-         "live_title": "RADIO CON VOS",
-         "last_video_id": "-CGfZOgvZ-4",
-         "last_video_title": "Margarita Stolbizer - Diputada nacional | La Que Se Nos Viene",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "-BgtxnnfleA",
+         "last_video_title": "Desdel el aula con Luciana Malamud | La Que Se Nos Viene",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-26 00:51:47.536078",
+         "datetime": "2024-07-26 01:55:40.500176",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-26 00:51:48.168908",
+         "datetime": "2024-07-26 01:55:41.117530",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-26 00:51:48.663359",
+         "datetime": "2024-07-26 01:55:41.615239",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-26 00:51:49.047099",
+         "datetime": "2024-07-26 01:55:42.169867",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-26 00:51:49.695057",
+         "datetime": "2024-07-26 01:55:42.703300",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-26 00:51:50.197748",
+         "datetime": "2024-07-26 01:55:43.174566",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-26 00:51:50.834226",
+         "datetime": "2024-07-26 01:55:43.885033",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -126,12 +126,12 @@
          "stream_key": "LUZU TV",
          "live_id": "W49S7IasG0Q",
          "live_title": "🔴 EDICIÓN ESPECIAL con MARTIN GARABAL, ALEXIS MOYANO, MARTIN DOLINA y JULIAN LUCERO | EN VIVO",
-         "last_video_id": "r5FzdFvyFFg",
-         "last_video_title": "#UNCHURRITO l ¿TENEMOS NOMBRE DE PROGRAMA? Y TE CAMBIAMOS EL PENSAMIENTO NEGATIVO",
+         "last_video_id": "543Rh_0DwTo",
+         "last_video_title": "#ALGODEMUSICA | S.A.M.A IRRUMPE EN EL ESTUDIO + KATI VARA NOS LOOKEA",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-26 00:51:51.285895",
+         "datetime": "2024-07-26 01:55:44.319128",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-26 00:51:51.706632",
+         "datetime": "2024-07-26 01:55:44.833086",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-26 00:51:52.278009",
+         "datetime": "2024-07-26 01:55:45.403208",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-26 00:51:52.870294",
+         "datetime": "2024-07-26 01:55:46.033378",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,20 +183,20 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-26 00:51:53.428979",
+         "datetime": "2024-07-26 01:55:46.628219",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
          },
          "stream_key": "El Destape",
-         "live_id": "RU0I_qKgCiQ",
-         "live_title": "ARGENTINA POLÍTICA EN VIVO | El Destape",
-         "last_video_id": "-Af66v1Lcds",
-         "last_video_title": "🤡 LOS MALABARES DE MILEI PARA IR CON LA HERMANA A LOS JJOO | 🚨 El Quirófano del Dr. Cimminelli",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "sZAx3a88mZU",
+         "last_video_title": "LA MANO INVISIBLE DEL FMI | Diego Genoud en Argentina Política",
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-26 00:51:53.785080",
+         "datetime": "2024-07-26 01:55:47.015253",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-26 00:51:54.186395",
+         "datetime": "2024-07-26 01:55:47.513202",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-26 00:51:54.647357",
+         "datetime": "2024-07-26 01:55:48.066431",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -230,12 +230,12 @@
          "stream_key": "Eva TV",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "ub-dMwDCwGQ",
-         "last_video_title": "PERONISMO EN CONSTRUCCIÓN, invitada: TERESA GARCÍA en EVA TV",
+         "last_video_id": "Pzp3oix1a_s",
+         "last_video_title": "TIRO DE GRACIA AL CINE ARGENTINO | Una canta, la otra no en EVA TV",
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-26 00:51:55.186215",
+         "datetime": "2024-07-26 01:55:48.720496",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -243,8 +243,8 @@
          "stream_key": "Urbana Play",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "Gnjf4Chk654",
-         "last_video_title": "LA JENNY, mi barrio es mejor que el tuyo, Pablito y el Papa #VueltaYMedia",
+         "last_video_id": "oxt0HTTBlGw",
+         "last_video_title": "La argentinidad, secretos turbios en el trabajo, procrastinación y más #OlvidateDeTodo",
          "id": 109570434836997627
       }
    ]
