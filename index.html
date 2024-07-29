@@ -39,25 +39,6 @@
       height: 80%;
     }
 
-    #expanded-video-container .close-button {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      font-size: 30px;
-      color: white;
-      cursor: pointer;
-    }
-
-    #search-container {
-      position: relative;
-      margin-bottom: 1rem;
-    }
-
-    #search-input {
-      width: 100%;
-      padding-right: 2rem;
-    }
-
     .hidden {
       display: none !important;
     }
@@ -94,7 +75,6 @@
     </div>
 
     <div id="expanded-video-container" onclick="closeVideo(event)">
-      <button class="close-button" aria-label="Close video" onclick="closeVideo(event)">×</button>
       <iframe id="expanded-video" src="" frameborder="0" allowfullscreen title="Expanded video"></iframe>
     </div>
 
@@ -200,7 +180,7 @@
       }
 
       function closeVideo(event) {
-        if (event.target.id === 'expanded-video-container' || event.target.classList.contains('close-button')) {
+        if (event.target.id === 'expanded-video-container') {
           document.getElementById('expanded-video').src = '';
           document.getElementById('expanded-video-container').classList.remove('active');
         }
