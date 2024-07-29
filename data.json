@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-29 18:56:57.615392",
+         "datetime": "2024-07-29 19:12:21.603960",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-29 18:56:58.079396",
+         "datetime": "2024-07-29 19:12:22.111118",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,46 +27,46 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-29 18:56:58.479728",
+         "datetime": "2024-07-29 19:12:22.494094",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
          "live_id": "KLGwHtSGuVI",
-         "live_title": "Pasaron Cosas con Alejandro Bercovich | RADIO CON VOS",
-         "last_video_id": "lCtYL-3Mvy4",
-         "last_video_title": "\"Todos los testigos de mesa todos dicen que en Venezuela gana Edmundo González\", Manuel Sutherland",
+         "live_title": "Mejor País del Mundo con Diego Iglesias | RADIO CON VOS",
+         "last_video_id": "A_v4ExzjqPQ",
+         "last_video_title": "El patrullaje digital de Patricia Bullrich, por Gabriela Vulcano",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-29 18:56:59.031803",
+         "datetime": "2024-07-29 19:12:23.025199",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
-         "live_id": "4CBZz_m8-nw",
-         "live_title": "ERNESTO TENEMBAUM CON PEDRO ROSEMBLAT EN INDUSTRIA NACIONAL | GELATINA",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "rMCM4PcnFAM",
          "last_video_title": "HAZAÑAS OLÍMPICAS ARGENTINAS | OCTA GENCARELLI CON PEDRO ROSEMBLAT",
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-29 18:56:59.658247",
+         "datetime": "2024-07-29 19:12:23.675207",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
          },
          "stream_key": "Futurock FM",
          "live_id": "BffkhOHZAWI",
-         "live_title": "CRÓNICA ANUNCIADA con JUAN AMORIN, JOSE AMORE, POLI SABATÉS y SEBA CAZÓN | EN VIVO",
+         "live_title": "FURIA BEBÉ con MALENA PICHOT, VANESA STRAUCH y DANILA SAIEGH | EN VIVO",
          "last_video_id": "uGBO09TtiiA",
          "last_video_title": "TucuTips: ¿Cómo sacar una espina invisible? | EL TUCU con ALFREDO ZAIAT en CHEQUE EN BLANCO",
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-29 18:57:00.074673",
+         "datetime": "2024-07-29 19:12:24.158107",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-29 18:57:00.452017",
+         "datetime": "2024-07-29 19:12:24.568782",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-29 18:57:00.913758",
+         "datetime": "2024-07-29 19:12:25.087418",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,20 +105,20 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-29 18:57:01.322213",
+         "datetime": "2024-07-29 19:12:25.572186",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
          },
          "stream_key": "OLGA",
-         "live_id": "3z_bXUpG2FE",
-         "live_title": "CUANDO ERIC CONOCIÓ A MILTON en OLGA con Homero Pettinato, Toto Kirzner y Gime Accardi | EN VIVO",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "u5S0XyVD4ys",
          "last_video_title": "VELAMOS, HOMENAJEAMOS y RECORDAMOS a los MELLIZOS CROP | Soñé que Volaba | COMPLETO 29/7",
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-29 18:57:01.971178",
+         "datetime": "2024-07-29 19:12:26.269662",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-29 18:57:02.385253",
+         "datetime": "2024-07-29 19:12:26.762609",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-29 18:57:02.874763",
+         "datetime": "2024-07-29 19:12:27.196614",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-29 18:57:03.336168",
+         "datetime": "2024-07-29 19:12:27.650905",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-29 18:57:03.898916",
+         "datetime": "2024-07-29 19:12:28.184007",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-29 18:57:04.496491",
+         "datetime": "2024-07-29 19:12:28.733300",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-29 18:57:04.851929",
+         "datetime": "2024-07-29 19:12:29.107602",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-29 18:57:05.207895",
+         "datetime": "2024-07-29 19:12:29.588369",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-29 18:57:05.600680",
+         "datetime": "2024-07-29 19:12:30.071221",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-29 18:57:06.235756",
+         "datetime": "2024-07-29 19:12:30.631143",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -248,7 +248,7 @@
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-07-29 18:57:06.690406",
+         "datetime": "2024-07-29 19:12:31.092475",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,7 +261,7 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-07-29 18:57:07.253061",
+         "datetime": "2024-07-29 19:12:31.645152",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -274,7 +274,7 @@
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-07-29 18:57:07.638943",
+         "datetime": "2024-07-29 19:12:32.070286",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
@@ -287,20 +287,20 @@
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-07-29 18:57:08.161637",
+         "datetime": "2024-07-29 19:12:32.625344",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
          },
          "stream_key": "RepublicaZ",
-         "live_id": "7AH89RplWwo",
-         "live_title": "🔵Republica Z EN VIVO | #EstamosEnUna",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "4k71Q8pEF1s",
          "last_video_title": "Cuestión de Peso | TODO SOBRE la ELIMINACION de NOELIA + MUSICA en VIVO",
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-07-29 18:57:08.613125",
+         "datetime": "2024-07-29 19:12:33.106268",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -313,7 +313,7 @@
          "id": 190282678195799757
       },
       {
-         "datetime": "2024-07-29 18:57:08.977086",
+         "datetime": "2024-07-29 19:12:33.505129",
          "stream": {
             "title": "Ahora Play",
             "channel_url": "https://www.youtube.com/@tesla1923"
@@ -326,7 +326,7 @@
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-07-29 18:57:09.421184",
+         "datetime": "2024-07-29 19:12:33.998473",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -339,7 +339,7 @@
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-07-29 18:57:09.796184",
+         "datetime": "2024-07-29 19:12:34.416560",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-07-29 18:57:10.243374",
+         "datetime": "2024-07-29 19:12:34.916816",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-07-29 18:57:10.892744",
+         "datetime": "2024-07-29 19:12:35.637633",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-07-29 18:57:11.238558",
+         "datetime": "2024-07-29 19:12:36.018723",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,33 +391,33 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-07-29 18:57:11.861673",
+         "datetime": "2024-07-29 19:12:36.591090",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
          },
          "stream_key": "Brindis TV",
-         "live_id": "P_Ku1MjrbGo",
-         "live_title": "#PROPINAINCLUIDA con Juana, Belu y Santi | EN VIVO por #BrindisTV",
+         "live_id": "V31aZwr5a14",
+         "live_title": "#MODAPARAFEOS con Vicki y Carsi | EN VIVO por #BrindisTV",
          "last_video_id": "XEa1y53Wht4",
          "last_video_title": "TIER LIST: CONSPIRACIONES DE ARGENTINA POR #TERCERAOPOSICIÓN",
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-07-29 18:57:12.382795",
+         "datetime": "2024-07-29 19:12:37.139681",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
          },
          "stream_key": "Laca Stream",
          "live_id": "0XNtTwpwWBo",
-         "live_title": "LA CAMPANA con Franco Casella, Agustin Guardis, Barbi Corvalán y Tony Coggi | Laca Stream",
+         "live_title": "LA CARRERA con Lu Entín y Joaco Nuñez | Laca Stream",
          "last_video_id": "NMeEzJ6gcY8",
          "last_video_title": "LA BATALLA DE MILEI CONTRA EL FMI | Programa completo de La Calle por Laca Stream",
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-07-29 18:57:12.771145",
+         "datetime": "2024-07-29 19:12:37.554329",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,7 +430,7 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-07-29 18:57:13.190262",
+         "datetime": "2024-07-29 19:12:37.998588",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -443,7 +443,7 @@
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-07-29 18:57:13.628217",
+         "datetime": "2024-07-29 19:12:38.491911",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-07-29 18:57:14.049755",
+         "datetime": "2024-07-29 19:12:38.896596",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-07-29 18:57:14.296800",
+         "datetime": "2024-07-29 19:12:39.241011",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
