@@ -7,14 +7,16 @@ const urlsToCache = [
 
 // Install a service worker
 self.addEventListener('install', event => {
+  console.log(`Installing estrims to ${CACHE_NAME}...`);
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(cache => {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
+    addResourcesToCache(urlsToCache)
   );
 });
+
+const addResourcesToCache = async (resources) => {
+  const cache = await caches.open(CACHE_NAME);
+  await cache.addAll(resources);
+};
 
 // Cache and return requests
 self.addEventListener('fetch', event => {
