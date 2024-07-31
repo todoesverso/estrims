@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-07-31 21:38:09.497436",
+         "datetime": "2024-07-31 21:46:37.216613",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-07-31 21:38:09.979376",
+         "datetime": "2024-07-31 21:46:37.737131",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "hBMOKGfLwE0",
-         "live_title": "DINERO Y AMOR EN VIVO con Marcos Aramburu, Tomás Quintín Palma, Evitta Luna y Andy Chango | BLENDER",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "zeLyfTdW3Xo",
          "last_video_title": "LUIS VENTURA y su AMISTAD con RICKY FORT | ESCUCHO OFERTAS | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-07-31 21:38:10.378427",
+         "datetime": "2024-07-31 21:46:38.154547",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-07-31 21:38:10.884480",
+         "datetime": "2024-07-31 21:46:38.659800",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-07-31 21:38:11.532768",
+         "datetime": "2024-07-31 21:46:39.302042",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-07-31 21:38:11.976772",
+         "datetime": "2024-07-31 21:46:39.733992",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-07-31 21:38:12.448286",
+         "datetime": "2024-07-31 21:46:40.172090",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-07-31 21:38:12.981552",
+         "datetime": "2024-07-31 21:46:40.689927",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-07-31 21:38:13.423126",
+         "datetime": "2024-07-31 21:46:41.150374",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-07-31 21:38:14.043005",
+         "datetime": "2024-07-31 21:46:41.751994",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-07-31 21:38:14.502299",
+         "datetime": "2024-07-31 21:46:42.174785",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-07-31 21:38:14.960903",
+         "datetime": "2024-07-31 21:46:42.591810",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-07-31 21:38:15.380379",
+         "datetime": "2024-07-31 21:46:43.018081",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-07-31 21:38:15.990889",
+         "datetime": "2024-07-31 21:46:43.573664",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,20 +183,20 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-07-31 21:38:16.488892",
+         "datetime": "2024-07-31 21:46:44.129426",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
          },
          "stream_key": "El Destape",
          "live_id": "shGdtfrcEDI",
-         "live_title": "HABLA AXEL KICILLOF EN VIVO SOBRE MILEI E YPF - PALO Y ZANAHORIA EN VIVO | El Destape",
+         "live_title": "ALBERTO FERNÁNDEZ CON MARIANO MARTÍN - PALO Y ZANAHORIA EN VIVO | El Destape",
          "last_video_id": "6fPJLnIBEpw",
          "last_video_title": "Axel Kicillof: \"Esto no tiene nada que ver con el RIGI, es un capricho ideológico de Javier Milei\"",
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-07-31 21:38:16.822712",
+         "datetime": "2024-07-31 21:46:44.475601",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-07-31 21:38:17.199157",
+         "datetime": "2024-07-31 21:46:44.849423",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-07-31 21:38:17.628358",
+         "datetime": "2024-07-31 21:46:45.306264",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-07-31 21:38:18.177282",
+         "datetime": "2024-07-31 21:46:46.015810",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -248,7 +248,7 @@
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-07-31 21:38:18.657780",
+         "datetime": "2024-07-31 21:46:46.491977",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,7 +261,7 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-07-31 21:38:19.273216",
+         "datetime": "2024-07-31 21:46:47.025417",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -274,7 +274,7 @@
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-07-31 21:38:19.708104",
+         "datetime": "2024-07-31 21:46:47.411851",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
@@ -287,7 +287,7 @@
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-07-31 21:38:20.259731",
+         "datetime": "2024-07-31 21:46:47.982721",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
@@ -300,7 +300,7 @@
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-07-31 21:38:20.759647",
+         "datetime": "2024-07-31 21:46:48.420255",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -313,7 +313,7 @@
          "id": 190282678195799757
       },
       {
-         "datetime": "2024-07-31 21:38:21.125949",
+         "datetime": "2024-07-31 21:46:48.790940",
          "stream": {
             "title": "Ahora Play",
             "channel_url": "https://www.youtube.com/@tesla1923"
@@ -326,7 +326,7 @@
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-07-31 21:38:21.633666",
+         "datetime": "2024-07-31 21:46:49.261939",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -339,7 +339,7 @@
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-07-31 21:38:22.030764",
+         "datetime": "2024-07-31 21:46:49.674980",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-07-31 21:38:22.530402",
+         "datetime": "2024-07-31 21:46:50.164184",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-07-31 21:38:23.243600",
+         "datetime": "2024-07-31 21:46:50.883063",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-07-31 21:38:23.610426",
+         "datetime": "2024-07-31 21:46:51.270094",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,7 +391,7 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-07-31 21:38:24.194659",
+         "datetime": "2024-07-31 21:46:51.890962",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -404,7 +404,7 @@
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-07-31 21:38:24.658471",
+         "datetime": "2024-07-31 21:46:52.363768",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -417,7 +417,7 @@
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-07-31 21:38:25.038787",
+         "datetime": "2024-07-31 21:46:52.753312",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,7 +430,7 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-07-31 21:38:25.432676",
+         "datetime": "2024-07-31 21:46:53.225168",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -438,12 +438,12 @@
          "stream_key": "Ziesta TV",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "j3tA1_4cfIA",
-         "last_video_title": "HackIAton con @RAGACO30  + Call con @SoyTower + Tenemos Periodista 🥳",
+         "last_video_id": "ZmovC87wW1c",
+         "last_video_title": "Maligno Torres: campeón olímpico",
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-07-31 21:38:25.898445",
+         "datetime": "2024-07-31 21:46:53.680001",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-07-31 21:38:26.285777",
+         "datetime": "2024-07-31 21:46:54.098628",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-07-31 21:38:26.561487",
+         "datetime": "2024-07-31 21:46:54.396284",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
