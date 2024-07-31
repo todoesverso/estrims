@@ -52,7 +52,12 @@
 
       <div class="tabs is-centered is-toggle">
         <ul>
-          <li class="is-active" data-tab="tab-live"><a href="#live">LIVE</a></li>
+          <li class="is-active" data-tab="tab-live">
+            <a href="#live">
+              LIVE
+              <span id="live_counter" class="tag is-danger">0</span>
+            </a>
+          </li>
           <li data-tab="tab-latest"><a href="#latest">Últimos</a></li>
         </ul>
       </div>
@@ -106,21 +111,31 @@
             throw new Error('Network response was not ok');
           }
           const data = await response.json();
+          var liveCount = 0;
           data.data.forEach(video => {
             addCard('tab-live', video.live_id, video.live_title, video.datetime, true);
             addCard('tab-latest', video.last_video_id, video.last_video_title, video.datetime, false);
+            if (video.live_id !== null) {
+              liveCount += 1;
+            }
           });
 
           const dateNode = document.getElementById("date");
           const date = formatDateTime(data.data[0].datetime);
           dateNode.textContent = date;
           showTab('tab-live');
+          showLiveCount(liveCount);
         } catch (error) {
           console.error('Error fetching data:', error);
           document.getElementById('error-message').classList.remove('hidden');
         } finally {
           document.getElementById('loading-indicator').classList.add('hidden'); // Hide loading indicator
         }
+      }
+
+      function showLiveCount(counts) {
+        var counter = document.getElementById('live_counter');
+        counter.textContent = counts;
       }
 
       function addCard(tabId, videoId, title, datetime, isLive) {
