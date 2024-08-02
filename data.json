@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-08-02 18:00:06.649525",
+         "datetime": "2024-08-02 18:28:11.314401",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-08-02 18:00:07.164377",
+         "datetime": "2024-08-02 18:28:11.818279",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "jKtZXT4jKQ8",
-         "live_title": "PELOTA DIVIDIDA EN VIVO con Mikki Lusardi, el Ruso Verea, Cata Sarra y Giaco | BLENDER",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "QPRnYykCH4Q",
          "last_video_title": "CHARLAMOS con EL MALIGNO TORRES y los DETALLES de los JJOO | PELOTA DIVIDIDA | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-08-02 18:00:07.561062",
+         "datetime": "2024-08-02 18:28:12.304301",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-08-02 18:00:08.161078",
+         "datetime": "2024-08-02 18:28:12.837994",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-08-02 18:00:08.785553",
+         "datetime": "2024-08-02 18:28:13.461931",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -61,12 +61,12 @@
          "stream_key": "Futurock FM",
          "live_id": "XPh7yZ1YX2k",
          "live_title": "CRÓNICA ANUNCIADA | EN VIVO | EXPLOTÓ EL VERANO",
-         "last_video_id": "cq6fPM3RFlQ",
-         "last_video_title": "ENTREVISTA A TUTE EN DESPUÉS DE LA TORMENTA",
+         "last_video_id": "BhN6qrjvn2M",
+         "last_video_title": "\"MILEI TIENE LA LÓGICA DEL JOCKER\" | LEANDRO SANTORO con FLOR HALFON en AHORA DICEN",
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-08-02 18:00:09.345945",
+         "datetime": "2024-08-02 18:28:13.932292",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-08-02 18:00:09.801100",
+         "datetime": "2024-08-02 18:28:14.376810",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-08-02 18:00:10.375716",
+         "datetime": "2024-08-02 18:28:14.927723",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-08-02 18:00:10.891651",
+         "datetime": "2024-08-02 18:28:15.432932",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-08-02 18:00:11.557472",
+         "datetime": "2024-08-02 18:28:16.093774",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
          "live_id": "ZtvY3BU9qyU",
-         "live_title": "🔴 NADA QUE NO SEPAMOS con CHINO LEUNIS, LUCAS LEZIN, LAILA ROTH Y SOFI CALVO | EN VIVO",
+         "live_title": "🔴 PATRIA Y FAMILIA: FEDE POPGOLD,CAMI MAYAN, LUCAS SPADAFORA, ANITA ESPÓSITO y GUIDO SULLER| EN VIVO",
          "last_video_id": "uB9KWacWLvs",
          "last_video_title": "FRENTE AL ESPEJO | AUTOCUIDADO Y AMOR PROPIO",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-08-02 18:00:12.021322",
+         "datetime": "2024-08-02 18:28:16.544008",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-08-02 18:00:12.500643",
+         "datetime": "2024-08-02 18:28:16.998179",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-08-02 18:00:12.986212",
+         "datetime": "2024-08-02 18:28:17.480622",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-08-02 18:00:13.562444",
+         "datetime": "2024-08-02 18:28:18.073506",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-08-02 18:00:14.212548",
+         "datetime": "2024-08-02 18:28:18.656990",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-08-02 18:00:14.588264",
+         "datetime": "2024-08-02 18:28:19.014321",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-08-02 18:00:15.007556",
+         "datetime": "2024-08-02 18:28:19.465565",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-08-02 18:00:15.497155",
+         "datetime": "2024-08-02 18:28:19.919413",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-08-02 18:00:16.142146",
+         "datetime": "2024-08-02 18:28:20.487523",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -243,12 +243,12 @@
          "stream_key": "Urbana Play",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "C8VOoKtQBaU",
-         "last_video_title": "Verano en pleno invierno, invasión de langostas, reflexión sobre la ansiedad y más #Perros2024",
+         "last_video_id": "UApCGGGM2Co",
+         "last_video_title": "\"NO TE LO PUEDO CREER\", cine y la visita de Valeria Bertuccelli y Justina Bustos #TodoPasa",
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-08-02 18:00:16.665876",
+         "datetime": "2024-08-02 18:28:21.053333",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,7 +261,7 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-08-02 18:00:17.241890",
+         "datetime": "2024-08-02 18:28:21.637365",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -274,33 +274,33 @@
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-08-02 18:00:17.625887",
+         "datetime": "2024-08-02 18:28:22.074010",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
          },
          "stream_key": "Neura Media",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "RzaqFdro7wQ",
+         "live_title": "Guadalupe Vazquez: Guadavibes | !redes !wapp !kick !gumer !remeras",
          "last_video_id": "i4Ue0Jap1ac",
          "last_video_title": "Julián Yosovitch: After Market | Con José Dapena (profesor) y Enrique Pizzarro (periodista) - 21/06",
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-08-02 18:00:18.208531",
+         "datetime": "2024-08-02 18:28:22.670922",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
          },
          "stream_key": "RepublicaZ",
          "live_id": "sBTUEjeY7kw",
-         "live_title": "🔵Republica Z EN VIVO | #MentaGranizada",
+         "live_title": "🔵Republica Z EN VIVO | #EstamosEnUna",
          "last_video_id": "Hd9Pl9HVdkM",
          "last_video_title": "Se Picó | CATA ROMPIO EL SILENCIO en SE PICÓ + ¿LUCHI ESTÁ ENAMORADA?",
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-08-02 18:00:18.700355",
+         "datetime": "2024-08-02 18:28:23.174376",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -313,33 +313,33 @@
          "id": 190282678195799757
       },
       {
-         "datetime": "2024-08-02 18:00:19.091072",
+         "datetime": "2024-08-02 18:28:23.608510",
          "stream": {
             "title": "Ahora Play",
             "channel_url": "https://www.youtube.com/@tesla1923"
          },
          "stream_key": "Ahora Play",
-         "live_id": "DL8MstsdfMY",
-         "live_title": "VIERNES NEGRO: SE HUNDEN BONOS Y ACCIONES. CAVALLO EVALÚA A MILEI  #maximediodía | Maxi Montenegro",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "dgl-d_zg4K4",
          "last_video_title": "LA APUESTA DEL GOBIERNO PARA QUE ENTREN LOS DÓLARES QUE NECESITA CAPUTO | Maxi Montenegro",
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-08-02 18:00:19.612907",
+         "datetime": "2024-08-02 18:28:24.147735",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
          },
          "stream_key": "Mix On",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "7TkYJY8Cnrs",
+         "live_title": "NO ME QUEMES por Mix On",
          "last_video_id": "6sVp1f2tKH0",
          "last_video_title": "CAMI MAYÁN REDOBLÓ LA APUESTA Y ESCÁNDALO EN BOXEO DE JUEGOS OLÍMPICOS  | GIRO PERFECTO (01/08)",
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-08-02 18:00:20.054065",
+         "datetime": "2024-08-02 18:28:24.562292",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-08-02 18:00:20.541634",
+         "datetime": "2024-08-02 18:28:25.087040",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-08-02 18:00:21.326065",
+         "datetime": "2024-08-02 18:28:25.805586",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-08-02 18:00:21.749231",
+         "datetime": "2024-08-02 18:28:26.212100",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,7 +391,7 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-08-02 18:00:22.388504",
+         "datetime": "2024-08-02 18:28:26.880868",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -404,7 +404,7 @@
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-08-02 18:00:22.940387",
+         "datetime": "2024-08-02 18:28:27.367493",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -417,7 +417,7 @@
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-08-02 18:00:23.429778",
+         "datetime": "2024-08-02 18:28:27.780964",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,20 +430,20 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-08-02 18:00:23.842678",
+         "datetime": "2024-08-02 18:28:28.229415",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
          },
          "stream_key": "Ziesta TV",
          "live_id": "mb4YRDkw9Vc",
-         "live_title": "🔴 ZiestaTV - COCO OLÍMPICO con Guada Sánchez y Coco Flores 🍹🌟| EN VIVO",
+         "live_title": "🔴 ZiestaTV - RONCAN ROLL con Pablo Miguel y Juandi Romero 🎸🎤| EN VIVO",
          "last_video_id": "QVOtvT1cD9k",
          "last_video_title": "1 de Agosto: Día de la Pachamama y la Caña con Ruda",
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-08-02 18:00:24.290835",
+         "datetime": "2024-08-02 18:28:28.846152",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-08-02 18:00:24.744400",
+         "datetime": "2024-08-02 18:28:29.297184",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-08-02 18:00:25.026913",
+         "datetime": "2024-08-02 18:28:29.614183",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
