@@ -407,6 +407,7 @@ if __name__ == "__main__":
             title="Polenta para revolver",
             channel_url="https://www.youtube.com/@polentapararevolver",
         ),
+        Stream(title="Re FM 107.3", channel_url="https://www.youtube.com/@ReFM107.3"),
     ]
 
     streams = Streams(streams=streams_list)
