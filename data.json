@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-08-09 21:57:20.831114",
+         "datetime": "2024-08-09 22:16:32.204711",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-08-09 21:57:21.306319",
+         "datetime": "2024-08-09 22:16:32.731226",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,7 +27,7 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-08-09 21:57:21.738506",
+         "datetime": "2024-08-09 22:16:33.231223",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -35,12 +35,12 @@
          "stream_key": "Radio con vos",
          "live_id": "cGXSKTv-atk",
          "live_title": "No Dejes para Mañana con Romina Manguel | RADIO CON VOS",
-         "last_video_id": "JxPUC2cdzrs",
-         "last_video_title": "Romina Manguel sobre Alberto Fernández: \"Hay que ordenarse porque el riesgo es que dé todo lo mismo\"",
+         "last_video_id": "vWK3Vz2cuqw",
+         "last_video_title": "Gonzalo Vergareche, el periodista que difundió el registro de Olivos: \"El foco es la cuarentena\"",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-08-09 21:57:22.319923",
+         "datetime": "2024-08-09 22:16:33.917238",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-08-09 21:57:22.976514",
+         "datetime": "2024-08-09 22:16:34.522668",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-08-09 21:57:23.446685",
+         "datetime": "2024-08-09 22:16:35.082897",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-08-09 21:57:23.873543",
+         "datetime": "2024-08-09 22:16:35.598489",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-08-09 21:57:24.482974",
+         "datetime": "2024-08-09 22:16:36.237517",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-08-09 21:57:24.957639",
+         "datetime": "2024-08-09 22:16:36.786616",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-08-09 21:57:25.597281",
+         "datetime": "2024-08-09 22:16:37.432036",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
-         "live_id": "YFq5D2CJxq8",
-         "live_title": "🔴 TARDE DE TERTULIA con MARTI BENZA, NICO FERRERO, CAMI JARA Y GIANI | EN VIVO",
-         "last_video_id": "yM-yBh6I510",
-         "last_video_title": "#NADIEDICENADA | ¡HICIMOS OTRO GRAN REX!: EMOTIVOS MENSAJES Y ¿LE PIDEN CASAMIENTO A MOMI?",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "hsdTgAZJB1w",
+         "last_video_title": "#NADAQUENOSEPAMOS | ¿NACIÓ UN AMOR? + PENSÉ QUE LO TENÍA SUPERADO…",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-08-09 21:57:26.055256",
+         "datetime": "2024-08-09 22:16:37.957236",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-08-09 21:57:26.528376",
+         "datetime": "2024-08-09 22:16:38.459315",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-08-09 21:57:26.954848",
+         "datetime": "2024-08-09 22:16:39.022394",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-08-09 21:57:27.549656",
+         "datetime": "2024-08-09 22:16:39.651803",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,20 +183,20 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-08-09 21:57:28.091004",
+         "datetime": "2024-08-09 22:16:40.350045",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
          },
          "stream_key": "El Destape",
          "live_id": "mZFMc2Ajzvs",
-         "live_title": "ESCÁNDALO DE ALBERTO FERNÁNDEZ - PALO Y ZANAHORIA EN VIVO | El Destape",
-         "last_video_id": "tUcxIcTZsjM",
-         "last_video_title": "VAN POR EL INDULTO | Editorial de Darío Villarruel",
+         "live_title": "ESCÁNDALO DE ALBERTO FERNÁNDEZ - ARGENTINA POLÍTICA EN VIVO | El Destape",
+         "last_video_id": "SGMUplPlXpA",
+         "last_video_title": "UN MENSAJE DEL PERONISMO: La Rioja reformó su Constitución",
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-08-09 21:57:28.423569",
+         "datetime": "2024-08-09 22:16:40.769307",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-08-09 21:57:28.820745",
+         "datetime": "2024-08-09 22:16:41.212235",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-08-09 21:57:29.245552",
+         "datetime": "2024-08-09 22:16:41.761735",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-08-09 21:57:29.893801",
+         "datetime": "2024-08-09 22:16:42.444054",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -248,7 +248,7 @@
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-08-09 21:57:30.365160",
+         "datetime": "2024-08-09 22:16:43.015401",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,7 +261,7 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-08-09 21:57:30.907045",
+         "datetime": "2024-08-09 22:16:43.606239",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -274,20 +274,20 @@
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-08-09 21:57:31.379928",
+         "datetime": "2024-08-09 22:16:44.047713",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
          },
          "stream_key": "Neura Media",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "WRjnwyXvdY0",
+         "live_title": "Julian Yosovitch: After Market | !redes !wapp !kick !gumer !remeras",
          "last_video_id": "i4Ue0Jap1ac",
          "last_video_title": "Julián Yosovitch: After Market | Con José Dapena (profesor) y Enrique Pizzarro (periodista) - 21/06",
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-08-09 21:57:31.999949",
+         "datetime": "2024-08-09 22:16:44.723060",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
@@ -300,7 +300,7 @@
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-08-09 21:57:32.469787",
+         "datetime": "2024-08-09 22:16:45.312127",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -313,7 +313,7 @@
          "id": 190282678195799757
       },
       {
-         "datetime": "2024-08-09 21:57:32.848941",
+         "datetime": "2024-08-09 22:16:45.790928",
          "stream": {
             "title": "Ahora Play",
             "channel_url": "https://www.youtube.com/@tesla1923"
@@ -326,20 +326,20 @@
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-08-09 21:57:33.338667",
+         "datetime": "2024-08-09 22:16:46.416357",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
          },
          "stream_key": "Mix On",
-         "live_id": "ycilB9urOqk",
-         "live_title": "GIRO PERFECTO por Mix On",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "0F7dR_aEVho",
          "last_video_title": "SE VIENE EL CLÁSICO ROSARINO Y LA PICAMOS EN VIVO | GIRO PERFECTO (08/08)",
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-08-09 21:57:33.748431",
+         "datetime": "2024-08-09 22:16:46.896366",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,20 +352,20 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-08-09 21:57:34.270840",
+         "datetime": "2024-08-09 22:16:47.507932",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
          },
          "stream_key": "YEITE",
-         "live_id": "lJAj5H1BtPM",
-         "live_title": "FINJAMOS CORDURA | YEITE #64",
+         "live_id": "h3EDhbWSc7s",
+         "live_title": "NIRVANA VERBAL | YEITE #64",
          "last_video_id": "Fudm1xKG2NY",
          "last_video_title": "Los cuentos del POPS: los CUMPLEAÑOS",
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-08-09 21:57:34.800708",
+         "datetime": "2024-08-09 22:16:48.125966",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-08-09 21:57:35.162207",
+         "datetime": "2024-08-09 22:16:48.624311",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,20 +391,20 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-08-09 21:57:35.751667",
+         "datetime": "2024-08-09 22:16:49.344143",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
          },
          "stream_key": "Brindis TV",
-         "live_id": "dHdn9Jp7jck",
-         "live_title": "#PALABRASANTA con Martu 'la Turca' Bovyn y el Chulo | EN VIVO por #BrindisTV",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "1Pk6TjHsPH4",
          "last_video_title": "CONJURA #5 | PEDRO SABORIDO en #CABARETVOLTAIRE: IDENTIDAD, PERONISMO, BEATLES y DIOS",
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-08-09 21:57:36.259976",
+         "datetime": "2024-08-09 22:16:49.900787",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -417,7 +417,7 @@
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-08-09 21:57:36.675996",
+         "datetime": "2024-08-09 22:16:50.394678",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,7 +430,7 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-08-09 21:57:37.078681",
+         "datetime": "2024-08-09 22:16:50.902096",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -443,7 +443,7 @@
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-08-09 21:57:37.550807",
+         "datetime": "2024-08-09 22:16:51.506451",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-08-09 21:57:37.983090",
+         "datetime": "2024-08-09 22:16:51.998654",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-08-09 21:57:38.311601",
+         "datetime": "2024-08-09 22:16:52.391058",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
@@ -482,7 +482,7 @@
          "id": 510816645398692120
       },
       {
-         "datetime": "2024-08-09 21:57:38.757739",
+         "datetime": "2024-08-09 22:16:52.916233",
          "stream": {
             "title": "Re FM 107.3",
             "channel_url": "https://www.youtube.com/@ReFM107.3"
