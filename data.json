@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-09-02 17:55:29.271732",
+         "datetime": "2024-09-02 18:17:13.211982",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-09-02 17:55:29.712398",
+         "datetime": "2024-09-02 18:17:13.649628",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "pCgVgiQN2vs",
-         "live_title": "PELOTA DIVIDIDA EN VIVO con Mikki Lusardi, el Ruso Verea, Cata Sarra y Juli Giaco | BLENDER",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "gEQVinXpjI4",
          "last_video_title": "¿SE VIENE EL JUICIO POLÍTICO A MILEI? | PASADO DE ROSCA | DESAYUNO INTERMITENTE | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-09-02 17:55:30.381448",
+         "datetime": "2024-09-02 18:17:14.226617",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-09-02 17:55:30.962127",
+         "datetime": "2024-09-02 18:17:14.786099",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-09-02 17:55:31.439392",
+         "datetime": "2024-09-02 18:17:15.260314",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -61,12 +61,12 @@
          "stream_key": "Futurock FM",
          "live_id": "WRQCBDsAdjM",
          "live_title": "CRÓNICA ANUNCIADA con JUAN AMORIN, JOSE AMORE, POLI SABATÉS y SEBA CAZÓN | EN VIVO",
-         "last_video_id": "XUh64OW97FA",
-         "last_video_title": "\"La audacia y determinación de Milei es como la que tuvo Cristina\" | JULIA STRADA con GABRIEL SUED",
+         "last_video_id": "VTW-UuqDRp0",
+         "last_video_title": "Reseña \"Lanzallamas, Milei Y El Fascismo Psicotizante\" de Rocco Carbone | FEDE VÁZQUEZ en SEGUROLA",
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-09-02 17:55:31.985194",
+         "datetime": "2024-09-02 18:17:15.749433",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-09-02 17:55:32.410080",
+         "datetime": "2024-09-02 18:17:16.188674",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-09-02 17:55:32.998772",
+         "datetime": "2024-09-02 18:17:16.759904",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-09-02 17:55:33.471664",
+         "datetime": "2024-09-02 18:17:17.255201",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-09-02 17:55:34.155570",
+         "datetime": "2024-09-02 18:17:17.922145",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
          "live_id": "jqx40SsGO2A",
-         "live_title": "🔴 NADA QUE NO SEPAMOS con CHINO LEUNIS, BELU NEGRI, LAILA ROTH, LUCAS LEZIN Y SOFI CALVO | EN VIVO",
+         "live_title": "🔴 PATRIA Y FAMILIA con FEDE POPGOLD, CAMI MAYAN, LUCAS SPADAFORA Y ANITA ESPÓSITO | EN VIVO",
          "last_video_id": "p6qyoD6MKeA",
          "last_video_title": "#ANTESQUENADIE | ¿BOCA O ASTROLOGÍA? Y LA HISTORIA DE CELESTE IANNELLI: \"DONEMOS MÉDULA\"",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-09-02 17:55:34.550535",
+         "datetime": "2024-09-02 18:17:18.387886",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-09-02 17:55:34.943026",
+         "datetime": "2024-09-02 18:17:18.841436",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-09-02 17:55:35.341342",
+         "datetime": "2024-09-02 18:17:19.281736",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-09-02 17:55:35.887030",
+         "datetime": "2024-09-02 18:17:19.855301",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-09-02 17:55:36.466406",
+         "datetime": "2024-09-02 18:17:20.398256",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-09-02 17:55:36.800666",
+         "datetime": "2024-09-02 18:17:20.748359",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-09-02 17:55:37.132265",
+         "datetime": "2024-09-02 18:17:21.098709",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-09-02 17:55:37.625468",
+         "datetime": "2024-09-02 18:17:21.519512",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-09-02 17:55:38.262729",
+         "datetime": "2024-09-02 18:17:22.118623",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -248,7 +248,7 @@
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-09-02 17:55:38.716495",
+         "datetime": "2024-09-02 18:17:22.623320",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,7 +261,7 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-09-02 17:55:39.325276",
+         "datetime": "2024-09-02 18:17:23.219889",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -274,33 +274,33 @@
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-09-02 17:55:39.732546",
+         "datetime": "2024-09-02 18:17:23.634242",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
          },
          "stream_key": "Neura Media",
-         "live_id": "BexrTnvpI_E",
-         "live_title": "Miguel Wiñazki: Posnormalidad | !redes !wapp !gumer !remeras",
+         "live_id": "sBxXhhYyYPM",
+         "live_title": "Guadalupe Vazquez: Guadavibes | !redes !wapp !gumer !remeras",
          "last_video_id": "yinbf1yQZ0I",
          "last_video_title": "Gonzalo Garcés: Partes de la Verdad | Con Andrés Hatum (escritor) y Luciana Vázquez (periodista)",
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-09-02 17:55:40.317537",
+         "datetime": "2024-09-02 18:17:24.188580",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
          },
          "stream_key": "RepublicaZ",
          "live_id": "CiJeqhE2sGE",
-         "live_title": "🔵Republica Z EN VIVO | #MentaGranizada",
+         "live_title": "🔵Republica Z EN VIVO | #EstamosEnUna",
          "last_video_id": "EgC5dTPS3II",
          "last_video_title": "Menta Granizada | EL PERITO MORENO y EL SAN FRANCISCO de ASIS COMPITEN POR EL VIAJE de EGRESADOS",
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-09-02 17:55:40.819371",
+         "datetime": "2024-09-02 18:17:24.600723",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -313,20 +313,20 @@
          "id": 190282678195799757
       },
       {
-         "datetime": "2024-09-02 17:55:41.193678",
+         "datetime": "2024-09-02 18:17:24.974014",
          "stream": {
             "title": "Ahora Play",
             "channel_url": "https://www.youtube.com/@tesla1923"
          },
          "stream_key": "Ahora Play",
-         "live_id": "dxWO3l9PRAI",
-         "live_title": "MILEI PISA EL ACELERADOR. BAJA DÓLAR IMPORTADOR: ¿UN CAMINO DE IDA? #maximediodía | Maxi Montenegro",
+         "live_id": "-jd3x-MU8Cw",
+         "live_title": "Milei pega en público, negocia en privado  | Javier Calvo y Agustina Girón #UnDíaNormalEnArgentina",
          "last_video_id": "z80ZLEVIjTc",
          "last_video_title": "La doble nelson que afecta a la economía argentina | #EconomíaExplicada Episodio 5 - Juanma Telechea",
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-09-02 17:55:41.638088",
+         "datetime": "2024-09-02 18:17:25.449427",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -339,7 +339,7 @@
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-09-02 17:55:41.999589",
+         "datetime": "2024-09-02 18:17:25.867134",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-09-02 17:55:42.415491",
+         "datetime": "2024-09-02 18:17:26.258111",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-09-02 17:55:42.817316",
+         "datetime": "2024-09-02 18:17:26.695816",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-09-02 17:55:43.255983",
+         "datetime": "2024-09-02 18:17:27.065863",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,7 +391,7 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-09-02 17:55:43.816917",
+         "datetime": "2024-09-02 18:17:27.636065",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -404,7 +404,7 @@
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-09-02 17:55:44.278593",
+         "datetime": "2024-09-02 18:17:28.102485",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -417,7 +417,7 @@
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-09-02 17:55:44.647040",
+         "datetime": "2024-09-02 18:17:28.489913",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,7 +430,7 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-09-02 17:55:45.103160",
+         "datetime": "2024-09-02 18:17:28.945389",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -443,7 +443,7 @@
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-09-02 17:55:45.568494",
+         "datetime": "2024-09-02 18:17:29.406270",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-09-02 17:55:45.946474",
+         "datetime": "2024-09-02 18:17:29.813816",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-09-02 17:55:46.202334",
+         "datetime": "2024-09-02 18:17:30.092193",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
