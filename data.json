@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-09-16 01:06:28.934252",
+         "datetime": "2024-09-16 02:33:01.901028",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-09-16 01:06:29.461150",
+         "datetime": "2024-09-16 02:33:02.373300",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,20 +27,20 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-09-16 01:06:30.085569",
+         "datetime": "2024-09-16 02:33:03.031445",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": "mZaBoW75h1o",
-         "live_title": "MILEI EN EL CONGRESO - TRANSMISIÓN ESPECIAL PRESUPUESTO 2025",
-         "last_video_id": "KD9nLZqmX74",
-         "last_video_title": "Esteban Domecq - Economista | RADIO CON VOS",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "7smLMA_NPO0",
+         "last_video_title": "Gustavo Córdoba - Analista y consultor político. Director de Zuban Córdoba | RADIO CON VOS",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-09-16 01:06:30.699832",
+         "datetime": "2024-09-16 02:33:03.797858",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-09-16 01:06:31.279297",
+         "datetime": "2024-09-16 02:33:04.261075",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-09-16 01:06:31.829291",
+         "datetime": "2024-09-16 02:33:04.716130",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-09-16 01:06:32.287283",
+         "datetime": "2024-09-16 02:33:05.159616",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-09-16 01:06:32.898088",
+         "datetime": "2024-09-16 02:33:05.805426",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-09-16 01:06:33.461270",
+         "datetime": "2024-09-16 02:33:06.311890",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-09-16 01:06:34.166556",
+         "datetime": "2024-09-16 02:33:06.984325",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-09-16 01:06:34.679619",
+         "datetime": "2024-09-16 02:33:07.488601",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-09-16 01:06:35.158822",
+         "datetime": "2024-09-16 02:33:07.888577",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-09-16 01:06:35.668731",
+         "datetime": "2024-09-16 02:33:08.375855",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-09-16 01:06:36.296738",
+         "datetime": "2024-09-16 02:33:08.947888",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-09-16 01:06:36.926617",
+         "datetime": "2024-09-16 02:33:09.481295",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-09-16 01:06:37.326610",
+         "datetime": "2024-09-16 02:33:09.873216",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-09-16 01:06:37.747444",
+         "datetime": "2024-09-16 02:33:10.317584",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-09-16 01:06:38.184194",
+         "datetime": "2024-09-16 02:33:10.726437",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-09-16 01:06:38.846035",
+         "datetime": "2024-09-16 02:33:11.365114",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -248,7 +248,7 @@
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-09-16 01:06:39.380712",
+         "datetime": "2024-09-16 02:33:11.910065",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,7 +261,7 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-09-16 01:06:39.994412",
+         "datetime": "2024-09-16 02:33:12.359438",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -274,20 +274,20 @@
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-09-16 01:06:40.470036",
+         "datetime": "2024-09-16 02:33:12.761332",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
          },
          "stream_key": "Neura Media",
-         "live_id": "9wabb-DH9gk",
-         "live_title": "Especial Multiverso Fantino: El Presidente Milei Presenta el Presupuesto Nacional 2025 | !redes !…",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "yinbf1yQZ0I",
          "last_video_title": "Gonzalo Garcés: Partes de la Verdad | Con Andrés Hatum (escritor) y Luciana Vázquez (periodista)",
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-09-16 01:06:41.098836",
+         "datetime": "2024-09-16 02:33:13.527436",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
@@ -300,7 +300,7 @@
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-09-16 01:06:41.592107",
+         "datetime": "2024-09-16 02:33:13.953866",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -313,7 +313,7 @@
          "id": 190282678195799757
       },
       {
-         "datetime": "2024-09-16 01:06:42.183531",
+         "datetime": "2024-09-16 02:33:14.356340",
          "stream": {
             "title": "Ahora Play",
             "channel_url": "https://www.youtube.com/@tesla1923"
@@ -326,7 +326,7 @@
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-09-16 01:06:42.722944",
+         "datetime": "2024-09-16 02:33:14.841326",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -339,7 +339,7 @@
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-09-16 01:06:43.189368",
+         "datetime": "2024-09-16 02:33:15.291401",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-09-16 01:06:43.662788",
+         "datetime": "2024-09-16 02:33:15.746413",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-09-16 01:06:44.284053",
+         "datetime": "2024-09-16 02:33:16.235473",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-09-16 01:06:44.846718",
+         "datetime": "2024-09-16 02:33:16.706915",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,7 +391,7 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-09-16 01:06:45.530896",
+         "datetime": "2024-09-16 02:33:17.405092",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -404,7 +404,7 @@
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-09-16 01:06:46.062123",
+         "datetime": "2024-09-16 02:33:18.010439",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -417,7 +417,7 @@
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-09-16 01:06:46.552157",
+         "datetime": "2024-09-16 02:33:18.521548",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,7 +430,7 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-09-16 01:06:47.033580",
+         "datetime": "2024-09-16 02:33:18.999492",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -443,7 +443,7 @@
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-09-16 01:06:47.575551",
+         "datetime": "2024-09-16 02:33:19.564356",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-09-16 01:06:48.081381",
+         "datetime": "2024-09-16 02:33:20.028213",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-09-16 01:06:48.505845",
+         "datetime": "2024-09-16 02:33:20.355473",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
