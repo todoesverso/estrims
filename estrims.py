@@ -409,6 +409,7 @@ if __name__ == "__main__":
         ),
         Stream(title="Re FM 107.3", channel_url="https://www.youtube.com/@ReFM107.3"),
         Stream(title="Chimi Canal", channel_url="https://www.youtube.com/@ChimiCanal"),
+        Stream(title="Diario Alfil Cordoba", channel_url="https://www.youtube.com/@diario.alfil.cordoba"),
     ]
 
     streams = Streams(streams=streams_list)
