@@ -413,6 +413,10 @@ if __name__ == "__main__":
             title="Diario Alfil Cordoba",
             channel_url="https://www.youtube.com/@diario.alfil.cordoba",
         ),
+        Stream(
+            title="Nada del otro mundo", 
+            channel_url="https://www.youtube.com/@NadadelOtroMundo2024"
+        ),
     ]
 
     streams = Streams(streams=streams_list)
