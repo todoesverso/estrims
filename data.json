@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-10-12 00:40:57.868063",
+         "datetime": "2024-10-12 02:04:12.710088",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-10-12 00:40:58.465116",
+         "datetime": "2024-10-12 02:04:13.319080",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,20 +27,20 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-10-12 00:40:59.058734",
+         "datetime": "2024-10-12 02:04:13.938841",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
-         "live_id": "uXbETkHRxQs",
-         "live_title": "RADIO CON VOS",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "bGlu0y1AxKI",
          "last_video_title": "La columna literaria de Nacho Iraola en NDPM",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-10-12 00:40:59.611884",
+         "datetime": "2024-10-12 02:04:14.665087",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-10-12 00:41:00.102080",
+         "datetime": "2024-10-12 02:04:15.206167",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-10-12 00:41:00.598602",
+         "datetime": "2024-10-12 02:04:15.687330",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-10-12 00:41:00.998339",
+         "datetime": "2024-10-12 02:04:16.142011",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-10-12 00:41:01.563475",
+         "datetime": "2024-10-12 02:04:16.863478",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-10-12 00:41:02.120909",
+         "datetime": "2024-10-12 02:04:17.430820",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-10-12 00:41:02.706056",
+         "datetime": "2024-10-12 02:04:18.122144",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-10-12 00:41:03.175453",
+         "datetime": "2024-10-12 02:04:18.572448",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-10-12 00:41:03.573381",
+         "datetime": "2024-10-12 02:04:19.042285",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-10-12 00:41:04.015848",
+         "datetime": "2024-10-12 02:04:19.519009",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-10-12 00:41:04.609386",
+         "datetime": "2024-10-12 02:04:20.131137",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,20 +183,20 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-10-12 00:41:05.149369",
+         "datetime": "2024-10-12 02:04:20.649106",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
          },
          "stream_key": "El Destape",
-         "live_id": "wjXzegSGbho",
-         "live_title": "AL INFINITO Y MÁS ALLÁ con Nora Bär EN VIVO | El Destape",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "PB63bxf5bWE",
          "last_video_title": "Lo humilló: Lilita Carrió rompió el silencio y le dio a Milei donde más le duele",
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-10-12 00:41:05.555702",
+         "datetime": "2024-10-12 02:04:21.111407",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-10-12 00:41:05.932632",
+         "datetime": "2024-10-12 02:04:21.478369",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-10-12 00:41:06.361044",
+         "datetime": "2024-10-12 02:04:21.916143",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -230,12 +230,12 @@
          "stream_key": "Eva TV",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "c9xXh6UgH1w",
-         "last_video_title": "12 DE OCTUBRE: MEMORIA, VERDAD Y JUSTICIA | Conciencia negra en EVA TV",
+         "last_video_id": "CKRSkGH_nRc",
+         "last_video_title": "BRECHA DIGITAL DE GÉNERO Y CÓMO EMPODERARSE EN LA INDUSTRIA TECH | Inteligencia colectiva en EVA TV",
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-10-12 00:41:06.939200",
+         "datetime": "2024-10-12 02:04:22.552990",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -248,7 +248,7 @@
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-10-12 00:41:07.401523",
+         "datetime": "2024-10-12 02:04:23.045763",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,7 +261,7 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-10-12 00:41:07.915058",
+         "datetime": "2024-10-12 02:04:23.564633",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -274,20 +274,20 @@
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-10-12 00:41:08.302144",
+         "datetime": "2024-10-12 02:04:24.011993",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
          },
          "stream_key": "Neura Media",
-         "live_id": "2pjfqxWt-PY",
-         "live_title": "Feriado en Neura | !redes !wapp !kick !gumer !remeras",
-         "last_video_id": "-s_C8qBhxtQ",
-         "last_video_title": "Guadavibes | Con Matías Sebely (intendente de Alem), Norberto Giudice y Nicolás Zaffora - 11/10",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "ikfSCuZjPkI",
+         "last_video_title": "Marcelo Birmajer (escritor) con Gonzalo Garcés | Partes de la Verdad - 11/10",
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-10-12 00:41:08.943532",
+         "datetime": "2024-10-12 02:04:24.717029",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
@@ -300,7 +300,7 @@
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-10-12 00:41:09.512454",
+         "datetime": "2024-10-12 02:04:25.206166",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -313,7 +313,7 @@
          "id": 190282678195799757
       },
       {
-         "datetime": "2024-10-12 00:41:09.898956",
+         "datetime": "2024-10-12 02:04:25.649204",
          "stream": {
             "title": "Ahora Play",
             "channel_url": "https://www.youtube.com/@tesla1923"
@@ -326,7 +326,7 @@
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-10-12 00:41:10.618597",
+         "datetime": "2024-10-12 02:04:26.281591",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -339,7 +339,7 @@
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-10-12 00:41:11.048259",
+         "datetime": "2024-10-12 02:04:26.718465",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-10-12 00:41:11.528418",
+         "datetime": "2024-10-12 02:04:27.181537",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-10-12 00:41:12.032392",
+         "datetime": "2024-10-12 02:04:27.730746",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-10-12 00:41:12.459138",
+         "datetime": "2024-10-12 02:04:28.196204",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,7 +391,7 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-10-12 00:41:13.101747",
+         "datetime": "2024-10-12 02:04:28.855935",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -404,7 +404,7 @@
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-10-12 00:41:13.555572",
+         "datetime": "2024-10-12 02:04:29.409533",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -417,7 +417,7 @@
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-10-12 00:41:13.995731",
+         "datetime": "2024-10-12 02:04:29.918687",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,7 +430,7 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-10-12 00:41:14.497886",
+         "datetime": "2024-10-12 02:04:30.363413",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -443,7 +443,7 @@
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-10-12 00:41:15.019393",
+         "datetime": "2024-10-12 02:04:30.920283",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-10-12 00:41:15.540496",
+         "datetime": "2024-10-12 02:04:31.335420",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-10-12 00:41:15.867943",
+         "datetime": "2024-10-12 02:04:31.701921",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
@@ -495,7 +495,7 @@
          "id": 126855109166765516
       },
       {
-         "datetime": "2024-10-12 00:41:16.443883",
+         "datetime": "2024-10-12 02:04:32.423840",
          "stream": {
             "title": "Chimi Canal",
             "channel_url": "https://www.youtube.com/@ChimiCanal"
@@ -508,7 +508,7 @@
          "id": 259372155334290277
       },
       {
-         "datetime": "2024-10-12 00:41:16.877172",
+         "datetime": "2024-10-12 02:04:32.925997",
          "stream": {
             "title": "Diario Alfil Cordoba",
             "channel_url": "https://www.youtube.com/@diario.alfil.cordoba"
@@ -516,12 +516,12 @@
          "stream_key": "Diario Alfil Cordoba",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "UZ6ATxGXYu8",
-         "last_video_title": "ALFIL TV 10 10 B02 Limia “Quedó de manifiesto el apoyo que tiene el financiamiento universitario”",
+         "last_video_id": "XnBuDlvtO00",
+         "last_video_title": "ALFIL TV 10 10 B04 bloque cultural",
          "id": 288236526587119206
       },
       {
-         "datetime": "2024-10-12 00:41:17.336500",
+         "datetime": "2024-10-12 02:04:33.419518",
          "stream": {
             "title": "Nada del otro mundo",
             "channel_url": "https://www.youtube.com/@NadadelOtroMundo2024"
