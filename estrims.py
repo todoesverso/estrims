@@ -417,6 +417,10 @@ if __name__ == "__main__":
             title="Nada del otro mundo", 
             channel_url="https://www.youtube.com/@NadadelOtroMundo2024"
         ),
+        Stream(
+            title="BorderPeriodismo",
+            channel_url="https://www.youtube.com/@border.periodismo"
+        )
     ]
 
     streams = Streams(streams=streams_list)
