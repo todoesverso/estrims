@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-10-16 01:50:20.781593",
+         "datetime": "2024-10-16 02:45:12.268171",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-10-16 01:50:21.289136",
+         "datetime": "2024-10-16 02:45:12.852126",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "fJgENc_Tjp4",
-         "live_title": "HAY ALGO AHÍ EN VIVO con REBORD, RUFFO e IVÁN SCHARGRODSKY | BLENDER",
+         "live_id": "9iPKqvOZRCc",
+         "live_title": "GALANES EN TEMPORADA BAJA EN VIVO con Galia Moldavsky, Gonzalo Heredia y Esteban Lamothe | BLENDER",
          "last_video_id": "zsMfU9E-sXw",
          "last_video_title": "RITA CORTESE: EXPERIENCIAS CHAMÁNICAS y el PELIGRO en el TANGO | DINERO Y AMOR | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-10-16 01:50:21.891047",
+         "datetime": "2024-10-16 02:45:13.473834",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,7 +40,7 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-10-16 01:50:22.506455",
+         "datetime": "2024-10-16 02:45:14.086721",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-10-16 01:50:22.963656",
+         "datetime": "2024-10-16 02:45:14.658867",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-10-16 01:50:23.447251",
+         "datetime": "2024-10-16 02:45:15.214579",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-10-16 01:50:23.812232",
+         "datetime": "2024-10-16 02:45:15.658878",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-10-16 01:50:24.460269",
+         "datetime": "2024-10-16 02:45:16.374515",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-10-16 01:50:24.938860",
+         "datetime": "2024-10-16 02:45:16.945115",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,20 +118,20 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-10-16 01:50:25.555773",
+         "datetime": "2024-10-16 02:45:17.629600",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
          },
          "stream_key": "LUZU TV",
-         "live_id": "HX54ZNsJ578",
-         "live_title": "🔴 EDICIÓN ESPECIAL con MARTIN GARABAL, ALEXIS MOYANO, MARTÍN DOLINA Y ADRIAN LACKERMAN | EN VIVO",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "ixyq9cbI4Uo",
          "last_video_title": "#DUQUESAS l LA SEGURIDAD EN EL ESCENARIO DE DALIA GUTMAN Y MES ROSA CON MAJO MARTINO Y GINECONLINE",
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-10-16 01:50:26.075552",
+         "datetime": "2024-10-16 02:45:18.189667",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-10-16 01:50:26.512936",
+         "datetime": "2024-10-16 02:45:18.684952",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-10-16 01:50:26.949690",
+         "datetime": "2024-10-16 02:45:19.221300",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-10-16 01:50:27.619214",
+         "datetime": "2024-10-16 02:45:19.872251",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-10-16 01:50:28.139473",
+         "datetime": "2024-10-16 02:45:20.507027",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-10-16 01:50:28.461517",
+         "datetime": "2024-10-16 02:45:20.938802",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-10-16 01:50:28.805659",
+         "datetime": "2024-10-16 02:45:21.386297",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-10-16 01:50:29.172920",
+         "datetime": "2024-10-16 02:45:21.872774",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -230,12 +230,12 @@
          "stream_key": "Eva TV",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "gmeP3jNHiJg",
-         "last_video_title": "LAS TRADICIONES DE LA UNIDAD BÁSICA con GISELA MARZIOTTA |  Unidad básica en EVA TV",
+         "last_video_id": "6SB8GFd3Nbo",
+         "last_video_title": "LA CONDUCCIÓN TIENE QUE SER UNA | GONZALO UNAMUNO | Re-Actualización doctrinaria en EVA TV",
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-10-16 01:50:29.875346",
+         "datetime": "2024-10-16 02:45:22.561252",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -248,7 +248,7 @@
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-10-16 01:50:30.332900",
+         "datetime": "2024-10-16 02:45:23.077467",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,20 +261,20 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-10-16 01:50:30.809414",
+         "datetime": "2024-10-16 02:45:23.685655",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
          },
          "stream_key": "Vorterix",
-         "live_id": "_pMIBPZ-eGg",
-         "live_title": "🔴 ¡¿QUÉ ROMPIMOS?! Tomás Pergolini y Leyla Becha | VORTERIX EN VIVO",
-         "last_video_id": "nkMg6b90NG8",
-         "last_video_title": "WILL, CORNUDOS Y ROLLINGAS | #ParenLaMano Completo - 15/10 | Vorterix",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "GPvT6yVyNLU",
+         "last_video_title": "PRETORIA EN VIVO Y TOMAMOS LA FACU | #QUÉROMPIMOS Completo - 15/10 | Vorterix",
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-10-16 01:50:31.201916",
+         "datetime": "2024-10-16 02:45:24.130307",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
@@ -287,7 +287,7 @@
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-10-16 01:50:31.839153",
+         "datetime": "2024-10-16 02:45:24.866939",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
@@ -300,7 +300,7 @@
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-10-16 01:50:32.322720",
+         "datetime": "2024-10-16 02:45:25.405488",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -313,7 +313,7 @@
          "id": 190282678195799757
       },
       {
-         "datetime": "2024-10-16 01:50:32.660705",
+         "datetime": "2024-10-16 02:45:25.866864",
          "stream": {
             "title": "Ahora Play",
             "channel_url": "https://www.youtube.com/@tesla1923"
@@ -326,7 +326,7 @@
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-10-16 01:50:33.177874",
+         "datetime": "2024-10-16 02:45:26.474815",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -339,7 +339,7 @@
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-10-16 01:50:33.606440",
+         "datetime": "2024-10-16 02:45:26.970261",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-10-16 01:50:34.061177",
+         "datetime": "2024-10-16 02:45:27.575783",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-10-16 01:50:34.600508",
+         "datetime": "2024-10-16 02:45:28.186239",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-10-16 01:50:34.981411",
+         "datetime": "2024-10-16 02:45:28.721591",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,7 +391,7 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-10-16 01:50:35.608986",
+         "datetime": "2024-10-16 02:45:29.421130",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -404,7 +404,7 @@
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-10-16 01:50:36.083628",
+         "datetime": "2024-10-16 02:45:29.973984",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -417,7 +417,7 @@
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-10-16 01:50:36.499925",
+         "datetime": "2024-10-16 02:45:30.523721",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,7 +430,7 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-10-16 01:50:36.912703",
+         "datetime": "2024-10-16 02:45:31.045004",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -443,7 +443,7 @@
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-10-16 01:50:37.456687",
+         "datetime": "2024-10-16 02:45:31.629459",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-10-16 01:50:37.819870",
+         "datetime": "2024-10-16 02:45:32.156150",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-10-16 01:50:38.093222",
+         "datetime": "2024-10-16 02:45:32.536123",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
@@ -495,7 +495,7 @@
          "id": 126855109166765516
       },
       {
-         "datetime": "2024-10-16 01:50:38.649605",
+         "datetime": "2024-10-16 02:45:33.499526",
          "stream": {
             "title": "Chimi Canal",
             "channel_url": "https://www.youtube.com/@ChimiCanal"
@@ -508,7 +508,7 @@
          "id": 259372155334290277
       },
       {
-         "datetime": "2024-10-16 01:50:39.124354",
+         "datetime": "2024-10-16 02:45:33.946215",
          "stream": {
             "title": "Diario Alfil Cordoba",
             "channel_url": "https://www.youtube.com/@diario.alfil.cordoba"
@@ -521,7 +521,7 @@
          "id": 288236526587119206
       },
       {
-         "datetime": "2024-10-16 01:50:39.555004",
+         "datetime": "2024-10-16 02:45:34.402315",
          "stream": {
             "title": "Nada del otro mundo",
             "channel_url": "https://www.youtube.com/@NadadelOtroMundo2024"
@@ -529,12 +529,12 @@
          "stream_key": "Nada del otro mundo",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "26kUEAkFXj0",
-         "last_video_title": "VENCEDORES VENCIDOS - EDITORIAL CRISTIAN MALDONADO",
+         "last_video_id": "L1keVVJ0ChA",
+         "last_video_title": "Raly Barrionuevo - Cancionero 15 de Octubre 2024",
          "id": 237974233351537904
       },
       {
-         "datetime": "2024-10-16 01:50:39.982349",
+         "datetime": "2024-10-16 02:45:34.905367",
          "stream": {
             "title": "BorderPeriodismo",
             "channel_url": "https://www.youtube.com/@border.periodismo"
