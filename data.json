@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-10-18 17:58:18.631869",
+         "datetime": "2024-10-18 18:27:06.198217",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-10-18 17:58:19.182975",
+         "datetime": "2024-10-18 18:27:06.732514",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
-         "live_id": "lt1f9iLxSX8",
-         "live_title": "VUELVE COLAPINTO en PELOTA DIVIDIDA EN VIVO con Mikki Lusardi, el Ruso Verea y Cata Sarra | BLENDER",
-         "last_video_id": "yXtOAMxrprg",
-         "last_video_title": "COMO CAMBIAR MALOS HÁBITOS con ALEX KOHAN | DEJAMOS ACÁ | DINERO Y AMOR | BLENDER",
+         "live_id": null,
+         "live_title": null,
+         "last_video_id": "S4Ajl_FANTM",
+         "last_video_title": "¿MAURICIÓ ESTABA EN EL BAÑO? | SPOT CENTER #4 | ESCUCHO OFERTAS | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-10-18 17:58:20.018433",
+         "datetime": "2024-10-18 18:27:07.445654",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -40,20 +40,20 @@
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-10-18 17:58:20.612937",
+         "datetime": "2024-10-18 18:27:08.033550",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
-         "live_id": "qHY7SNppTOE",
-         "live_title": "EL TRIÁNGULO DE HIERRO EN VIVO CON SUGUS LEUNDA, FEDE MOCHI Y EL TANO SCARPATI | GELATINA",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "seIXeRYqYnk",
          "last_video_title": "EL PERONISMO CUMPLE | GUILLERMO MORENO CON PEDRO ROSEMBLAT",
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-10-18 17:58:21.162375",
+         "datetime": "2024-10-18 18:27:08.543731",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-10-18 17:58:21.663257",
+         "datetime": "2024-10-18 18:27:09.008613",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-10-18 17:58:22.084833",
+         "datetime": "2024-10-18 18:27:09.411517",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-10-18 17:58:22.652032",
+         "datetime": "2024-10-18 18:27:10.011681",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-10-18 17:58:23.123169",
+         "datetime": "2024-10-18 18:27:10.533719",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-10-18 17:58:23.724732",
+         "datetime": "2024-10-18 18:27:11.177557",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-10-18 17:58:24.150386",
+         "datetime": "2024-10-18 18:27:11.644119",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-10-18 17:58:24.535769",
+         "datetime": "2024-10-18 18:27:12.086140",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-10-18 17:58:24.978983",
+         "datetime": "2024-10-18 18:27:12.533930",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-10-18 17:58:25.530660",
+         "datetime": "2024-10-18 18:27:13.106861",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-10-18 17:58:26.040800",
+         "datetime": "2024-10-18 18:27:13.705627",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-10-18 17:58:26.378275",
+         "datetime": "2024-10-18 18:27:14.072808",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-10-18 17:58:26.769606",
+         "datetime": "2024-10-18 18:27:14.438434",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-10-18 17:58:27.156550",
+         "datetime": "2024-10-18 18:27:14.853706",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-10-18 17:58:29.792250",
+         "datetime": "2024-10-18 18:27:15.423129",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -243,12 +243,12 @@
          "stream_key": "Urbana Play",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "vAW3Mks-ahE",
-         "last_video_title": "\"Es increíble que sea todo como la primera vez\": LUCIANO PEREYRA Y SU HISTORIA #TodoPasa",
+         "last_video_id": "RDCbADro9pg",
+         "last_video_title": "PLANES DE FIN DE SEMANA, todo sobre cine y entrevista a Luciano Pereyra #TodoPasa",
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-10-18 17:58:30.238464",
+         "datetime": "2024-10-18 18:27:15.928889",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,46 +261,46 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-10-18 17:58:30.732634",
+         "datetime": "2024-10-18 18:27:16.407297",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
          },
          "stream_key": "Vorterix",
          "live_id": "GlyqYN7993g",
-         "live_title": "🔴 NO SE PUDO con Juan Castro, Ernesto Provitilo, Juan Igal y Alexis Valido | VORTERIX EN VIVO",
+         "live_title": "🔴 MALDITOS NERDS con Romina Pereyra, Lu Agosta, Nico Rabago | VORTERIX EN VIVO",
          "last_video_id": "ha5c40ufu5Q",
          "last_video_title": "LOS CASERO COPARON ZONA LIBERADA | #ZonaLiberada | COMPLETO 18/10",
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-10-18 17:58:31.123708",
+         "datetime": "2024-10-18 18:27:16.837819",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
          },
          "stream_key": "Neura Media",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "o-WmZswHtjE",
+         "live_title": "Guadalupe Vazquez: Guadavibes | !redes !wapp !kick !gumer !remeras",
          "last_video_id": "ikfSCuZjPkI",
          "last_video_title": "Marcelo Birmajer (escritor) con Gonzalo Garcés | Partes de la Verdad - 11/10",
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-10-18 17:58:31.560542",
+         "datetime": "2024-10-18 18:27:17.300009",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
          },
          "stream_key": "RepublicaZ",
          "live_id": "nrbskI9zD-4",
-         "live_title": "🔵Republica Z EN VIVO | #MentaGranizada",
+         "live_title": "🔵Republica Z EN VIVO | #EstamosEnUna",
          "last_video_id": "NvyG1GJefxE",
          "last_video_title": "Se Picó | NOS VISITA INÉS LUCERO y NOS CUENTA TODO SOBRE SU PASO por SURVIVOR",
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-10-18 17:58:32.030686",
+         "datetime": "2024-10-18 18:27:17.755783",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -308,25 +308,25 @@
          "stream_key": "La Casa Stream",
          "live_id": "PVuy-ZESARI",
          "live_title": "⚡CIRCUITO CERRADO con CACHETE SIERRA, MANU VIALE, AGUS FRANZONI y MAI PISTINER en vivo⚡",
-         "last_video_id": "l6X3lX6ssJY",
-         "last_video_title": "#TENGOCAPTURAS | Bren AHOGÓ unaPLANTA y los PROHIBIDOS de FRANZO | PROGRAMA #17",
+         "last_video_id": "4dLyVarI9ho",
+         "last_video_title": "#RUMIS | PERCY y JORGE en LA CASA| PROGRAMA #192",
          "id": 190282678195799757
       },
       {
-         "datetime": "2024-10-18 17:58:32.443677",
+         "datetime": "2024-10-18 18:27:18.200048",
          "stream": {
             "title": "Ahora Play",
             "channel_url": "https://www.youtube.com/@tesla1923"
          },
          "stream_key": "Ahora Play",
-         "live_id": "IYt2l-lEud8",
-         "live_title": "\"DEEP MOTOSIERRA\" Y \"NO PIDAN MÁS BAJA DE IMPUESTOS\". OBJETIVO: DÓLAR A $ 1.100 |  Maxi Montenegro",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "eAVxD-Jl8Ao",
-         "last_video_title": "Caso YPF: La DESATINADA FRASE de Milei que complica la apelación | Maxi Montenegro y Seba Marill",
+         "last_video_title": "JUICIO POR YPF: CUÁNTO PODRÍA PAGAR ARGENTINA SI SE NEGOCIA BIEN | Maxi Montenegro y Sebastián Maril",
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-10-18 17:58:32.978672",
+         "datetime": "2024-10-18 18:27:18.753442",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -339,7 +339,7 @@
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-10-18 17:58:33.469668",
+         "datetime": "2024-10-18 18:27:19.233584",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-10-18 17:58:33.925810",
+         "datetime": "2024-10-18 18:27:19.696396",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-10-18 17:58:34.398061",
+         "datetime": "2024-10-18 18:27:20.172088",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -373,12 +373,12 @@
          "stream_key": "Chingon",
          "live_id": "LEbI2pbyLA0",
          "live_title": "🔴GRANDULÓNDEJAMEENTRAR 🚪 | CHINGÓN EN VIVO | 18/10",
-         "last_video_id": "qoCRRGGljOY",
-         "last_video_title": "#PONEPRIMERA I NATALIA ELSTNER: \" TUVIMOS QUE CREAR UN PROTOCOLO ANTI ESCRACHE I 18/10",
+         "last_video_id": "4zT22hET2Fo",
+         "last_video_title": "#LAMESADELFUTBOL |  ASAMBLEA GENERAL DE AFA | 18/10",
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-10-18 17:58:34.783524",
+         "datetime": "2024-10-18 18:27:20.603429",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,7 +391,7 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-10-18 17:58:35.367078",
+         "datetime": "2024-10-18 18:27:21.310771",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -404,7 +404,7 @@
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-10-18 17:58:35.829915",
+         "datetime": "2024-10-18 18:27:21.772219",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -412,12 +412,12 @@
          "stream_key": "Laca Stream",
          "live_id": "Dwmpf3yi6XA",
          "live_title": "LA CAMPANA con Franco Casella, Julián Padilla, Caro Dovale y La China Cunningham | Laca Stream",
-         "last_video_id": "Pbr3VMmgOGE",
-         "last_video_title": "HABLÓ AXEL, ¿HAY LISTA DE UNIDAD EN EL PERONISMO? | Programa completo #LaCalle - Laca Stream",
+         "last_video_id": "RuTiRbifuRQ",
+         "last_video_title": "DEBATE UNIVERSITARIO en LA CAFETERÍA de Octavio Majul | Programa completo - Laca Stream",
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-10-18 17:58:36.242442",
+         "datetime": "2024-10-18 18:27:22.197119",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,20 +430,20 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-10-18 17:58:37.259445",
+         "datetime": "2024-10-18 18:27:22.630833",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
          },
          "stream_key": "Ziesta TV",
-         "live_id": "08MsMke5hTk",
-         "live_title": "🔴 ZiestaTV - MARIZZA DE ZIESTA con Mariano Marizza, Martín Galván y Martín Mazzuchelli 🎙️📺",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "aGKkMmouz5g",
          "last_video_title": "“Este no es mi bebé“ - Maternidad con Barbi Harvey #Todología #ziestatv",
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-10-18 17:58:37.713265",
+         "datetime": "2024-10-18 18:27:23.133276",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-10-18 17:58:38.068116",
+         "datetime": "2024-10-18 18:27:23.523507",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-10-18 17:58:38.352073",
+         "datetime": "2024-10-18 18:27:23.799287",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
@@ -495,7 +495,7 @@
          "id": 126855109166765516
       },
       {
-         "datetime": "2024-10-18 17:58:38.921396",
+         "datetime": "2024-10-18 18:27:24.357419",
          "stream": {
             "title": "Chimi Canal",
             "channel_url": "https://www.youtube.com/@ChimiCanal"
@@ -508,7 +508,7 @@
          "id": 259372155334290277
       },
       {
-         "datetime": "2024-10-18 17:58:39.337205",
+         "datetime": "2024-10-18 18:27:24.760476",
          "stream": {
             "title": "Diario Alfil Cordoba",
             "channel_url": "https://www.youtube.com/@diario.alfil.cordoba"
@@ -521,7 +521,7 @@
          "id": 288236526587119206
       },
       {
-         "datetime": "2024-10-18 17:58:39.790861",
+         "datetime": "2024-10-18 18:27:25.195185",
          "stream": {
             "title": "Nada del otro mundo",
             "channel_url": "https://www.youtube.com/@NadadelOtroMundo2024"
@@ -534,7 +534,7 @@
          "id": 237974233351537904
       },
       {
-         "datetime": "2024-10-18 17:58:40.246921",
+         "datetime": "2024-10-18 18:27:25.669517",
          "stream": {
             "title": "BorderPeriodismo",
             "channel_url": "https://www.youtube.com/@border.periodismo"
