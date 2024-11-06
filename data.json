@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-11-06 22:51:57.351897",
+         "datetime": "2024-11-06 23:06:51.453757",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,7 +14,7 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-11-06 22:51:57.931294",
+         "datetime": "2024-11-06 23:06:52.014612",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,20 +27,20 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-11-06 22:51:58.513334",
+         "datetime": "2024-11-06 23:06:52.549374",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
          },
          "stream_key": "Radio con vos",
          "live_id": "ZkcnlhjiT94",
-         "live_title": "No Dejes Para Mañana con Romina Manguel | RADIO CON VOS",
+         "live_title": "Argentinos de Bien con Nuria Am | RADIO CON VOS",
          "last_video_id": "NkmnSwHlXDE",
          "last_video_title": "La cobertura de Romina Manguel del triunfo de Trump en EEUU",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-11-06 22:51:59.159139",
+         "datetime": "2024-11-06 23:06:53.086850",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,20 +53,20 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-11-06 22:51:59.677643",
+         "datetime": "2024-11-06 23:06:53.660099",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
          },
          "stream_key": "Futurock FM",
-         "live_id": "UhY2Of4DQRM",
-         "live_title": "DESPUÉS DE LA TORMENTA con MATIAS CASTAÑEDA, MARÍA DEL MAR RAMÓN y MATI ROSU | EN VIVO",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "46WCVSJLxxY",
          "last_video_title": "LO ÚLTIMO DE ALMODÓVAR | ES MI COLUMNA Y LA ARRUINO SI QUIERO con NATY MALDINI en FURIA BEBÉ",
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-11-06 22:52:00.142602",
+         "datetime": "2024-11-06 23:06:54.112123",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,20 +79,20 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-11-06 22:52:00.569460",
+         "datetime": "2024-11-06 23:06:54.515938",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
          },
          "stream_key": "Cenital",
          "live_id": "VbE_Ew-DrWo",
-         "live_title": "HOY 20HS | GANÓ TRUMP: ¿AYUDA O COMPLICA EL PLAN DE MILEI? | #FallaDeMercado con Jairo Straccia",
+         "live_title": "EN VIVO | GANÓ TRUMP: ¿AYUDA O COMPLICA EL PLAN DE MILEI? | #FallaDeMercado con Jairo Straccia",
          "last_video_id": "vPO-YZdI7po",
          "last_video_title": "Nicolás Massot con Iván Schargrodsky en #OnTheRecord",
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-11-06 22:52:01.205541",
+         "datetime": "2024-11-06 23:06:55.091140",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-11-06 22:52:01.795171",
+         "datetime": "2024-11-06 23:06:55.569509",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-11-06 22:52:02.502239",
+         "datetime": "2024-11-06 23:06:56.167954",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-11-06 22:52:03.071314",
+         "datetime": "2024-11-06 23:06:56.647501",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-11-06 22:52:03.535559",
+         "datetime": "2024-11-06 23:06:57.141655",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-11-06 22:52:04.140236",
+         "datetime": "2024-11-06 23:06:57.547896",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -165,12 +165,12 @@
          "stream_key": "Peroncho Delivery",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "_RNV0QmNET0",
-         "last_video_title": "Macartismo libertario: la venganza de la estupidez",
+         "last_video_id": "TRiD7w7ljqE",
+         "last_video_title": "Ganó Trump y ya tiene al chupamedias",
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-11-06 22:52:04.727686",
+         "datetime": "2024-11-06 23:06:58.135005",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-11-06 22:52:05.282293",
+         "datetime": "2024-11-06 23:06:58.651514",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-11-06 22:52:05.666336",
+         "datetime": "2024-11-06 23:06:59.019918",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-11-06 22:52:06.066781",
+         "datetime": "2024-11-06 23:06:59.398488",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-11-06 22:52:06.561866",
+         "datetime": "2024-11-06 23:06:59.764279",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -230,12 +230,12 @@
          "stream_key": "Eva TV",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "l68J3rH7BNo",
-         "last_video_title": "TRUMP y el NUEVO ESCENARIO INTERNACIONAL: LA VISIÓN de MARTÍN SCHAPIRO | SECUENCIA INICIAL | EVA TV",
+         "last_video_id": "lIw0TBO2fZo",
+         "last_video_title": "FAKE NEWS, discurso libertario y comunicación política en la era de la posverdad | HUMUS | EVA TV",
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-11-06 22:52:07.159738",
+         "datetime": "2024-11-06 23:07:00.412110",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -243,12 +243,12 @@
          "stream_key": "Urbana Play",
          "live_id": "Ii8O3K-54pA",
          "live_title": "EN VIVO | Vuelta y Media en URBANA PLAY con Sebastián Wainraich, Julieta Pink y Pablo Fábregas",
-         "last_video_id": "AeFOtGfZvZI",
-         "last_video_title": "UNA VIDA DE PELÍCULA: le ponemos actores a las anécdotas de oyentes con Iair Said #VueltaYMedia",
+         "last_video_id": "tgTG18Hk2Mc",
+         "last_video_title": "MEJOR DEJAR QUE SER DEJADO: ANTI CONSEJOS PARA SUPERAR UNA RUPTURA AMOROSA #VueltaYMedia",
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-11-06 22:52:07.774735",
+         "datetime": "2024-11-06 23:07:00.952029",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,7 +261,7 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-11-06 22:52:08.337368",
+         "datetime": "2024-11-06 23:07:01.487190",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -274,20 +274,20 @@
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-11-06 22:52:08.828632",
+         "datetime": "2024-11-06 23:07:01.937051",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
          },
          "stream_key": "Neura Media",
-         "live_id": "BnSi4elv6NA",
-         "live_title": "Santiago Bulat y Alan Zuchovicki: El Inversor | !redes !wapp !kick !gumer !remeras",
+         "live_id": null,
+         "live_title": null,
          "last_video_id": "ikfSCuZjPkI",
          "last_video_title": "Marcelo Birmajer (escritor) con Gonzalo Garcés | Partes de la Verdad - 11/10",
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-11-06 22:52:09.302368",
+         "datetime": "2024-11-06 23:07:02.345869",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
@@ -300,7 +300,7 @@
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-11-06 22:52:09.833509",
+         "datetime": "2024-11-06 23:07:02.890427",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -326,7 +326,7 @@
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-11-06 22:52:10.492284",
+         "datetime": "2024-11-06 23:07:03.516461",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -339,7 +339,7 @@
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-11-06 22:52:10.926614",
+         "datetime": "2024-11-06 23:07:03.917464",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-11-06 22:52:11.455801",
+         "datetime": "2024-11-06 23:07:04.338787",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-11-06 22:52:11.941256",
+         "datetime": "2024-11-06 23:07:04.827410",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-11-06 22:52:12.351946",
+         "datetime": "2024-11-06 23:07:05.247764",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,7 +391,7 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-11-06 22:52:12.993368",
+         "datetime": "2024-11-06 23:07:05.807411",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -404,7 +404,7 @@
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-11-06 22:52:13.495229",
+         "datetime": "2024-11-06 23:07:06.250964",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -417,7 +417,7 @@
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-11-06 22:52:13.958441",
+         "datetime": "2024-11-06 23:07:06.657668",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,7 +430,7 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-11-06 22:52:14.434448",
+         "datetime": "2024-11-06 23:07:07.076678",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -443,7 +443,7 @@
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-11-06 22:52:14.921164",
+         "datetime": "2024-11-06 23:07:07.584315",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-11-06 22:52:15.350975",
+         "datetime": "2024-11-06 23:07:08.017076",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-11-06 22:52:15.647339",
+         "datetime": "2024-11-06 23:07:08.335501",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
@@ -495,7 +495,7 @@
          "id": 126855109166765516
       },
       {
-         "datetime": "2024-11-06 22:52:16.196403",
+         "datetime": "2024-11-06 23:07:08.860356",
          "stream": {
             "title": "Chimi Canal",
             "channel_url": "https://www.youtube.com/@ChimiCanal"
@@ -508,7 +508,7 @@
          "id": 259372155334290277
       },
       {
-         "datetime": "2024-11-06 22:52:16.637132",
+         "datetime": "2024-11-06 23:07:09.267429",
          "stream": {
             "title": "Diario Alfil Cordoba",
             "channel_url": "https://www.youtube.com/@diario.alfil.cordoba"
@@ -521,7 +521,7 @@
          "id": 288236526587119206
       },
       {
-         "datetime": "2024-11-06 22:52:16.970386",
+         "datetime": "2024-11-06 23:07:09.687209",
          "stream": {
             "title": "Nada del otro mundo",
             "channel_url": "https://www.youtube.com/@NadadelOtroMundo2024"
@@ -534,7 +534,7 @@
          "id": 237974233351537904
       },
       {
-         "datetime": "2024-11-06 22:52:17.431258",
+         "datetime": "2024-11-06 23:07:10.126701",
          "stream": {
             "title": "BorderPeriodismo",
             "channel_url": "https://www.youtube.com/@border.periodismo"
