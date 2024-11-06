@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2024-11-06 14:16:34.203778",
+         "datetime": "2024-11-06 14:32:57.877026",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -14,20 +14,20 @@
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-11-06 14:16:34.766752",
+         "datetime": "2024-11-06 14:32:58.532151",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
          },
          "stream_key": "BLENDER",
          "live_id": "HhDnb5w8KZM",
-         "live_title": "ESCUCHO OFERTAS EN VIVO con Guille Aquino, Galia Moldavsky, Estefi Pozzo, Ruocco, Juanita| BLENDER",
+         "live_title": "GANÓ TRUMP ¿PORQUÉ GANÓ? ESTEFI POZZO en ESCUCHO OFERTAS EN VIVO | BLENDER",
          "last_video_id": "7ESKjDZ_xf4",
          "last_video_title": "PICANTE DEBATE entre MASLATÓN y PAGE NICHOLS | ESPECIAL ELECCIONES USA | BLENDER",
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-11-06 14:16:35.306848",
+         "datetime": "2024-11-06 14:32:59.131318",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -35,12 +35,12 @@
          "stream_key": "Radio con vos",
          "live_id": "ZkcnlhjiT94",
          "live_title": "LIM con Reynaldo Sietecase | RADIO CON VOS",
-         "last_video_id": "3fxKCaL7V1E",
-         "last_video_title": "Tenembaum y Sietecase sobre el triunfo de Trump en las elecciones estadounidenses",
+         "last_video_id": "jN7a6pq3vl0",
+         "last_video_title": "Gabriel Rubinstein en #PaseLoQuePase: \"El triunfo de Trump es favorable al Gobierno de Milei\"",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-11-06 14:16:35.936270",
+         "datetime": "2024-11-06 14:32:59.817093",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -53,7 +53,7 @@
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-11-06 14:16:36.513660",
+         "datetime": "2024-11-06 14:33:00.381874",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-11-06 14:16:37.054165",
+         "datetime": "2024-11-06 14:33:00.886998",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-11-06 14:16:37.559808",
+         "datetime": "2024-11-06 14:33:01.351013",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-11-06 14:16:38.225396",
+         "datetime": "2024-11-06 14:33:02.102720",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-11-06 14:16:38.850581",
+         "datetime": "2024-11-06 14:33:02.740064",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-11-06 14:16:39.554611",
+         "datetime": "2024-11-06 14:33:03.451715",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-11-06 14:16:40.063799",
+         "datetime": "2024-11-06 14:33:04.002341",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-11-06 14:16:40.689659",
+         "datetime": "2024-11-06 14:33:04.499582",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-11-06 14:16:41.247252",
+         "datetime": "2024-11-06 14:33:04.983769",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-11-06 14:16:41.898090",
+         "datetime": "2024-11-06 14:33:05.601865",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,7 +183,7 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-11-06 14:16:42.488508",
+         "datetime": "2024-11-06 14:33:06.344148",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -196,7 +196,7 @@
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-11-06 14:16:42.860271",
+         "datetime": "2024-11-06 14:33:06.754457",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-11-06 14:16:43.262327",
+         "datetime": "2024-11-06 14:33:07.194870",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-11-06 14:16:43.733728",
+         "datetime": "2024-11-06 14:33:07.701161",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-11-06 14:16:44.449155",
+         "datetime": "2024-11-06 14:33:08.378986",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -243,12 +243,12 @@
          "stream_key": "Urbana Play",
          "live_id": "Ii8O3K-54pA",
          "live_title": "EN VIVO | #Perros2024 en URBANA PLAY: Andy Kusnetzoff, Sofi Martínez, Evelyn Botto y Harry Salvarrey",
-         "last_video_id": "A3nwATbe6t0",
-         "last_video_title": "Rolón: \"El amor no es racional ni justifica todo. En el amor no sirve andar haciendo fuerza\"",
+         "last_video_id": "3fAzk2LNEPU",
+         "last_video_title": "Registros akáshicos, reflexiones sobre el amor, costo de las decisiones #Perros2024 Parte 1",
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-11-06 14:16:44.976257",
+         "datetime": "2024-11-06 14:33:08.894732",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,7 +261,7 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-11-06 14:16:45.642985",
+         "datetime": "2024-11-06 14:33:09.610232",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -274,7 +274,7 @@
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-11-06 14:16:46.070227",
+         "datetime": "2024-11-06 14:33:10.111029",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
@@ -287,7 +287,7 @@
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-11-06 14:16:46.588235",
+         "datetime": "2024-11-06 14:33:10.713756",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
@@ -300,7 +300,7 @@
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-11-06 14:16:47.149837",
+         "datetime": "2024-11-06 14:33:11.341830",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -326,7 +326,7 @@
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-11-06 14:16:47.833716",
+         "datetime": "2024-11-06 14:33:12.057449",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -339,7 +339,7 @@
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-11-06 14:16:48.333649",
+         "datetime": "2024-11-06 14:33:12.568625",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-11-06 14:16:49.408811",
+         "datetime": "2024-11-06 14:33:13.144438",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-11-06 14:16:49.946688",
+         "datetime": "2024-11-06 14:33:13.913322",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-11-06 14:16:50.403953",
+         "datetime": "2024-11-06 14:33:15.403498",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,7 +391,7 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-11-06 14:16:51.100002",
+         "datetime": "2024-11-06 14:33:16.161921",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -404,7 +404,7 @@
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-11-06 14:16:51.695504",
+         "datetime": "2024-11-06 14:33:16.713519",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -417,7 +417,7 @@
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-11-06 14:16:52.158939",
+         "datetime": "2024-11-06 14:33:17.216798",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,7 +430,7 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-11-06 14:16:52.727891",
+         "datetime": "2024-11-06 14:33:17.681437",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -443,7 +443,7 @@
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-11-06 14:16:53.310026",
+         "datetime": "2024-11-06 14:33:18.270197",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-11-06 14:16:53.757239",
+         "datetime": "2024-11-06 14:33:18.783763",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-11-06 14:16:54.148061",
+         "datetime": "2024-11-06 14:33:19.132568",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
@@ -495,7 +495,7 @@
          "id": 126855109166765516
       },
       {
-         "datetime": "2024-11-06 14:16:54.708672",
+         "datetime": "2024-11-06 14:33:19.748446",
          "stream": {
             "title": "Chimi Canal",
             "channel_url": "https://www.youtube.com/@ChimiCanal"
@@ -508,7 +508,7 @@
          "id": 259372155334290277
       },
       {
-         "datetime": "2024-11-06 14:16:55.223893",
+         "datetime": "2024-11-06 14:33:20.280765",
          "stream": {
             "title": "Diario Alfil Cordoba",
             "channel_url": "https://www.youtube.com/@diario.alfil.cordoba"
@@ -521,7 +521,7 @@
          "id": 288236526587119206
       },
       {
-         "datetime": "2024-11-06 14:16:55.734163",
+         "datetime": "2024-11-06 14:33:20.762292",
          "stream": {
             "title": "Nada del otro mundo",
             "channel_url": "https://www.youtube.com/@NadadelOtroMundo2024"
@@ -534,7 +534,7 @@
          "id": 237974233351537904
       },
       {
-         "datetime": "2024-11-06 14:16:56.282440",
+         "datetime": "2024-11-06 14:33:21.612056",
          "stream": {
             "title": "BorderPeriodismo",
             "channel_url": "https://www.youtube.com/@border.periodismo"
