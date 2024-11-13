@@ -1,20 +1,20 @@
 {
    "data": [
       {
-         "datetime": "2024-11-13 12:13:42.429592",
+         "datetime": "2024-11-13 12:51:50.942504",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
          },
          "stream_key": "Nico Guthmann",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "iK1ubpI3ipQ",
+         "live_title": "2,7% de inflación: ¿MILEI TENÍA RAZÓN? | TUGO EN VIVO",
          "last_video_id": "a6leaUYtqZE",
          "last_video_title": "CÓMO SERÁ el GOBIERNO DE JAVIER MILEI en ARGENTINA",
          "id": 277835498672365003
       },
       {
-         "datetime": "2024-11-13 12:13:43.044893",
+         "datetime": "2024-11-13 12:51:51.454705",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -27,7 +27,7 @@
          "id": 533985333570939783
       },
       {
-         "datetime": "2024-11-13 12:13:43.608771",
+         "datetime": "2024-11-13 12:51:51.995400",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -35,25 +35,25 @@
          "stream_key": "Radio con vos",
          "live_id": "zFQNlQnn-Wc",
          "live_title": "YAQPA con Ernesto Tenembaum | RADIO CON VOS",
-         "last_video_id": "0x7NIhlTsF4",
-         "last_video_title": "Trump tiene un pensamiento opuesto a Milei. El pase entre Straccia y Tenembaum",
+         "last_video_id": "MWswkzX7flU",
+         "last_video_title": "Christian Buteler: \"El riesgo mayor del programa de Milei está por el lado cambiario\"",
          "id": 272479996852536616
       },
       {
-         "datetime": "2024-11-13 12:13:44.213111",
+         "datetime": "2024-11-13 12:51:52.587593",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
          },
          "stream_key": "Gelatina",
          "live_id": "GsLrQ_479mw",
-         "live_title": "NUEVOS TRAPOS EN VIVO CON JOSE AMORE Y OCTA GENCARELLI | GELATINA",
+         "live_title": "ELECCIONES EN URUGUAY | MARCOS CASAS EN NUEVOS TRAPOS CON OCTAVIO GENCARELLI",
          "last_video_id": "OHBCgp7Ey58",
          "last_video_title": "CARLOS MASLATÓN: “ARGENTINA ES EL PAÍS MÁS CARO DEL MUNDO”",
          "id": 259244651430329710
       },
       {
-         "datetime": "2024-11-13 12:13:44.736937",
+         "datetime": "2024-11-13 12:51:53.053489",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -66,7 +66,7 @@
          "id": 233692808435034581
       },
       {
-         "datetime": "2024-11-13 12:13:45.243801",
+         "datetime": "2024-11-13 12:51:53.544218",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
@@ -79,7 +79,7 @@
          "id": 191591078776014768
       },
       {
-         "datetime": "2024-11-13 12:13:45.683223",
+         "datetime": "2024-11-13 12:51:53.961342",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -92,7 +92,7 @@
          "id": 306584204639824864
       },
       {
-         "datetime": "2024-11-13 12:13:46.310142",
+         "datetime": "2024-11-13 12:51:54.626506",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -105,7 +105,7 @@
          "id": 185862609823161714
       },
       {
-         "datetime": "2024-11-13 12:13:46.872078",
+         "datetime": "2024-11-13 12:51:55.132917",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -118,7 +118,7 @@
          "id": 811783917407851447
       },
       {
-         "datetime": "2024-11-13 12:13:47.561971",
+         "datetime": "2024-11-13 12:51:55.753756",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -131,7 +131,7 @@
          "id": 125021193912916677
       },
       {
-         "datetime": "2024-11-13 12:13:48.030582",
+         "datetime": "2024-11-13 12:51:56.272465",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -144,7 +144,7 @@
          "id": 748184283104638709
       },
       {
-         "datetime": "2024-11-13 12:13:48.455796",
+         "datetime": "2024-11-13 12:51:56.723690",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -157,7 +157,7 @@
          "id": 838481804820745772
       },
       {
-         "datetime": "2024-11-13 12:13:48.953312",
+         "datetime": "2024-11-13 12:51:57.297026",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -170,7 +170,7 @@
          "id": 153341262012569137
       },
       {
-         "datetime": "2024-11-13 12:13:49.524250",
+         "datetime": "2024-11-13 12:51:57.884359",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
@@ -183,20 +183,20 @@
          "id": 145635594759461996
       },
       {
-         "datetime": "2024-11-13 12:13:50.108941",
+         "datetime": "2024-11-13 12:51:58.459386",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
          },
          "stream_key": "El Destape",
          "live_id": "fftdvJsuazw",
-         "live_title": "INFLACIÓN DE OCTUBRE - HABRÁ CONSECUENCIAS EN VIVO CON ARI LIJALAD | El Destape",
+         "live_title": "CASACIÓN CONTRA CRISTINA KIRCHNER - EL PASE DE ROBERTO NAVARRO EN VIVO | El Destape",
          "last_video_id": "61q9XVR0X7E",
          "last_video_title": "JUICIOS BUITRE | Editorial de Ari Lijalad",
          "id": 794690838869899042
       },
       {
-         "datetime": "2024-11-13 12:13:50.508731",
+         "datetime": "2024-11-13 12:51:58.788359",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -209,7 +209,7 @@
          "id": 294030542011554402
       },
       {
-         "datetime": "2024-11-13 12:13:50.902841",
+         "datetime": "2024-11-13 12:51:59.142968",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -222,7 +222,7 @@
          "id": 285922738951067278
       },
       {
-         "datetime": "2024-11-13 12:13:51.304053",
+         "datetime": "2024-11-13 12:51:59.546173",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -235,7 +235,7 @@
          "id": 858554869569070528
       },
       {
-         "datetime": "2024-11-13 12:13:51.891453",
+         "datetime": "2024-11-13 12:52:00.111552",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -243,12 +243,12 @@
          "stream_key": "Urbana Play",
          "live_id": null,
          "live_title": null,
-         "last_video_id": "XBCd4gYSsMg",
-         "last_video_title": "Investigan a SPREEN y a FABBIANI por su participación en el partido de RIESTRA vs VÉLEZ #DeAcáEnMás",
+         "last_video_id": "ROHs9PclhQw",
+         "last_video_title": "Cargo de Elon Musk en el Gobierno de Trump, llamado de Milei, polémica de Spreen #DeAcáEnMás",
          "id": 109570434836997627
       },
       {
-         "datetime": "2024-11-13 12:13:52.383646",
+         "datetime": "2024-11-13 12:52:00.594707",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -261,7 +261,7 @@
          "id": 914347398944020630
       },
       {
-         "datetime": "2024-11-13 12:13:52.919800",
+         "datetime": "2024-11-13 12:52:01.113422",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -274,7 +274,7 @@
          "id": 215192781492265808
       },
       {
-         "datetime": "2024-11-13 12:13:53.364559",
+         "datetime": "2024-11-13 12:52:01.516465",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
@@ -287,20 +287,20 @@
          "id": 340215558713671423
       },
       {
-         "datetime": "2024-11-13 12:13:53.852097",
+         "datetime": "2024-11-13 12:52:01.944984",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
          },
          "stream_key": "RepublicaZ",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "WdoGXbyhnp4",
+         "live_title": "🔵Republica Z EN VIVO | #LosBros",
          "last_video_id": "Zq1yM84e1fw",
          "last_video_title": "Se Picó | SANTI del MORO dio MAS DETALLES del NUEVO GRAN HERMANO 2024",
          "id": 182946194775217940
       },
       {
-         "datetime": "2024-11-13 12:13:54.443543",
+         "datetime": "2024-11-13 12:52:02.453066",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -326,7 +326,7 @@
          "id": 249666888046518422
       },
       {
-         "datetime": "2024-11-13 12:13:55.221641",
+         "datetime": "2024-11-13 12:52:03.090803",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -339,7 +339,7 @@
          "id": 594791734029866541
       },
       {
-         "datetime": "2024-11-13 12:13:55.677651",
+         "datetime": "2024-11-13 12:52:03.515524",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -352,7 +352,7 @@
          "id": 192085514245794056
       },
       {
-         "datetime": "2024-11-13 12:13:56.173815",
+         "datetime": "2024-11-13 12:52:03.958567",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -365,7 +365,7 @@
          "id": 238851121811026754
       },
       {
-         "datetime": "2024-11-13 12:13:56.670336",
+         "datetime": "2024-11-13 12:52:04.429879",
          "stream": {
             "title": "Chingon",
             "channel_url": "https://www.youtube.com/@chingonenvivo"
@@ -378,7 +378,7 @@
          "id": 242479339593269520
       },
       {
-         "datetime": "2024-11-13 12:13:57.111469",
+         "datetime": "2024-11-13 12:52:04.841459",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -391,7 +391,7 @@
          "id": 139533723103285548
       },
       {
-         "datetime": "2024-11-13 12:13:57.755230",
+         "datetime": "2024-11-13 12:52:05.461618",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -404,20 +404,20 @@
          "id": 861744236562552074
       },
       {
-         "datetime": "2024-11-13 12:13:58.257753",
+         "datetime": "2024-11-13 12:52:05.929328",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
          },
          "stream_key": "Laca Stream",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "2UbY2K3SQqI",
+         "live_title": "¿QUÉ PASA CON LA CONDENA A CRISTINA? | LA CALLE EN VIVO DESDE COMODORO PY",
          "last_video_id": "s_87AyfPn0M",
          "last_video_title": "SE DESPLOMA LA INFLACIÓN | EMILIA OROZCO Y ALEJANDRO BONGIOVANNI EN RARO CON TOMAS DÍAZ CUETO",
          "id": 146186310181938781
       },
       {
-         "datetime": "2024-11-13 12:13:58.657726",
+         "datetime": "2024-11-13 12:52:06.347537",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -430,20 +430,20 @@
          "id": 321939949179206077
       },
       {
-         "datetime": "2024-11-13 12:13:59.104840",
+         "datetime": "2024-11-13 12:52:06.751303",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
          },
          "stream_key": "Ziesta TV",
-         "live_id": null,
-         "live_title": null,
+         "live_id": "FK_v3oTq6hI",
+         "live_title": "🔴¿Trump le debe su triunfo a Elon Musk?",
          "last_video_id": "QBDOZRg7Tcs",
          "last_video_title": "YA LO JURE #8 CON JULI HERNANDEZ & LA VALENTI",
          "id": 127371374212917847
       },
       {
-         "datetime": "2024-11-13 12:13:59.555054",
+         "datetime": "2024-11-13 12:52:07.247376",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -456,7 +456,7 @@
          "id": 234097645604345720
       },
       {
-         "datetime": "2024-11-13 12:13:59.963116",
+         "datetime": "2024-11-13 12:52:07.644386",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -469,7 +469,7 @@
          "id": 468647897042064376
       },
       {
-         "datetime": "2024-11-13 12:14:00.281598",
+         "datetime": "2024-11-13 12:52:08.000759",
          "stream": {
             "title": "Polenta para revolver",
             "channel_url": "https://www.youtube.com/@polentapararevolver"
@@ -495,7 +495,7 @@
          "id": 126855109166765516
       },
       {
-         "datetime": "2024-11-13 12:14:00.880181",
+         "datetime": "2024-11-13 12:52:08.492694",
          "stream": {
             "title": "Chimi Canal",
             "channel_url": "https://www.youtube.com/@ChimiCanal"
@@ -508,7 +508,7 @@
          "id": 259372155334290277
       },
       {
-         "datetime": "2024-11-13 12:14:01.337238",
+         "datetime": "2024-11-13 12:52:08.921958",
          "stream": {
             "title": "Diario Alfil Cordoba",
             "channel_url": "https://www.youtube.com/@diario.alfil.cordoba"
@@ -521,7 +521,7 @@
          "id": 288236526587119206
       },
       {
-         "datetime": "2024-11-13 12:14:01.817027",
+         "datetime": "2024-11-13 12:52:09.354706",
          "stream": {
             "title": "Nada del otro mundo",
             "channel_url": "https://www.youtube.com/@NadadelOtroMundo2024"
@@ -534,7 +534,7 @@
          "id": 237974233351537904
       },
       {
-         "datetime": "2024-11-13 12:14:02.352888",
+         "datetime": "2024-11-13 12:52:09.793637",
          "stream": {
             "title": "BorderPeriodismo",
             "channel_url": "https://www.youtube.com/@border.periodismo"
