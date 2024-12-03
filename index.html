@@ -91,8 +91,7 @@
 
     <script>
       document.addEventListener('DOMContentLoaded', () => {
-        //const dataUrl = "https://todoesverso.github.io/estrims/data.json";
-        const dataUrl = "http://localhost:8087/data.json";
+        const dataUrl = "https://todoesverso.github.io/estrims/data.json";
         const fetchDataUrl = `${dataUrl}?timestamp=${new Date().getTime()}`;
 
         fetchData(fetchDataUrl);
