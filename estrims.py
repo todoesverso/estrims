@@ -52,10 +52,9 @@ class StreamStatus(BaseDb):
     datetime: datetime | str
     stream: Stream
     stream_key: str  # use stream.title
+    thumbnail: str
     live_id: str | None
     live_title: str | None
-    last_video_id: str
-    last_video_title: str
 
     @property
     def db(self):
@@ -76,7 +75,7 @@ def get_stream_bs_script(stream, is_video=False):
     channel_url = stream.channel_url
     if is_video:
         channel_url = stream.channel_url + "/videos"
-    logger.warning(stream.channel_url)
+    logger.warning(channel_url)
     html = getHTMLdocument(channel_url)
     pattern = re.compile(r"ytInitialData = (.*);", re.MULTILINE | re.DOTALL)
     soup = BeautifulSoup(html, features="html.parser")
@@ -96,19 +95,7 @@ def parse_live_stream(script_dict):
             0
         ]["tabRenderer"]["content"]["sectionListRenderer"]["contents"][0][
             "itemSectionRenderer"
-        ][
-            "contents"
-        ][
-            0
-        ][
-            "channelFeaturedContentRenderer"
-        ][
-            "items"
-        ][
-            0
-        ][
-            "videoRenderer"
-        ]
+        ]["contents"][0]["channelFeaturedContentRenderer"]["items"][0]["videoRenderer"]
 
         return {
             "live_title": base_path["title"]["runs"][0]["text"],
@@ -181,6 +168,12 @@ def parse_latest_video(script_dict):
     logger.warning(ret_dict)
 
     return ret_dict
+
+
+def parse_thumbnail(script_dict):
+    return script_dict["metadata"]["channelMetadataRenderer"]["avatar"]["thumbnails"][
+        0
+    ]["url"]
 
 
 def parse_latest_stream(script_dict):
@@ -279,24 +272,28 @@ def parse_latest_stream(script_dict):
 
 def new_stream_status(stream):
     script_dict = get_stream_bs_script(stream)
-    script_dict_video = get_stream_bs_script(stream, is_video=True)
     if script_dict:
-        # last = parse_latest_stream(script_dict)
-        last = parse_latest_video(script_dict_video)
-        live = parse_live_stream(script_dict)
+        thumbnail = ""
+        live = {"live_id": None, "live_title": None}
+
+        try:
+            thumbnail = parse_thumbnail(script_dict)
+            live = parse_live_stream(script_dict)
+        except Exception:
+            logger.warning("Failed to parse %s", stream)
+
 
         stream_status = StreamStatus(
-            datetime=str(datetime.now()),
-            stream=stream,
-            stream_key=stream.title,
-            **last,
-            **live,
-        )
+                datetime=str(datetime.now()),
+                stream=stream,
+                stream_key=stream.title,
+                thumbnail=thumbnail,
+                **live,
+            )
 
         stream_status.create_or_update_to_db(
-            asdict(stream_status), key={"stream_key": stream_status.stream.title}
-        )
-
+                asdict(stream_status), key={"stream_key": stream_status.stream.title}
+            )
 
 if __name__ == "__main__":
     streams_list = [
@@ -414,13 +411,50 @@ if __name__ == "__main__":
             channel_url="https://www.youtube.com/@diario.alfil.cordoba",
         ),
         Stream(
-            title="Nada del otro mundo", 
-            channel_url="https://www.youtube.com/@NadadelOtroMundo2024"
+            title="Nada del otro mundo",
+            channel_url="https://www.youtube.com/@NadadelOtroMundo2024",
         ),
         Stream(
             title="BorderPeriodismo",
-            channel_url="https://www.youtube.com/@border.periodismo"
-        )
+            channel_url="https://www.youtube.com/@border.periodismo",
+        ),
+        Stream(title="Telefe", channel_url="https://www.youtube.com/@Telefe"),
+        Stream(
+            title="Bunker", channel_url="https://www.youtube.com/@bunkeraguantadero"
+        ),
+        Stream(title="Radio TU", channel_url="https://www.youtube.com/@radiotu"),
+        Stream(title="SODA", channel_url="https://www.youtube.com/@quierosoda"),
+        Stream(
+            title="AZZ Contenidos", channel_url="https://www.youtube.com/@AZZContenidos"
+        ),
+        Stream(title="Data Diario", channel_url="https://www.youtube.com/@datadiario"),
+        Stream(title="PelaVision", channel_url="https://www.youtube.com/@pelavision-"),
+        Stream(
+            title="Radio Kamikaze",
+            channel_url="https://www.youtube.com/@RadioKamikazeok",
+        ),
+        Stream(
+            title="Che Corrientes",
+            channel_url="https://www.youtube.com/@checorrientesstreaming",
+        ),
+        Stream(title="Crudo TV", channel_url="https://www.youtube.com/@SomosCrudoTV"),
+        Stream(title="Mistica TV", channel_url="https://www.youtube.com/@misticatv."),
+        Stream(
+            title="La Casa del Stream",
+            channel_url="https://www.youtube.com/@lacasadelstreaming",
+        ),
+        Stream(title="NAMIK TV", channel_url="https://www.youtube.com/@namiktv"),
+        Stream(title="FAMATV", channel_url="https://www.youtube.com/@famatvok"),
+        Stream(
+            title="CitricaRadio", channel_url="https://www.youtube.com/@SomosCitrica"
+        ),
+        Stream(title="DIGI TV", channel_url="https://www.youtube.com/@DIGITV_"),
+        Stream(title="Vermut", channel_url="https://www.youtube.com/@somosvermut"),
+        Stream(title="DGO", channel_url="https://www.youtube.com/@dgo_latam"),
+        Stream(
+            title="Canal 10 Cordoba",
+            channel_url="https://www.youtube.com/@canal10cordoba",
+        ),
     ]
 
     streams = Streams(streams=streams_list)
