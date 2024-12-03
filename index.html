@@ -157,7 +157,7 @@
 
       function addCard(tabId, videoId, title, datetime, isLive) {
         const tabContent = document.getElementById(tabId);
-        if (tabContent && videoId !== null) {
+        if (tabContent && videoId !== null && title !== null) {
           const column = document.createElement('div');
           column.className = 'column is-one-quarter';
           column.setAttribute('data-title', title.toLowerCase());
