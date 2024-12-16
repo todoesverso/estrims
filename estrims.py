@@ -455,6 +455,7 @@ if __name__ == "__main__":
             title="Canal 10 Cordoba",
             channel_url="https://www.youtube.com/@canal10cordoba",
         ),
+        Stream(title="Ivana Szerman", channel_url="https://www.youtube.com/@ivanaszerman"),
     ]
 
     streams = Streams(streams=streams_list)
