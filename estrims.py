@@ -95,7 +95,19 @@ def parse_live_stream(script_dict):
             0
         ]["tabRenderer"]["content"]["sectionListRenderer"]["contents"][0][
             "itemSectionRenderer"
-        ]["contents"][0]["channelFeaturedContentRenderer"]["items"][0]["videoRenderer"]
+        ][
+            "contents"
+        ][
+            0
+        ][
+            "channelFeaturedContentRenderer"
+        ][
+            "items"
+        ][
+            0
+        ][
+            "videoRenderer"
+        ]
 
         return {
             "live_title": base_path["title"]["runs"][0]["text"],
@@ -282,18 +294,18 @@ def new_stream_status(stream):
         except Exception:
             logger.warning("Failed to parse %s", stream)
 
-
         stream_status = StreamStatus(
-                datetime=str(datetime.now()),
-                stream=stream,
-                stream_key=stream.title,
-                thumbnail=thumbnail,
-                **live,
-            )
+            datetime=str(datetime.now()),
+            stream=stream,
+            stream_key=stream.title,
+            thumbnail=thumbnail,
+            **live,
+        )
 
         stream_status.create_or_update_to_db(
-                asdict(stream_status), key={"stream_key": stream_status.stream.title}
-            )
+            asdict(stream_status), key={"stream_key": stream_status.stream.title}
+        )
+
 
 if __name__ == "__main__":
     streams_list = [
@@ -455,7 +467,9 @@ if __name__ == "__main__":
             title="Canal 10 Cordoba",
             channel_url="https://www.youtube.com/@canal10cordoba",
         ),
-        Stream(title="Ivana Szerman", channel_url="https://www.youtube.com/@ivanaszerman"),
+        Stream(
+            title="Ivana Szerman", channel_url="https://www.youtube.com/@ivanaszerman"
+        ),
         Stream(title="AZZ", channel_url="https://www.youtube.com/@somosazz"),
     ]
 
