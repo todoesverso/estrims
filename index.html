@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Estrims: Live streaming and channel discovery platform">
+  <meta name="description" content="Estrims: Live streaming and channel discovery platform from Argentina">
   <title>estrims</title>
 
   <!-- Preconnect to improve performance -->
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
-  <link rel="preconnect" href="https://cloud.umami.is">
-  <link rel="preconnect" href="https://img.youtube.com">
-  <link rel="preconnect" href="https://todoesverso.github.io">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://cloud.umami.is" crossorigin>
+  <link rel="preconnect" href="https://img.youtube.com" crossorigin>
+  <link rel="preconnect" href="https://todoesverso.github.io" crossorigin>
 
   <!-- DNS Prefetch as fallback -->
   <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
@@ -21,6 +21,7 @@
 
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#3273dc">
 
   <script defer src="unami.js" data-website-id="7ff14f92-631c-4f26-8414-67df47ab2f19"></script>
 
@@ -90,6 +91,83 @@
         width: 100%;
       }
     }
+
+    .fixed-height-title {
+      height: 90px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+
+    /* Loading spinner */
+    .spinner {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border: 3px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      border-top-color: #3273dc;
+      animation: spin 1s ease-in-out infinite;
+      margin-right: 10px;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Close button for video modal */
+    #close-video-button {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: white;
+      color: black;
+      border: none;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      cursor: pointer;
+      z-index: 1001;
+    }
+
+    /* No results notice */
+    #no-results {
+      padding: 1rem;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    /* Refresh button */
+    #refresh-button {
+      background: none;
+      border: none;
+      color: #3273dc;
+      cursor: pointer;
+      padding: 5px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .refresh-icon {
+      margin-right: 5px;
+    }
+
+    /* Date display */
+    .date-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
   </style>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" media="print"
@@ -105,14 +183,14 @@
       <nav class="tabs is-centered is-toggle" aria-label="Content Navigation">
         <ul>
           <li class="is-active" data-tab="tab-live">
-            <a href="#live">
+            <a href="#live" aria-selected="true">
               LIVE
-              <span id="live_counter" class="tag is-danger">0</span>
+              <span id="live_counter" class="tag is-danger" aria-label="Live streams count">0</span>
             </a>
           </li>
           <li data-tab="tab-channels">
-            <a href="#channels">Channels
-              <span id="channel_counter" class="tag is-active">0</span>
+            <a href="#channels" aria-selected="false">Channels
+              <span id="channel_counter" class="tag" aria-label="Channels count">0</span>
             </a>
           </li>
         </ul>
@@ -123,15 +201,34 @@
   <main class="section">
     <div class="container">
       <section id="search-container" class="box" role="search">
-        <span id="date"></span>
+        <div class="date-container">
+          <span id="date" aria-label="Last updated date"></span>
+          <button id="refresh-button" aria-label="Refresh data">
+            <span class="refresh-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 4v6h-6"></path>
+                <path d="M1 20v-6h6"></path>
+                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10"></path>
+                <path d="M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+              </svg>
+            </span>
+            Refresh
+          </button>
+        </div>
         <div class="control has-icons-right">
-          <input id="search-input" class="input is-hovered" type="search" placeholder="Search..."
+          <input id="search-input" class="input is-hovered" type="search" placeholder="Search streams or channels..."
             aria-label="Search channels or streams">
         </div>
       </section>
 
       <div id="loading-indicator" class="loading hidden" aria-live="polite">
+        <span class="spinner" aria-hidden="true"></span>
         Loading data...
+      </div>
+
+      <div id="no-results" class="notification hidden" role="alert">
+        No results found. Try adjusting your search.
       </div>
 
       <section id="tab-live" class="tab-content columns is-multiline is-active" aria-live="polite"></section>
@@ -144,14 +241,16 @@
     </div>
   </main>
 
-  <div id="expanded-video-container" onclick="closeVideo(event)">
+  <div id="expanded-video-container" onclick="closeVideo(event)" role="dialog" aria-modal="true"
+    aria-label="Expanded video player">
+    <button id="close-video-button" aria-label="Close video">×</button>
     <iframe id="expanded-video" src="" frameborder="0" allowfullscreen title="Expanded video"></iframe>
   </div>
 
   <script>
-
     // Constants
     const DATA_URL = "https://todoesverso.github.io/estrims/data.json";
+    let appData = [];
 
     // Utility Functions
     const debounce = (func, delay) => {
@@ -161,6 +260,17 @@
         timeoutId = setTimeout(() => func.apply(null, args), delay);
       };
     };
+
+    // Intersection Observer for lazy loading
+    const lazyLoadObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src;
+          observer.unobserve(img);
+        }
+      });
+    });
 
     // Event Listeners
     document.addEventListener('DOMContentLoaded', () => {
@@ -172,6 +282,8 @@
         if (tabButton) {
           const tabId = tabButton.getAttribute('data-tab');
           showTab(tabId);
+          // Update URL hash for bookmarking
+          window.location.hash = tabId === 'tab-live' ? 'live' : 'channels';
         }
       });
 
@@ -183,6 +295,32 @@
       document.querySelector('#error-message .delete').addEventListener('click', () => {
         document.getElementById('error-message').classList.add('hidden');
       });
+
+      // Refresh button
+      document.getElementById('refresh-button').addEventListener('click', () => {
+        const fetchDataUrl = `${DATA_URL}?timestamp=${Date.now()}`;
+        fetchData(fetchDataUrl);
+      });
+
+      // Close video with button
+      document.getElementById('close-video-button').addEventListener('click', () => {
+        document.getElementById('expanded-video').src = '';
+        document.getElementById('expanded-video-container').classList.remove('active');
+      });
+
+      // Handle keyboard events for modal
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && document.getElementById('expanded-video-container').classList.contains('active')) {
+          document.getElementById('expanded-video').src = '';
+          document.getElementById('expanded-video-container').classList.remove('active');
+        }
+      });
+
+      // Check URL hash for initial tab
+      const hash = window.location.hash.substring(1);
+      if (hash === 'channels') {
+        showTab('tab-channels');
+      }
     });
 
     // Data Fetching
@@ -195,6 +333,8 @@
         if (!response.ok) throw new Error('Network response was not ok');
 
         const {data} = await response.json();
+        appData = data; // Save data for filtering
+
         const liveCount = data.filter(video => video.live_id !== null).length;
         const channelCount = data.length;
 
@@ -202,17 +342,37 @@
         document.getElementById('tab-live').innerHTML = '';
         document.getElementById('tab-channels').innerHTML = '';
 
+        // Process data with error checking
         data.forEach(video => {
-          addCard('tab-live', video.live_id, video.live_title, video.datetime, true);
-          addChannelCard('tab-channels', video.stream.title, video.thumbnail, video.stream.channel_url);
+          if (video.live_id && video.live_title) {
+            addCard('tab-live', video.live_id, video.live_title, video.datetime, true);
+          }
+
+          if (video.stream && video.stream.title && video.stream.channel_url) {
+            addChannelCard('tab-channels', video.stream.title, video.thumbnail || '', video.stream.channel_url);
+          }
         });
 
         const dateNode = document.getElementById("date");
-        dateNode.textContent = formatDateTime(data[0].datetime);
+        dateNode.textContent = data.length > 0 ? formatDateTime(data[0].datetime) : 'No data available';
 
-        showTab('tab-live');
         showLiveCount(liveCount);
         showChannelCount(channelCount);
+
+        // Check for no content
+        if (liveCount === 0) {
+          const noLiveContent = document.createElement('div');
+          noLiveContent.className = 'column is-full';
+          noLiveContent.innerHTML = '<div class="notification">No live streams available at the moment.</div>';
+          document.getElementById('tab-live').appendChild(noLiveContent);
+        }
+
+        // Apply current filter if search is not empty
+        const searchInput = document.getElementById('search-input');
+        if (searchInput.value.trim()) {
+          filterCards();
+        }
+
       } catch (error) {
         console.error('Error fetching data:', error);
         document.getElementById('error-message').classList.remove('hidden');
@@ -235,7 +395,7 @@
     // Card Creation Functions
     function addCard(tabId, videoId, title, datetime, isLive) {
       const tabContent = document.getElementById(tabId);
-      if (tabContent && videoId !== null && title !== null) {
+      if (tabContent && videoId && title) {
         const column = document.createElement('div');
         column.className = 'column is-one-quarter';
         column.setAttribute('data-title', title.toLowerCase());
@@ -246,7 +406,7 @@
 
     function addChannelCard(tabId, title, thumbnail, url) {
       const tabContent = document.getElementById(tabId);
-      if (tabContent !== null) {
+      if (tabContent && title && url) {
         const column = document.createElement('div');
         column.className = 'column is-one-quarter';
         column.setAttribute('data-title', title.toLowerCase());
@@ -258,57 +418,87 @@
     function createVideoCard(videoId, title, datetime, isLive) {
       const showLiveTag = isLive ? "" : "hidden";
       const card = document.createElement('div');
+
       card.className = 'card video-thumbnail';
       card.innerHTML = `
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="https://img.youtube.com/vi/${videoId}/mqdefault.jpg" 
-                             alt="${title}" 
-                             onclick="expandVideo('${videoId}')" 
-                             >
-                    </figure>
-                </div>
-                <div class="card-content" onclick="expandVideo('${videoId}')">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title is-4">${title}</p>
-                            <span class="tag is-danger ${showLiveTag}">live</span>
-                        </div>
-                    </div>
-                </div>
-            `;
+        <div class="card-image" onclick="expandVideo('${videoId}')">
+          <figure class="image is-4by3">
+            <img data-src="https://img.youtube.com/vi/${videoId}/mqdefault.jpg"
+                 src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23f5f5f5'/%3E%3C/svg%3E"
+                 alt="${title}"
+                 loading="lazy">
+          </figure>
+        </div>
+        <div class="card-content" onclick="expandVideo('${videoId}')">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-4 fixed-height-title">${title}</p>
+              <div>
+                <span class="tag is-danger ${showLiveTag}">live</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="card-footer">
+          <a href="javascript:void(0)" onclick="expandVideo('${videoId}')" class="card-footer-item">Ver aca</a>
+          <a href="https://www.youtube.com/watch?v=${videoId}" target="_blank" rel="noopener" class="card-footer-item">Abrir en YouTube</a>
+        </footer>
+      `;
+
+      // Apply lazy loading to images
+      const lazyImage = card.querySelector('img');
+      lazyLoadObserver.observe(lazyImage);
+
       return card;
     }
 
     function createChannelCard(title, thumbnail, url) {
+      const fallbackThumbnail = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23f5f5f5'/%3E%3C/svg%3E";
       const card = document.createElement('div');
       card.className = 'card video-thumbnail';
       card.innerHTML = `
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <a href="${url}" target="_blank">
-                            <img src="${thumbnail}" 
-                                 alt="${title}" 
-                                 >
-                        </a>
-                    </figure>
-                </div>
-                <div class="card-content" onclick="window.open('${url}', '_blank')">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title is-4">${title}</p>
-                        </div>
-                    </div>
-                </div>
-            `;
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img data-src="${thumbnail || fallbackThumbnail}"
+                 src="${fallbackThumbnail}"
+                 alt="${title}"
+                 loading="lazy"
+                 onerror="this.onerror=null; this.src='${fallbackThumbnail}';">
+          </figure>
+        </div>
+        <div class="card-content" onclick="window.open('${url}', '_blank')">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-4 fixed-height-title">${title}</p>
+            </div>
+          </div>
+        </div>
+        <footer class="card-footer">
+          <a href="${url}" target="_blank" rel="noopener" class="card-footer-item">Visit Channel</a>
+        </footer>
+      `;
+
+      // Apply lazy loading to images
+      const lazyImage = card.querySelector('img');
+      if (thumbnail) {
+        lazyLoadObserver.observe(lazyImage);
+      }
+
       return card;
     }
 
     // Utility Functions
     function formatDateTime(datetime) {
+      if (!datetime) return 'Unknown date';
+
       const options = {year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit'};
-      const date = new Date(datetime);
-      return date.toLocaleDateString(undefined, options);
+      try {
+        const date = new Date(datetime);
+        return date.toLocaleDateString(undefined, options);
+      } catch (e) {
+        console.error('Error formatting date:', e);
+        return datetime;
+      }
     }
 
     function showTab(tabId) {
@@ -318,8 +508,13 @@
       });
 
       document.querySelectorAll('.tabs li').forEach(button => {
-        button.classList.toggle('is-active', button.getAttribute('data-tab') === tabId);
+        const isActive = button.getAttribute('data-tab') === tabId;
+        button.classList.toggle('is-active', isActive);
+        button.querySelector('a').setAttribute('aria-selected', isActive);
       });
+
+      // Hide no-results message when changing tabs
+      document.getElementById('no-results').classList.add('hidden');
 
       filterCards(); // Reapply filter on tab change
     }
@@ -328,6 +523,11 @@
     function expandVideo(videoId) {
       document.getElementById('expanded-video').src = `https://www.youtube.com/embed/${videoId}`;
       document.getElementById('expanded-video-container').classList.add('active');
+
+      // Focus the close button for keyboard accessibility
+      setTimeout(() => {
+        document.getElementById('close-video-button').focus();
+      }, 100);
     }
 
     function closeVideo(event) {
@@ -342,18 +542,31 @@
       const searchInput = document.getElementById('search-input').value.toLowerCase();
       const activeTab = document.querySelector('.tab-content.is-active');
       const cards = activeTab.querySelectorAll('.column');
+      let visibleCount = 0;
 
       cards.forEach(card => {
         const title = card.getAttribute('data-title');
-        card.style.display = title.includes(searchInput) ? '' : 'none';
+        const isVisible = title && title.includes(searchInput);
+        card.style.display = isVisible ? '' : 'none';
+        if (isVisible) visibleCount++;
       });
+
+      // Show no results message if needed
+      const noResultsElement = document.getElementById('no-results');
+      if (visibleCount === 0 && searchInput.length > 0) {
+        noResultsElement.classList.remove('hidden');
+      } else {
+        noResultsElement.classList.add('hidden');
+      }
     }
 
     // Service Worker Registration
     const registerServiceWorker = async () => {
       if ('serviceWorker' in navigator) {
         try {
-          const registration = await navigator.serviceWorker.register("service-worker.js");
+          const registration = await navigator.serviceWorker.register("service-worker.js", {
+            scope: './'
+          });
           console.log(`Service worker status: ${registration.active ? 'Active' : 'Installing'}`);
         } catch (error) {
           console.error(`Service worker registration failed: ${error}`);
@@ -361,7 +574,10 @@
       }
     };
 
-    registerServiceWorker();
+    // Register service worker
+    window.addEventListener('load', () => {
+      registerServiceWorker();
+    });
   </script>
 </body>
 
