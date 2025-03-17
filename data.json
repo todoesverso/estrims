@@ -1,7 +1,7 @@
 {
    "data": [
       {
-         "datetime": "2025-03-17 22:55:27.895804",
+         "datetime": "2025-03-17 23:14:01.920902",
          "stream": {
             "title": "Nico Guthmann",
             "channel_url": "https://www.youtube.com/@NicoGuthmann"
@@ -13,7 +13,7 @@
          "id": 315828345602992056
       },
       {
-         "datetime": "2025-03-17 22:55:28.128289",
+         "datetime": "2025-03-17 23:14:02.248549",
          "stream": {
             "title": "BLENDER",
             "channel_url": "https://www.youtube.com/@estoesblender"
@@ -25,7 +25,7 @@
          "id": 233786633091721673
       },
       {
-         "datetime": "2025-03-17 22:55:28.469161",
+         "datetime": "2025-03-17 23:14:02.585630",
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -33,11 +33,11 @@
          "stream_key": "Radio con vos",
          "thumbnail": "https://yt3.googleusercontent.com/eujZ3bTIS1TJutl2DCICdnK4P9KFoley0m0akulqA4VVtKvxwUc9BvrjeFw2EEQks4Y5WDgQ=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "mGa4rRh1kbM",
-         "live_title": "NO DEJES PARA MAÑANA con Romina Manguel | RADIO CON VOS",
+         "live_title": "RADIO CON VOS",
          "id": 319182830210600195
       },
       {
-         "datetime": "2025-03-17 22:55:28.748441",
+         "datetime": "2025-03-17 23:14:02.865323",
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -49,7 +49,7 @@
          "id": 216888795505753216
       },
       {
-         "datetime": "2025-03-17 22:55:29.102485",
+         "datetime": "2025-03-17 23:14:03.177298",
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -61,19 +61,19 @@
          "id": 149425374395132626
       },
       {
-         "datetime": "2025-03-17 22:55:29.389206",
+         "datetime": "2025-03-17 23:14:03.523021",
          "stream": {
             "title": "posdata",
             "channel_url": "https://www.youtube.com/@Posdata_ar"
          },
          "stream_key": "posdata",
          "thumbnail": "https://yt3.googleusercontent.com/pTfGA6pNfVRA5j35_e4hE4noCje-P-hO1KQPxAx5hwLlhBfcZNZsNqFq3z9Yb2531MMUkeVpQ3s=s900-c-k-c0x00ffffff-no-rj",
-         "live_id": "QXdJIHqVpXQ",
-         "live_title": "SIDE Y SEDICIÓN | ZDM 17/03/25",
+         "live_id": null,
+         "live_title": null,
          "id": 925028807197509747
       },
       {
-         "datetime": "2025-03-17 22:55:29.600702",
+         "datetime": "2025-03-17 23:14:03.782779",
          "stream": {
             "title": "Cenital",
             "channel_url": "https://www.youtube.com/@Cenitalcom"
@@ -85,7 +85,7 @@
          "id": 550864265251298505
       },
       {
-         "datetime": "2025-03-17 22:55:29.961887",
+         "datetime": "2025-03-17 23:14:04.260813",
          "stream": {
             "title": "Factoria 1251",
             "channel_url": "https://www.youtube.com/@factoria1251"
@@ -97,7 +97,7 @@
          "id": 155137882967084463
       },
       {
-         "datetime": "2025-03-17 22:55:30.234624",
+         "datetime": "2025-03-17 23:14:04.588130",
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -109,7 +109,7 @@
          "id": 105882746013730559
       },
       {
-         "datetime": "2025-03-17 22:55:30.572795",
+         "datetime": "2025-03-17 23:14:04.940721",
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -121,7 +121,7 @@
          "id": 795835407771699247
       },
       {
-         "datetime": "2025-03-17 22:55:30.850499",
+         "datetime": "2025-03-17 23:14:05.262690",
          "stream": {
             "title": "Picnoc Extraterrestre",
             "channel_url": "https://www.youtube.com/@Picnic.Extraterrestre"
@@ -133,7 +133,7 @@
          "id": 262800800787017443
       },
       {
-         "datetime": "2025-03-17 22:55:31.135753",
+         "datetime": "2025-03-17 23:14:05.548523",
          "stream": {
             "title": "Pais de Boludos",
             "channel_url": "https://www.youtube.com/@PaisDeBoludos"
@@ -145,7 +145,7 @@
          "id": 242564010755029258
       },
       {
-         "datetime": "2025-03-17 22:55:31.386178",
+         "datetime": "2025-03-17 23:14:05.827989",
          "stream": {
             "title": "Peroncho Delivery",
             "channel_url": "https://www.youtube.com/@PeronchoStandUp"
@@ -157,31 +157,31 @@
          "id": 151918009673670162
       },
       {
-         "datetime": "2025-03-17 22:55:31.816650",
+         "datetime": "2025-03-17 23:14:06.286467",
          "stream": {
             "title": "Mate",
             "channel_url": "https://www.youtube.com/@somosmatear"
          },
          "stream_key": "Mate",
          "thumbnail": "https://yt3.googleusercontent.com/CrnUwlm7UXx5_MzilMWbNvTlqiNyInu5foEgQBdp7m81C0VixnomUeAtrmSAXQYnhkmsTcJkODc=s900-c-k-c0x00ffffff-no-rj",
-         "live_id": "mH7ethEyElA",
-         "live_title": "MATE EMPIEZA SU CUARTA TEMPORADA, CON IVANA SZERMAN | ¿QUIÉN ES EL AUTOR DEL ATAQUE A  PABLO GRILLO?",
+         "live_id": null,
+         "live_title": null,
          "id": 444530359391312095
       },
       {
-         "datetime": "2025-03-17 22:55:32.118147",
+         "datetime": "2025-03-17 23:14:06.597334",
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
          },
          "stream_key": "El Destape",
          "thumbnail": "https://yt3.googleusercontent.com/B46zjhKXET4MqoQG440EkLWxU0XqvjR1_VyZklQn8XfrlVXbOktA0n-iwtbh6dHYXiADWt6x3eo=s900-c-k-c0x00ffffff-no-rj",
-         "live_id": "iDM2A2rLZLU",
-         "live_title": "DETRÁS DE LO QUE VEMOS EN VIVO | El Destape",
+         "live_id": null,
+         "live_title": null,
          "id": 184430746206138100
       },
       {
-         "datetime": "2025-03-17 22:55:32.265408",
+         "datetime": "2025-03-17 23:14:06.803666",
          "stream": {
             "title": "Mano a Mano",
             "channel_url": "https://www.youtube.com/@ManoaMano-jz7up"
@@ -193,7 +193,7 @@
          "id": 939153071037362514
       },
       {
-         "datetime": "2025-03-17 22:55:32.432322",
+         "datetime": "2025-03-17 23:14:06.993739",
          "stream": {
             "title": "220 Podcast",
             "channel_url": "https://www.youtube.com/@220Podcast"
@@ -205,7 +205,7 @@
          "id": 168714448541381594
       },
       {
-         "datetime": "2025-03-17 22:55:32.655966",
+         "datetime": "2025-03-17 23:14:07.310560",
          "stream": {
             "title": "Eva TV",
             "channel_url": "https://www.youtube.com/@evaenvivo"
@@ -217,7 +217,7 @@
          "id": 151802058509382158
       },
       {
-         "datetime": "2025-03-17 22:55:32.981682",
+         "datetime": "2025-03-17 23:14:07.925212",
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -229,7 +229,7 @@
          "id": 269991305394217360
       },
       {
-         "datetime": "2025-03-17 22:55:33.264257",
+         "datetime": "2025-03-17 23:14:08.203708",
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -241,7 +241,7 @@
          "id": 512730768655723334
       },
       {
-         "datetime": "2025-03-17 22:55:33.578888",
+         "datetime": "2025-03-17 23:14:08.554206",
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -253,19 +253,19 @@
          "id": 154480143956470672
       },
       {
-         "datetime": "2025-03-17 22:55:33.788717",
+         "datetime": "2025-03-17 23:14:08.764984",
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
          },
          "stream_key": "Neura Media",
          "thumbnail": "https://yt3.googleusercontent.com/YVrj6aaBeWvWJ8E5U_FLAOpRwKSltszFkQOYv-W8N4NMtNsmJTXzea5wQBtE--I2F2nDBFPr=s900-c-k-c0x00ffffff-no-rj",
-         "live_id": "0KASskrY0QQ",
-         "live_title": "Cuando mis hijos tengan mi edad: Claudio Zuchovicki | !redes !wapp !kick !gumer !remeras",
+         "live_id": null,
+         "live_title": null,
          "id": 219285100396870205
       },
       {
-         "datetime": "2025-03-17 22:55:33.987013",
+         "datetime": "2025-03-17 23:14:08.989428",
          "stream": {
             "title": "RepublicaZ",
             "channel_url": "https://www.youtube.com/@republicaz"
@@ -277,7 +277,7 @@
          "id": 172008989561728904
       },
       {
-         "datetime": "2025-03-17 22:55:34.387434",
+         "datetime": "2025-03-17 23:14:09.365962",
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -289,7 +289,7 @@
          "id": 780952796874927403
       },
       {
-         "datetime": "2025-03-17 22:55:34.773620",
+         "datetime": "2025-03-17 23:14:09.895432",
          "stream": {
             "title": "Mix On",
             "channel_url": "https://www.youtube.com/@mixontv_"
@@ -301,7 +301,7 @@
          "id": 714782352315310981
       },
       {
-         "datetime": "2025-03-17 22:55:35.029416",
+         "datetime": "2025-03-17 23:14:10.135133",
          "stream": {
             "title": "Clank!",
             "channel_url": "https://www.youtube.com/@clank_media"
@@ -313,7 +313,7 @@
          "id": 222613923556636299
       },
       {
-         "datetime": "2025-03-17 22:55:35.248611",
+         "datetime": "2025-03-17 23:14:10.441455",
          "stream": {
             "title": "YEITE",
             "channel_url": "https://www.youtube.com/@somosyeite"
@@ -337,7 +337,7 @@
          "id": 649296810959649531
       },
       {
-         "datetime": "2025-03-17 22:55:35.505218",
+         "datetime": "2025-03-17 23:14:10.752865",
          "stream": {
             "title": "CEIBO",
             "channel_url": "https://www.youtube.com/@CEIBOARGENTINA"
@@ -349,7 +349,7 @@
          "id": 324408226610100448
       },
       {
-         "datetime": "2025-03-17 22:55:35.951044",
+         "datetime": "2025-03-17 23:14:11.161941",
          "stream": {
             "title": "Brindis TV",
             "channel_url": "https://www.youtube.com/@brindistv"
@@ -361,7 +361,7 @@
          "id": 232672994440285194
       },
       {
-         "datetime": "2025-03-17 22:55:36.213631",
+         "datetime": "2025-03-17 23:14:11.397032",
          "stream": {
             "title": "Laca Stream",
             "channel_url": "https://www.youtube.com/@lacastream"
@@ -373,7 +373,7 @@
          "id": 272458299608155372
       },
       {
-         "datetime": "2025-03-17 22:55:36.454419",
+         "datetime": "2025-03-17 23:14:11.654473",
          "stream": {
             "title": "Norita Stream",
             "channel_url": "https://www.youtube.com/@NoritaStreaming"
@@ -385,7 +385,7 @@
          "id": 170325892021474705
       },
       {
-         "datetime": "2025-03-17 22:55:36.809635",
+         "datetime": "2025-03-17 23:14:12.016680",
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -397,7 +397,7 @@
          "id": 279389849281026162
       },
       {
-         "datetime": "2025-03-17 22:55:37.105406",
+         "datetime": "2025-03-17 23:14:12.414266",
          "stream": {
             "title": "MOSTRI TV",
             "channel_url": "https://www.youtube.com/@mostritv_"
@@ -409,7 +409,7 @@
          "id": 225237516011598357
       },
       {
-         "datetime": "2025-03-17 22:55:37.258286",
+         "datetime": "2025-03-17 23:14:12.639585",
          "stream": {
             "title": "A la Estratosfera",
             "channel_url": "https://www.youtube.com/@estratosferaok"
@@ -421,7 +421,7 @@
          "id": 119205113914875630
       },
       {
-         "datetime": "2025-03-17 22:55:37.581601",
+         "datetime": "2025-03-17 23:14:12.977738",
          "stream": {
             "title": "Chimi Canal",
             "channel_url": "https://www.youtube.com/@ChimiCanal"
@@ -433,7 +433,7 @@
          "id": 619524496919989382
       },
       {
-         "datetime": "2025-03-17 22:55:37.791637",
+         "datetime": "2025-03-17 23:14:13.216272",
          "stream": {
             "title": "Diario Alfil Cordoba",
             "channel_url": "https://www.youtube.com/@diario.alfil.cordoba"
@@ -445,7 +445,7 @@
          "id": 136451632863031582
       },
       {
-         "datetime": "2025-03-17 22:55:38.010386",
+         "datetime": "2025-03-17 23:14:13.456411",
          "stream": {
             "title": "Nada del otro mundo",
             "channel_url": "https://www.youtube.com/@NadadelOtroMundo2024"
@@ -457,7 +457,7 @@
          "id": 326281876635018806
       },
       {
-         "datetime": "2025-03-17 22:55:38.262501",
+         "datetime": "2025-03-17 23:14:13.802781",
          "stream": {
             "title": "BorderPeriodismo",
             "channel_url": "https://www.youtube.com/@border.periodismo"
@@ -469,19 +469,19 @@
          "id": 551207390310146565
       },
       {
-         "datetime": "2025-03-17 22:55:38.642010",
+         "datetime": "2025-03-17 23:14:14.204146",
          "stream": {
             "title": "Telefe",
             "channel_url": "https://www.youtube.com/@Telefe"
          },
          "stream_key": "Telefe",
          "thumbnail": "https://yt3.googleusercontent.com/Bad3GqpyvghQQ9OvPHbiuU2CKCZrUwJCkCs5as1ypmYEWgQGtb5Fn_QKxvgv_XqDUfTFa2g8=s900-c-k-c0x00ffffff-no-rj",
-         "live_id": "3fROJw_7GNY",
-         "live_title": "FUERA DE JODA EN VIVO con NACHO CASTAÑARES, COTY ROMERO, SABRI CORTEZ Y LEAN SAIFIR",
+         "live_id": null,
+         "live_title": null,
          "id": 266158174437460604
       },
       {
-         "datetime": "2025-03-17 22:55:38.964708",
+         "datetime": "2025-03-17 23:14:14.566101",
          "stream": {
             "title": "Bunker",
             "channel_url": "https://www.youtube.com/@bunkeraguantadero"
@@ -493,19 +493,19 @@
          "id": 245125795643626500
       },
       {
-         "datetime": "2025-03-17 22:55:39.192813",
+         "datetime": "2025-03-17 23:14:14.918147",
          "stream": {
             "title": "Radio TU",
             "channel_url": "https://www.youtube.com/@radiotu"
          },
          "stream_key": "Radio TU",
          "thumbnail": "https://yt3.googleusercontent.com/IPUessIfxmxpw5_zgQIhVxq_iEjtl6_i59uDqrvSoem93iHEq-zfeRi1VONaI1wQR2_38YIa=s900-c-k-c0x00ffffff-no-rj",
-         "live_id": "29VBmzFbTEw",
-         "live_title": "UN VIAJE AL PASADO ⌛ ||  FOCUS 💡",
+         "live_id": "eCAXrhW0urU",
+         "live_title": "REALIDADES OPUESTAS || COSAS DE LOCOS 🤪",
          "id": 940457505056735623
       },
       {
-         "datetime": "2025-03-17 22:55:39.520771",
+         "datetime": "2025-03-17 23:14:15.212704",
          "stream": {
             "title": "SODA",
             "channel_url": "https://www.youtube.com/@quierosoda"
@@ -517,7 +517,7 @@
          "id": 199824937468398427
       },
       {
-         "datetime": "2025-03-17 22:55:39.689341",
+         "datetime": "2025-03-17 23:14:15.391507",
          "stream": {
             "title": "AZZ Contenidos",
             "channel_url": "https://www.youtube.com/@AZZContenidos"
@@ -529,7 +529,7 @@
          "id": 144452528011131680
       },
       {
-         "datetime": "2025-03-17 22:55:39.909359",
+         "datetime": "2025-03-17 23:14:15.635892",
          "stream": {
             "title": "Data Diario",
             "channel_url": "https://www.youtube.com/@datadiario"
@@ -541,7 +541,7 @@
          "id": 256889000854448877
       },
       {
-         "datetime": "2025-03-17 22:55:40.254599",
+         "datetime": "2025-03-17 23:14:16.032447",
          "stream": {
             "title": "PelaVision",
             "channel_url": "https://www.youtube.com/@pelavision-"
@@ -565,19 +565,19 @@
          "id": 132717236069039087
       },
       {
-         "datetime": "2025-03-17 22:55:40.728464",
+         "datetime": "2025-03-17 23:14:16.584782",
          "stream": {
             "title": "Che Corrientes",
             "channel_url": "https://www.youtube.com/@checorrientesstreaming"
          },
          "stream_key": "Che Corrientes",
          "thumbnail": "https://yt3.googleusercontent.com/_ZL108u4Li4ghp0QaGnF9RkHdmc4yi6GNRJIBBS31VtAVJ02E0QgmFHwiegcd3KxQV2MNYEQig=s900-c-k-c0x00ffffff-no-rj",
-         "live_id": "W4pxPpEj7UA",
-         "live_title": "Che Corrientes! NEW NEA! - 17 DE MARZO",
+         "live_id": "ZAdODpBfUQY",
+         "live_title": "Che Corrientes! FALTABA MÁS! - 17 DE MARZO",
          "id": 185493817035998250
       },
       {
-         "datetime": "2025-03-17 22:55:40.892305",
+         "datetime": "2025-03-17 23:14:16.791628",
          "stream": {
             "title": "Crudo TV",
             "channel_url": "https://www.youtube.com/@SomosCrudoTV"
@@ -589,7 +589,7 @@
          "id": 117820321486737650
       },
       {
-         "datetime": "2025-03-17 22:55:41.195445",
+         "datetime": "2025-03-17 23:14:17.093284",
          "stream": {
             "title": "Mistica TV",
             "channel_url": "https://www.youtube.com/@misticatv."
@@ -601,7 +601,7 @@
          "id": 270918467480467110
       },
       {
-         "datetime": "2025-03-17 22:55:41.425369",
+         "datetime": "2025-03-17 23:14:17.418410",
          "stream": {
             "title": "La Casa del Stream",
             "channel_url": "https://www.youtube.com/@lacasadelstreaming"
@@ -613,7 +613,7 @@
          "id": 221265874821651578
       },
       {
-         "datetime": "2025-03-17 22:55:41.693133",
+         "datetime": "2025-03-17 23:14:17.686792",
          "stream": {
             "title": "NAMIK TV",
             "channel_url": "https://www.youtube.com/@namiktv"
@@ -625,19 +625,19 @@
          "id": 212011050889536910
       },
       {
-         "datetime": "2025-03-17 22:55:41.894884",
+         "datetime": "2025-03-17 23:14:17.955384",
          "stream": {
             "title": "FAMATV",
             "channel_url": "https://www.youtube.com/@famatvok"
          },
          "stream_key": "FAMATV",
          "thumbnail": "https://yt3.googleusercontent.com/MWsEgFz7x7Tc5nm3vmj66nZ-Fzwri7WhOC8M4tDBkAw5uVp65RxhCz_tK7eYl6C9x93OqM5o=s900-c-k-c0x00ffffff-no-rj",
-         "live_id": "dyzmTvC4mDo",
-         "live_title": "TARDE A LA FAMA -  EN VIVO POR FAMATV®",
+         "live_id": null,
+         "live_title": null,
          "id": 723947855558417566
       },
       {
-         "datetime": "2025-03-17 22:55:42.126258",
+         "datetime": "2025-03-17 23:14:18.273350",
          "stream": {
             "title": "CitricaRadio",
             "channel_url": "https://www.youtube.com/@SomosCitrica"
@@ -649,7 +649,7 @@
          "id": 144178435388490007
       },
       {
-         "datetime": "2025-03-17 22:55:42.319323",
+         "datetime": "2025-03-17 23:14:18.505258",
          "stream": {
             "title": "DIGI TV",
             "channel_url": "https://www.youtube.com/@DIGITV_"
@@ -661,7 +661,7 @@
          "id": 113211127106538598
       },
       {
-         "datetime": "2025-03-17 22:55:42.537129",
+         "datetime": "2025-03-17 23:14:18.795811",
          "stream": {
             "title": "Vermut",
             "channel_url": "https://www.youtube.com/@somosvermut"
@@ -673,19 +673,19 @@
          "id": 193662748910219194
       },
       {
-         "datetime": "2025-03-17 22:55:42.873014",
+         "datetime": "2025-03-17 23:14:19.162585",
          "stream": {
             "title": "DGO",
             "channel_url": "https://www.youtube.com/@dgo_latam"
          },
          "stream_key": "DGO",
          "thumbnail": "https://yt3.googleusercontent.com/KXtxjnicI5USLHb7rkuLEWMNqP3yLGyTXm_cWxRoCnoTvbhod0g3Ya9QV8PCNxvoOr4eMNtYT6g=s900-c-k-c0x00ffffff-no-rj",
-         "live_id": "z5DY7CYta08",
-         "live_title": "🔴 FUERA DE JODA 🔥con Nacho, Coty, Sabri, Lean y Fefe | Gran Hermano⭐ I DGO | EN VIVO",
+         "live_id": null,
+         "live_title": null,
          "id": 206839107380632348
       },
       {
-         "datetime": "2025-03-17 22:55:43.151455",
+         "datetime": "2025-03-17 23:14:19.438734",
          "stream": {
             "title": "Canal 10 Cordoba",
             "channel_url": "https://www.youtube.com/@canal10cordoba"
@@ -697,7 +697,7 @@
          "id": 169205825201457984
       },
       {
-         "datetime": "2025-03-17 22:55:43.290283",
+         "datetime": "2025-03-17 23:14:19.605311",
          "stream": {
             "title": "Ivana Szerman",
             "channel_url": "https://www.youtube.com/@ivanaszerman"
@@ -709,7 +709,7 @@
          "id": 153125663842635567
       },
       {
-         "datetime": "2025-03-17 22:55:43.546113",
+         "datetime": "2025-03-17 23:14:20.011459",
          "stream": {
             "title": "AZZ",
             "channel_url": "https://www.youtube.com/@somosazz"
