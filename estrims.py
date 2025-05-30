@@ -471,6 +471,7 @@ if __name__ == "__main__":
             title="Ivana Szerman", channel_url="https://www.youtube.com/@ivanaszerman"
         ),
         Stream(title="AZZ", channel_url="https://www.youtube.com/@somosazz"),
+        Stream(title="Abitare", channel_url="https://www.youtube.com/@Somosabitare"),
     ]
 
     streams = Streams(streams=streams_list)
