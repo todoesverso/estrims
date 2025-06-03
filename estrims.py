@@ -472,6 +472,7 @@ if __name__ == "__main__":
         ),
         Stream(title="AZZ", channel_url="https://www.youtube.com/@somosazz"),
         Stream(title="Abitare", channel_url="https://www.youtube.com/@Somosabitare"),
+        Stream(title="Carnaval Stream", channel_url="https://www.youtube.com/@CarnavalStream"),
     ]
 
     streams = Streams(streams=streams_list)
