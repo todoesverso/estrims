@@ -519,9 +519,8 @@ if __name__ == "__main__":
 
     streams = Streams(streams=streams_list)
 
-    vdb = ViewsDB()
-    vdb.insert("test", "test", 23)
+    # vdb = ViewsDB()
     for s in streams.streams:
         status = new_stream_status(s)
-        if status is not None:
-            vdb.insert(status.stream.title, status.stream.channel_url, status.viewing)
+        # if status is not None:
+        #    vdb.insert(status.stream.title, status.stream.channel_url, status.viewing)
