@@ -515,6 +515,7 @@ if __name__ == "__main__":
             title="Carnaval Stream",
             channel_url="https://www.youtube.com/@CarnavalStream",
         ),
+        Stream(title="Radio LED", channel_url="https://www.youtube.com/@RadioLed/"),
     ]
 
     streams = Streams(streams=streams_list)
