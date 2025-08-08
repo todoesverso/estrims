@@ -1,125 +1,120 @@
+#!/usr/bin/env python3
+"""
+Async YouTube channel monitor.
 
-from dataclasses import dataclass, asdict
-from typing import List
-from datetime import datetime
-from pysondb import db
-from bs4 import BeautifulSoup
-import requests
+Features:
+- Load channels from streams.yaml
+- Concurrent, rate-limited fetching with retries
+- Robust parsing of ytInitialData from channel HTML
+- Stores streams and latest status in JSON using PysonDB
+- Can run once or loop every N seconds
+"""
+
+from __future__ import annotations
+import asyncio
+import aiohttp
+import async_timeout
 import re
 import json
 import logging
+import random
+from dataclasses import dataclass, asdict
+from datetime import datetime
+from typing import List, Optional, Dict, Any
+import yaml
+import sys
+import time
+from pathlib import Path
+from pysondb import getDb  # PysonDB import
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+)
+logger = logging.getLogger("stream-monitor")
 
 
-logger = logging.getLogger(__name__)
+# -------------------------
+# Configuration / Defaults
+# -------------------------
+DEFAULT_STATUSES_FILE = "data.json"
+DEFAULT_YAML = "estrims.yaml"
+CONCURRENT_REQUESTS = 6
+REQUEST_TIMEOUT = 15  # seconds
+MAX_RETRIES = 3
+RETRY_BACKOFF_BASE = 1.5  # seconds (exponential)
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0 Safari/537.36"
+)
 
 
-class BaseDb:
-    @property
-    def db(self):
-        return db.getDb(str(self.__class__.__name__).lower() + ".json")
+# -------------------------
+# PysonDB wrapper
+# -------------------------
+class JsonDB:
+    def __init__(
+        self,
+        statuses_file: str = DEFAULT_STATUSES_FILE,
+    ):
+        self.statuses_db = getDb(statuses_file)
 
-    def write_to_db(self, data):
-        self.db.add(data)
-
-    def write_to_db_if_not_exists(self, data, key: dict):
-        exist = self.db.getByQuery(key)
-        if exist:
-            logger.warning("Key %s already exists", key)
-            return False
-        self.write_to_db(data)
-
-    def create_or_update_to_db(self, data, key: dict):
-        exist = self.db.getByQuery(key)
-        if exist:
-            logger.warning("Key %s already exists. Updating", key)
-            self.db.updateByQuery(key, data)
+    def upsert_status(self, stream_key: str, status: Dict[str, Any]):
+        status_record = {
+            "stream_key": stream_key,
+            "datetime": status.get("datetime"),
+            "thumbnail": status.get("thumbnail"),
+            "live_id": status.get("live_id"),
+            "live_title": status.get("live_title"),
+            "viewing": status.get("viewing"),
+            "stream": status.get("stream", {}),
+        }
+        existing = self.statuses_db.getByQuery({"stream_key": stream_key})
+        if existing:
+            rec_id = existing[0]["id"]
+            self.statuses_db.updateById(rec_id, status_record)
         else:
-            self.write_to_db(data)
+            self.statuses_db.add(status_record)
+
+    def get_streams(self) -> List[Dict[str, str]]:
+        return self.streams_db.getAll()
+
+    def close(self):
+        pass  # PysonDB doesn't require closing
 
 
+# -------------------------
+# Dataclasses
+# -------------------------
 @dataclass
-class Stream(BaseDb):
+class Stream:
     title: str
     channel_url: str
 
-
-@dataclass
-class Streams:
-    streams: List[Stream]
+    def to_dict(self):
+        return {"title": self.title, "channel_url": self.channel_url}
 
 
 @dataclass
-class StreamStatus(BaseDb):
-    datetime: datetime | str
+class StreamStatus:
+    datetime: str
     stream: Stream
-    stream_key: str  # use stream.title
-    thumbnail: str
-    live_id: str | None
-    live_title: str | None
-    viewing: int
+    stream_key: str
+    thumbnail: str = ""
+    live_id: Optional[str] = None
+    live_title: Optional[str] = None
+    viewing: int = 0
 
-    @property
-    def db(self):
-        return db.getDb("data.json")
-
-
-def getHTMLdocument(url):
-    response = requests.get(url)
-    return response.text
+    def to_dict(self):
+        d = asdict(self)
+        d["stream"] = self.stream.to_dict()
+        return d
 
 
-def save_streams_to_db(streams: Streams):
-    for s in streams.streams:
-        s.write_to_db_if_not_exists(asdict(s), key={"title": s.title})
-
-
-def get_stream_bs_script(stream, is_video=False):
-    channel_url = stream.channel_url
-    if is_video:
-        channel_url = stream.channel_url + "/videos"
-    logger.warning(channel_url)
-    html = getHTMLdocument(channel_url)
-    pattern = re.compile(r"ytInitialData = (.*);", re.MULTILINE | re.DOTALL)
-    soup = BeautifulSoup(html, features="html.parser")
-    script = soup.find("script", string=pattern)
-    data = None
-    if script:
-        match = pattern.search(script.text)
-        data = json.loads(match.group(1))
-
-    return data
-
-
-def parse_live_stream(script_dict):
-    logger.warning("LIVE")
-    try:
-        base_path = script_dict["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][
-            0
-        ]["tabRenderer"]["content"]["sectionListRenderer"]["contents"][0][
-            "itemSectionRenderer"
-        ]["contents"][0]["channelFeaturedContentRenderer"]["items"][0]["videoRenderer"]
-
-        return {
-            "live_title": base_path["title"]["runs"][0]["text"],
-            "live_id": base_path["videoId"],
-        }
-    except KeyError:
-        return {"live_title": None, "live_id": None}
-
-
-def get_nested_value(data, keys):
-    if not keys:
-        return None
-
-    for path in keys:
-        try:
-            return access_path(data, path)
-        except (KeyError, IndexError, TypeError):
-            continue
-    return None
-
-
-def access_path(data, path):
+# -------------------------
+# Utilities
+# -------------------------
+def access_path(data: Any, path: List[Any]) -> Any:
     for key in path:
         if isinstance(data, dict):
             data = data[key]
@@ -130,368 +125,276 @@ def access_path(data, path):
     return data
 
 
-def get_title(base_path):
+def get_nested_value(data: dict, candidate_paths: List[List[Any]]) -> Optional[Any]:
+    for path in candidate_paths:
+        try:
+            return access_path(data, path)
+        except (KeyError, IndexError, TypeError):
+            continue
+    return None
+
+
+def get_title(base_path: dict) -> Optional[str]:
     paths = [["title", "runs", 0, "text"], ["title", "simpleText"]]
     return get_nested_value(base_path, paths)
 
 
-def parse_latest_video(script_dict):
-    logger.warning("LAST VIDEO")
-    title = ""
-    id = ""
-    base_path_array = [
-        "contents",
-        "twoColumnBrowseResultsRenderer",
-        "tabs",
-        1,
-        "tabRenderer",
-        "content",
-        "richGridRenderer",
-        "contents",
-        0,
-        "richItemRenderer",
-        "content",
-        "videoRenderer",
-    ]
-    paths = [
-        [
-            *base_path_array,
-        ],
-    ]
-
-    ret = get_nested_value(script_dict, paths)
-    title = get_title(ret)
-    id = ret["videoId"]
-
-    ret_dict = {
-        "last_video_title": title,
-        "last_video_id": id,
-    }
-    logger.warning(ret_dict)
-
-    return ret_dict
+# -------------------------
+# Parsers
+# -------------------------
+YT_INITIAL_RE = re.compile(r"ytInitialData\s*=\s*(\{.*?\});", re.MULTILINE | re.DOTALL)
 
 
-def parse_thumbnail(script_dict):
-    return script_dict["metadata"]["channelMetadataRenderer"]["avatar"]["thumbnails"][
-        0
-    ]["url"]
-
-
-def parse_latest_stream(script_dict):
-    logger.warning("LAST")
-    title = ""
-    id = ""
-    base_path = script_dict["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][0][
-        "tabRenderer"
-    ]["content"]["sectionListRenderer"]["contents"]
-    base_path_array = [
-        "contents",
-        "twoColumnBrowseResultsRenderer",
-        "tabs",
-        0,
-        "tabRenderer",
-        "content",
-        "sectionListRenderer",
-        "contents",
-    ]
-    paths = [
-        [
-            *base_path_array,
-            3,
-            "itemSectionRenderer",
-            "contents",
-            0,
-            "shelfRenderer",
-            "content",
-            "horizontalListRenderer",
-            "items",
-            0,
-            "gridVideoRenderer",
-        ],
-        [
-            *base_path_array,
-            4,
-            "itemSectionRenderer",
-            "contents",
-            0,
-            "shelfRenderer",
-            "content",
-            "horizontalListRenderer",
-            "items",
-            0,
-            "gridVideoRenderer",
-        ],
-        [
-            *base_path_array,
-            0,
-            "itemSectionRenderer",
-            "contents",
-            0,
-            "channelVideoPlayerRenderer",
-        ],
-        [
-            *base_path_array,
-            0,
-            "itemSectionRenderer",
-            "contents",
-            0,
-            "shelfRenderer",
-            "content",
-            "horizontalListRenderer",
-            "items",
-            0,
-            "gridVideoRenderer",
-        ],
-        [
-            *base_path_array,
-            1,
-            "itemSectionRenderer",
-            "contents",
-            0,
-            "shelfRenderer",
-            "content",
-            "horizontalListRenderer",
-            "items",
-            0,
-            "gridVideoRenderer",
-        ],
-    ]
-
-    ret = get_nested_value(script_dict, paths)
-    title = get_title(ret)
-    logger.error(ret)
-    id = ret["videoId"]
-
-    ret_dict = {
-        "last_video_title": title,
-        "last_video_id": id,
-    }
-    logger.warning(ret_dict)
-
-    return ret_dict
-
-
-def parse_curr_view(script_dict):
-    ret = 0
+def parse_yt_initial_data(html: str) -> Optional[dict]:
+    match = YT_INITIAL_RE.search(html)
+    if not match:
+        return None
+    payload = match.group(1)
     try:
-        cv = script_dict["contents"]["twoColumnBrowseResultsRenderer"]["tabs"][0][
-            "tabRenderer"
-        ]["content"]["sectionListRenderer"]["contents"][0]["itemSectionRenderer"][
-            "contents"
-        ][0]["channelFeaturedContentRenderer"]["items"][0]["videoRenderer"][
-            "viewCountText"
-        ]["runs"][0]["text"]
-        ret = int(cv.replace(",", ""))
-    except Exception as e:
-        pass
-
-    logger.error(ret)
-    return ret
-
-
-def new_stream_status(stream):
-    script_dict = get_stream_bs_script(stream)
-    if script_dict:
-        thumbnail = ""
-        live = {"live_id": None, "live_title": None}
-        viewing = 0
-
+        return json.loads(payload)
+    except json.JSONDecodeError:
         try:
-            thumbnail = parse_thumbnail(script_dict)
-            live = parse_live_stream(script_dict)
-            viewing = parse_curr_view(script_dict)
+            trimmed = payload.strip().rstrip(";")
+            return json.loads(trimmed)
         except Exception:
-            logger.warning("Failed to parse %s", stream)
+            logger.exception("Failed to JSON-decode ytInitialData")
+            return None
 
-        stream_status = StreamStatus(
+
+def parse_thumbnail(script_dict: dict) -> Optional[str]:
+    try:
+        return script_dict["metadata"]["channelMetadataRenderer"]["avatar"][
+            "thumbnails"
+        ][0]["url"]
+    except Exception:
+        return None
+
+
+def parse_live_stream(script_dict: dict) -> dict:
+    try:
+        base_path = [
+            "contents",
+            "twoColumnBrowseResultsRenderer",
+            "tabs",
+            0,
+            "tabRenderer",
+            "content",
+            "sectionListRenderer",
+            "contents",
+            0,
+            "itemSectionRenderer",
+            "contents",
+            0,
+            "channelFeaturedContentRenderer",
+            "items",
+            0,
+            "videoRenderer",
+        ]
+        vr = access_path(script_dict, base_path)
+        return {"live_title": get_title(vr), "live_id": vr.get("videoId")}
+    except Exception:
+        return {"live_title": None, "live_id": None}
+
+
+def parse_curr_view(script_dict: dict) -> int:
+    try:
+        path = [
+            "contents",
+            "twoColumnBrowseResultsRenderer",
+            "tabs",
+            0,
+            "tabRenderer",
+            "content",
+            "sectionListRenderer",
+            "contents",
+            0,
+            "itemSectionRenderer",
+            "contents",
+            0,
+            "channelFeaturedContentRenderer",
+            "items",
+            0,
+            "videoRenderer",
+            "viewCountText",
+            "runs",
+            0,
+            "text",
+        ]
+        cv = access_path(script_dict, path)
+        digits = re.sub(r"[^\d]", "", str(cv))
+        return int(digits) if digits else 0
+    except Exception:
+        return 0
+
+
+# -------------------------
+# HTTP Fetch
+# -------------------------
+async def fetch_html(
+    session: aiohttp.ClientSession, url: str, timeout: int = REQUEST_TIMEOUT
+) -> Optional[str]:
+    last_exc = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            async with async_timeout.timeout(timeout):
+                headers = {
+                    "User-Agent": USER_AGENT,
+                    "Accept-Language": "en-US,en;q=0.9",
+                }
+                async with session.get(url, headers=headers) as resp:
+                    text = await resp.text(errors="replace")
+                    if resp.status >= 400:
+                        logger.warning("Bad status %s for %s", resp.status, url)
+                        last_exc = RuntimeError(f"Status {resp.status}")
+                    else:
+                        return text
+        except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+            last_exc = e
+            logger.debug("Fetch attempt %d failed for %s: %s", attempt, url, e)
+        backoff = (RETRY_BACKOFF_BASE**attempt) + random.random()
+        await asyncio.sleep(min(backoff, 30))
+    logger.error("All fetch attempts failed for %s: %s", url, last_exc)
+    return None
+
+
+# -------------------------
+# Monitor
+# -------------------------
+async def process_stream(
+    db: JsonDB,
+    session: aiohttp.ClientSession,
+    stream: Stream,
+    semaphore: asyncio.Semaphore,
+):
+    async with semaphore:
+        logger.info("Fetching %s", stream.channel_url)
+        html = await fetch_html(session, stream.channel_url)
+        if not html:
+            logger.warning("No HTML for %s", stream.title)
+            return None
+
+        script_dict = parse_yt_initial_data(html)
+        if not script_dict:
+            logger.info("No ytInitialData found for %s", stream.title)
+            return None
+
+        thumbnail = parse_thumbnail(script_dict) or ""
+        live = parse_live_stream(script_dict)
+        viewing = parse_curr_view(script_dict)
+
+        status = StreamStatus(
             datetime=str(datetime.now()),
             stream=stream,
             stream_key=stream.title,
             thumbnail=thumbnail,
             viewing=viewing,
-            **live,
+            live_id=live.get("live_id"),
+            live_title=live.get("live_title"),
         )
+        db.upsert_status(stream.title, status.to_dict())
+        logger.info(
+            "Updated status for %s (live=%s views=%s)",
+            stream.title,
+            status.live_id,
+            status.viewing,
+        )
+        return status
 
-        stream_status.create_or_update_to_db(
-            asdict(stream_status), key={"stream_key": stream_status.stream.title}
-        )
-        return stream_status
+
+async def monitor_once(
+    db: JsonDB, streams: List[Stream], concurrency: int = CONCURRENT_REQUESTS
+):
+    timeout = aiohttp.ClientTimeout(total=REQUEST_TIMEOUT + 5)
+    connector = aiohttp.TCPConnector(limit_per_host=concurrency)
+    semaphore = asyncio.Semaphore(concurrency)
+    async with aiohttp.ClientSession(timeout=timeout, connector=connector) as session:
+        tasks = [process_stream(db, session, s, semaphore) for s in streams]
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+    for s, r in zip(streams, results):
+        if isinstance(r, Exception):
+            logger.exception("Worker failed for stream %s: %s", s.title, r)
+    return results
+
+
+# -------------------------
+# CLI
+# -------------------------
+def load_streams_from_yaml(path: str = DEFAULT_YAML) -> List[Stream]:
+    p = Path(path)
+    if not p.exists():
+        logger.error("Streams YAML %s not found.", path)
+        return []
+    with p.open("r", encoding="utf-8") as fh:
+        raw = yaml.safe_load(fh)
+    streams: List[Stream] = []
+    for item in raw:
+        title = item.get("title")
+        channel = item.get("channel_url")
+        if title and channel:
+            streams.append(Stream(title=title, channel_url=channel))
+        else:
+            logger.warning("Invalid stream entry in YAML: %r", item)
+    return streams
+
+
+async def run_loop(
+    interval_seconds: int, db: JsonDB, streams: List[Stream], concurrency: int
+):
+    while True:
+        start = time.time()
+        logger.info("Starting cycle for %d streams", len(streams))
+        await monitor_once(db, streams, concurrency=concurrency)
+        elapsed = time.time() - start
+        sleep_for = max(0, interval_seconds - elapsed)
+        logger.info("Cycle completed in %.2f s; sleeping %.2f s", elapsed, sleep_for)
+        await asyncio.sleep(sleep_for)
+
+
+def print_usage():
+    print(
+        "Usage:\n"
+        "  python monitor.py once [streams.yaml]        # run one cycle\n"
+        "  python monitor.py loop <seconds> [streams.yaml]  # run forever every N seconds\n"
+    )
+
+
+def main(argv):
+    if len(argv) < 2:
+        print_usage()
+        return 1
+
+    cmd = argv[1]
+    yaml_path = argv[2] if len(argv) > 2 and not cmd.isdigit() else DEFAULT_YAML
+
+    db = JsonDB(DEFAULT_STATUSES_FILE)
+    streams = load_streams_from_yaml(yaml_path)
+    if not streams:
+        logger.error("No streams loaded from %s", yaml_path)
+        return 2
+
+    if cmd == "once":
+        asyncio.run(monitor_once(db, streams))
+    elif cmd == "loop":
+        if len(argv) < 3:
+            print_usage()
+            return 1
+        try:
+            interval = int(argv[2])
+            yaml_path = argv[3] if len(argv) > 3 else DEFAULT_YAML
+            streams = load_streams_from_yaml(yaml_path)
+            asyncio.run(
+                run_loop(interval, db, streams, concurrency=CONCURRENT_REQUESTS)
+            )
+        except ValueError:
+            print_usage()
+            return 1
+    else:
+        print_usage()
+        return 1
+
+    db.close()
+    return 0
 
 
 if __name__ == "__main__":
-    streams_list = [
-        Stream(
-            title="Nico Guthmann",
-            channel_url="https://www.youtube.com/@NicoGuthmann",
-        ),
-        Stream(
-            title="BLENDER",
-            channel_url="https://www.youtube.com/@estoesblender",
-        ),
-        Stream(
-            title="Radio con vos",
-            channel_url="https://www.youtube.com/@RadioConVos89.9",
-        ),
-        Stream(
-            title="Gelatina",
-            channel_url="https://www.youtube.com/@SomosGelatina",
-        ),
-        Stream(
-            title="Futurock FM",
-            channel_url="https://www.youtube.com/@futurock",
-        ),
-        Stream(
-            title="posdata",
-            channel_url="https://www.youtube.com/@Posdata_ar",
-        ),
-        Stream(
-            title="Cenital",
-            channel_url="https://www.youtube.com/@Cenitalcom",
-        ),
-        Stream(
-            title="Factoria 1251",
-            channel_url="https://www.youtube.com/@factoria1251",
-        ),
-        Stream(
-            title="OLGA",
-            channel_url="https://www.youtube.com/@olgaenvivo_",
-        ),
-        Stream(
-            title="LUZU TV",
-            channel_url="https://www.youtube.com/@luzutv",
-        ),
-        Stream(
-            title="Picnoc Extraterrestre",
-            channel_url="https://www.youtube.com/@Picnic.Extraterrestre",
-        ),
-        Stream(
-            title="Pais de Boludos",
-            channel_url="https://www.youtube.com/@PaisDeBoludos",
-        ),
-        Stream(
-            title="Peroncho Delivery",
-            channel_url="https://www.youtube.com/@PeronchoStandUp",
-        ),
-        Stream(
-            title="Mate",
-            channel_url="https://www.youtube.com/@somosmatear",
-        ),
-        Stream(
-            title="El Destape",
-            channel_url="https://www.youtube.com/@ElDestapeTV",
-        ),
-        Stream(
-            title="Mano a Mano",
-            channel_url="https://www.youtube.com/@ManoaMano-jz7up",
-        ),
-        Stream(
-            title="220 Podcast",
-            channel_url="https://www.youtube.com/@220Podcast",
-        ),
-        Stream(
-            title="Eva TV",
-            channel_url="https://www.youtube.com/@evaenvivo",
-        ),
-        Stream(
-            title="Urbana Play",
-            channel_url="https://www.youtube.com/@UrbanaPlayFM",
-        ),
-        Stream(title="Bondi Live", channel_url="https://www.youtube.com/@Bondi_liveok"),
-        Stream(
-            title="Vorterix", channel_url="https://www.youtube.com/@VorterixOficial"
-        ),
-        Stream(title="Neura Media", channel_url="https://www.youtube.com/@NeuraMedia"),
-        Stream(title="RepublicaZ", channel_url="https://www.youtube.com/@republicaz"),
-        Stream(
-            title="La Casa Stream", channel_url="https://www.youtube.com/@somoslacasa"
-        ),
-        Stream(title="Ahora Play", channel_url="https://www.youtube.com/@tesla1923"),
-        Stream(title="Mix On", channel_url="https://www.youtube.com/@mixontv_"),
-        Stream(title="Clank!", channel_url="https://www.youtube.com/@clank_media"),
-        Stream(title="YEITE", channel_url="https://www.youtube.com/@somosyeite"),
-        Stream(title="Chingon", channel_url="https://www.youtube.com/@chingonenvivo"),
-        Stream(title="CEIBO", channel_url="https://www.youtube.com/@CEIBOARGENTINA"),
-        Stream(title="Brindis TV", channel_url="https://www.youtube.com/@brindistv"),
-        Stream(title="Laca Stream", channel_url="https://www.youtube.com/@lacastream"),
-        Stream(
-            title="Norita Stream",
-            channel_url="https://www.youtube.com/@NoritaStreaming",
-        ),
-        Stream(title="Ziesta TV", channel_url="https://www.youtube.com/@ZiestaTV"),
-        Stream(title="MOSTRI TV", channel_url="https://www.youtube.com/@mostritv_"),
-        Stream(
-            title="A la Estratosfera",
-            channel_url="https://www.youtube.com/@estratosferaok",
-        ),
-        Stream(
-            title="Polenta para revolver",
-            channel_url="https://www.youtube.com/@polentapararevolver",
-        ),
-        Stream(title="Re FM 107.3", channel_url="https://www.youtube.com/@ReFM107.3"),
-        Stream(title="Chimi Canal", channel_url="https://www.youtube.com/@ChimiCanal"),
-        Stream(
-            title="Diario Alfil Cordoba",
-            channel_url="https://www.youtube.com/@diario.alfil.cordoba",
-        ),
-        Stream(
-            title="Nada del otro mundo",
-            channel_url="https://www.youtube.com/@NadadelOtroMundo2024",
-        ),
-        Stream(
-            title="BorderPeriodismo",
-            channel_url="https://www.youtube.com/@border.periodismo",
-        ),
-        Stream(title="Telefe", channel_url="https://www.youtube.com/@Telefe"),
-        Stream(
-            title="Bunker", channel_url="https://www.youtube.com/@bunkeraguantadero"
-        ),
-        Stream(title="Radio TU", channel_url="https://www.youtube.com/@radiotu"),
-        Stream(title="SODA", channel_url="https://www.youtube.com/@quierosoda"),
-        Stream(
-            title="AZZ Contenidos", channel_url="https://www.youtube.com/@AZZContenidos"
-        ),
-        Stream(title="Data Diario", channel_url="https://www.youtube.com/@datadiario"),
-        Stream(title="PelaVision", channel_url="https://www.youtube.com/@pelavision-"),
-        Stream(
-            title="Radio Kamikaze",
-            channel_url="https://www.youtube.com/@RadioKamikazeok",
-        ),
-        Stream(
-            title="Che Corrientes",
-            channel_url="https://www.youtube.com/@checorrientesstreaming",
-        ),
-        Stream(title="Crudo TV", channel_url="https://www.youtube.com/@SomosCrudoTV"),
-        Stream(title="Mistica TV", channel_url="https://www.youtube.com/@misticatv."),
-        Stream(
-            title="La Casa del Stream",
-            channel_url="https://www.youtube.com/@lacasadelstreaming",
-        ),
-        Stream(title="NAMIK TV", channel_url="https://www.youtube.com/@namiktv"),
-        Stream(title="FAMATV", channel_url="https://www.youtube.com/@famatvok"),
-        Stream(
-            title="CitricaRadio", channel_url="https://www.youtube.com/@SomosCitrica"
-        ),
-        Stream(title="DIGI TV", channel_url="https://www.youtube.com/@DIGITV_"),
-        Stream(title="Vermut", channel_url="https://www.youtube.com/@somosvermut"),
-        Stream(title="DGO", channel_url="https://www.youtube.com/@dgo_latam"),
-        Stream(
-            title="Canal 10 Cordoba",
-            channel_url="https://www.youtube.com/@canal10cordoba",
-        ),
-        Stream(
-            title="Ivana Szerman", channel_url="https://www.youtube.com/@ivanaszerman"
-        ),
-        Stream(title="AZZ", channel_url="https://www.youtube.com/@somosazz"),
-        Stream(title="Abitare", channel_url="https://www.youtube.com/@Somosabitare"),
-        Stream(
-            title="Carnaval Stream",
-            channel_url="https://www.youtube.com/@CarnavalStream",
-        ),
-        Stream(title="Radio LED", channel_url="https://www.youtube.com/@RadioLed/"),
-    ]
-
-    streams = Streams(streams=streams_list)
-
-    for s in streams.streams:
-        status = new_stream_status(s)
+    sys.exit(main(sys.argv))
