@@ -7,37 +7,9 @@ import requests
 import re
 import json
 import logging
-import duckdb as dd
-import sys
 
 
-con = dd.connect("views.db")
 logger = logging.getLogger(__name__)
-
-
-class ViewsDB:
-    DB_NAME = "views.db"
-
-    def __init__(self) -> None:
-        self.con = dd.connect(self.DB_NAME)
-        self._create_view_table()
-
-    def _create_view_table(self) -> None:
-        self.con.execute("""
-        CREATE TABLE IF NOT EXISTS views (
-            channel_id VARCHAR NOT NULL,
-            channel_name VARCHAR,
-            live_timestamp TIMESTAMP NOT NULL,
-            viewers_count INTEGER NOT NULL,
-            PRIMARY KEY (channel_id, live_timestamp)
-        );
-        """)
-
-    def insert(self, channel_id, channel_name, viewers_count) -> None:
-        self.con.execute(
-            "INSERT INTO views VALUES (? ,?, ?, ?)",
-            (channel_id, channel_name, datetime.now(), viewers_count),
-        )
 
 
 class BaseDb:
@@ -520,8 +492,5 @@ if __name__ == "__main__":
 
     streams = Streams(streams=streams_list)
 
-    # vdb = ViewsDB()
     for s in streams.streams:
         status = new_stream_status(s)
-        # if status is not None:
-        #    vdb.insert(status.stream.title, status.stream.channel_url, status.viewing)
