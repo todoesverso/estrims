@@ -2,7 +2,7 @@
    "data": [
       {
          "stream_key": "Nico Guthmann",
-         "datetime": "2025-09-16 14:28:48.221175",
+         "datetime": "2025-09-16 14:34:37.691485",
          "thumbnail": "https://yt3.googleusercontent.com/NGd8XxsQkWYhd-7ZbTfpeB2V7vbJW83q0HEku0N2OqmsxcjO0Tqe9Rps-34daig9s67TPSlcBQ=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -15,11 +15,11 @@
       },
       {
          "stream_key": "Radio con vos",
-         "datetime": "2025-09-16 14:28:48.600825",
+         "datetime": "2025-09-16 14:34:37.377183",
          "thumbnail": "https://yt3.googleusercontent.com/T0kc3wJIrewoTiJTESM7Pkk0VeGSy04fSiwexJDD6MLVL9z8i2WnT4YX7vhlLtPzVOkCaZM2_A=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "MWx4tmvbRFs",
          "live_title": "PASARON COSAS con Alejandro Bercovich | RADIO CON VOS",
-         "viewing": 12031,
+         "viewing": 12409,
          "stream": {
             "title": "Radio con vos",
             "channel_url": "https://www.youtube.com/@RadioConVos89.9"
@@ -28,11 +28,11 @@
       },
       {
          "stream_key": "Gelatina",
-         "datetime": "2025-09-16 14:28:47.252490",
+         "datetime": "2025-09-16 14:34:39.560987",
          "thumbnail": "https://yt3.googleusercontent.com/UqH3cFppRq6fKLcIN2uosH0M0oMq5BnPCvkN_qERS_XLYSBr4mDsJ9IML2WDXrTJdeTo7URGGw=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "JB9kI33v5HU",
          "live_title": "LA MENTIRA DEL PRESUPUESTO DE MILEI: INDUSTRIA NACIONAL con PEDRO ROSEMBLAT",
-         "viewing": 20914,
+         "viewing": 20763,
          "stream": {
             "title": "Gelatina",
             "channel_url": "https://www.youtube.com/@SomosGelatina"
@@ -41,7 +41,7 @@
       },
       {
          "stream_key": "BLENDER",
-         "datetime": "2025-09-16 14:28:48.995558",
+         "datetime": "2025-09-16 14:34:38.569442",
          "thumbnail": "https://yt3.googleusercontent.com/tBdBRaUAwJLA8vz_HzQ57nH0BFX0dIbMn3NzkH3bmpf_X7VBXUqnkGnUrMTk0khZJ_x43JKk=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -54,11 +54,11 @@
       },
       {
          "stream_key": "Futurock FM",
-         "datetime": "2025-09-16 14:28:49.519856",
+         "datetime": "2025-09-16 14:34:39.146191",
          "thumbnail": "https://yt3.googleusercontent.com/u_SiynOY7vgl_Xg3FgcmEZ8Yb_EZEcWGeKRdoCRvYUNzp5khogsWvm1v9QfLXFzAejjKsBDp=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "OXT_jdo1kJQ",
          "live_title": "CRÓNICA ANUNCIADA con JUAN AMORÍN, MATI WASSERMAN Y JOSE AMORE | EN VIVO",
-         "viewing": 1744,
+         "viewing": 1782,
          "stream": {
             "title": "Futurock FM",
             "channel_url": "https://www.youtube.com/@futurock"
@@ -67,7 +67,7 @@
       },
       {
          "stream_key": "posdata",
-         "datetime": "2025-09-16 14:28:47.828418",
+         "datetime": "2025-09-16 14:34:38.186686",
          "thumbnail": "https://yt3.googleusercontent.com/pTfGA6pNfVRA5j35_e4hE4noCje-P-hO1KQPxAx5hwLlhBfcZNZsNqFq3z9Yb2531MMUkeVpQ3s=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -80,7 +80,7 @@
       },
       {
          "stream_key": "Cenital",
-         "datetime": "2025-09-16 14:28:49.908767",
+         "datetime": "2025-09-16 14:34:41.565246",
          "thumbnail": "https://yt3.googleusercontent.com/HzTk7bPeMnud_-9wQDxywogtQuq9JnnHsUmeKg_d-oOLKU_zXyrh4y2g8cehrOY5scoRJSaW=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -93,11 +93,11 @@
       },
       {
          "stream_key": "LUZU TV",
-         "datetime": "2025-09-16 14:28:51.861314",
+         "datetime": "2025-09-16 14:34:40.779661",
          "thumbnail": "https://yt3.googleusercontent.com/1-K9ikW6iP0nnfCVhcCnH2MpGSWVUee1DUL4Y8-8i_xwa-JKAv-9GEs1OKAl8ddpXMaFxOyB=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "-cx4ElGWVTY",
-         "live_title": "PATRIA Y FAMILIA: FEDE POPGOLD, CAMI MAYAN, LUCAS SPADAFORA, ANITA ESPÓSITO Y JULI CASTRO | EN VIVO",
-         "viewing": 42043,
+         "live_title": "#PATRIAYFAMILIA l EL PROBLEMA DE CAMI MAYAN Y EL DIBUJANTE DE MARVEL",
+         "viewing": 41169,
          "stream": {
             "title": "LUZU TV",
             "channel_url": "https://www.youtube.com/@luzutv"
@@ -106,7 +106,7 @@
       },
       {
          "stream_key": "Factoria 1251",
-         "datetime": "2025-09-16 14:28:50.965186",
+         "datetime": "2025-09-16 14:34:41.261402",
          "thumbnail": "https://yt3.googleusercontent.com/ZRlH5I_v-AHYCSRjh3mEFECt08bliUmvbKwYFmtsro0E9dQXUzU1w3WlZ-mgZW1Q0aa42cGW=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -119,11 +119,11 @@
       },
       {
          "stream_key": "OLGA",
-         "datetime": "2025-09-16 14:28:51.442235",
+         "datetime": "2025-09-16 14:34:40.237983",
          "thumbnail": "https://yt3.googleusercontent.com/D4kn5IQBl9r2r-B03hGiUKXtO1xq59lh5F1ARe5UnngDI3TH3LIW6liz2nidzy8NAhKW-wucig=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "RiL5syZzI5I",
-         "live_title": "🌶️ TAPADOS DE LABURO en OLGA con Nacho Elizalde, Luli González, Mortedor, Eve y Valen | EN VIVO",
-         "viewing": 55255,
+         "live_title": "🥛 FALTAN VARONES en OLGA con Homero Pettinato, Pedro Alfonso y Eial Moldavsky | EN VIVO",
+         "viewing": 49218,
          "stream": {
             "title": "OLGA",
             "channel_url": "https://www.youtube.com/@olgaenvivo_"
@@ -132,7 +132,7 @@
       },
       {
          "stream_key": "Pais de Boludos",
-         "datetime": "2025-09-16 14:28:50.250332",
+         "datetime": "2025-09-16 14:34:41.862958",
          "thumbnail": "https://yt3.googleusercontent.com/JZ1umhTqhTTOO7Ab_p5nvKmQTmPf_CDsg6RtvZ-WbGPe2BYnXC4MKVgoOU8KU49Tx4CTbOjVNNM=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -145,7 +145,7 @@
       },
       {
          "stream_key": "Picnoc Extraterrestre",
-         "datetime": "2025-09-16 14:28:52.197007",
+         "datetime": "2025-09-16 14:34:42.178258",
          "thumbnail": "https://yt3.googleusercontent.com/DHmqssW3d2x6yL5EN6AU8xhu4V3e8A5AvPELLK66aM7-6U7IXJsaouiJophBL3-TCpUANrl-fA=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -158,7 +158,7 @@
       },
       {
          "stream_key": "Peroncho Delivery",
-         "datetime": "2025-09-16 14:28:52.458675",
+         "datetime": "2025-09-16 14:34:43.050916",
          "thumbnail": "https://yt3.googleusercontent.com/m1jpRAB4qx-wUccZCw5UFX-KRiNpVWtrWh69DHh8A6HUSwJBnMvaTMhFXRG0zi-ZOdkekTjHv38=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -171,7 +171,7 @@
       },
       {
          "stream_key": "Truco Gallo TV",
-         "datetime": "2025-09-16 14:28:53.194031",
+         "datetime": "2025-09-16 14:34:42.490432",
          "thumbnail": "https://yt3.googleusercontent.com/YZLx0IgSTqLNpDlv4NKawUvPNOAybe6_bt88y-UKCWYbRTzWRI3pV3qfdFk_Bnohi-WNp_kF=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -184,7 +184,7 @@
       },
       {
          "stream_key": "Mate",
-         "datetime": "2025-09-16 14:28:52.845986",
+         "datetime": "2025-09-16 14:34:42.796661",
          "thumbnail": "https://yt3.googleusercontent.com/CrnUwlm7UXx5_MzilMWbNvTlqiNyInu5foEgQBdp7m81C0VixnomUeAtrmSAXQYnhkmsTcJkODc=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -197,7 +197,7 @@
       },
       {
          "stream_key": "220 Podcast",
-         "datetime": "2025-09-16 14:28:53.410360",
+         "datetime": "2025-09-16 14:34:43.889592",
          "thumbnail": "https://yt3.googleusercontent.com/ytc/AIdro_mPHGu5tZ6_FUuaIfXjqElMZDMQ1my9S1J-YhjweuXRAA=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -210,11 +210,11 @@
       },
       {
          "stream_key": "El Destape",
-         "datetime": "2025-09-16 14:28:53.686103",
+         "datetime": "2025-09-16 14:34:43.448023",
          "thumbnail": "https://yt3.googleusercontent.com/B46zjhKXET4MqoQG440EkLWxU0XqvjR1_VyZklQn8XfrlVXbOktA0n-iwtbh6dHYXiADWt6x3eo=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "Kupzo-pPrVs",
          "live_title": "ESTE MIÉRCOLES MARCHAMOS - MALDITA SUERTE EN VIVO CON MATI COLOMBATTI",
-         "viewing": 4374,
+         "viewing": 4312,
          "stream": {
             "title": "El Destape",
             "channel_url": "https://www.youtube.com/@ElDestapeTV"
@@ -223,7 +223,7 @@
       },
       {
          "stream_key": "Eva TV",
-         "datetime": "2025-09-16 14:28:54.386460",
+         "datetime": "2025-09-16 14:34:43.755805",
          "thumbnail": "https://yt3.googleusercontent.com/M7I5FhhfK1-jKnp0dCKYnN_2LHmgaGxbRHB7-TMxnOaxukZia_Rg9aJL4330U3fXBh9Jhz_xB0o=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -236,11 +236,11 @@
       },
       {
          "stream_key": "Bondi Live",
-         "datetime": "2025-09-16 14:28:54.722712",
+         "datetime": "2025-09-16 14:34:45.176902",
          "thumbnail": "https://yt3.googleusercontent.com/JI-npkDEh3CKwV-0GYjMGGzNTE4rXjl7Qn1828Q7T0dXAoRB-M132_qiWREcdeVZs_oLTVbUs3k=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "OPCG2Kx8ahs",
          "live_title": "🔴 STORYTIME con Nazarena Vélez, Laura Ubfal y Melody Luz | EN VIVO",
-         "viewing": 17383,
+         "viewing": 17335,
          "stream": {
             "title": "Bondi Live",
             "channel_url": "https://www.youtube.com/@Bondi_liveok"
@@ -249,11 +249,11 @@
       },
       {
          "stream_key": "Urbana Play",
-         "datetime": "2025-09-16 14:28:54.132873",
+         "datetime": "2025-09-16 14:34:44.450929",
          "thumbnail": "https://yt3.googleusercontent.com/FJNJoYpkJJJZ7eQp0nh5X8Ub5XN6Jy4xUCp3OrEiNRoSVb2eSeUxWgW1byhimytcybcM_wB8-yk=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "QbNAM83Fju8",
          "live_title": "EN VIVO | Todo Pasa en URBANA PLAY: Matías Martin, Clemente Cancela, Emilse Pizarro y Juan Ferrari",
-         "viewing": 13686,
+         "viewing": 13416,
          "stream": {
             "title": "Urbana Play",
             "channel_url": "https://www.youtube.com/@UrbanaPlayFM"
@@ -262,11 +262,11 @@
       },
       {
          "stream_key": "Vorterix",
-         "datetime": "2025-09-16 14:28:56.153908",
+         "datetime": "2025-09-16 14:34:44.897566",
          "thumbnail": "https://yt3.googleusercontent.com/MLwjpG_fQdT6e-8_CNsqcOSKghc58Q_xGoZMn5lp37fGCUUqh3PoW5L3-XUB093Iv9Ozt4C9NgU=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "Ka2a8hWD8K4",
          "live_title": "🔴 NO SE PUDO con Juan Castro, Erno Provitilo, Juan Igal, Alexis Valido y Joroba | VORTERIX EN VIVO",
-         "viewing": 5210,
+         "viewing": 5019,
          "stream": {
             "title": "Vorterix",
             "channel_url": "https://www.youtube.com/@VorterixOficial"
@@ -275,11 +275,11 @@
       },
       {
          "stream_key": "Neura Media",
-         "datetime": "2025-09-16 14:28:56.955149",
+         "datetime": "2025-09-16 14:34:45.590610",
          "thumbnail": "https://yt3.googleusercontent.com/YVrj6aaBeWvWJ8E5U_FLAOpRwKSltszFkQOYv-W8N4NMtNsmJTXzea5wQBtE--I2F2nDBFPr=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "RWjzSIpHGiE",
          "live_title": "Brey Bases: Mariana Brey",
-         "viewing": 935,
+         "viewing": 1103,
          "stream": {
             "title": "Neura Media",
             "channel_url": "https://www.youtube.com/@NeuraMedia"
@@ -288,7 +288,7 @@
       },
       {
          "stream_key": "RepublicaZ",
-         "datetime": "2025-09-16 14:28:55.054570",
+         "datetime": "2025-09-16 14:34:46.386826",
          "thumbnail": "https://yt3.googleusercontent.com/mSIUl8pzwx-MEcg2eJ-B4oYMi9DQxsWv9WafK0Ix5rz30gdQFYuFx6bBUjAud1RUDBEbHkXdUSg=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -301,11 +301,11 @@
       },
       {
          "stream_key": "La Casa Stream",
-         "datetime": "2025-09-16 14:28:55.596470",
+         "datetime": "2025-09-16 14:34:46.179381",
          "thumbnail": "https://yt3.googleusercontent.com/wggy0MZiVENHkcEGHseL7Ugrl_XJNDM7AkUyDAnwgPP2Xea8OCzVp-oUYPVfaI9YJuiyYxBEiA=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "kJwsJ3tngcM",
          "live_title": "⚡CIRCUITO CERRADO en vivo⚡",
-         "viewing": 14626,
+         "viewing": 14741,
          "stream": {
             "title": "La Casa Stream",
             "channel_url": "https://www.youtube.com/@somoslacasa"
@@ -314,7 +314,7 @@
       },
       {
          "stream_key": "YEITE",
-         "datetime": "2025-09-16 14:28:58.815789",
+         "datetime": "2025-09-16 14:34:47.737004",
          "thumbnail": "https://yt3.googleusercontent.com/yhjl7_ogAyivyI0XgJDMvllyj8Cg_Zz1D4p807qG3AyhUXQlQXhSRSIJIYDLaOncc3OQtwPvqA=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -327,11 +327,11 @@
       },
       {
          "stream_key": "Ahora Play",
-         "datetime": "2025-09-16 14:28:56.591975",
+         "datetime": "2025-09-16 14:34:46.951226",
          "thumbnail": "https://yt3.googleusercontent.com/A0EopXfw48cNrZAHCPYbQn6ZmpGQJ-wqowmfh64Fpvzin51SXvm4XKNzlunmkKrzMQ9f0RTI=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "NiQJEWD58CA",
          "live_title": "MILEI: \"LO PEOR YA PASÓ\". PRESUPUESTO 2026: NÚMEROS INSÓLITOS | Maxi Montenegro #maximediodía",
-         "viewing": 3624,
+         "viewing": 3440,
          "stream": {
             "title": "Ahora Play",
             "channel_url": "https://www.youtube.com/@Ahora_Play"
@@ -340,7 +340,7 @@
       },
       {
          "stream_key": "Clank!",
-         "datetime": "2025-09-16 14:28:57.584001",
+         "datetime": "2025-09-16 14:34:47.184422",
          "thumbnail": "https://yt3.googleusercontent.com/OjcIpYX7MdzeNXneNESSDqTyhVf3s5MJhlC-aJIo4xOLlsB6ZStTanWqdISH4NqvcsiO5IXT4Q=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -353,7 +353,7 @@
       },
       {
          "stream_key": "CEIBO",
-         "datetime": "2025-09-16 14:28:58.525996",
+         "datetime": "2025-09-16 14:34:48.062708",
          "thumbnail": "https://yt3.googleusercontent.com/Mh_yGuoumEGlKR_lLipb0IndQMCVZHJt6iv--KyllceoDYniOFBVSoitMD4DjCGk3Z9A4skjFA=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -366,7 +366,7 @@
       },
       {
          "stream_key": "Mix On",
-         "datetime": "2025-09-16 14:28:57.343188",
+         "datetime": "2025-09-16 14:34:47.480393",
          "thumbnail": "https://yt3.googleusercontent.com/ok8hkl-HJa2A2gQ0V7PCl8NPqvV2TwYOy2asS4glYvt3STuKvQx8UfsWU5tBAvNpLFZTLiNV4g=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -379,7 +379,7 @@
       },
       {
          "stream_key": "Brindis TV",
-         "datetime": "2025-09-16 14:28:58.268884",
+         "datetime": "2025-09-16 14:34:48.326630",
          "thumbnail": "https://yt3.googleusercontent.com/eASrNO59nwdlNyqh2s6C03l10ToffnS4evgaJ2j8JltqHIxVIHxuDq3r1v-7mAR_CtazjJ7wfgY=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -392,11 +392,11 @@
       },
       {
          "stream_key": "Ziesta TV",
-         "datetime": "2025-09-16 14:28:59.075341",
+         "datetime": "2025-09-16 14:34:49.158202",
          "thumbnail": "https://yt3.googleusercontent.com/aMdMb_81RTBHrlk4jk00QWWZ-ocUgu3HQoWqey5ky-kIG8h-hN67fWCyA9roBrkGgUlvAL4Gguk=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "IjSSBZ53AOI",
          "live_title": "🔥Cazzu lloró en pleno show por el homenaje que sus fans le hicieron a su hija",
-         "viewing": 32,
+         "viewing": 29,
          "stream": {
             "title": "Ziesta TV",
             "channel_url": "https://www.youtube.com/@ZiestaTV"
@@ -405,7 +405,7 @@
       },
       {
          "stream_key": "Norita Stream",
-         "datetime": "2025-09-16 14:28:59.267216",
+         "datetime": "2025-09-16 14:34:48.710951",
          "thumbnail": "https://yt3.googleusercontent.com/kD1cEvVxEPS0BVdX_uFtARnZd7Fup0KaMgZKz3gF1A8quG7Phqm79QH8nvznv8QaXt8Kv2qkpg=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -418,7 +418,7 @@
       },
       {
          "stream_key": "Laca Stream",
-         "datetime": "2025-09-16 14:28:58.002234",
+         "datetime": "2025-09-16 14:34:48.975475",
          "thumbnail": "https://yt3.googleusercontent.com/NB8AFY3kzkhEdMTW9F9MS8eoEb5XlRwY23ukt39IUJPjJNFCMXL5vlL8XeV8mrS2pJEeh6em=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "kLbkPYOds-o",
          "live_title": "70 AÑOS DE LA REVOLUCIÓN FUSILADORA | KILÓMETRO 0, EL PROGRAMA PERONISTA | LACA STREAM",
@@ -431,7 +431,7 @@
       },
       {
          "stream_key": "Polenta Stream Jujuy",
-         "datetime": "2025-09-16 14:29:00.258732",
+         "datetime": "2025-09-16 14:34:49.865708",
          "thumbnail": "https://yt3.googleusercontent.com/xhmZajZ1MUdiw4_3trsTBIgdqgbdyzyIxdwvV3VgE9TVI5fGB9Z2H8J9HcTycDfkFWGwHcxo=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -444,7 +444,7 @@
       },
       {
          "stream_key": "A la Estratosfera",
-         "datetime": "2025-09-16 14:28:59.622408",
+         "datetime": "2025-09-16 14:34:49.758561",
          "thumbnail": "https://yt3.googleusercontent.com/fyI5K7_zYCB-KQkmZaUJ-aKmoAVkOUQ6qCGl1fbRKfgutg-BGZweCoanJ_VW9KOJ_F3Lxl9e=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -457,7 +457,7 @@
       },
       {
          "stream_key": "MOSTRI TV",
-         "datetime": "2025-09-16 14:29:00.149440",
+         "datetime": "2025-09-16 14:34:49.464815",
          "thumbnail": "https://yt3.googleusercontent.com/FaCIoiTT4m8CpUOayx5WHf58bVkSMEmInGvIiv0m3Lqg4MnTivsSwHay1Ag6F_1sBz2LWKQvdw=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -470,7 +470,7 @@
       },
       {
          "stream_key": "Chimi Canal",
-         "datetime": "2025-09-16 14:29:00.550663",
+         "datetime": "2025-09-16 14:34:50.439392",
          "thumbnail": "https://yt3.googleusercontent.com/LfFDAMtWs_jK6_BqB6RNb1M6GFAj2aZ-xWw7o8EFeYEbroLzHXyTBqQtpJZFTZyRHHihzfZdPA=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -483,7 +483,7 @@
       },
       {
          "stream_key": "Nada del otro mundo",
-         "datetime": "2025-09-16 14:29:01.052519",
+         "datetime": "2025-09-16 14:34:50.807965",
          "thumbnail": "https://yt3.googleusercontent.com/BjjhjTzr_dKEOFDFAOWuCapbGdu0xGgVEW1XGIH6mRK-deNLg0Boi7nxJT7L9QYJd84FEAfDdQ=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -496,7 +496,7 @@
       },
       {
          "stream_key": "Diario Alfil Cordoba",
-         "datetime": "2025-09-16 14:29:00.745998",
+         "datetime": "2025-09-16 14:34:50.624822",
          "thumbnail": "https://yt3.googleusercontent.com/B1zzdVN510TScD_XkQcaFwNqTvoluuuVafhsiakyMRc13rvUGs1OwmMcCNh_G9o4OEcesifwwg=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -509,7 +509,7 @@
       },
       {
          "stream_key": "Re FM 107.3",
-         "datetime": "2025-09-16 14:28:59.880965",
+         "datetime": "2025-09-16 14:34:50.225574",
          "thumbnail": "https://yt3.googleusercontent.com/8vVQGExLVc5pQWeUsfl_zjvbhwZBrCyQV92Ur482lmfsoBknrq8IroDsAMQlEfvR-8tRjIZDVbY=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -522,7 +522,7 @@
       },
       {
          "stream_key": "Telefe",
-         "datetime": "2025-09-16 14:29:01.974952",
+         "datetime": "2025-09-16 14:34:51.822781",
          "thumbnail": "https://yt3.googleusercontent.com/Bad3GqpyvghQQ9OvPHbiuU2CKCZrUwJCkCs5as1ypmYEWgQGtb5Fn_QKxvgv_XqDUfTFa2g8=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -535,7 +535,7 @@
       },
       {
          "stream_key": "Bunker",
-         "datetime": "2025-09-16 14:29:02.284742",
+         "datetime": "2025-09-16 14:34:52.246657",
          "thumbnail": "https://yt3.googleusercontent.com/WLh89kvq1gYEbTRAtTTT-iWSAE7Y7-6PputoI5oT2P3GC8swftcu_9HLEv7LqNQb8EwRb6dgMw=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -548,7 +548,7 @@
       },
       {
          "stream_key": "BorderPeriodismo",
-         "datetime": "2025-09-16 14:29:01.470812",
+         "datetime": "2025-09-16 14:34:51.318637",
          "thumbnail": "https://yt3.googleusercontent.com/Zvtwcr59pXg0h4EbbjZ0yW4pd2QTTNvjVZu8t5TNB8O2zLhXpgQarzNex618unGeXlmkKVyZWg=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -561,7 +561,7 @@
       },
       {
          "stream_key": "AZZ Contenidos",
-         "datetime": "2025-09-16 14:29:03.364907",
+         "datetime": "2025-09-16 14:34:53.106962",
          "thumbnail": "https://yt3.googleusercontent.com/YVsksXG-8SRzy2zlqPhGMDnbz4M4dtjVBGr_zkmxJvmrRgjG3GdWVaci_YMtAmBJv4QLXh5CFQ=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -574,7 +574,7 @@
       },
       {
          "stream_key": "Radio TU",
-         "datetime": "2025-09-16 14:29:03.058760",
+         "datetime": "2025-09-16 14:34:52.498579",
          "thumbnail": "https://yt3.googleusercontent.com/zfq_welVi2bgnL3BpmSoaqqvhqJwnkbq2fJkKU_OLETIj1e4nPh4XD2VZOsWNsheC3EvL-48=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -587,7 +587,7 @@
       },
       {
          "stream_key": "SODA",
-         "datetime": "2025-09-16 14:29:02.795661",
+         "datetime": "2025-09-16 14:34:52.888529",
          "thumbnail": "https://yt3.googleusercontent.com/nMaIW6RPqfSwmUTI4cZ4S_ywdFQRs3q5_bnxYUCb_arS9mGUXT9oGJgixGQ8aIQRUs9fhm_v=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -600,7 +600,7 @@
       },
       {
          "stream_key": "Data Diario",
-         "datetime": "2025-09-16 14:29:03.821407",
+         "datetime": "2025-09-16 14:34:53.423752",
          "thumbnail": "https://yt3.googleusercontent.com/JfjswHXUsi6p6N-II-B8pZTmpwsclkQbp8ouVawTr-Jl8aE-2mHKGzNYiDQxs9ErjjZH_XJuJQ=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -613,7 +613,7 @@
       },
       {
          "stream_key": "PelaVision",
-         "datetime": "2025-09-16 14:29:04.268422",
+         "datetime": "2025-09-16 14:34:53.867223",
          "thumbnail": "https://yt3.googleusercontent.com/Y9U78zsWLKdRX0FQxlan9JlPcEkPM1XxYQtyMd4VA75EekJ1Aw3d_DwyMsQxx8IPt2NKvk0onQ=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -626,11 +626,11 @@
       },
       {
          "stream_key": "Kamikaze Stream",
-         "datetime": "2025-09-16 14:29:03.563563",
+         "datetime": "2025-09-16 14:34:54.185373",
          "thumbnail": "https://yt3.googleusercontent.com/Kmbu8tCUobja3smZQifXU6z74JyM5ROXUnmI-vOh3EHjGkn98-QfHbfJcihbmZGyY-WP8hDa=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "60ntb_m4oz4",
          "live_title": "[ EN VIVO ] #TirandoVerdades | Kamikaze Stream",
-         "viewing": 11,
+         "viewing": 14,
          "stream": {
             "title": "Kamikaze Stream",
             "channel_url": "https://www.youtube.com/@KamikazeStream"
@@ -639,7 +639,7 @@
       },
       {
          "stream_key": "Crudo TV",
-         "datetime": "2025-09-16 14:29:04.946710",
+         "datetime": "2025-09-16 14:34:54.756953",
          "thumbnail": "https://yt3.googleusercontent.com/mCNuqeMaZmoaEygl1vaVUtVjvDhkTEfq9CLuqK_LcQiTL9qwijDKoNX-Up2jCtN2-XXNrOl5=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -652,7 +652,7 @@
       },
       {
          "stream_key": "Mistica TV",
-         "datetime": "2025-09-16 14:29:05.702245",
+         "datetime": "2025-09-16 14:34:55.259246",
          "thumbnail": "https://yt3.googleusercontent.com/QZ_KLaToB4wMQHaNibkqbZTw_8q20tUc7iNOduGV20wliuNwWeB5hEdz3PAZk_seP7yUkQEaejo=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -665,7 +665,7 @@
       },
       {
          "stream_key": "Che Corrientes",
-         "datetime": "2025-09-16 14:29:04.861447",
+         "datetime": "2025-09-16 14:34:54.671946",
          "thumbnail": "https://yt3.googleusercontent.com/_ZL108u4Li4ghp0QaGnF9RkHdmc4yi6GNRJIBBS31VtAVJ02E0QgmFHwiegcd3KxQV2MNYEQig=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -678,11 +678,11 @@
       },
       {
          "stream_key": "La Casa del Stream",
-         "datetime": "2025-09-16 14:29:05.301587",
+         "datetime": "2025-09-16 14:34:55.940110",
          "thumbnail": "https://yt3.googleusercontent.com/kn4NwllrRoISBywtcJtSIlyhSW0JlXP04M67WmCXlwcsxuufosJmTvXzgD6kxlXIQ7fWepd2zVw=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "D2C-aYDFVhI",
-         "live_title": "EN UNA IMPORTANTE con Emiliano Andreoli, Cami Cordero, Alexis Veloso y Lu Sendra | EN VIVO",
-         "viewing": 74,
+         "live_title": "CONEXIÓN CON LA CASA con Gringo Coronel, Yami Foleto, Lucas Venegas y Tefy Beacon | EN VIVO 🟡",
+         "viewing": 75,
          "stream": {
             "title": "La Casa del Stream",
             "channel_url": "https://www.youtube.com/@lacasadelstreaming"
@@ -691,7 +691,7 @@
       },
       {
          "stream_key": "NAMIK TV",
-         "datetime": "2025-09-16 14:29:06.092634",
+         "datetime": "2025-09-16 14:34:55.653355",
          "thumbnail": "https://yt3.googleusercontent.com/BiNNPU3uKH1EK2UPc-KfGowhxU5G6qqiYagJz6u4nMdyjP4ZTLbWpfYcSAA-Y2sEzb2zJna8wSs=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -704,7 +704,7 @@
       },
       {
          "stream_key": "FAMATV",
-         "datetime": "2025-09-16 14:29:06.249077",
+         "datetime": "2025-09-16 14:34:56.519557",
          "thumbnail": "https://yt3.googleusercontent.com/MWsEgFz7x7Tc5nm3vmj66nZ-Fzwri7WhOC8M4tDBkAw5uVp65RxhCz_tK7eYl6C9x93OqM5o=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -717,7 +717,7 @@
       },
       {
          "stream_key": "CitricaRadio",
-         "datetime": "2025-09-16 14:29:06.656322",
+         "datetime": "2025-09-16 14:34:56.252454",
          "thumbnail": "https://yt3.googleusercontent.com/m7OdyjnDNQxM3CDP4LydhvUjL9eqR-Aek0lLU7snqnG5WAWVP9O2ab28HEiSuuKPYyOCMRUrww=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -730,7 +730,7 @@
       },
       {
          "stream_key": "DIGI TV",
-         "datetime": "2025-09-16 14:29:06.439197",
+         "datetime": "2025-09-16 14:34:56.377849",
          "thumbnail": "https://yt3.googleusercontent.com/AVmpavCzA7M3-4V-DP8cxiTsOiK-isD-ECaI_-_T3vbvkbl5LH9py9h5C12woIv5lnKZxsC6eHA=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -743,7 +743,7 @@
       },
       {
          "stream_key": "Ivana Szerman",
-         "datetime": "2025-09-16 14:29:07.874589",
+         "datetime": "2025-09-16 14:34:58.203977",
          "thumbnail": "https://yt3.googleusercontent.com/2Xfnc_hC4cZsGOpqTAniWmpwd7mGVk9WuS6vurSmLGx-OIS9d9aVxbtK6ISNwjkUfwQQWPSf6A=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -756,11 +756,11 @@
       },
       {
          "stream_key": "DGO",
-         "datetime": "2025-09-16 14:29:07.309327",
+         "datetime": "2025-09-16 14:34:57.203036",
          "thumbnail": "https://yt3.googleusercontent.com/KXtxjnicI5USLHb7rkuLEWMNqP3yLGyTXm_cWxRoCnoTvbhod0g3Ya9QV8PCNxvoOr4eMNtYT6g=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "xQdcScaQ2PA",
          "live_title": "🔴SÚPER CHAT con Fede Lezcano, Chiara y Ulises ⭐ I DGO EN VIVO",
-         "viewing": 2038,
+         "viewing": 1995,
          "stream": {
             "title": "DGO",
             "channel_url": "https://www.youtube.com/@dgo_latam"
@@ -769,7 +769,7 @@
       },
       {
          "stream_key": "Vermut",
-         "datetime": "2025-09-16 14:29:07.041996",
+         "datetime": "2025-09-16 14:34:56.861265",
          "thumbnail": "https://yt3.googleusercontent.com/k1aT9IsLYN6Orvr35ZfLdYap6zeUqDO9aVxrBa0hoSZDxnzC5O5g1wxrcMetQ9qGtTWfjPsxpQ=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -782,7 +782,7 @@
       },
       {
          "stream_key": "Abitare",
-         "datetime": "2025-09-16 14:29:08.751240",
+         "datetime": "2025-09-16 14:34:58.110948",
          "thumbnail": "https://yt3.googleusercontent.com/K4KuTSsNQCxwxZ144ZpDqt9t_Fp5Vj-WAH1ETFUeWD66lnGC6MOOet2Yobib1plQ0Bysih1JoA=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -795,11 +795,11 @@
       },
       {
          "stream_key": "AZZ",
-         "datetime": "2025-09-16 14:29:08.336522",
+         "datetime": "2025-09-16 14:34:58.565659",
          "thumbnail": "https://yt3.googleusercontent.com/ISC3Kd6jDr8DOIzS_R1T5I8W_knmL9BJKbZRydIkfbqgTqiQOnrrg7xC60qulkVZH7qdej7E=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "aoq02CbQSTs",
          "live_title": "CEF EN VIVO 🔥 LA PREVIA DE VÉLEZ VS RACING - EXPLOTÓ TODO EN CHACABARET",
-         "viewing": 11965,
+         "viewing": 11650,
          "stream": {
             "title": "AZZ",
             "channel_url": "https://www.youtube.com/@somosazz"
@@ -808,7 +808,7 @@
       },
       {
          "stream_key": "Canal 10 Cordoba",
-         "datetime": "2025-09-16 14:29:07.783602",
+         "datetime": "2025-09-16 14:34:57.595739",
          "thumbnail": "https://yt3.googleusercontent.com/6BrIdd_pVkWJklgc7cc1DJcjN_e8MNKJZ8OJzRF2N_B3Dczhbps36PFicKLAjrKovlurFDIgXtY=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -821,11 +821,11 @@
       },
       {
          "stream_key": "Carnaval Stream",
-         "datetime": "2025-09-16 14:29:09.353867",
+         "datetime": "2025-09-16 14:34:59.051072",
          "thumbnail": "https://yt3.googleusercontent.com/7IjwBTT6jHwVKEc6JsMrSvv9KT59P57cVHDLcS7QorsVvYFLVS0lOoRNj1gVPD_H1lTp05c6cg=s900-c-k-c0x00ffffff-no-rj",
          "live_id": "VVd2_nCQO5s",
          "live_title": "DATA CLAVE en #carnavalstream",
-         "viewing": 7519,
+         "viewing": 7834,
          "stream": {
             "title": "Carnaval Stream",
             "channel_url": "https://www.youtube.com/@CarnavalStream"
@@ -834,7 +834,7 @@
       },
       {
          "stream_key": "Radio LED",
-         "datetime": "2025-09-16 14:29:08.933748",
+         "datetime": "2025-09-16 14:34:59.487389",
          "thumbnail": "https://yt3.googleusercontent.com/oaugReyzc2RUIhZ0y8K8-QCSeKTsrGKMk88FYGm6EFa1uz7UQ4G75aiC1X6tiGJhJl_TWdm5=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
@@ -847,7 +847,7 @@
       },
       {
          "stream_key": "Neutral",
-         "datetime": "2025-09-16 14:29:09.677203",
+         "datetime": "2025-09-16 14:34:59.382657",
          "thumbnail": "https://yt3.googleusercontent.com/XVDT7kt95yCt42WC_nrP9H1KSYdu2bNkHbo-jIKeL75J0JYKIO9usn8iwMkypNFTHZsM6uS7MFU=s900-c-k-c0x00ffffff-no-rj",
          "live_id": null,
          "live_title": null,
